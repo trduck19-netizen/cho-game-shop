@@ -47,12 +47,15 @@ const SCHEMA_STATEMENTS: string[] = [
   `CREATE TABLE IF NOT EXISTS marketplace_ledger (id TEXT PRIMARY KEY, seller_id TEXT NOT NULL, order_id TEXT, type TEXT NOT NULL CHECK (type IN ('ESCROW_HOLD', 'ESCROW_RELEASE', 'ESCROW_REFUND', 'PAYOUT', 'ADJUST')), amount INTEGER NOT NULL, balance_before INTEGER NOT NULL CHECK (balance_before >= 0), balance_after INTEGER NOT NULL CHECK (balance_after >= 0), held_before INTEGER NOT NULL CHECK (held_before >= 0), held_after INTEGER NOT NULL CHECK (held_after >= 0), description TEXT NOT NULL, created_at TEXT NOT NULL DEFAULT (datetime('now')))`,
   `CREATE INDEX IF NOT EXISTS idx_marketplace_ledger_seller_id ON marketplace_ledger(seller_id)`,
   `CREATE INDEX IF NOT EXISTS idx_marketplace_ledger_order_id ON marketplace_ledger(order_id)`,
-  `CREATE UNIQUE INDEX IF NOT EXISTS idx_marketplace_ledger_order_release ON marketplace_ledger(order_id, type) WHERE type IN ('ESCROW_RELEASE', 'ESCROW_REFUND')`,
+  `DROP INDEX IF EXISTS idx_marketplace_ledger_order_release`,
+  `CREATE UNIQUE INDEX IF NOT EXISTS idx_marketplace_ledger_order_settle ON marketplace_ledger(order_id) WHERE type IN ('ESCROW_RELEASE', 'ESCROW_REFUND')`,
   `CREATE TABLE IF NOT EXISTS marketplace_disputes (id TEXT PRIMARY KEY, order_id TEXT NOT NULL UNIQUE, buyer_id TEXT NOT NULL, seller_id TEXT NOT NULL, reason TEXT NOT NULL, evidence_text TEXT DEFAULT '', status TEXT NOT NULL DEFAULT 'OPEN' CHECK (status IN ('OPEN', 'RESOLVED_RELEASE', 'RESOLVED_REFUND', 'REJECTED')), admin_note TEXT DEFAULT '', created_at TEXT NOT NULL DEFAULT (datetime('now')), resolved_at TEXT)`,
   `CREATE INDEX IF NOT EXISTS idx_marketplace_disputes_seller_status ON marketplace_disputes(seller_id, status)`,
   `CREATE TABLE IF NOT EXISTS marketplace_reviews (id TEXT PRIMARY KEY, order_id TEXT NOT NULL UNIQUE, seller_id TEXT NOT NULL, buyer_id TEXT NOT NULL, rating INTEGER NOT NULL CHECK (rating >= 1 AND rating <= 5), comment TEXT DEFAULT '', created_at TEXT NOT NULL DEFAULT (datetime('now')))`,
   `CREATE INDEX IF NOT EXISTS idx_marketplace_reviews_seller_id ON marketplace_reviews(seller_id)`,
   `CREATE TABLE IF NOT EXISTS marketplace_settings (id TEXT PRIMARY KEY CHECK (id = 'default'), commission_percent INTEGER, hold_hours INTEGER, auto_release_hours INTEGER, dispute_window_hours INTEGER, updated_at TEXT NOT NULL DEFAULT (datetime('now')))`,
+  `CREATE TABLE IF NOT EXISTS marketplace_payouts (id TEXT PRIMARY KEY, seller_id TEXT NOT NULL, amount INTEGER NOT NULL CHECK (amount > 0), status TEXT NOT NULL DEFAULT 'PENDING' CHECK (status IN ('PENDING', 'PAID', 'REJECTED')), admin_note TEXT DEFAULT '', created_at TEXT NOT NULL DEFAULT (datetime('now')), paid_at TEXT)`,
+  `CREATE INDEX IF NOT EXISTS idx_marketplace_payouts_seller_status ON marketplace_payouts(seller_id, status)`,
   `INSERT OR IGNORE INTO marketplace_settings (id, commission_percent, hold_hours, auto_release_hours, dispute_window_hours) VALUES ('default', NULL, NULL, NULL, NULL)`,
 ];
 
@@ -317,6 +320,129 @@ export const onRequestPost: PagesFunction<Env> = async (context) => {
     await env.DB.prepare(`INSERT INTO marketplace_disputes (id, order_id, buyer_id, seller_id, reason, evidence_text, status) VALUES (?, ?, ?, ?, ?, ?, 'OPEN')`).bind(disputeId, orderId, member.id, escrow.seller_id, reason, String(body?.evidence_text || '')).run();
     const dispute = await env.DB.prepare('SELECT * FROM marketplace_disputes WHERE id = ? LIMIT 1').bind(disputeId).first<any>();
     return json({ success: true, message: 'Đã mở khiếu nại, tiền giữ sẽ đứng yên chờ quản trị quyết.', dispute });
+  }
+
+  // Quản trị xử lý khiếu nại: trả tiền, hoàn tiền, hoặc bác khiếu nại.
+  // Hoàn tiền KHÔNG thu hồi mã trong marketplace_inventory_codes vì mã có thể đã dùng rồi.
+  if (pathname === '/api/marketplace/disputes/resolve') {
+    const member = await getMemberFromRequest(request, env);
+    if (!member || !isAdmin(member)) return json({ success: false, message: 'Không có quyền quản trị.' }, 403);
+    const disputeId = String(body?.dispute_id || '').trim();
+    const decision = String(body?.decision || '').toUpperCase();
+    const adminNote = String(body?.admin_note || '');
+    if (!disputeId || !['RESOLVED_RELEASE', 'RESOLVED_REFUND', 'REJECTED'].includes(decision)) return json({ success: false, message: 'Quyết định không hợp lệ.' }, 400);
+    const dispute = await env.DB.prepare(`SELECT * FROM marketplace_disputes WHERE id = ? LIMIT 1`).bind(disputeId).first<any>();
+    if (!dispute || dispute.status !== 'OPEN') return json({ success: false, message: 'Không tìm thấy khiếu nại đang mở.' }, 404);
+    const escrow = await env.DB.prepare(`SELECT * FROM marketplace_escrow WHERE order_id = ? LIMIT 1`).bind(dispute.order_id).first<any>();
+    if (!escrow || escrow.status !== 'HELD') return json({ success: false, message: 'Đơn này không còn ở trạng thái giữ tiền.' }, 400);
+    const seller = await env.DB.prepare('SELECT * FROM sellers WHERE id = ? LIMIT 1').bind(escrow.seller_id).first<any>();
+    if (!seller) return json({ success: false, message: 'Không tìm thấy gian hàng.' }, 404);
+    const netAmount = Number(escrow.net_amount);
+    const grossAmount = Number(escrow.gross_amount);
+    try {
+      if (decision === 'RESOLVED_RELEASE') {
+        await env.DB.batch([
+          env.DB.prepare(`UPDATE marketplace_escrow SET status = 'RELEASED', released_at = datetime('now') WHERE order_id = ? AND status = 'HELD'`).bind(escrow.order_id),
+          env.DB.prepare(`INSERT INTO marketplace_ledger (id, seller_id, order_id, type, amount, balance_before, balance_after, held_before, held_after, description) VALUES (?, ?, ?, 'ESCROW_RELEASE', ?, ?, ?, ?, ?, ?)`).bind(newId('mp_ledger'), seller.id, escrow.order_id, netAmount, Number(seller.available_balance) || 0, (Number(seller.available_balance) || 0) + netAmount, Number(seller.held_balance) || 0, Math.max(0, (Number(seller.held_balance) || 0) - netAmount), `Quản trị trả tiền giữ đơn ${escrow.order_id}`),
+          env.DB.prepare(`UPDATE sellers SET available_balance = available_balance + ?, held_balance = MAX(0, held_balance - ?), updated_at = datetime('now') WHERE id = ?`).bind(netAmount, netAmount, seller.id),
+          env.DB.prepare(`UPDATE orders SET status = 'COMPLETED' WHERE id = ?`).bind(escrow.order_id),
+          env.DB.prepare(`UPDATE marketplace_disputes SET status = 'RESOLVED_RELEASE', admin_note = ?, resolved_at = datetime('now') WHERE id = ?`).bind(adminNote, disputeId),
+        ]);
+      } else if (decision === 'RESOLVED_REFUND') {
+        const buyer = await env.DB.prepare('SELECT * FROM members WHERE id = ? LIMIT 1').bind(escrow.buyer_id).first<any>();
+        if (!buyer) return json({ success: false, message: 'Không tìm thấy người mua.' }, 404);
+        const buyerBalance = Number(buyer.balance) || 0;
+        await env.DB.batch([
+          env.DB.prepare(`UPDATE marketplace_escrow SET status = 'REFUNDED', refunded_at = datetime('now') WHERE order_id = ? AND status = 'HELD'`).bind(escrow.order_id),
+          env.DB.prepare(`INSERT INTO marketplace_ledger (id, seller_id, order_id, type, amount, balance_before, balance_after, held_before, held_after, description) VALUES (?, ?, ?, 'ESCROW_REFUND', ?, ?, ?, ?, ?, ?)`).bind(newId('mp_ledger'), seller.id, escrow.order_id, -netAmount, Number(seller.available_balance) || 0, Number(seller.available_balance) || 0, Number(seller.held_balance) || 0, Math.max(0, (Number(seller.held_balance) || 0) - netAmount), `Quản trị hoàn tiền giữ đơn ${escrow.order_id}`),
+          env.DB.prepare(`UPDATE sellers SET held_balance = MAX(0, held_balance - ?), updated_at = datetime('now') WHERE id = ?`).bind(netAmount, seller.id),
+          env.DB.prepare(`UPDATE members SET balance = balance + ?, updated_at = datetime('now') WHERE id = ?`).bind(grossAmount, buyer.id),
+          env.DB.prepare(`INSERT INTO wallet_transactions (id, member_id, member_email, type, amount, balance_before, balance_after, description, status, order_id, created_at) VALUES (?, ?, ?, 'REFUND', ?, ?, ?, ?, 'COMPLETED', ?, datetime('now'))`).bind(newId('mp_tx'), buyer.id, buyer.email, grossAmount, buyerBalance, buyerBalance + grossAmount, `Hoàn tiền đơn sàn ${escrow.order_id}`, escrow.order_id),
+          env.DB.prepare(`UPDATE orders SET status = 'CANCELLED' WHERE id = ?`).bind(escrow.order_id),
+          env.DB.prepare(`UPDATE marketplace_disputes SET status = 'RESOLVED_REFUND', admin_note = ?, resolved_at = datetime('now') WHERE id = ?`).bind(adminNote, disputeId),
+        ]);
+      } else {
+        await env.DB.prepare(`UPDATE marketplace_disputes SET status = 'REJECTED', admin_note = ?, resolved_at = datetime('now') WHERE id = ?`).bind(adminNote, disputeId).run();
+      }
+    } catch (err: any) {
+      return json({ success: false, message: 'Xử lý khiếu nại thất bại, có thể đơn đã được thanh toán trước đó.', code: 'DB_ERROR' }, 400);
+    }
+    const updatedDispute = await env.DB.prepare('SELECT * FROM marketplace_disputes WHERE id = ? LIMIT 1').bind(disputeId).first<any>();
+    return json({ success: true, message: decision === 'RESOLVED_RELEASE' ? 'Đã trả tiền giữ cho người bán.' : decision === 'RESOLVED_REFUND' ? 'Đã hoàn tiền cho người mua.' : 'Đã bác khiếu nại.', dispute: updatedDispute });
+  }
+
+  // Tự động trả: chỉ là điểm để lịch gọi sau, chưa tự chạy được, chưa nối Cron Trigger.
+  if (pathname === '/api/marketplace/escrow/auto-release') {
+    const member = await getMemberFromRequest(request, env);
+    const syncSecret = request.headers.get('X-Admin-Sync-Secret') || '';
+    const authorized = (member && isAdmin(member)) || (env.ADMIN_SYNC_SECRET && syncSecret === env.ADMIN_SYNC_SECRET);
+    if (!authorized) return json({ success: false, message: 'Không có quyền chạy tự động trả.' }, 403);
+    const settings = await env.DB.prepare(`SELECT * FROM marketplace_settings WHERE id = 'default' LIMIT 1`).first<any>();
+    if (!settings || settings.auto_release_hours === null || settings.auto_release_hours === undefined) return json({ success: false, message: 'Sàn chưa cài đặt thời gian tự động trả.' }, 400);
+    const due = (await env.DB.prepare(`SELECT * FROM marketplace_escrow WHERE status = 'HELD' AND held_at <= datetime('now', '-' || ? || ' hours') AND NOT EXISTS (SELECT 1 FROM marketplace_disputes WHERE order_id = marketplace_escrow.order_id AND status = 'OPEN') ORDER BY held_at ASC LIMIT 100`).bind(Number(settings.auto_release_hours)).all<any>()).results || [];
+    let released = 0;
+    const failed: string[] = [];
+    for (const escrowRow of due) {
+      const sellerRow = await env.DB.prepare('SELECT * FROM sellers WHERE id = ? LIMIT 1').bind(escrowRow.seller_id).first<any>();
+      if (!sellerRow) { failed.push(String(escrowRow.order_id)); continue; }
+      try {
+        await env.DB.batch([
+          env.DB.prepare(`UPDATE marketplace_escrow SET status = 'RELEASED', released_at = datetime('now') WHERE order_id = ? AND status = 'HELD'`).bind(escrowRow.order_id),
+          env.DB.prepare(`INSERT INTO marketplace_ledger (id, seller_id, order_id, type, amount, balance_before, balance_after, held_before, held_after, description) VALUES (?, ?, ?, 'ESCROW_RELEASE', ?, ?, ?, ?, ?, ?)`).bind(newId('mp_ledger'), sellerRow.id, escrowRow.order_id, Number(escrowRow.net_amount), Number(sellerRow.available_balance) || 0, (Number(sellerRow.available_balance) || 0) + Number(escrowRow.net_amount), Number(sellerRow.held_balance) || 0, Math.max(0, (Number(sellerRow.held_balance) || 0) - Number(escrowRow.net_amount)), `Tự động trả tiền giữ đơn ${escrowRow.order_id}`),
+          env.DB.prepare(`UPDATE sellers SET available_balance = available_balance + ?, held_balance = MAX(0, held_balance - ?), updated_at = datetime('now') WHERE id = ?`).bind(Number(escrowRow.net_amount), Number(escrowRow.net_amount), sellerRow.id),
+          env.DB.prepare(`UPDATE orders SET status = 'COMPLETED' WHERE id = ?`).bind(escrowRow.order_id),
+        ]);
+        released += 1;
+      } catch {
+        failed.push(String(escrowRow.order_id));
+      }
+    }
+    return json({ success: true, message: `Đã tự động trả ${released} đơn.`, due: due.length, released, failed });
+  }
+
+  // Người bán tạo yêu cầu rút tiền: chưa trừ tiền, chờ quản trị duyệt trả.
+  if (pathname === '/api/marketplace/payouts') {
+    const member = await getMemberFromRequest(request, env);
+    if (!member) return json({ success: false, message: 'Vui lòng đăng nhập.' }, 401);
+    const seller = await getSellerForMember(env.DB, member.id);
+    if (!seller || seller.status !== 'APPROVED') return json({ success: false, message: 'Gian hàng chưa được duyệt.' }, 403);
+    const amount = Math.floor(Number(body?.amount) || 0);
+    if (amount <= 0) return json({ success: false, message: 'Số tiền rút phải lớn hơn 0.' }, 400);
+    if (amount > (Number(seller.available_balance) || 0)) return json({ success: false, message: 'Số tiền rút vượt số dư khả dụng.' }, 400);
+    const payoutId = newId('mp_payout');
+    await env.DB.prepare(`INSERT INTO marketplace_payouts (id, seller_id, amount, status) VALUES (?, ?, ?, 'PENDING')`).bind(payoutId, seller.id, amount).run();
+    const payout = await env.DB.prepare('SELECT * FROM marketplace_payouts WHERE id = ? LIMIT 1').bind(payoutId).first<any>();
+    return json({ success: true, message: 'Đã tạo yêu cầu rút tiền, đang chờ quản trị duyệt trả.', payout });
+  }
+
+  // Quản trị duyệt rút tiền: chỉ khi trả mới trừ số dư khả dụng, bác thì không động tiền.
+  if (pathname === '/api/marketplace/payouts/approve') {
+    const member = await getMemberFromRequest(request, env);
+    if (!member || !isAdmin(member)) return json({ success: false, message: 'Không có quyền quản trị.' }, 403);
+    const payoutId = String(body?.payout_id || '').trim();
+    const status = String(body?.status || '').toUpperCase();
+    const adminNote = String(body?.admin_note || '');
+    if (!payoutId || !['PAID', 'REJECTED'].includes(status)) return json({ success: false, message: 'Trạng thái duyệt không hợp lệ.' }, 400);
+    const payout = await env.DB.prepare('SELECT * FROM marketplace_payouts WHERE id = ? LIMIT 1').bind(payoutId).first<any>();
+    if (!payout || payout.status !== 'PENDING') return json({ success: false, message: 'Không tìm thấy yêu cầu rút đang chờ.' }, 404);
+    const seller = await env.DB.prepare('SELECT * FROM sellers WHERE id = ? LIMIT 1').bind(payout.seller_id).first<any>();
+    if (!seller) return json({ success: false, message: 'Không tìm thấy gian hàng.' }, 404);
+    try {
+      if (status === 'PAID') {
+        if (Number(payout.amount) > (Number(seller.available_balance) || 0)) return json({ success: false, message: 'Số dư khả dụng của gian hàng không còn đủ.' }, 400);
+        await env.DB.batch([
+          env.DB.prepare(`UPDATE sellers SET available_balance = available_balance - ?, updated_at = datetime('now') WHERE id = ?`).bind(Number(payout.amount), seller.id),
+          env.DB.prepare(`INSERT INTO marketplace_ledger (id, seller_id, order_id, type, amount, balance_before, balance_after, held_before, held_after, description) VALUES (?, ?, NULL, 'PAYOUT', ?, ?, ?, ?, ?, ?)`).bind(newId('mp_ledger'), seller.id, -Number(payout.amount), Number(seller.available_balance) || 0, (Number(seller.available_balance) || 0) - Number(payout.amount), Number(seller.held_balance) || 0, Number(seller.held_balance) || 0, `Duyệt trả yêu cầu rút ${payoutId}`),
+          env.DB.prepare(`UPDATE marketplace_payouts SET status = 'PAID', admin_note = ?, paid_at = datetime('now') WHERE id = ? AND status = 'PENDING'`).bind(adminNote, payoutId),
+        ]);
+      } else {
+        await env.DB.prepare(`UPDATE marketplace_payouts SET status = 'REJECTED', admin_note = ? WHERE id = ? AND status = 'PENDING'`).bind(adminNote, payoutId).run();
+      }
+    } catch (err: any) {
+      return json({ success: false, message: 'Duyệt rút tiền thất bại.', code: 'DB_ERROR' }, 400);
+    }
+    const updatedPayout = await env.DB.prepare('SELECT * FROM marketplace_payouts WHERE id = ? LIMIT 1').bind(payoutId).first<any>();
+    return json({ success: true, payout: updatedPayout });
   }
 
   return json({ success: false, message: 'Endpoint not found.' }, 404);
