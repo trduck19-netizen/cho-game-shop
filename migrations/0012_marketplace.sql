@@ -93,7 +93,8 @@ CREATE TABLE IF NOT EXISTS marketplace_ledger (
 
 CREATE INDEX IF NOT EXISTS idx_marketplace_ledger_seller_id ON marketplace_ledger(seller_id);
 CREATE INDEX IF NOT EXISTS idx_marketplace_ledger_order_id ON marketplace_ledger(order_id);
-CREATE UNIQUE INDEX IF NOT EXISTS idx_marketplace_ledger_order_release ON marketplace_ledger(order_id, type) WHERE type IN ('ESCROW_RELEASE', 'ESCROW_REFUND');
+DROP INDEX IF EXISTS idx_marketplace_ledger_order_release;
+CREATE UNIQUE INDEX IF NOT EXISTS idx_marketplace_ledger_order_settle ON marketplace_ledger(order_id) WHERE type IN ('ESCROW_RELEASE', 'ESCROW_REFUND');
 
 CREATE TABLE IF NOT EXISTS marketplace_disputes (
   id TEXT PRIMARY KEY,
@@ -130,6 +131,18 @@ CREATE TABLE IF NOT EXISTS marketplace_settings (
   dispute_window_hours INTEGER,
   updated_at TEXT NOT NULL DEFAULT (datetime('now'))
 );
+
+CREATE TABLE IF NOT EXISTS marketplace_payouts (
+  id TEXT PRIMARY KEY,
+  seller_id TEXT NOT NULL,
+  amount INTEGER NOT NULL CHECK (amount > 0),
+  status TEXT NOT NULL DEFAULT 'PENDING' CHECK (status IN ('PENDING', 'PAID', 'REJECTED')),
+  admin_note TEXT DEFAULT '',
+  created_at TEXT NOT NULL DEFAULT (datetime('now')),
+  paid_at TEXT
+);
+
+CREATE INDEX IF NOT EXISTS idx_marketplace_payouts_seller_status ON marketplace_payouts(seller_id, status);
 
 -- Hang tham so duy nhat; cac gia tri de trong cho toi khi user chot truoc khi mo ban.
 INSERT OR IGNORE INTO marketplace_settings (id, commission_percent, hold_hours, auto_release_hours, dispute_window_hours)
