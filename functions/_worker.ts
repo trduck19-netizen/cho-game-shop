@@ -699,7 +699,7 @@ async function handleWorkerRequest(request: Request, env: Env, ctx: ExecutionCon
       }
 
       // 16. Marketplace (san so) APIs
-      if (pathname === '/api/marketplace/products' || pathname === '/api/marketplace/sellers/register' || pathname === '/api/marketplace/sellers/approve' || pathname === '/api/marketplace/products/approve' || pathname === '/api/marketplace/codes' || pathname === '/api/marketplace/orders/create' || pathname === '/api/marketplace/orders/confirm' || pathname === '/api/marketplace/disputes' || pathname === '/api/marketplace/sellers/me') {
+      if (pathname === '/api/marketplace/products' || pathname === '/api/marketplace/sellers/register' || pathname === '/api/marketplace/sellers/approve' || pathname === '/api/marketplace/products/approve' || pathname === '/api/marketplace/codes' || pathname === '/api/marketplace/orders/create' || pathname === '/api/marketplace/orders/confirm' || pathname === '/api/marketplace/disputes' || pathname === '/api/marketplace/sellers/me' || pathname === '/api/marketplace/disputes/resolve' || pathname === '/api/marketplace/escrow/auto-release' || pathname === '/api/marketplace/payouts' || pathname === '/api/marketplace/payouts/approve') {
         if (method === 'OPTIONS') return await marketplaceApi.onRequestOptions();
         if (method === 'POST') return await marketplaceApi.onRequestPost(context);
         return await marketplaceApi.onRequestGet(context);
