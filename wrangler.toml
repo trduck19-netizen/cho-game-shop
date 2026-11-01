@@ -1,0 +1,8 @@
+name = "web-code-game"
+compatibility_date = "2024-09-23"
+pages_build_output_dir = "dist"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "web-code-game-db"
+database_id = "b2b5372f-1c6f-4067-a74d-8029ded6ec79"

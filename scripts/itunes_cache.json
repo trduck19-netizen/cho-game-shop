@@ -1,0 +1,554 @@
+{
+  "shadow-fight-4-arena-vtc-game": {
+    "trackName": "Shadow Fight 4: Arena-VTC",
+    "trackViewUrl": "https://apps.apple.com/vn/app/shadow-fight-4-arena-vtc/id6756787580?uo=4",
+    "bundleId": "com.nekki.shadowfightarena.vtc"
+  },
+  "super-sus": {
+    "trackName": "Suspects: Mystery Mansion",
+    "trackViewUrl": "https://apps.apple.com/vn/app/suspects-mystery-mansion/id1546088542?uo=4",
+    "bundleId": "com.wildlifestudios.suspects"
+  },
+  "one-punch-man-ke-manh-nhat": {
+    "trackName": "One-Punch Man: Kẻ Mạnh Nhất",
+    "trackViewUrl": "https://apps.apple.com/vn/app/one-punch-man-k%E1%BA%BB-m%E1%BA%A1nh-nh%E1%BA%A5t/id6749569333?uo=4",
+    "bundleId": "com.onepunchman.ios.vn"
+  },
+  "archer-castle-afk-idle-rpg": {
+    "trackName": "Archer Castle : AFK Idle RPG",
+    "trackViewUrl": "https://apps.apple.com/vn/app/archer-castle-afk-idle-rpg/id6788215554?uo=4",
+    "bundleId": "com.springgames.archercastle"
+  },
+  "narco-empire": {
+    "trackName": "Hempire - Weed Growing Game",
+    "trackViewUrl": "https://apps.apple.com/vn/app/hempire-weed-growing-game/id1139379843?uo=4",
+    "bundleId": "ca.lbcstudios.hempire"
+  },
+  "ky-tich-tro-lai": {
+    "trackName": "Kỳ Tích Trở Lại",
+    "trackViewUrl": "https://apps.apple.com/vn/app/k%E1%BB%B3-t%C3%ADch-tr%E1%BB%9F-l%E1%BA%A1i/id6502924494?uo=4",
+    "bundleId": "com.shdlvn.ios"
+  },
+  "samkok-dai-nao-3q": {
+    "trackName": "Samkok: Đại Náo 3Q",
+    "trackViewUrl": "https://apps.apple.com/vn/app/samkok-%C4%91%E1%BA%A1i-n%C3%A1o-3q/id6775747645?uo=4",
+    "bundleId": "com.oegymsg.ios"
+  },
+  "girls-echo": null,
+  "dragonbound-wings-of-magic": null,
+  "hai-tac-truyen-ky": {
+    "trackName": "Hải Tặc Truyền Kỳ",
+    "trackViewUrl": "https://apps.apple.com/vn/app/h%E1%BA%A3i-t%E1%BA%B7c-truy%E1%BB%81n-k%E1%BB%B3/id6758935182?uo=4",
+    "bundleId": "com.hhkb.rpg.ios"
+  },
+  "tarot-vinh-hang-than-ngu": {
+    "trackName": "Tarot: Vĩnh Hằng Thần Ngữ",
+    "trackViewUrl": "https://apps.apple.com/vn/app/tarot-v%C4%A9nh-h%E1%BA%B1ng-th%E1%BA%A7n-ng%E1%BB%AF/id6768233176?uo=4",
+    "bundleId": "com.bxzyvn.pg"
+  },
+  "make-drama-mad": null,
+  "ta-la-hac-ngo-khong": {
+    "trackName": "Ta Là Hắc Ngộ Không - Vplay",
+    "trackViewUrl": "https://apps.apple.com/vn/app/ta-l%C3%A0-h%E1%BA%AFc-ng%E1%BB%99-kh%C3%B4ng-vplay/id6762586387?uo=4",
+    "bundleId": "vn.vplay.taydu.t031i"
+  },
+  "pirate-legends": {
+    "trackName": "Pirate Legend: The Rogue Sea",
+    "trackViewUrl": "https://apps.apple.com/vn/app/pirate-legend-the-rogue-sea/id6757737539?uo=4",
+    "bundleId": "com.bd.glpirate"
+  },
+  "di-gioi-sinh-ton-oeg": {
+    "trackName": "Dị giới sinh tồn - OEG",
+    "trackViewUrl": "https://apps.apple.com/vn/app/d%E1%BB%8B-gi%E1%BB%9Bi-sinh-t%E1%BB%93n-oeg/id6762583524?uo=4",
+    "bundleId": "com.digioisinhton.ios.vn"
+  },
+  "yen-van-thap-luc-thanh": {
+    "trackName": "Yến Vân Thập Lục Thanh",
+    "trackViewUrl": "https://apps.apple.com/vn/app/y%E1%BA%BFn-v%C3%A2n-th%E1%BA%ADp-l%E1%BB%A5c-thanh/id6762607072?uo=4",
+    "bundleId": "com.netease.yyslsvn"
+  },
+  "3q-dao-dao-dao": {
+    "trackName": "3Q Đào Đào Đào",
+    "trackViewUrl": "https://apps.apple.com/vn/app/3q-%C4%91%C3%A0o-%C4%91%C3%A0o-%C4%91%C3%A0o/id6766807336?uo=4",
+    "bundleId": "com.joyplay.tamquoc.ios"
+  },
+  "long-tuong-tam-quoc": {
+    "trackName": "Long Tướng Tam Quốc",
+    "trackViewUrl": "https://apps.apple.com/vn/app/long-t%C6%B0%E1%BB%9Bng-tam-qu%E1%BB%91c/id6761753471?uo=4",
+    "bundleId": "ngoa.long.minh.chu"
+  },
+  "thuong-lam-canh-gioi": {
+    "trackName": "Thương Lam Cảnh Giới - VLG",
+    "trackViewUrl": "https://apps.apple.com/vn/app/th%C6%B0%C6%A1ng-lam-c%E1%BA%A3nh-gi%E1%BB%9Bi-vlg/id6782806676?uo=4",
+    "bundleId": "vn.vlplay.thuonglam"
+  },
+  "soul-strike": {
+    "trackName": "Soul Strike - Idle RPG",
+    "trackViewUrl": "https://apps.apple.com/vn/app/soul-strike-idle-rpg/id6766190033?uo=4",
+    "bundleId": "com.com2usholdings.soulstrike.ios.apple.global.normal.vn"
+  },
+  "skyblock-ba-chu-luc-dia": null,
+  "tien-nghich-tan-tinh-kiem": {
+    "trackName": "Tiên Nghịch: Tân Tình Kiếm",
+    "trackViewUrl": "https://apps.apple.com/vn/app/ti%C3%AAn-ngh%E1%BB%8Bch-t%C3%A2n-t%C3%ACnh-ki%E1%BA%BFm/id6775419635?uo=4",
+    "bundleId": "com.dawudao.ios"
+  },
+  "gun-x-mobile": {
+    "trackName": "Gun X Mobile",
+    "trackViewUrl": "https://apps.apple.com/vn/app/gun-x-mobile/id6444932771?uo=4",
+    "bundleId": "com.sohagame.sg381"
+  },
+  "cau-ca-van-can": null,
+  "tam-quoc-tu-thoi-ca": {
+    "trackName": "Tam Quốc Tứ Thời Ca - SohaGame",
+    "trackViewUrl": "https://apps.apple.com/vn/app/tam-qu%E1%BB%91c-t%E1%BB%A9-th%E1%BB%9Di-ca-sohagame/id6761509222?uo=4",
+    "bundleId": "com.sohagame.sg451"
+  },
+  "apex-girls": {
+    "trackName": "Scarlet Girls - Elite Edition",
+    "trackViewUrl": "https://apps.apple.com/vn/app/scarlet-girls-elite-edition/id6476643375?uo=4",
+    "bundleId": "com.neorigin.apexgirls.ios"
+  },
+  "nam-quoc-son-ha": {
+    "trackName": "Nam Quốc Sơn Hà",
+    "trackViewUrl": "https://apps.apple.com/vn/app/nam-qu%E1%BB%91c-s%C6%A1n-h%C3%A0/id6762727879?uo=4",
+    "bundleId": "co.imba.namquocsonha"
+  },
+  "loan-chien-3q": {
+    "trackName": "Loạn Chiến 3Q GGames",
+    "trackViewUrl": "https://apps.apple.com/vn/app/lo%E1%BA%A1n-chi%E1%BA%BFn-3q-ggames/id1624877617?uo=4",
+    "bundleId": "vn.ggames.loanchien.lc3q"
+  },
+  "kiem-khach-truyen-ky": {
+    "trackName": "Kiếm Khách Truyền Kỳ - Mobile",
+    "trackViewUrl": "https://apps.apple.com/vn/app/ki%E1%BA%BFm-kh%C3%A1ch-truy%E1%BB%81n-k%E1%BB%B3-mobile/id6782804680?uo=4",
+    "bundleId": "vn.vlplay.truyenky"
+  },
+  "pixel-defenders-merge-td-game": {
+    "trackName": "Pixel Defenders: Merge TD Game",
+    "trackViewUrl": "https://apps.apple.com/vn/app/pixel-defenders-merge-td-game/id6761761522?uo=4",
+    "bundleId": "com.ondi.fortias.defense"
+  },
+  "loan-xi-ngau-3q-oeg": null,
+  "tam-quoc-tranh-ba-thien-ha": {
+    "trackName": "Tam Quốc: Tranh Bá Thiên Hạ",
+    "trackViewUrl": "https://apps.apple.com/vn/app/tam-qu%E1%BB%91c-tranh-b%C3%A1-thi%C3%AAn-h%E1%BA%A1/id6761252325?uo=4",
+    "bundleId": "com.ios.slg3q.moc"
+  },
+  "titan-rush-chien-than-thuc-tinh": {
+    "trackName": "Tokyo Ghoul：Thức Tỉnh",
+    "trackViewUrl": "https://apps.apple.com/vn/app/tokyo-ghoul-th%E1%BB%A9c-t%E1%BB%89nh/id6751103382?uo=4",
+    "bundleId": "com.tgbtcvn.appstore"
+  },
+  "girls-frontline-2-luu-day": null,
+  "quan-nhi-ca": {
+    "trackName": "Quan Nhị Ca",
+    "trackViewUrl": "https://apps.apple.com/vn/app/quan-nh%E1%BB%8B-ca/id6761987786?uo=4",
+    "bundleId": "com.zalogame.quannhica"
+  },
+  "doi-tuong-nhi-nho": {
+    "trackName": "Đội Tướng Nhí Nhố",
+    "trackViewUrl": "https://apps.apple.com/vn/app/%C4%91%E1%BB%99i-t%C6%B0%E1%BB%9Bng-nh%C3%AD-nh%E1%BB%91/id6769701683?uo=4",
+    "bundleId": "com.gameyk.mavn"
+  },
+  "hac-tay-du-chuong-cam": {
+    "trackName": "Hắc Tây Du: Chương Cấm",
+    "trackViewUrl": "https://apps.apple.com/vn/app/h%E1%BA%AFc-t%C3%A2y-du-ch%C6%B0%C6%A1ng-c%E1%BA%A5m/id6772117224?uo=4",
+    "bundleId": "com.loinguyen.nguoigiuuuuu.ftg"
+  },
+  "huyen-thoai-huong-cang": {
+    "trackName": "Huyền Thoại Hương Cảng",
+    "trackViewUrl": "https://apps.apple.com/vn/app/huy%E1%BB%81n-tho%E1%BA%A1i-h%C6%B0%C6%A1ng-c%E1%BA%A3ng/id6778374291?uo=4",
+    "bundleId": "com.velagame.hthc.ios"
+  },
+  "giang-ho-trong-tay": {
+    "trackName": "Giang Hồ Trong Tay",
+    "trackViewUrl": "https://apps.apple.com/vn/app/giang-h%E1%BB%93-trong-tay/id6758706577?uo=4",
+    "bundleId": "com.qswd.zsios"
+  },
+  "diet-quy-origin": null,
+  "co-lau-loan-the": null,
+  "loan-the-3q-than-ma-lenh-oeg": {
+    "trackName": "Loạn Thế 3Q: Thần Ma Lệnh-OEG",
+    "trackViewUrl": "https://apps.apple.com/vn/app/lo%E1%BA%A1n-th%E1%BA%BF-3q-th%E1%BA%A7n-ma-l%E1%BB%87nh-oeg/id6775778491?uo=4",
+    "bundleId": "com.ios.cjys.vn"
+  },
+  "shenzhou-m": {
+    "trackName": "ShenZhou M",
+    "trackViewUrl": "https://apps.apple.com/vn/app/shenzhou-m/id6759091034?uo=4",
+    "bundleId": "com.userjoy.szmg"
+  },
+  "phi-kiem-tru-thien-ma": {
+    "trackName": "Phi Kiếm：Cửu Long Dẫn Quan",
+    "trackViewUrl": "https://apps.apple.com/vn/app/phi-ki%E1%BA%BFm-c%E1%BB%ADu-long-d%E1%BA%ABn-quan/id6763988156?uo=4",
+    "bundleId": "com.atgame.fm.ios"
+  },
+  "afk-three-kingdoms": {
+    "trackName": "AFK Three Kingdoms : idle RPG",
+    "trackViewUrl": "https://apps.apple.com/vn/app/afk-three-kingdoms-idle-rpg/id1600896275?uo=4",
+    "bundleId": "com.cookapps.bm.threekingdomsrising"
+  },
+  "khe-uoc-rong": {
+    "trackName": "Khế Ước Rồng",
+    "trackViewUrl": "https://apps.apple.com/vn/app/kh%E1%BA%BF-%C6%B0%E1%BB%9Bc-r%E1%BB%93ng/id6758699179?uo=4",
+    "bundleId": "vn.dev.anh.hung.luc.dia"
+  },
+  "tuyet-dinh-chien-gioi-vplay": null,
+  "dao-huu-tu-tien": {
+    "trackName": "Đạo Hữu Xin Dừng Bước: Tu Tiên",
+    "trackViewUrl": "https://apps.apple.com/vn/app/%C4%91%E1%BA%A1o-h%E1%BB%AFu-xin-d%E1%BB%ABng-b%C6%B0%E1%BB%9Bc-tu-ti%C3%AAn/id6746827417?uo=4",
+    "bundleId": "com.joyplay.daohuuxindungbuoc.ios"
+  },
+  "anime-fighting-simulator-endless": {
+    "trackName": "Anime Ninja Fighting: Samurai Struggle",
+    "trackViewUrl": "https://apps.apple.com/vn/app/anime-ninja-fighting-samurai-struggle/id1241234243?uo=4",
+    "bundleId": "com.actionteam.animefightingfree"
+  },
+  "anime-vanguards": {
+    "trackName": "Toolkit for Anime Vanguards",
+    "trackViewUrl": "https://apps.apple.com/vn/app/toolkit-for-anime-vanguards/id6763304473?uo=4",
+    "bundleId": "com.toolkit.animevanguards"
+  },
+  "3q-goi-tuong-di": {
+    "trackName": "3Q Gọi Tướng Đi",
+    "trackViewUrl": "https://apps.apple.com/vn/app/3q-g%E1%BB%8Di-t%C6%B0%E1%BB%9Bng-%C4%91i/id6773619868?uo=4",
+    "bundleId": "vn.game3q.goituongdi.tamquoc"
+  },
+  "blade-ball": {
+    "trackName": "Blade Ball:Deflect Master Game",
+    "trackViewUrl": "https://apps.apple.com/vn/app/blade-ball-deflect-master-game/id6476590194?uo=4",
+    "bundleId": "com.ball.battle.knife"
+  },
+  "tam-quoc-chi-vuong-chien": {
+    "trackName": "Chiến Loạn Tam Quốc",
+    "trackViewUrl": "https://apps.apple.com/vn/app/chi%E1%BA%BFn-lo%E1%BA%A1n-tam-qu%E1%BB%91c/id6747229494?uo=4",
+    "bundleId": "vn.cmn.chienloan"
+  },
+  "nhat-luan-kiem": null,
+  "ark-recode": null,
+  "aniimo": null,
+  "tieu-tien-ta-vo-dich": {
+    "trackName": "Tiểu Tiên Ta Vô Địch - OEG",
+    "trackViewUrl": "https://apps.apple.com/vn/app/ti%E1%BB%83u-ti%C3%AAn-ta-v%C3%B4-%C4%91%E1%BB%8Bch-oeg/id6760692589?uo=4",
+    "bundleId": "com.slime.ios.vn"
+  },
+  "giac-ngo-thuat-chu": {
+    "trackName": "Chú Thuật Đại Chiến",
+    "trackViewUrl": "https://apps.apple.com/vn/app/ch%C3%BA-thu%E1%BA%ADt-%C4%91%E1%BA%A1i-chi%E1%BA%BFn/id6741671815?uo=4",
+    "bundleId": "com.chuthuatdaichien.app"
+  },
+  "fairy-tamer": null,
+  "hoi-tho-hai-tac": null,
+  "capybara-go": {
+    "trackName": "Capybara Tower Go : Rush 2D",
+    "trackViewUrl": "https://apps.apple.com/vn/app/capybara-tower-go-rush-2d/id6740405028?uo=4",
+    "bundleId": "playense.capybara.go"
+  },
+  "king-legacy": {
+    "trackName": "Stick War: Legacy",
+    "trackViewUrl": "https://apps.apple.com/vn/app/stick-war-legacy/id1001780528?uo=4",
+    "bundleId": "com.stickpage.stickwar"
+  },
+  "chaos-zero-nightmare": null,
+  "cookie-run-kingdom": null,
+  "gangstar-mirage-city-online": {
+    "trackName": "Gangstar SMirage City Crime 3D",
+    "trackViewUrl": "https://apps.apple.com/vn/app/gangstar-smirage-city-crime-3d/id1489632158?uo=4",
+    "bundleId": "com.gameobject.gang.beasts.zombie.shooting"
+  },
+  "ez-pz-byte-heroes": null,
+  "lost-sword": {
+    "trackName": "Touhou LostWord",
+    "trackViewUrl": "https://apps.apple.com/vn/app/touhou-lostword/id1540955084?uo=4",
+    "bundleId": "jp.goodsmile.touhoulostwordglobal"
+  },
+  "genesis-war": {
+    "trackName": "The War of Genesis",
+    "trackViewUrl": "https://apps.apple.com/vn/app/the-war-of-genesis/id1128647648?uo=4",
+    "bundleId": "com.joycity.gnss"
+  },
+  "neo-artifacts": null,
+  "mongil-star-dive": null,
+  "kiem-vu-son-ha": {
+    "trackName": "Kiếm Vũ Sơn Hà",
+    "trackViewUrl": "https://apps.apple.com/vn/app/ki%E1%BA%BFm-v%C5%A9-s%C6%A1n-h%C3%A0/id6759868348?uo=4",
+    "bundleId": "com.broga.kiemvu"
+  },
+  "greedy-cave-rebirth": {
+    "trackName": "Greedy Cave: Rebirth",
+    "trackViewUrl": "https://apps.apple.com/vn/app/greedy-cave-rebirth/id6680191526?uo=4",
+    "bundleId": "com.avalon.c1p.global"
+  },
+  "seven-deadly-sins-origin": null,
+  "star-sailors": null,
+  "ragnarok-huyen-thoai-mmo": {
+    "trackName": "Ragnarok: Huyền Thoại MMO",
+    "trackViewUrl": "https://apps.apple.com/vn/app/ragnarok-huy%E1%BB%81n-tho%E1%BA%A1i-mmo/id6760520315?uo=4",
+    "bundleId": "com.thsgame.ror"
+  },
+  "rogue-legend": {
+    "trackName": "Hero Adventure: Roguelike RPG",
+    "trackViewUrl": "https://apps.apple.com/vn/app/hero-adventure-roguelike-rpg/id1633987367?uo=4",
+    "bundleId": "com.pgstudio.heroadventure"
+  },
+  "where-winds-meet-mobile": null,
+  "outerplane": {
+    "trackName": "OUTERPLANE - Strategy Anime",
+    "trackViewUrl": "https://apps.apple.com/vn/app/outerplane-strategy-anime/id1630880836?uo=4",
+    "bundleId": "com.smilegate.outerplane.stove.ios"
+  },
+  "wuthering-waves-cyberpunk": null,
+  "pham-tran-tien-lo": {
+    "trackName": "Phàm Trần Tiên Lộ",
+    "trackViewUrl": "https://apps.apple.com/vn/app/ph%C3%A0m-tr%E1%BA%A7n-ti%C3%AAn-l%E1%BB%99/id6760999420?uo=4",
+    "bundleId": "com.vnpttl.as"
+  },
+  "vo-lam-hac-dao": null,
+  "chi-huy-toi-thuong": {
+    "trackName": "Chỉ Huy Tối Thượng",
+    "trackViewUrl": "https://apps.apple.com/vn/app/ch%E1%BB%89-huy-t%E1%BB%91i-th%C6%B0%E1%BB%A3ng/id6758197876?uo=4",
+    "bundleId": "com.ynwdzz.warvow"
+  },
+  "tap-tap-heroes": {
+    "trackName": "Taptap Heroes:Idle RPG",
+    "trackViewUrl": "https://apps.apple.com/vn/app/taptap-heroes-idle-rpg/id1369678805?uo=4",
+    "bundleId": "com.westbund.taptapheroes"
+  },
+  "van-tien-chien": null,
+  "tieu-cuong-3q": {
+    "trackName": "Tiểu Cường 3Q",
+    "trackViewUrl": "https://apps.apple.com/vn/app/ti%E1%BB%83u-c%C6%B0%E1%BB%9Dng-3q/id6761410095?uo=4",
+    "bundleId": "com.dawang3g.vn.ios"
+  },
+  "tan-vo-lam": null,
+  "pokemon-champions": null,
+  "light-and-night": {
+    "trackName": "Light and Night",
+    "trackViewUrl": "https://apps.apple.com/vn/app/light-and-night/id6751398995?uo=4",
+    "bundleId": "vng.games.lightandnight"
+  },
+  "dragon-raja-thuc-tinh": {
+    "trackName": "Dragon Raja: Thức Tỉnh",
+    "trackViewUrl": "https://apps.apple.com/vn/app/dragon-raja-th%E1%BB%A9c-t%E1%BB%89nh/id6756608951?uo=4",
+    "bundleId": "com.vnlz.ios"
+  },
+  "phuong-hoang-tru-tien": null,
+  "hao-khi-du-hiep": {
+    "trackName": "Hào Khí Du Hiệp",
+    "trackViewUrl": "https://apps.apple.com/vn/app/h%C3%A0o-kh%C3%AD-du-hi%E1%BB%87p/id6768583318?uo=4",
+    "bundleId": "vn.migamejsc.haokhiduhiep"
+  },
+  "bo-lac-3q": {
+    "trackName": "Bộ Lạc 3Q",
+    "trackViewUrl": "https://apps.apple.com/vn/app/b%E1%BB%99-l%E1%BA%A1c-3q/id6763512084?uo=4",
+    "bundleId": "vn.cmn.bolac3q"
+  },
+  "thai-cuc-vo-dao-x-arena": null,
+  "dao-si-bat-truong-phi": {
+    "trackName": "Đạo Sĩ Bắt Trương Phi VTC",
+    "trackViewUrl": "https://apps.apple.com/vn/app/%C4%91%E1%BA%A1o-s%C4%A9-b%E1%BA%AFt-tr%C6%B0%C6%A1ng-phi-vtc/id6754586618?uo=4",
+    "bundleId": "com.vtcmobile.daosibattruongphi"
+  },
+  "ever-night-thuc-tinh-oeg": null,
+  "dau-la-dai-luc": null,
+  "top-football-club": {
+    "trackName": "Top Football Club",
+    "trackViewUrl": "https://apps.apple.com/vn/app/top-football-club/id6761526081?uo=4",
+    "bundleId": "com.ios.lyqj.vn.moc"
+  },
+  "tien-nghich-mobile": {
+    "trackName": "Tiên Nghịch Mobile - JoyGames",
+    "trackViewUrl": "https://apps.apple.com/vn/app/ti%C3%AAn-ngh%E1%BB%8Bch-mobile-joygames/id6756594278?uo=4",
+    "bundleId": "com.joyplay.tiennghich.ios"
+  },
+  "ts-origin": {
+    "trackName": "TS Origin - VTC",
+    "trackViewUrl": "https://apps.apple.com/vn/app/ts-origin-vtc/id6757032233?uo=4",
+    "bundleId": "com.vtcmobile.gz06"
+  },
+  "thu-cung-bao-dan": null,
+  "skyria-dao-ky-bi": null,
+  "kiem-linh-du-ky": {
+    "trackName": "Kiếm Linh Du Ký",
+    "trackViewUrl": "https://apps.apple.com/vn/app/ki%E1%BA%BFm-linh-du-k%C3%BD/id6759956453?uo=4",
+    "bundleId": "com.opengame.ios.kiemlinh"
+  },
+  "infinity-kingdom": null,
+  "van-thang-nam-de": null,
+  "kiem-chi-giang-ho-khai-thien": {
+    "trackName": "Kiếm Chỉ Giang Hồ: Khai Thiên",
+    "trackViewUrl": "https://apps.apple.com/vn/app/ki%E1%BA%BFm-ch%E1%BB%89-giang-h%E1%BB%93-khai-thi%C3%AAn/id6761166974?uo=4",
+    "bundleId": "com.xyvn.pg"
+  },
+  "lineage-w": {
+    "trackName": "Lineage W",
+    "trackViewUrl": "https://apps.apple.com/vn/app/lineage-w/id6754081597?uo=4",
+    "bundleId": "com.vng.lineagewvn"
+  },
+  "dau-la-the-gioi-san-hon": null,
+  "van-dinh-tam-quoc": null,
+  "giang-ho-ky-ngo": null,
+  "anh-kiet-tam-quoc": null,
+  "than-thu-origin": null,
+  "dao-mong-anh-hung-2": {
+    "trackName": "Đạo Mộng Anh Hùng 2: Ảo Mộng",
+    "trackViewUrl": "https://apps.apple.com/vn/app/%C4%91%E1%BA%A1o-m%E1%BB%99ng-anh-h%C3%B9ng-2-%E1%BA%A3o-m%E1%BB%99ng/id6760399653?uo=4",
+    "bundleId": "com.mechanist.dream2.ios.vn"
+  },
+  "vuon-hoa-hanh-phuc": null,
+  "co-giap-vo-han": null,
+  "lordnine-cuu-vuong-tranh-ba": {
+    "trackName": "LORDNINE : Cửu Vương Tranh Bá",
+    "trackViewUrl": "https://apps.apple.com/vn/app/lordnine-c%E1%BB%ADu-v%C6%B0%C6%A1ng-tranh-b%C3%A1/id6760332490?uo=4",
+    "bundleId": "com.stovevn.l9asia.ios"
+  },
+  "tinh-kiem-truyen-ky-mobile": null,
+  "bloodline-dong-mau-anh-hung": null,
+  "total-football-vng": {
+    "trackName": "Total Football VNG",
+    "trackViewUrl": "https://apps.apple.com/vn/app/total-football-vng/id6754236292?uo=4",
+    "bundleId": "com.vnggames.totalfootball"
+  },
+  "lac-than-chien-ca": {
+    "trackName": "Lạc Thần Chiến Ca",
+    "trackViewUrl": "https://apps.apple.com/vn/app/l%E1%BA%A1c-th%E1%BA%A7n-chi%E1%BA%BFn-ca/id6753707827?uo=4",
+    "bundleId": "vn.gosu.lacthanchienca"
+  },
+  "cookierun-banh-quy": {
+    "trackName": "CookieRun: Bánh Quy Đại Chiến",
+    "trackViewUrl": "https://apps.apple.com/vn/app/cookierun-b%C3%A1nh-quy-%C4%91%E1%BA%A1i-chi%E1%BA%BFn/id6739695237?uo=4",
+    "bundleId": "com.vng.cookierun.oven.smash.vn"
+  },
+  "nhat-niem-son-hai": {
+    "trackName": "Nhất Niệm Sơn Hải - OEG",
+    "trackViewUrl": "https://apps.apple.com/vn/app/nh%E1%BA%A5t-ni%E1%BB%87m-s%C6%A1n-h%E1%BA%A3i-oeg/id6759076995?uo=4",
+    "bundleId": "com.ynsh.vn.ios"
+  },
+  "thu-thanh-dai-chien": null,
+  "vo-hiep-origin": null,
+  "haunted-room": {
+    "trackName": "Haunted Room: Ngôi Nhà Hắc Ám",
+    "trackViewUrl": "https://apps.apple.com/vn/app/haunted-room-ng%C3%B4i-nh%C3%A0-h%E1%BA%AFc-%C3%A1m/id6757224416?uo=4",
+    "bundleId": "com.vn.ygjsz.ios"
+  },
+  "tam-quoc-36-ke": {
+    "trackName": "Tam Quốc 36 Kế VTC",
+    "trackViewUrl": "https://apps.apple.com/vn/app/tam-qu%E1%BB%91c-36-k%E1%BA%BF-vtc/id6748180269?uo=4",
+    "bundleId": "com.vtc.tt15"
+  },
+  "ta-la-cao-thu-vo-lam": null,
+  "vuong-gia-chien-quoc": {
+    "trackName": "Vương Quốc Kiến - Gamota",
+    "trackViewUrl": "https://apps.apple.com/vn/app/v%C6%B0%C6%A1ng-qu%E1%BB%91c-ki%E1%BA%BFn-gamota/id6444060858?uo=4",
+    "bundleId": "com.allstarunion.ta.ios.vn"
+  },
+  "kanban-musume": null,
+  "phap-su-hac-am": {
+    "trackName": "Hắc Ảnh Vệ Thần",
+    "trackViewUrl": "https://apps.apple.com/vn/app/h%E1%BA%AFc-%E1%BA%A3nh-v%E1%BB%87-th%E1%BA%A7n/id6447539837?uo=4",
+    "bundleId": "com.allstarunion.myths.ios.vn"
+  },
+  "sieu-hai-tac": null,
+  "than-ma-arena": null,
+  "ballistic-hero": {
+    "trackName": "Ballistic Hero VNG",
+    "trackViewUrl": "https://apps.apple.com/vn/app/ballistic-hero-vng/id6754264117?uo=4",
+    "bundleId": "com.vnggames.ballisticherovn"
+  },
+  "vlcm-origin": null,
+  "bang-bang-dai-chien": {
+    "trackName": "BANG BANG ĐẠI CHIẾN",
+    "trackViewUrl": "https://apps.apple.com/vn/app/bang-bang-%C4%91%E1%BA%A1i-chi%E1%BA%BFn/id6758991276?uo=4",
+    "bundleId": "com.lastshelter.iosvi"
+  },
+  "vo-danh-giang-ho": {
+    "trackName": "Vô Danh Giang Hồ - JoyGames",
+    "trackViewUrl": "https://apps.apple.com/vn/app/v%C3%B4-danh-giang-h%E1%BB%93-joygames/id6746827282?uo=4",
+    "bundleId": "com.joyplay.vodanhgiangho.ios"
+  },
+  "ludus-quyet-dau": null,
+  "tan-3q-max": null,
+  "hoan-my-tam-quoc": {
+    "trackName": "Hoàn Mỹ Tam Quốc",
+    "trackViewUrl": "https://apps.apple.com/vn/app/ho%C3%A0n-m%E1%BB%B9-tam-qu%E1%BB%91c/id6748054739?uo=4",
+    "bundleId": "vn.dev.tam.quoc"
+  },
+  "de-che-bong-da": {
+    "trackName": "Đế Chế Bóng Đá",
+    "trackViewUrl": "https://apps.apple.com/vn/app/%C4%91%E1%BA%BF-ch%E1%BA%BF-b%C3%B3ng-%C4%91%C3%A1/id6756001651?uo=4",
+    "bundleId": "com.fifa.football.bongda.game.manager.ios"
+  },
+  "legends-reborn": {
+    "trackName": "Legends Reborn-Funtap",
+    "trackViewUrl": "https://apps.apple.com/vn/app/legends-reborn-funtap/id6759997109?uo=4",
+    "bundleId": "com.Knight.MagnumQuest.VN"
+  },
+  "huyen-tuong-phong-than": null,
+  "kiem-de-origin": {
+    "trackName": "Kiếm Đế Mobile - FunGames",
+    "trackViewUrl": "https://apps.apple.com/vn/app/ki%E1%BA%BFm-%C4%91%E1%BA%BF-mobile-fungames/id6480434985?uo=4",
+    "bundleId": "com.psm.kiemsihoaphung"
+  },
+  "phong-hau-tam-quoc": {
+    "trackName": "Phong Hầu Tam Quốc",
+    "trackViewUrl": "https://apps.apple.com/vn/app/phong-h%E1%BA%A7u-tam-qu%E1%BB%91c/id6754582854?uo=4",
+    "bundleId": "com.sohagame.sg443"
+  },
+  "phong-than": null,
+  "bomber-vng": {
+    "trackName": "Bomber Classic - Bomberman",
+    "trackViewUrl": "https://apps.apple.com/vn/app/bomber-classic-bomberman/id1526277864?uo=4",
+    "bundleId": "com.emma.stone.boomber.classic.supr"
+  },
+  "vuot-tuong-thep": null,
+  "phong-than-ta-dinh-doat": null,
+  "ngao-kiem-vo-song-mobile": null,
+  "quai-thu-phong-thu": null,
+  "the-gioi-hoa-vien-cua-toi": {
+    "trackName": "Thế Giới Hoa Viên Của Tôi",
+    "trackViewUrl": "https://apps.apple.com/vn/app/th%E1%BA%BF-gi%E1%BB%9Bi-hoa-vi%C3%AAn-c%E1%BB%A7a-t%C3%B4i/id6757736102?uo=4",
+    "bundleId": "com.myflowervn.as"
+  },
+  "tho-san-sieu-cap": {
+    "trackName": "Thợ Săn Siêu Cấp",
+    "trackViewUrl": "https://apps.apple.com/vn/app/th%E1%BB%A3-s%C4%83n-si%C3%AAu-c%E1%BA%A5p/id6756402599?uo=4",
+    "bundleId": "tho.san.sieu.cap"
+  },
+  "nhip-dieu-than-tuong-oeg": {
+    "trackName": "Nhịp Điệu Thần Tượng",
+    "trackViewUrl": "https://apps.apple.com/vn/app/nh%E1%BB%8Bp-%C4%91i%E1%BB%87u-th%E1%BA%A7n-t%C6%B0%E1%BB%A3ng/id6755798536?uo=4",
+    "bundleId": "com.xipu.cwoxzy.vn.ios"
+  },
+  "samkok-tam-quoc": null,
+  "dragon-city": {
+    "trackName": "Dragon Village -A City Builder",
+    "trackViewUrl": "https://apps.apple.com/vn/app/dragon-village-a-city-builder/id807014595?uo=4",
+    "bundleId": "com.ziau.magicdragonvillage"
+  },
+  "tho-san-quy": {
+    "trackName": "Thợ Săn Quỷ: Đại Chiến Dị Giới",
+    "trackViewUrl": "https://apps.apple.com/vn/app/th%E1%BB%A3-s%C4%83n-qu%E1%BB%B7-%C4%91%E1%BA%A1i-chi%E1%BA%BFn-d%E1%BB%8B-gi%E1%BB%9Bi/id6751942351?uo=4",
+    "bundleId": "com.dlw.vn.ios"
+  },
+  "vu-tru-than-thoai": null,
+  "truyen-thuyet-haki": null,
+  "truyen-thuyet-than-khi": null,
+  "tran-thi-hang-quy": null,
+  "vu-tru-dai-chien": null,
+  "forsaken-world-2": null,
+  "anh-hung-tien-len": null,
+  "arcane-hunter": null,
+  "3q-chess-ky-thu-tam-quoc": null,
+  "cherry-tale": null,
+  "quy-mon-quan": null,
+  "huyen-thoai-phuc-yeu": null,
+  "hoi-uc-kiem-the": null,
+  "tam-quoc-dong-khoi": null,
+  "minh-chu-vo-lam": null,
+  "kiem-hiep-tinh": null,
+  "arknights-endfield": null,
+  "bleach-soul-resonance": null,
+  "tan-kiem-hiep-tinh-1": null,
+  "ngoi-sao-thoi-trang": null,
+  "na-tra-phong-than-ky": null
+}

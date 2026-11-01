@@ -1,0 +1,63 @@
+{
+  "id": "/",
+  "name": "CodeGame - Cổng Tra Cứu Giftcode & Game Bản Quyền",
+  "short_name": "CodeGame",
+  "description": "Kho tổng hợp mã giftcode game mobile & PC miễn phí mới nhất 2026. Nhận quà tân thủ, tra cứu code game bản quyền G1.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#0B0D19",
+  "theme_color": "#0B0D19",
+  "categories": ["games", "entertainment", "utilities"],
+  "icons": [
+    {
+      "src": "/favicon.png",
+      "sizes": "64x64",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/apple-touch-icon.png",
+      "sizes": "180x180",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/logo.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/logo.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Tra Cứu Giftcode",
+      "short_name": "Code Game",
+      "description": "Kho giftcode 486+ tựa game mới nhất",
+      "url": "/",
+      "icons": [{ "src": "/logo.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "Săn Giveaway Free",
+      "short_name": "Giveaway",
+      "description": "Nhận giftcode giới hạn miễn phí",
+      "url": "/giveaways",
+      "icons": [{ "src": "/logo.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "Cửa Hàng Code",
+      "short_name": "Cửa Hàng",
+      "description": "Gói quà VIP & Thẻ game chiết khấu cao",
+      "url": "/store",
+      "icons": [{ "src": "/logo.png", "sizes": "192x192" }]
+    }
+  ],
+  "prefer_related_applications": false
+}

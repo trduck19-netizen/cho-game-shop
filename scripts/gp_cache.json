@@ -1,0 +1,1970 @@
+{
+  "yen-van-thap-luc-thanh": {
+    "pkg": "com.netease.yyvn",
+    "appTitle": "",
+    "releaseDate": "2026-09-03",
+    "updatedDate": "2026-09-14"
+  },
+  "tam-quoc-tu-thoi-ca": {
+    "pkg": "com.shg.sg451",
+    "appTitle": "",
+    "releaseDate": "2026-09-07",
+    "updatedDate": "2026-09-07"
+  },
+  "lien-quan-mobile": {
+    "pkg": "com.garena.game.kgvn",
+    "appTitle": "",
+    "releaseDate": "2016-12-14",
+    "updatedDate": "2026-08-28"
+  },
+  "anh-hung-tien-len": {
+    "pkg": "vn.cmn.anhhungtienlen",
+    "appTitle": "",
+    "releaseDate": null,
+    "updatedDate": "2026-08-20"
+  },
+  "dau-truong-chan-ly-mobile": {
+    "pkg": "com.riotgames.league.teamfighttacticsvn",
+    "appTitle": "",
+    "releaseDate": "2023-11-21",
+    "updatedDate": "2026-09-18"
+  },
+  "genshin-impact": {
+    "pkg": "com.miHoYo.GenshinImpact.vn",
+    "appTitle": "",
+    "releaseDate": "2023-10-11",
+    "updatedDate": "2026-09-10"
+  },
+  "pubg-mobile": {
+    "pkg": "com.vng.pubgmobile",
+    "appTitle": "",
+    "releaseDate": "2018-11-25",
+    "updatedDate": "2026-08-27"
+  },
+  "play-together": {
+    "pkg": "com.vng.playtogether",
+    "appTitle": "",
+    "releaseDate": "2022-06-29",
+    "updatedDate": "2026-08-29"
+  },
+  "dau-truong-chan-ly": {
+    "pkg": "com.riotgames.league.teamfighttacticsvn",
+    "appTitle": "",
+    "releaseDate": "2023-11-21",
+    "updatedDate": "2026-09-18"
+  },
+  "call-of-duty-mobile-vn": {
+    "pkg": "com.vng.codmvn",
+    "appTitle": "",
+    "releaseDate": "2020-04-18",
+    "updatedDate": "2026-09-04"
+  },
+  "vo-lam-truyen-ky-1-mobile": {
+    "pkg": "vn.pg1.vltk1m",
+    "appTitle": "",
+    "releaseDate": "2021-04-05",
+    "updatedDate": "2026-06-17"
+  },
+  "zingspeed-mobile": {
+    "pkg": "com.vng.speedvn",
+    "appTitle": "",
+    "releaseDate": "2018-12-09",
+    "updatedDate": "2026-09-22"
+  },
+  "gunny-origin": {
+    "pkg": "vng.game.gunny.mobi.classic.original",
+    "appTitle": "",
+    "releaseDate": "2022-04-03",
+    "updatedDate": "2026-06-08"
+  },
+  "mobile-legends-bang-bang": {
+    "pkg": "com.hhgame.mlbbvn",
+    "appTitle": "",
+    "releaseDate": "2023-12-18",
+    "updatedDate": "2026-09-08"
+  },
+  "kiem-the-origin": {
+    "pkg": "vnggames.volam.kiemthe.origin",
+    "appTitle": "",
+    "releaseDate": "2023-03-23",
+    "updatedDate": "2026-07-07"
+  },
+  "tieu-cuong-3q": {
+    "pkg": "com.dawang3g.vn.google",
+    "appTitle": "",
+    "releaseDate": "2026-06-23",
+    "updatedDate": "2026-07-25"
+  },
+  "thoi-dai-anh-hung": {
+    "pkg": "com.greenmushroom.boomblitz.gp.vn",
+    "appTitle": "",
+    "releaseDate": "2024-09-30",
+    "updatedDate": "2026-09-18"
+  },
+  "zenless-zone-zero": {
+    "pkg": "com.HoYoverse.NapVn",
+    "appTitle": "",
+    "releaseDate": "2024-06-19",
+    "updatedDate": "2026-08-26"
+  },
+  "thieu-nien-3q-vng": {
+    "pkg": "com.vng.thieunien3qvng",
+    "appTitle": "",
+    "releaseDate": "2020-11-01",
+    "updatedDate": "2026-07-17"
+  },
+  "omg-3q": {
+    "pkg": "com.gs2.omg",
+    "appTitle": "",
+    "releaseDate": "2017-08-15",
+    "updatedDate": "2026-07-30"
+  },
+  "nam-lun-tien-len": {
+    "pkg": "com.mxdzz.sea",
+    "appTitle": "",
+    "releaseDate": "2024-03-06",
+    "updatedDate": "2026-07-01"
+  },
+  "nhat-niem-tieu-dao-gzone": {
+    "pkg": "com.m71.android.vn",
+    "appTitle": "",
+    "releaseDate": "2023-02-10",
+    "updatedDate": "2026-09-20"
+  },
+  "dau-la-dai-luc": {
+    "pkg": "com.global.vn.slmmo",
+    "appTitle": "",
+    "releaseDate": "2026-05-22",
+    "updatedDate": "2026-06-11"
+  },
+  "rise-of-kingdoms": {
+    "pkg": "com.rok.gp.vn",
+    "appTitle": "",
+    "releaseDate": "2022-01-17",
+    "updatedDate": "2026-09-17"
+  },
+  "lords-mobile": {
+    "pkg": "com.igg.android.lordsmobilevn",
+    "appTitle": "",
+    "releaseDate": "2019-07-21",
+    "updatedDate": "2026-09-01"
+  },
+  "delta-force": {
+    "pkg": "com.garena.game.df",
+    "appTitle": "",
+    "releaseDate": "2025-07-13",
+    "updatedDate": "2026-08-31"
+  },
+  "ever-night-thuc-tinh-oeg": {
+    "pkg": "com.yongyevn.az",
+    "appTitle": "",
+    "releaseDate": "2026-06-01",
+    "updatedDate": "2026-09-10"
+  },
+  "loan-xi-ngau-3q-oeg": {
+    "pkg": "com.and.cjys.vn",
+    "appTitle": "",
+    "releaseDate": "2026-08-04",
+    "updatedDate": "2026-09-16"
+  },
+  "crossfire-legends-mobile-vng": {
+    "pkg": "com.vnggames.cfl.crossfirelegends",
+    "appTitle": "",
+    "releaseDate": "2025-12-13",
+    "updatedDate": "2026-09-21"
+  },
+  "tam-quoc-chi-chien-luoc-tth": {
+    "pkg": "com.gamexdd.yuenan1",
+    "appTitle": "",
+    "releaseDate": "2025-07-29",
+    "updatedDate": "2025-07-29"
+  },
+  "arknights-endfield": {
+    "pkg": "com.gryphline.endfield.gp.vn",
+    "appTitle": "",
+    "releaseDate": "2026-01-10",
+    "updatedDate": "2026-08-25"
+  },
+  "hero-clash": {
+    "pkg": "com.xgamenew.happytime.vn.gp",
+    "appTitle": "",
+    "releaseDate": "2024-08-16",
+    "updatedDate": "2026-07-28"
+  },
+  "lineage-w": {
+    "pkg": "com.vng.lineagewvn",
+    "appTitle": "",
+    "releaseDate": "2026-05-15",
+    "updatedDate": "2026-09-18"
+  },
+  "danh-tuong-3q-vng": {
+    "pkg": "vn.pp.dt3q",
+    "appTitle": "",
+    "releaseDate": "2019-05-23",
+    "updatedDate": "2026-06-26"
+  },
+  "tokyo-ghoul-thuc-tinh": {
+    "pkg": "com.tgbtcvn.google",
+    "appTitle": "",
+    "releaseDate": "2025-12-26",
+    "updatedDate": "2026-07-15"
+  },
+  "vo-lam-dai-minh-tinh": {
+    "pkg": "com.arts.bigstar",
+    "appTitle": "",
+    "releaseDate": "2024-10-20",
+    "updatedDate": "2026-08-10"
+  },
+  "mu-hong-hoa-dao": {
+    "pkg": "com.tg.zhzr.vn",
+    "appTitle": "",
+    "releaseDate": "2025-10-14",
+    "updatedDate": "2026-05-20"
+  },
+  "tan-vo-lam": {
+    "pkg": "com.gigantic.volam.vltk",
+    "appTitle": "",
+    "releaseDate": "2026-06-27",
+    "updatedDate": "2026-08-12"
+  },
+  "mu-vinh-hang": {
+    "pkg": "com.vnyh.gp",
+    "appTitle": "",
+    "releaseDate": "2025-12-30",
+    "updatedDate": "2026-04-27"
+  },
+  "tay-du-vng": {
+    "pkg": "vng.games.taydu.chienthuat.online",
+    "appTitle": "",
+    "releaseDate": "2023-11-10",
+    "updatedDate": "2026-08-06"
+  },
+  "phuong-hoang-tru-tien": {
+    "pkg": "vn.vplay.mongkiem2.t029a",
+    "appTitle": "",
+    "releaseDate": "2026-06-11",
+    "updatedDate": "2026-08-25"
+  },
+  "thao-tung-tam-quoc": {
+    "pkg": "vn.vplay.thaotungtamquoc.r005a",
+    "appTitle": "",
+    "releaseDate": "2025-11-20",
+    "updatedDate": "2026-09-03"
+  },
+  "manga-ba-chay": {
+    "pkg": "dev.manga.bachay",
+    "appTitle": "",
+    "releaseDate": "2025-08-05",
+    "updatedDate": "2026-06-18"
+  },
+  "doi-tuong-nhi-nho": {
+    "pkg": "com.gameyk.mavn",
+    "appTitle": "",
+    "releaseDate": "2026-08-12",
+    "updatedDate": "2026-09-17"
+  },
+  "tam-quoc-tranh-ba-thien-ha": {
+    "pkg": "com.gp.slg3q.moc",
+    "appTitle": "",
+    "releaseDate": "2026-08-17",
+    "updatedDate": "2026-08-19"
+  },
+  "huyen-thoai-lang-la": {
+    "pkg": "com.huyenthoailangla.gg",
+    "appTitle": "",
+    "releaseDate": "2024-05-03",
+    "updatedDate": "2026-06-19"
+  },
+  "giang-ho-bat-phai-phan-tranh": {
+    "pkg": "com.vtcmobile.ghbp",
+    "appTitle": "",
+    "releaseDate": "2023-04-13",
+    "updatedDate": "2026-06-22"
+  },
+  "cookierun-banh-quy": {
+    "pkg": "com.vng.cookierun.oven.smash.vn",
+    "appTitle": "",
+    "releaseDate": "2026-04-20",
+    "updatedDate": "2026-09-22"
+  },
+  "loan-the-3q-than-ma-lenh-oeg": {
+    "pkg": "com.and.cjys.vn",
+    "appTitle": "",
+    "releaseDate": "2026-08-04",
+    "updatedDate": "2026-09-16"
+  },
+  "quan-anh-phong-hoa-luc": {
+    "pkg": "vn.vplay.qaphl1.t023a",
+    "appTitle": "",
+    "releaseDate": "2025-09-05",
+    "updatedDate": "2026-06-30"
+  },
+  "ragnarok-huyen-thoai-mmo": {
+    "pkg": "com.thsgame.ror",
+    "appTitle": "",
+    "releaseDate": "2026-07-01",
+    "updatedDate": "2026-08-28"
+  },
+  "bomber-vng": {
+    "pkg": "com.rainbow.bomber.bomb.man.classic.adventure.free.mobile.game",
+    "appTitle": "",
+    "releaseDate": null,
+    "updatedDate": "2025-11-03"
+  },
+  "total-football-vng": {
+    "pkg": "com.vnggames.totalfootball",
+    "appTitle": "",
+    "releaseDate": "2026-04-15",
+    "updatedDate": "2026-09-04"
+  },
+  "magic-chess-go-go": {
+    "pkg": "com.hhgame.mcggvn",
+    "appTitle": "",
+    "releaseDate": "2025-04-25",
+    "updatedDate": "2026-09-04"
+  },
+  "dislyte": {
+    "pkg": "com.farlightgames.xgame.gp.vn",
+    "appTitle": "",
+    "releaseDate": "2024-06-13",
+    "updatedDate": "2026-05-09"
+  },
+  "dau-pha-thuong-khung-2d": {
+    "pkg": "com.tg.dpcq2.vn",
+    "appTitle": "",
+    "releaseDate": "2025-05-21",
+    "updatedDate": "2025-06-04"
+  },
+  "dai-hiep-chay-di": {
+    "pkg": "com.xpgh.vnxxzy",
+    "appTitle": "",
+    "releaseDate": "2023-10-10",
+    "updatedDate": "2026-08-31"
+  },
+  "mini-world-creata": {
+    "pkg": "com.miniworldgame.creata.vn",
+    "appTitle": "",
+    "releaseDate": "2022-12-25",
+    "updatedDate": "2026-07-07"
+  },
+  "tieu-yeu-tam-dao": {
+    "pkg": "com.global.dqvn",
+    "appTitle": "",
+    "releaseDate": "2024-02-22",
+    "updatedDate": "2026-06-16"
+  },
+  "dao-huu-tu-tien": {
+    "pkg": "com.joyplay.daohuuxindungbuoc",
+    "appTitle": "",
+    "releaseDate": "2026-07-20",
+    "updatedDate": "2026-09-04"
+  },
+  "tam-quoc-meo": {
+    "pkg": "com.shg.sg401new",
+    "appTitle": "",
+    "releaseDate": "2024-06-02",
+    "updatedDate": "2025-11-25"
+  },
+  "tam-quoc-huyen-tuong-vng": {
+    "pkg": "vng.games.tamquochuyentuong3q",
+    "appTitle": "",
+    "releaseDate": "2025-07-25",
+    "updatedDate": "2026-08-19"
+  },
+  "tiem-tap-hoa-thoi-gian": {
+    "pkg": "com.phzhd.vn",
+    "appTitle": "",
+    "releaseDate": "2025-06-20",
+    "updatedDate": "2026-09-15"
+  },
+  "dau-than-tuyet-the": {
+    "pkg": "vn.vplhn.game.thanma.a2",
+    "appTitle": "",
+    "releaseDate": "2024-11-05",
+    "updatedDate": "2026-08-12"
+  },
+  "than-ma-arena": {
+    "pkg": "vn.cmn.thanmaarena",
+    "appTitle": "",
+    "releaseDate": "2026-04-09",
+    "updatedDate": "2026-05-16"
+  },
+  "phong-than-ta-dinh-doat": {
+    "pkg": "com.pt.tqm",
+    "appTitle": "",
+    "releaseDate": "2026-03-13",
+    "updatedDate": "2026-04-24"
+  },
+  "thien-ha-ngu-tuyet": {
+    "pkg": "com.thienha.ngutuyet",
+    "appTitle": "",
+    "releaseDate": "2025-08-20",
+    "updatedDate": "2025-08-21"
+  },
+  "kiem-linh-du-ky": {
+    "pkg": "com.opengame.and.kiemlinh",
+    "appTitle": "",
+    "releaseDate": "2026-06-08",
+    "updatedDate": "2026-09-04"
+  },
+  "3q-chess-ky-thu-tam-quoc": {
+    "pkg": "com.shg.sg430new",
+    "appTitle": "",
+    "releaseDate": "2026-02-02",
+    "updatedDate": "2026-06-02"
+  },
+  "ta-la-cao-thu-vo-lam": {
+    "pkg": "com.joyplay.hiepkhach",
+    "appTitle": "",
+    "releaseDate": "2026-04-12",
+    "updatedDate": "2026-06-19"
+  },
+  "tay-du-truyen-ky-cmn": {
+    "pkg": "com.dainaotaydu.mobile",
+    "appTitle": "",
+    "releaseDate": "2025-04-08",
+    "updatedDate": "2025-04-10"
+  },
+  "vuot-tuong-thep": {
+    "pkg": "com.vuottuongthep.vn",
+    "appTitle": "",
+    "releaseDate": "2026-03-11",
+    "updatedDate": "2026-09-12"
+  },
+  "bloodline-dong-mau-anh-hung": {
+    "pkg": "vn.zoneplay.gp01",
+    "appTitle": "",
+    "releaseDate": "2026-05-13",
+    "updatedDate": "2026-09-04"
+  },
+  "anh-kiet-tam-quoc": {
+    "pkg": "vn.cmn.anhkiettamquoc",
+    "appTitle": "",
+    "releaseDate": "2026-05-13",
+    "updatedDate": "2026-05-13"
+  },
+  "dao-mong-anh-hung-2": {
+    "pkg": "com.mechanist.dream2.aos.vn",
+    "appTitle": "",
+    "releaseDate": "2026-05-20",
+    "updatedDate": "2026-07-31"
+  },
+  "3q-trieu-hoan-su": {
+    "pkg": "vn.funzy.trieuhoansu3q",
+    "appTitle": "",
+    "releaseDate": "2024-09-05",
+    "updatedDate": "2025-10-17"
+  },
+  "phi-kiem-tu-tien": {
+    "pkg": "com.pktt.vlg.vn",
+    "appTitle": "",
+    "releaseDate": "2025-12-08",
+    "updatedDate": "2026-07-09"
+  },
+  "kiem-khach-phong-lang": {
+    "pkg": "vn.vgp.kiem.khach.phong.lang",
+    "appTitle": "",
+    "releaseDate": "2025-04-09",
+    "updatedDate": "2026-06-23"
+  },
+  "vo-cuc-tien-do-cmn": {
+    "pkg": "com.windforce.wjxt.yuenan",
+    "appTitle": "",
+    "releaseDate": "2023-03-22",
+    "updatedDate": "2026-08-31"
+  },
+  "buu-boi-truyen-ky": {
+    "pkg": "com.vng.vltkm",
+    "appTitle": "",
+    "releaseDate": "2016-10-15",
+    "updatedDate": "2026-08-27"
+  },
+  "nhip-dieu-than-tuong-oeg": {
+    "pkg": "spranki.kpop.monster.mix.beat",
+    "appTitle": "",
+    "releaseDate": null,
+    "updatedDate": "2026-08-10"
+  },
+  "dao-si-bat-truong-phi": {
+    "pkg": "com.vtcmobile.daosibattruongphi",
+    "appTitle": "",
+    "releaseDate": "2026-05-27",
+    "updatedDate": "2026-09-18"
+  },
+  "ta-lam-tong-su-trong-tien-mon": {
+    "pkg": "com.vnzqzs.and",
+    "appTitle": "",
+    "releaseDate": "2025-11-07",
+    "updatedDate": "2026-08-18"
+  },
+  "bang-bang-dai-chien": {
+    "pkg": "com.lastshelter.gpvi",
+    "appTitle": "",
+    "releaseDate": "2026-03-19",
+    "updatedDate": "2026-08-19"
+  },
+  "stickman-go": {
+    "pkg": "com.gp.hcr.moc",
+    "appTitle": "",
+    "releaseDate": "2025-06-25",
+    "updatedDate": "2026-07-07"
+  },
+  "huyen-anh-vo-lam": {
+    "pkg": "vn.vplay.vohiep.t027a",
+    "appTitle": "",
+    "releaseDate": "2025-06-03",
+    "updatedDate": "2026-09-18"
+  },
+  "hoa-son-kiem-the-vtc": {
+    "pkg": "com.vtcmobile.hoasonkiemthe",
+    "appTitle": "",
+    "releaseDate": "2025-07-04",
+    "updatedDate": "2026-09-14"
+  },
+  "palmon": {
+    "pkg": "com.funfizz.palmon.gp.vn",
+    "appTitle": "",
+    "releaseDate": "2025-09-29",
+    "updatedDate": "2026-09-17"
+  },
+  "anh-hung-bat-diet": {
+    "pkg": "com.gg.yxmys.vn",
+    "appTitle": "",
+    "releaseDate": "2025-11-19",
+    "updatedDate": "2026-07-08"
+  },
+  "chien-hoa-tam-gioi-vtc": {
+    "pkg": "com.vtcmobile.mn19",
+    "appTitle": "",
+    "releaseDate": "2025-11-29",
+    "updatedDate": "2026-09-04"
+  },
+  "kiem-de-origin": {
+    "pkg": "com.fungames.kiemde",
+    "appTitle": "",
+    "releaseDate": "2026-03-03",
+    "updatedDate": "2026-09-06"
+  },
+  "pet-samkok-bao-thu-3q": {
+    "pkg": "com.shg.sg433",
+    "appTitle": "",
+    "releaseDate": "2025-05-01",
+    "updatedDate": "2025-08-04"
+  },
+  "anh-hung-cam-dia": {
+    "pkg": "com.ddup.zombiewaves.zw.vn",
+    "appTitle": "",
+    "releaseDate": "2025-02-25",
+    "updatedDate": "2026-07-29"
+  },
+  "tho-san-sieu-cap": {
+    "pkg": "tho.san.sieu.cap",
+    "appTitle": "",
+    "releaseDate": "2026-02-03",
+    "updatedDate": "2026-08-20"
+  },
+  "kiem-vuc-3d": {
+    "pkg": "com.mmovn.gp.kiemvuc",
+    "appTitle": "",
+    "releaseDate": "2023-11-16",
+    "updatedDate": "2026-05-08"
+  },
+  "atlan-origin-luc-dia-troi-day": {
+    "pkg": "vn.dev.atlan.origin.luc.dia.troi.day",
+    "appTitle": "",
+    "releaseDate": "2025-09-01",
+    "updatedDate": "2026-06-22"
+  },
+  "hoi-uc-kiem-the": {
+    "pkg": "vn.zoneplay.g65vn",
+    "appTitle": "",
+    "releaseDate": "2026-02-01",
+    "updatedDate": "2026-09-12"
+  },
+  "chu-thuat-dai-chien": {
+    "pkg": "com.ewhjgfkz.ewjdlkz",
+    "appTitle": "",
+    "releaseDate": null,
+    "updatedDate": "2026-04-30"
+  },
+  "thieu-nien-ca-hanh-khoi-dong": {
+    "pkg": "com.sngxandvn.gp",
+    "appTitle": "",
+    "releaseDate": "2025-12-21",
+    "updatedDate": "2026-07-17"
+  },
+  "skyria-dao-ky-bi": {
+    "pkg": "com.skyvn.gp",
+    "appTitle": "",
+    "releaseDate": "2026-06-22",
+    "updatedDate": "2026-08-19"
+  },
+  "ts3-chien-than-ky": {
+    "pkg": "com.a.one.tsvn",
+    "appTitle": "",
+    "releaseDate": null,
+    "updatedDate": "2026-08-31"
+  },
+  "loan-chien-3q": {
+    "pkg": "com.and.cjys.vn",
+    "appTitle": "",
+    "releaseDate": "2026-08-04",
+    "updatedDate": "2026-09-16"
+  },
+  "tam-quoc-x": {
+    "pkg": "vn.funtap.tamquocx",
+    "appTitle": "",
+    "releaseDate": "2023-10-28",
+    "updatedDate": "2026-07-13"
+  },
+  "tam-gioi-anh-hung": {
+    "pkg": "vn.tamgioi.anhhung",
+    "appTitle": "",
+    "releaseDate": "2019-03-20",
+    "updatedDate": "2026-06-22"
+  },
+  "ludus-quyet-dau": {
+    "pkg": "com.topapp.viludus",
+    "appTitle": "",
+    "releaseDate": "2026-03-06",
+    "updatedDate": "2026-09-05"
+  },
+  "vo-hiep-origin": {
+    "pkg": "com.fungames.vohiep",
+    "appTitle": "",
+    "releaseDate": "2026-04-16",
+    "updatedDate": "2026-09-06"
+  },
+  "tan-chan-long-oeg": {
+    "pkg": "com.sxdvn.gp",
+    "appTitle": "",
+    "releaseDate": "2025-07-11",
+    "updatedDate": "2025-10-31"
+  },
+  "than-thu-origin": {
+    "pkg": "com.fungames.thanthu",
+    "appTitle": "",
+    "releaseDate": "2026-05-15",
+    "updatedDate": "2026-06-13"
+  },
+  "hai-tac-loan-dau": {
+    "pkg": "com.bd.glpirate",
+    "appTitle": "",
+    "releaseDate": "2025-12-07",
+    "updatedDate": "2026-09-22"
+  },
+  "na-tra-nao-hai": {
+    "pkg": "com.FireSword.FengShen",
+    "appTitle": "",
+    "releaseDate": "2021-12-01",
+    "updatedDate": "2026-07-28"
+  },
+  "chien-tuyen-huong-duong": {
+    "pkg": "com.sunflowergp.vn",
+    "appTitle": "",
+    "releaseDate": "2025-10-16",
+    "updatedDate": "2026-09-04"
+  },
+  "kiem-vu-son-ha": {
+    "pkg": "com.broga.kiemvusonha",
+    "appTitle": "",
+    "releaseDate": "2026-07-01",
+    "updatedDate": "2026-08-14"
+  },
+  "tieu-tuyet-linh-chu": {
+    "pkg": "com.vnlord.happy",
+    "appTitle": "",
+    "releaseDate": "2025-04-03",
+    "updatedDate": "2026-08-13"
+  },
+  "x-wukong": {
+    "pkg": "com.picklight.wukong",
+    "appTitle": "",
+    "releaseDate": null,
+    "updatedDate": "2026-05-13"
+  },
+  "yeu-thu-van-dao": {
+    "pkg": "com.vnshanhai.gp",
+    "appTitle": "",
+    "releaseDate": "2025-01-01",
+    "updatedDate": "2026-08-13"
+  },
+  "huyen-tuong-phong-than": {
+    "pkg": "com.pt.tqm",
+    "appTitle": "",
+    "releaseDate": "2026-03-13",
+    "updatedDate": "2026-04-24"
+  },
+  "van-thang-nam-de": {
+    "pkg": "vn.com.vanthangnamde",
+    "appTitle": "",
+    "releaseDate": "2026-05-21",
+    "updatedDate": "2026-07-03"
+  },
+  "meo-may-sieu-quay": {
+    "pkg": "com.sinyee.babybus.cat",
+    "appTitle": "",
+    "releaseDate": "2021-10-27",
+    "updatedDate": "2026-07-17"
+  },
+  "hoc-vien-ninja-g4m": {
+    "pkg": "com.g4m.hocvienninja",
+    "appTitle": "",
+    "releaseDate": "2024-06-03",
+    "updatedDate": "2026-08-21"
+  },
+  "ngao-kiem-vo-song-mobile": {
+    "pkg": "com.fungames.kiemde",
+    "appTitle": "",
+    "releaseDate": "2026-03-03",
+    "updatedDate": "2026-09-06"
+  },
+  "truyen-thuyet-haki": {
+    "pkg": "com.epg.truyenthuyethaki",
+    "appTitle": "",
+    "releaseDate": "2026-03-01",
+    "updatedDate": "2026-07-10"
+  },
+  "chi-huy-toi-thuong": {
+    "pkg": "com.game.warvow",
+    "appTitle": "",
+    "releaseDate": "2026-06-22",
+    "updatedDate": "2026-08-13"
+  },
+  "de-che-bong-da": {
+    "pkg": "com.fifa.football.bongda.game.manager.vn",
+    "appTitle": "",
+    "releaseDate": "2026-03-16",
+    "updatedDate": "2026-05-11"
+  },
+  "lordnine-cuu-vuong-tranh-ba": {
+    "pkg": "com.stovevn.l9asia.google",
+    "appTitle": "",
+    "releaseDate": "2026-05-10",
+    "updatedDate": "2026-08-21"
+  },
+  "vlcm-origin": {
+    "pkg": "com.tepaylink.vlcm",
+    "appTitle": "",
+    "releaseDate": "2026-03-17",
+    "updatedDate": "2026-09-11"
+  },
+  "sieu-tien-hoa": {
+    "pkg": "com.zjghrja.ohjdhz",
+    "appTitle": "",
+    "releaseDate": null,
+    "updatedDate": "2026-07-14"
+  },
+  "vuon-hoa-hanh-phuc": {
+    "pkg": "com.gzone.mhg.vn.gp",
+    "appTitle": "",
+    "releaseDate": "2026-05-19",
+    "updatedDate": "2026-09-21"
+  },
+  "forsaken-world-2": {
+    "pkg": "com.dlw.vn.google",
+    "appTitle": "",
+    "releaseDate": "2026-02-10",
+    "updatedDate": "2026-09-01"
+  },
+  "ts-origin": {
+    "pkg": "com.vtcmobile.gz06",
+    "appTitle": "",
+    "releaseDate": "2026-05-24",
+    "updatedDate": "2026-09-11"
+  },
+  "tinh-kiem-truyen-ky-mobile": {
+    "pkg": "com.titanstudio.tkcm",
+    "appTitle": "",
+    "releaseDate": "2026-05-05",
+    "updatedDate": "2026-09-12"
+  },
+  "lac-than-chien-ca": {
+    "pkg": "vn.com.lacthanchienca",
+    "appTitle": "",
+    "releaseDate": "2026-04-07",
+    "updatedDate": "2026-06-15"
+  },
+  "diet-quy-origin": {
+    "pkg": "com.demonhunter.hnx",
+    "appTitle": "",
+    "releaseDate": "2026-08-01",
+    "updatedDate": "2026-09-08"
+  },
+  "quy-tuong-3q-thuc-tinh-oeg": {
+    "pkg": "com.honor.gp.vn",
+    "appTitle": "",
+    "releaseDate": "2025-07-27",
+    "updatedDate": "2026-08-11"
+  },
+  "phong-van-truyen-ky-2": {
+    "pkg": "vn.cmn.bokinhvan",
+    "appTitle": "",
+    "releaseDate": "2023-10-24",
+    "updatedDate": "2026-08-31"
+  },
+  "quai-thu-phong-thu": {
+    "pkg": "games.playwind.palgo.vn",
+    "appTitle": "",
+    "releaseDate": "2026-02-12",
+    "updatedDate": "2026-09-10"
+  },
+  "ky-nguyen-bang-ha-3q": {
+    "pkg": "com.starlight.sg.oversea.vn",
+    "appTitle": "",
+    "releaseDate": "2025-08-13",
+    "updatedDate": "2026-09-17"
+  },
+  "ven-nguyen-ky-uc-mobile": {
+    "pkg": "com.vennguyenkyuc.jxmobi",
+    "appTitle": "",
+    "releaseDate": "2026-01-15",
+    "updatedDate": "2026-09-04"
+  },
+  "nam-dai-chien-tpl": {
+    "pkg": "com.mpr.vn",
+    "appTitle": "",
+    "releaseDate": "2023-12-04",
+    "updatedDate": "2026-07-27"
+  },
+  "thu-thanh-dai-chien": {
+    "pkg": "my.arena.vietnam",
+    "appTitle": "",
+    "releaseDate": "2026-04-03",
+    "updatedDate": "2026-08-28"
+  },
+  "vu-tru-than-thoai": {
+    "pkg": "com.appakia.mythicuniverse",
+    "appTitle": "",
+    "releaseDate": null,
+    "updatedDate": "2026-08-17"
+  },
+  "mong-huyen-giang-ho": {
+    "pkg": "mobi.mgh.mong.daihiep",
+    "appTitle": "",
+    "releaseDate": "2019-09-22",
+    "updatedDate": "2025-10-30"
+  },
+  "me-ta-tam-quoc": {
+    "pkg": "vn.vplay.tamquocchi.t025a",
+    "appTitle": "",
+    "releaseDate": "2025-06-20",
+    "updatedDate": "2026-09-03"
+  },
+  "hoan-my-tam-quoc": {
+    "pkg": "vn.dev.tam.quoc",
+    "appTitle": "",
+    "releaseDate": "2026-03-10",
+    "updatedDate": "2026-09-14"
+  },
+  "ky-nguyen-icarus": {
+    "pkg": "com.icpgroup.icarusblue",
+    "appTitle": "",
+    "releaseDate": null,
+    "updatedDate": "2026-07-23"
+  },
+  "sieu-hai-tac": {
+    "pkg": "com.truyenthuyet.haitacgame",
+    "appTitle": "",
+    "releaseDate": "2026-03-23",
+    "updatedDate": "2026-07-02"
+  },
+  "chien-loan-tam-quoc": {
+    "pkg": "com.gamexdd.yuenan1",
+    "appTitle": "",
+    "releaseDate": "2025-07-29",
+    "updatedDate": "2025-07-29"
+  },
+  "kiem-chi-giang-ho-khai-thien": {
+    "pkg": "com.xyvn.az",
+    "appTitle": "",
+    "releaseDate": "2026-05-12",
+    "updatedDate": "2026-08-25"
+  },
+  "co-giap-vo-han": {
+    "pkg": "com.and.monstergo.vn",
+    "appTitle": "",
+    "releaseDate": "2026-04-28",
+    "updatedDate": "2026-09-10"
+  },
+  "vuong-gia-chien-quoc": {
+    "pkg": "vn.adnx.chinhdo",
+    "appTitle": "",
+    "releaseDate": "2026-03-29",
+    "updatedDate": "2026-07-03"
+  },
+  "mukbang-tam-quoc": {
+    "pkg": "vn.vplay.huyentuong.t021a",
+    "appTitle": "",
+    "releaseDate": "2024-11-18",
+    "updatedDate": "2026-08-27"
+  },
+  "quy-mon-quan": {
+    "pkg": "vn.vplay.quymonquan.r015a",
+    "appTitle": "",
+    "releaseDate": "2026-01-30",
+    "updatedDate": "2026-08-28"
+  },
+  "ballistic-hero": {
+    "pkg": "com.vnggames.ballisticherovn",
+    "appTitle": "",
+    "releaseDate": "2026-04-03",
+    "updatedDate": "2026-05-15"
+  },
+  "tho-san-quy": {
+    "pkg": "com.dlw.vn.google",
+    "appTitle": "",
+    "releaseDate": "2026-02-10",
+    "updatedDate": "2026-09-01"
+  },
+  "tien-nghich-mobile": {
+    "pkg": "com.joyplay.tiennghich",
+    "appTitle": "",
+    "releaseDate": "2026-06-12",
+    "updatedDate": "2026-08-26"
+  },
+  "vo-lam-hac-dao": {
+    "pkg": "com.shg.sg432",
+    "appTitle": "",
+    "releaseDate": "2026-06-30",
+    "updatedDate": "2026-07-29"
+  },
+  "hanh-trinh-afk": {
+    "pkg": "com.farlightgames.igame.gp.vn",
+    "appTitle": "",
+    "releaseDate": "2024-07-24",
+    "updatedDate": "2026-08-27"
+  },
+  "luc-tung-tam-quoc": {
+    "pkg": "vn.luctungtamquoc.sauphe.a",
+    "appTitle": "",
+    "releaseDate": "2024-09-13",
+    "updatedDate": "2026-09-03"
+  },
+  "ngoa-long-vng": {
+    "pkg": "vn.zalo.ngoalongmb",
+    "appTitle": "",
+    "releaseDate": "2015-10-23",
+    "updatedDate": "2026-08-05"
+  },
+  "chien-than-mini": {
+    "pkg": "com.vnxxzs.gp",
+    "appTitle": "",
+    "releaseDate": "2025-11-24",
+    "updatedDate": "2026-01-06"
+  },
+  "vo-dich-tu-tien-gioi-vtc": {
+    "pkg": "com.vtc.tlvd",
+    "appTitle": "",
+    "releaseDate": "2024-04-24",
+    "updatedDate": "2026-06-23"
+  },
+  "anh-hung-pixel": {
+    "pkg": "vi.weplay.game.gp.hero",
+    "appTitle": "",
+    "releaseDate": "2025-01-24",
+    "updatedDate": "2026-07-15"
+  },
+  "chien-gioi-4d": {
+    "pkg": "vn.vplay.chiengioi4d.t002a",
+    "appTitle": "",
+    "releaseDate": "2022-05-04",
+    "updatedDate": "2026-07-15"
+  },
+  "tam-quoc-36-ke": {
+    "pkg": "com.vtc.tt15",
+    "appTitle": "",
+    "releaseDate": "2026-03-23",
+    "updatedDate": "2026-09-15"
+  },
+  "goi-ta-dai-chuong-quy": {
+    "pkg": "com.global.dcq.vn",
+    "appTitle": "",
+    "releaseDate": "2022-07-07",
+    "updatedDate": "2026-05-26"
+  },
+  "tay-du-phuc-ma": {
+    "pkg": "com.dainaotaydu.mobile",
+    "appTitle": "",
+    "releaseDate": "2025-04-08",
+    "updatedDate": "2025-04-10"
+  },
+  "mieu-de-tam-quoc": {
+    "pkg": "com.tamquoc.meo3q.vn",
+    "appTitle": "",
+    "releaseDate": "2025-11-13",
+    "updatedDate": "2026-07-22"
+  },
+  "hao-khi-du-hiep": {
+    "pkg": "vn.migamejsc.hkvl",
+    "appTitle": "",
+    "releaseDate": "2026-06-12",
+    "updatedDate": "2026-08-19"
+  },
+  "giang-ho-ngu-tuyet-mobile": {
+    "pkg": "com.mobigame.cuongma2",
+    "appTitle": "",
+    "releaseDate": "2021-07-07",
+    "updatedDate": "2026-08-06"
+  },
+  "huyen-thoai-phuc-yeu": {
+    "pkg": "com.vietnamhtpy.game",
+    "appTitle": "",
+    "releaseDate": "2026-01-12",
+    "updatedDate": "2026-07-03"
+  },
+  "the-gioi-hoa-vien-cua-toi": {
+    "pkg": "com.myflower.gp",
+    "appTitle": "",
+    "releaseDate": "2026-03-01",
+    "updatedDate": "2026-07-09"
+  },
+  "phi-kiem-tru-thien-ma": {
+    "pkg": "com.atgame.fm.gp",
+    "appTitle": "",
+    "releaseDate": "2026-07-12",
+    "updatedDate": "2026-09-20"
+  },
+  "cuc-toc-tam-quoc": {
+    "pkg": "com.global.byvn.google",
+    "appTitle": "",
+    "releaseDate": "2025-02-24",
+    "updatedDate": "2026-04-07"
+  },
+  "khe-uoc-rong": {
+    "pkg": "vn.dev.anh.hung.luc.dia",
+    "appTitle": "",
+    "releaseDate": "2026-07-27",
+    "updatedDate": "2026-09-15"
+  },
+  "huyen-thoai-huong-cang": {
+    "pkg": "com.velagame.hthc.gp",
+    "appTitle": "",
+    "releaseDate": "2026-07-27",
+    "updatedDate": "2026-08-12"
+  },
+  "tieu-tien-ta-vo-dich": {
+    "pkg": "com.slime.gp.vn",
+    "appTitle": "",
+    "releaseDate": "2026-07-02",
+    "updatedDate": "2026-07-30"
+  },
+  "nhat-luan-kiem": {
+    "pkg": "vn.gteam.nhatluankiem",
+    "appTitle": "",
+    "releaseDate": "2026-07-09",
+    "updatedDate": "2026-09-21"
+  },
+  "chu-cong-xung-xung-xung": {
+    "pkg": "com.game.zgcccvn.an",
+    "appTitle": "",
+    "releaseDate": "2023-09-04",
+    "updatedDate": "2026-07-23"
+  },
+  "phong-hau-tam-quoc": {
+    "pkg": "com.shg.sg443",
+    "appTitle": "",
+    "releaseDate": "2026-03-17",
+    "updatedDate": "2026-06-16"
+  },
+  "doi-hinh-toi-thuong": {
+    "pkg": "com.galasports.championsfc.vn",
+    "appTitle": "",
+    "releaseDate": "2021-08-12",
+    "updatedDate": "2026-08-18"
+  },
+  "tay-du-tam-bao": {
+    "pkg": "com.shg.sg441",
+    "appTitle": "",
+    "releaseDate": "2025-10-27",
+    "updatedDate": "2026-04-08"
+  },
+  "kiem-hiep-tinh": {
+    "pkg": "com.mbox.khtinh1mobile",
+    "appTitle": "",
+    "releaseDate": "2026-01-15",
+    "updatedDate": "2026-08-30"
+  },
+  "thuc-than-ky": {
+    "pkg": "vn.dev.thuc.than.ky",
+    "appTitle": "",
+    "releaseDate": "2025-05-13",
+    "updatedDate": "2026-06-23"
+  },
+  "thanh-long-huyen-thoai": {
+    "pkg": "vn.slgplay.thanhlong",
+    "appTitle": "",
+    "releaseDate": "2025-10-09",
+    "updatedDate": "2026-09-21"
+  },
+  "van-dinh-tam-quoc": {
+    "pkg": "com.shg.sg445",
+    "appTitle": "",
+    "releaseDate": "2026-05-10",
+    "updatedDate": "2026-06-04"
+  },
+  "thai-cuc-vo-dao-x-arena": {
+    "pkg": "com.xarena06.app",
+    "appTitle": "",
+    "releaseDate": null,
+    "updatedDate": "2026-02-27"
+  },
+  "giang-ho-ky-ngo": {
+    "pkg": "vn.vplay.batluongnhan.t030a",
+    "appTitle": "",
+    "releaseDate": "2026-05-05",
+    "updatedDate": "2026-08-28"
+  },
+  "bo-lac-3q": {
+    "pkg": "vn.cmn.bolac3q",
+    "appTitle": "",
+    "releaseDate": "2026-06-18",
+    "updatedDate": "2026-07-09"
+  },
+  "3q-goi-tuong-di": {
+    "pkg": "vn.game3q.goituongdi.tamquoc",
+    "appTitle": "",
+    "releaseDate": "2026-07-12",
+    "updatedDate": "2026-09-20"
+  },
+  "samkok-tam-quoc": {
+    "pkg": "vn.vplay.thiethan3q.t028a",
+    "appTitle": "",
+    "releaseDate": "2026-02-26",
+    "updatedDate": "2026-07-01"
+  },
+  "cau-ca-van-can": {
+    "pkg": "com.vn.monsterfishing.lingyou",
+    "appTitle": "",
+    "releaseDate": null,
+    "updatedDate": "2026-08-28"
+  },
+  "thu-cung-bao-dan": {
+    "pkg": "com.towerpet.vn.and",
+    "appTitle": "",
+    "releaseDate": "2026-06-05",
+    "updatedDate": "2026-09-11"
+  },
+  "thoi-khong-chi-mong": {
+    "pkg": "vn.vplay.chuongmon.t022a",
+    "appTitle": "",
+    "releaseDate": "2025-04-17",
+    "updatedDate": "2026-08-26"
+  },
+  "haunted-room": {
+    "pkg": "com.ygjszvn.google",
+    "appTitle": "",
+    "releaseDate": "2026-04-11",
+    "updatedDate": "2026-09-07"
+  },
+  "gangstar-mirage-city-online": {
+    "pkg": "com.al.mirage.gangster.crime.city.game",
+    "appTitle": "",
+    "releaseDate": null,
+    "updatedDate": "2026-08-28"
+  },
+  "fc-mobile-vn": {
+    "pkg": "com.garena.game.fcmobilevn",
+    "appTitle": "",
+    "releaseDate": "2025-10-12",
+    "updatedDate": "2026-09-04"
+  },
+  "mech-arena": {
+    "pkg": "mecha.robot.mech.arena.fighting.games",
+    "appTitle": "",
+    "releaseDate": "2022-05-19",
+    "updatedDate": "2025-10-24"
+  },
+  "pixel-defenders-merge-td-game": {
+    "pkg": "com.ondi.fortias.defense",
+    "appTitle": "",
+    "releaseDate": "2026-08-13",
+    "updatedDate": "2026-09-09"
+  },
+  "call-of-dragons": {
+    "pkg": "com.farlightgames.samo.gp.vn",
+    "appTitle": "",
+    "releaseDate": "2023-08-11",
+    "updatedDate": "2026-09-10"
+  },
+  "long-tuong-tam-quoc": {
+    "pkg": "ngoa.long.minh.chu",
+    "appTitle": "",
+    "releaseDate": "2026-09-04",
+    "updatedDate": "2026-09-18"
+  },
+  "dragon-city": {
+    "pkg": "com.moonlight.dragoncity",
+    "appTitle": "",
+    "releaseDate": "2026-02-13",
+    "updatedDate": "2026-09-18"
+  },
+  "tam-quoc-chi-vuong-chien": {
+    "pkg": "com.esgame.threekingswar.vn",
+    "appTitle": "",
+    "releaseDate": null,
+    "updatedDate": "2026-07-28"
+  },
+  "3q-dao-dao-dao": {
+    "pkg": "com.joyplay.tamquoc",
+    "appTitle": "",
+    "releaseDate": "2026-09-15",
+    "updatedDate": "2026-09-21"
+  },
+  "quan-nhi-ca": {
+    "pkg": "com.zalogame.quannhica",
+    "appTitle": "",
+    "releaseDate": "2026-08-04",
+    "updatedDate": "2026-08-04"
+  },
+  "aniimo": {
+    "pkg": "com.vewointeractive.nexomon.extinction",
+    "appTitle": "",
+    "releaseDate": null,
+    "updatedDate": "2026-06-11"
+  },
+  "where-winds-meet-mobile": {
+    "pkg": "com.xerxz.wherewindsmeetmap",
+    "appTitle": "",
+    "releaseDate": null,
+    "updatedDate": "2026-08-12"
+  },
+  "girls-frontline-2-luu-day": {
+    "pkg": "com.thsgame.gf2vn",
+    "appTitle": "",
+    "releaseDate": "2026-08-09",
+    "updatedDate": "2026-08-10"
+  },
+  "tuyet-dinh-chien-gioi-vplay": {
+    "pkg": "vn.vplay.kiemvutienthanh.t032a",
+    "appTitle": "",
+    "releaseDate": null,
+    "updatedDate": "2026-09-15"
+  },
+  "nam-quoc-son-ha": {
+    "pkg": "co.imba.namquocsonha",
+    "appTitle": "",
+    "releaseDate": "2026-08-31",
+    "updatedDate": "2026-09-22"
+  },
+  "hac-tay-du-chuong-cam": {
+    "pkg": "vn.ftg.hactaydu",
+    "appTitle": "",
+    "releaseDate": "2026-08-09",
+    "updatedDate": "2026-08-28"
+  },
+  "outerplane": {
+    "pkg": "com.ea.game.starwarscapital_row",
+    "appTitle": "",
+    "releaseDate": null,
+    "updatedDate": "2026-09-15"
+  },
+  "honkai-star-rail": {
+    "pkg": "com.HoYoverse.hkrpgvn",
+    "appTitle": "",
+    "releaseDate": "2023-09-18",
+    "updatedDate": "2026-08-13"
+  },
+  "anime-vanguards": {
+    "pkg": "com.DOT.VangPro",
+    "appTitle": "",
+    "releaseDate": null,
+    "updatedDate": "2026-09-06"
+  },
+  "thieu-hiep-xin-dung-buoc": {
+    "pkg": "com.vnwmjh.and",
+    "appTitle": "",
+    "releaseDate": "2025-04-11",
+    "updatedDate": "2026-09-03"
+  },
+  "tan-3q-max": {
+    "pkg": "vn.funtap.tan3qmax",
+    "appTitle": "",
+    "releaseDate": "2026-03-19",
+    "updatedDate": "2026-09-18"
+  },
+  "king-legacy": {
+    "pkg": "com.cateia.kingslegacy2.android",
+    "appTitle": "",
+    "releaseDate": null,
+    "updatedDate": "2026-07-27"
+  },
+  "play-together-vng": {
+    "pkg": "com.vng.playtogether",
+    "appTitle": "",
+    "releaseDate": "2022-06-29",
+    "updatedDate": "2026-08-29"
+  },
+  "tien-len-alita": {
+    "pkg": "com.shg.sg423",
+    "appTitle": "",
+    "releaseDate": "2024-11-25",
+    "updatedDate": "2026-06-03"
+  },
+  "di-gioi-sinh-ton-oeg": {
+    "pkg": "com.digioisinhton.gp.vn",
+    "appTitle": "",
+    "releaseDate": "2026-09-17",
+    "updatedDate": "2026-09-17"
+  },
+  "giac-ngo-thuat-chu": {
+    "pkg": "com.ewhjgfkz.ewjdlkz",
+    "appTitle": "",
+    "releaseDate": null,
+    "updatedDate": "2026-04-30"
+  },
+  "roblox-blox-fruits": {
+    "pkg": "com.roblox.client.vnggames",
+    "appTitle": "",
+    "releaseDate": "2024-08-11",
+    "updatedDate": "2026-09-07"
+  },
+  "blade-ball": {
+    "pkg": "com.TivanGameStudio.Bladeball2",
+    "appTitle": "",
+    "releaseDate": null,
+    "updatedDate": "2025-12-10"
+  },
+  "x-samkok-sieu-nang-tam-quoc": {
+    "pkg": "com.shg.sg433",
+    "appTitle": "",
+    "releaseDate": "2025-05-01",
+    "updatedDate": "2025-08-04"
+  },
+  "vo-danh-giang-ho": {
+    "pkg": "com.joyplay.vodanhgiangho",
+    "appTitle": "",
+    "releaseDate": "2026-03-13",
+    "updatedDate": "2026-06-18"
+  },
+  "dragon-village-m": {
+    "pkg": "com.perplelab.dragonvillagem.kr",
+    "appTitle": "",
+    "releaseDate": "2018-01-24",
+    "updatedDate": "2026-07-31"
+  },
+  "hoi-tho-hai-tac": {
+    "pkg": "com.sora.hoithohaitac",
+    "appTitle": "",
+    "releaseDate": null,
+    "updatedDate": "2026-06-13"
+  },
+  "dai-chien-tam-quoc": {
+    "pkg": "com.daichien.mobile",
+    "appTitle": "",
+    "releaseDate": "2021-04-08",
+    "updatedDate": "2026-06-05"
+  },
+  "tan-omg3q-vng": {
+    "pkg": "com.vng.tanomg3q",
+    "appTitle": "",
+    "releaseDate": "2021-04-25",
+    "updatedDate": "2026-03-06"
+  },
+  "dau-la-the-gioi-san-hon": {
+    "pkg": "com.global.vn.slmmo",
+    "appTitle": "",
+    "releaseDate": "2026-05-22",
+    "updatedDate": "2026-06-11"
+  },
+  "titan-awakening": {
+    "pkg": "com.ANU.TitanSouls",
+    "appTitle": "",
+    "releaseDate": "2025-03-14",
+    "updatedDate": "2026-09-08"
+  },
+  "samkok-kingdom-crush": {
+    "pkg": "co.imba.threekingdoms.towerdefense",
+    "appTitle": "",
+    "releaseDate": "2025-08-28",
+    "updatedDate": "2026-09-21"
+  },
+  "dragon-raja-thuc-tinh": {
+    "pkg": "com.vnlz.gp",
+    "appTitle": "",
+    "releaseDate": "2026-06-07",
+    "updatedDate": "2026-06-08"
+  },
+  "top-football-club": {
+    "pkg": "com.gg.lyqj.vn.moc",
+    "appTitle": "",
+    "releaseDate": "2026-06-10",
+    "updatedDate": "2026-08-13"
+  },
+  "pokemon-champions": {
+    "pkg": "gg.op.pokemonchampionsapp",
+    "appTitle": "",
+    "releaseDate": "2026-06-28",
+    "updatedDate": "2026-08-26"
+  },
+  "infinity-kingdom": {
+    "pkg": "vn.funtap.infinitykingdom",
+    "appTitle": "",
+    "releaseDate": "2026-05-18",
+    "updatedDate": "2026-07-14"
+  },
+  "souls": {
+    "pkg": "com.teamoceangames.RevenantsSoul",
+    "appTitle": "",
+    "releaseDate": "2025-04-26",
+    "updatedDate": "2026-08-26"
+  },
+  "nhat-niem-son-hai": {
+    "pkg": "com.ynsh.vn.google",
+    "appTitle": "",
+    "releaseDate": "2026-04-26",
+    "updatedDate": "2026-04-27"
+  },
+  "chien-binh-devias": {
+    "pkg": "vn.adnx.cbdevias",
+    "appTitle": "",
+    "releaseDate": "2025-10-31",
+    "updatedDate": "2026-07-29"
+  },
+  "tan-kiem-hiep-tinh-1": {
+    "pkg": "com.mbox.khtinh1mobile",
+    "appTitle": "",
+    "releaseDate": "2026-01-15",
+    "updatedDate": "2026-08-30"
+  },
+  "neverness-to-everness": {
+    "pkg": "com.HoYoverse.NapVn",
+    "appTitle": "",
+    "releaseDate": "2024-06-19",
+    "updatedDate": "2026-08-26"
+  },
+  "arcane-hunter": {
+    "pkg": "com.itcgamestudio.arcane.hunter.soul.survivor.monster.action.shooter.rpg",
+    "appTitle": "",
+    "releaseDate": "2026-01-24",
+    "updatedDate": "2026-09-07"
+  },
+  "legends-reborn": {
+    "pkg": "com.Knight.MagnumQuest.VN",
+    "appTitle": "",
+    "releaseDate": "2026-03-18",
+    "updatedDate": "2026-08-20"
+  },
+  "mongil-star-dive": {
+    "pkg": "com.haegin.lasthunterk",
+    "appTitle": "",
+    "releaseDate": null,
+    "updatedDate": "2026-07-03"
+  },
+  "wuthering-waves-cyberpunk": {
+    "pkg": "com.hippopenny.wuther",
+    "appTitle": "",
+    "releaseDate": null,
+    "updatedDate": "2025-07-03"
+  },
+  "dau-truong-huyen-thoai": {
+    "pkg": "com.riotgames.legendsofruneterravn",
+    "appTitle": "",
+    "releaseDate": "2020-11-24",
+    "updatedDate": "2026-09-11"
+  },
+  "neo-artifacts": {
+    "pkg": "com.pockettrend.neomonsters",
+    "appTitle": "",
+    "releaseDate": null,
+    "updatedDate": "2026-08-25"
+  },
+  "genesis-war": {
+    "pkg": "com.joycity.gnss",
+    "appTitle": "",
+    "releaseDate": null,
+    "updatedDate": "2025-12-19"
+  },
+  "lost-sword": {
+    "pkg": "org.maxbytes.lfs",
+    "appTitle": "",
+    "releaseDate": null,
+    "updatedDate": "2025-12-09"
+  },
+  "tam-quoc-dong-khoi": {
+    "pkg": "com.zalogame.dongkhoi3q",
+    "appTitle": "",
+    "releaseDate": "2026-01-11",
+    "updatedDate": "2026-08-06"
+  },
+  "minh-chu-vo-lam": {
+    "pkg": "vn.vplay.llkd.t026a",
+    "appTitle": "",
+    "releaseDate": "2025-12-31",
+    "updatedDate": "2026-06-29"
+  },
+  "seven-deadly-sins-origin": {
+    "pkg": "com.ea.game.starwarscapital_row",
+    "appTitle": "",
+    "releaseDate": null,
+    "updatedDate": "2026-09-15"
+  },
+  "bleach-soul-resonance": {
+    "pkg": "com.blade.vn",
+    "appTitle": "",
+    "releaseDate": "2026-01-27",
+    "updatedDate": "2026-09-07"
+  },
+  "than-ma-pk": {
+    "pkg": "vn.vplhn.game.thanma.a2",
+    "appTitle": "",
+    "releaseDate": "2024-11-05",
+    "updatedDate": "2026-08-12"
+  },
+  "light-and-night": {
+    "pkg": "vng.games.lightandnight",
+    "appTitle": "",
+    "releaseDate": "2026-06-10",
+    "updatedDate": "2026-06-12"
+  },
+  "phu-sinh-mong": {
+    "pkg": "com.thsgame.nguyetmong",
+    "appTitle": "",
+    "releaseDate": "2025-09-23",
+    "updatedDate": "2026-09-11"
+  },
+  "tran-thi-hang-quy": {
+    "pkg": "com.dlw.vn.google",
+    "appTitle": "",
+    "releaseDate": "2026-02-10",
+    "updatedDate": "2026-09-01"
+  },
+  "tan-binh-thuc-tinh": {
+    "pkg": "com.yhzlq.cthvlanghuynb",
+    "appTitle": "",
+    "releaseDate": "2025-06-15",
+    "updatedDate": "2026-09-17"
+  },
+  "lang-tieu-chi": {
+    "pkg": "com.psvmd.ahhmnlngtiuch",
+    "appTitle": "",
+    "releaseDate": "2025-09-27",
+    "updatedDate": "2026-08-03"
+  },
+  "dicero": {
+    "pkg": "com.percent.royaldice",
+    "appTitle": "",
+    "releaseDate": "2019-08-29",
+    "updatedDate": "2026-02-11"
+  },
+  "soul-land-time-reversed": {
+    "pkg": "com.gg.dlnzsk.vn",
+    "appTitle": "",
+    "releaseDate": "2025-10-13",
+    "updatedDate": "2026-08-12"
+  },
+  "lang-rong-3": {
+    "pkg": "com.highbrow.games.dv",
+    "appTitle": "",
+    "releaseDate": "2023-06-15",
+    "updatedDate": "2026-04-25"
+  },
+  "pew-pew-slime-idle-rpg": {
+    "pkg": "com.loadcomplete.slimeidle",
+    "appTitle": "",
+    "releaseDate": "2022-06-17",
+    "updatedDate": "2026-08-31"
+  },
+  "afk-arena": {
+    "pkg": "com.hgame.gp.vn",
+    "appTitle": "",
+    "releaseDate": "2022-11-06",
+    "updatedDate": "2026-09-08"
+  },
+  "nhat-kiem-phuc-ma": {
+    "pkg": "com.nkpm.vnaz",
+    "appTitle": "",
+    "releaseDate": "2025-03-23",
+    "updatedDate": "2026-09-08"
+  },
+  "dragon-traveler-vn": {
+    "pkg": "com.gametree.lhlr.vi.gp",
+    "appTitle": "",
+    "releaseDate": "2025-12-30",
+    "updatedDate": "2026-08-18"
+  },
+  "tay-du-mobile-tam-gioi-chien": {
+    "pkg": "com.dainaotaydu.mobile",
+    "appTitle": "",
+    "releaseDate": "2025-04-08",
+    "updatedDate": "2025-04-10"
+  },
+  "fairy-tamer": {
+    "pkg": "com.frtam.hf",
+    "appTitle": "",
+    "releaseDate": null,
+    "updatedDate": "2026-03-11"
+  },
+  "soul-strike": {
+    "pkg": "com.com2usholdings.soulstrike.android.google.global.normal.vn",
+    "appTitle": "",
+    "releaseDate": "2026-08-24",
+    "updatedDate": "2026-09-21"
+  },
+  "fortias-saga": {
+    "pkg": "com.ondi.fortias.saga",
+    "appTitle": "",
+    "releaseDate": "2024-04-10",
+    "updatedDate": "2026-09-07"
+  },
+  "anime-fighting-simulator-endless": {
+    "pkg": "com.roomstudios.animethemultiversewar",
+    "appTitle": "",
+    "releaseDate": null,
+    "updatedDate": "2025-08-17"
+  },
+  "huyet-canh-chi-vuc": {
+    "pkg": "com.hass.az",
+    "appTitle": "",
+    "releaseDate": "2024-05-09",
+    "updatedDate": "2026-06-29"
+  },
+  "capybara-go": {
+    "pkg": "com.yibu.CapybaraSurvivorGOGOGO",
+    "appTitle": "",
+    "releaseDate": null,
+    "updatedDate": "2026-09-05"
+  },
+  "pham-tran-tien-lo": {
+    "pkg": "com.vnpttl.gp",
+    "appTitle": "",
+    "releaseDate": "2026-06-25",
+    "updatedDate": "2026-07-30"
+  },
+  "tam-quoc-khoi-dong": {
+    "pkg": "com.jsjsvn.google",
+    "appTitle": "",
+    "releaseDate": "2025-07-18",
+    "updatedDate": "2026-07-08"
+  },
+  "thu-ky-huyen": {
+    "pkg": "com.sh3d.vn.google",
+    "appTitle": "",
+    "releaseDate": "2024-08-05",
+    "updatedDate": "2026-09-09"
+  },
+  "tro-ve-tuoi-tho": {
+    "pkg": "vn.corochti.returntochildhood",
+    "appTitle": "",
+    "releaseDate": "2025-01-21",
+    "updatedDate": "2026-09-14"
+  },
+  "endless-nightmare-6-reborn": {
+    "pkg": "com.endless.nightmare.reborn.android",
+    "appTitle": "",
+    "releaseDate": "2024-12-16",
+    "updatedDate": "2026-04-13"
+  },
+  "rogue-legend": {
+    "pkg": "com.GalacticSlice.OneBitAdventure",
+    "appTitle": "",
+    "releaseDate": null,
+    "updatedDate": "2026-09-13"
+  },
+  "samkok-new-force": {
+    "pkg": "co.imba.threekingdoms.towerdefense",
+    "appTitle": "",
+    "releaseDate": "2025-08-28",
+    "updatedDate": "2026-09-21"
+  },
+  "mobile-armor-storm": {
+    "pkg": "armor.attack.shooting.games.world.of.multiplayer.robots.war.tanks",
+    "appTitle": "",
+    "releaseDate": "2024-12-13",
+    "updatedDate": "2026-06-17"
+  },
+  "the-seven-deadly-sins-grand-cross": {
+    "pkg": "com.sega.d2megaten.en",
+    "appTitle": "",
+    "releaseDate": "2018-07-23",
+    "updatedDate": "2026-09-08"
+  },
+  "tay-du-beo-vng": {
+    "pkg": "vng.games.taydu.ngokhong.idle.rpg",
+    "appTitle": "",
+    "releaseDate": "2024-08-01",
+    "updatedDate": "2025-04-16"
+  },
+  "na-tra-phong-than-ky": {
+    "pkg": "com.zalogame.phongthan",
+    "appTitle": "",
+    "releaseDate": "2026-01-11",
+    "updatedDate": "2026-04-24"
+  },
+  "kiem-linh-nhap-vai-tu-tien": {
+    "pkg": "vn.cmn.kiemlinh",
+    "appTitle": "",
+    "releaseDate": "2025-12-16",
+    "updatedDate": "2025-12-17"
+  },
+  "star-sailors": {
+    "pkg": "com.com2usholdings.starsailors.android.google.global.normal",
+    "appTitle": "",
+    "releaseDate": "2026-06-28",
+    "updatedDate": "2026-09-18"
+  },
+  "shenzhou-m": {
+    "pkg": "com.userjoy.szmg",
+    "appTitle": "",
+    "releaseDate": "2026-07-12",
+    "updatedDate": "2026-06-18"
+  },
+  "van-tien-chien": {
+    "pkg": "vn.cmplay.vantienchien",
+    "appTitle": "",
+    "releaseDate": "2026-06-25",
+    "updatedDate": "2026-09-21"
+  },
+  "afk-three-kingdoms": {
+    "pkg": "com.cookapps.bm.threekingdomsrising",
+    "appTitle": "",
+    "releaseDate": null,
+    "updatedDate": "2026-09-01"
+  },
+  "shinkai-impact-khoi-nguyen": {
+    "pkg": "com.shg.sg437",
+    "appTitle": "",
+    "releaseDate": "2025-12-17",
+    "updatedDate": "2026-04-17"
+  },
+  "sieu-tien-hoa-mobile": {
+    "pkg": "com.gzone.ynyzy",
+    "appTitle": "",
+    "releaseDate": "2024-07-30",
+    "updatedDate": "2026-06-18"
+  },
+  "phong-ma-tam-quoc": {
+    "pkg": "vn.zoneplay.g40vn",
+    "appTitle": "",
+    "releaseDate": "2025-12-22",
+    "updatedDate": "2026-06-22"
+  },
+  "thanh-quang-thien-su": {
+    "pkg": "com.vgm.muh5",
+    "appTitle": "",
+    "releaseDate": "2019-11-05",
+    "updatedDate": "2021-12-20"
+  },
+  "tam-quoc-huyen-tuong": {
+    "pkg": "com.gs2.omg",
+    "appTitle": "",
+    "releaseDate": "2017-08-15",
+    "updatedDate": "2026-07-30"
+  },
+  "phap-su-hac-am": {
+    "pkg": "com.ygjszvn.google",
+    "appTitle": "",
+    "releaseDate": "2026-04-11",
+    "updatedDate": "2026-09-07"
+  },
+  "super-snail": {
+    "pkg": "com.qcplay.snail.android.sea",
+    "appTitle": "",
+    "releaseDate": "2024-04-19",
+    "updatedDate": "2026-08-11"
+  },
+  "chaos-zero-nightmare": {
+    "pkg": "com.rayark.sdorica",
+    "appTitle": "",
+    "releaseDate": null,
+    "updatedDate": "2025-12-30"
+  },
+  "drift-racing-3v3": {
+    "pkg": "com.ncgames.race.anvn",
+    "appTitle": "",
+    "releaseDate": "2025-11-26",
+    "updatedDate": "2026-08-28"
+  },
+  "idle-gog": {
+    "pkg": "com.redriver.shjjc",
+    "appTitle": "",
+    "releaseDate": "2022-10-28",
+    "updatedDate": "2026-08-11"
+  },
+  "truyen-thuyet-than-khi": {
+    "pkg": "com.epg.truyenthuyethaki",
+    "appTitle": "",
+    "releaseDate": "2026-03-01",
+    "updatedDate": "2026-07-10"
+  },
+  "chronicle-of-infinity": {
+    "pkg": "com.emagroups.coi",
+    "appTitle": "",
+    "releaseDate": "2023-05-24",
+    "updatedDate": "2025-10-31"
+  },
+  "tap-tap-heroes": {
+    "pkg": "com.kongregate.mobile.bitheroes.google",
+    "appTitle": "",
+    "releaseDate": null,
+    "updatedDate": "2026-09-19"
+  },
+  "tam-quoc-phan-cong-vng": {
+    "pkg": "vng.games.tamquoc.idle.rpg",
+    "appTitle": "",
+    "releaseDate": "2025-03-06",
+    "updatedDate": "2026-01-19"
+  },
+  "kiem-hiep-tinh-2-mobile": {
+    "pkg": "com.tepaylink.kiemhieptinh2mobile",
+    "appTitle": "",
+    "releaseDate": "2023-08-05",
+    "updatedDate": "2026-09-07"
+  },
+  "swordash": {
+    "pkg": "com.fattoy.swordash.android",
+    "appTitle": "",
+    "releaseDate": "2023-05-31",
+    "updatedDate": "2026-06-02"
+  },
+  "giang-ho-trong-tay": {
+    "pkg": "com.gianghotrongtay.gamesvn",
+    "appTitle": "",
+    "releaseDate": "2026-08-06",
+    "updatedDate": "2026-08-20"
+  },
+  "cookie-run-kingdom": {
+    "pkg": "com.devsisters.cookiepuzzle",
+    "appTitle": "",
+    "releaseDate": null,
+    "updatedDate": "2025-10-16"
+  },
+  "thuong-lam-canh-gioi": {
+    "pkg": "com.vlplay.g02",
+    "appTitle": "",
+    "releaseDate": "2026-08-30",
+    "updatedDate": "2026-09-18"
+  },
+  "ez-pz-byte-heroes": {
+    "pkg": "com.szqdgames.android.arzhg",
+    "appTitle": "",
+    "releaseDate": null,
+    "updatedDate": "2026-08-25"
+  },
+  "thieu-nien-3q-khoi-nguyen": {
+    "pkg": "com.gmt.tn3q",
+    "appTitle": "",
+    "releaseDate": "2025-12-19",
+    "updatedDate": "2026-09-07"
+  },
+  "than-ma-loan-vu": {
+    "pkg": "vn.vplhn.game.thanma.a2",
+    "appTitle": "",
+    "releaseDate": "2024-11-05",
+    "updatedDate": "2026-08-12"
+  },
+  "cong-thanh-truyen-ky-tam-quoc": {
+    "pkg": "com.tamquoc.congthanh.slg",
+    "appTitle": "",
+    "releaseDate": "2025-08-07",
+    "updatedDate": "2026-06-17"
+  },
+  "great-sky-dai-thien-the-gioi": {
+    "pkg": "com.SoFun.DAITHIENTHEGIOISOFUN",
+    "appTitle": "",
+    "releaseDate": "2025-07-02",
+    "updatedDate": "2026-08-30"
+  },
+  "kiem-khach-truyen-ky": {
+    "pkg": "com.vlplay.game01",
+    "appTitle": "",
+    "releaseDate": "2026-08-10",
+    "updatedDate": "2026-09-15"
+  },
+  "tien-nghich-tan-tinh-kiem": {
+    "pkg": "com.dawudao.gp",
+    "appTitle": "",
+    "releaseDate": "2026-09-07",
+    "updatedDate": "2026-09-14"
+  },
+  "immortal-rising-2": {
+    "pkg": "com.badbeans.DarkIdle",
+    "appTitle": "",
+    "releaseDate": "2023-03-13",
+    "updatedDate": "2026-09-17"
+  },
+  "lu-khach-dai-luc-idle-rpg": {
+    "pkg": "com.realmsofpixel.ng.sea.vn",
+    "appTitle": "",
+    "releaseDate": "2025-10-22",
+    "updatedDate": "2026-07-01"
+  },
+  "ngoi-sao-thoi-trang": {
+    "pkg": "com.vng.ngoisaothoitrang",
+    "appTitle": "",
+    "releaseDate": null,
+    "updatedDate": "2026-05-04"
+  },
+  "vu-tru-dai-chien": {
+    "pkg": "com.GTeamTechnology.VTriChin",
+    "appTitle": "",
+    "releaseDate": "2026-02-06",
+    "updatedDate": "2026-09-14"
+  },
+  "hanh-trinh-bat-tan-sinh-ton": {
+    "pkg": "com.mechanist.poi.vn",
+    "appTitle": "",
+    "releaseDate": "2022-09-13",
+    "updatedDate": "2026-07-02"
+  },
+  "kanban-musume": {
+    "pkg": "com.uonegame.kanbanmusume",
+    "appTitle": "",
+    "releaseDate": "2026-04-15",
+    "updatedDate": "2026-08-30"
+  },
+  "greedy-cave-rebirth": {
+    "pkg": "com.avalon.c1p.googleplay",
+    "appTitle": "",
+    "releaseDate": null,
+    "updatedDate": "2026-08-31"
+  },
+  "ark-recode": {
+    "pkg": "com.apollohealth.recode",
+    "appTitle": "",
+    "releaseDate": null,
+    "updatedDate": "2026-08-07"
+  },
+  "jx2-origin": {
+    "pkg": "vn.adnx.jx2",
+    "appTitle": "",
+    "releaseDate": "2024-01-24",
+    "updatedDate": "2026-07-20"
+  },
+  "grand-blue": {
+    "pkg": "com.facebook.orca",
+    "appTitle": "",
+    "releaseDate": "2014-01-30",
+    "updatedDate": "2026-09-16"
+  },
+  "ghost-story-thien-nu": {
+    "pkg": "com.vnggames.ghoststory",
+    "appTitle": "",
+    "releaseDate": "2024-08-15",
+    "updatedDate": "2026-04-13"
+  },
+  "vo-hiep-truyen-ky-2": {
+    "pkg": "com.blackhole.jx2mobile",
+    "appTitle": "",
+    "releaseDate": "2025-05-12",
+    "updatedDate": "2026-06-11"
+  },
+  "khu-vuon-tren-may": {
+    "pkg": "vn.kvtm.js",
+    "appTitle": "",
+    "releaseDate": "2019-05-03",
+    "updatedDate": "2026-09-11"
+  },
+  "cherry-tale": {
+    "pkg": "com.chillyroom.hanksbar.gp",
+    "appTitle": "",
+    "releaseDate": "2026-01-23",
+    "updatedDate": "2026-04-22"
+  },
+  "apex-girls": {
+    "pkg": "com.neorigin.apexgirls",
+    "appTitle": "",
+    "releaseDate": "2026-08-23",
+    "updatedDate": "2026-08-20"
+  }
+}

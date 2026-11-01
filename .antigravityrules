@@ -1,0 +1,30 @@
+# Antigravity Project Guardrails & Strict Operation Rules
+
+## 1. 🛑 NGUYÊN TẮC BẢO TỒN CODE & TÍNH NĂNG (Feature & Code Preservation)
+- **TUYỆT ĐỐI KHÔNG TỰ Ý XÓA HOẶC SỬA ĐỔI**: Không được tự ý xóa, tái cấu trúc (refactor), viết lại hoặc làm hỏng bất kỳ tính năng, module, logic, component hay file cấu hình nào đã hoạt động nếu không có yêu cầu cụ thể từ người dùng.
+- **Phát triển lũy tiến (Additive Development)**: Mọi tính năng mới phải được bổ sung theo dạng module độc lập hoặc mở rộng có kiểm soát mà không ảnh hưởng tới code cũ.
+- **Chỉnh sửa chính xác (Targeted Edits)**: Sử dụng các thao tác chỉnh sửa từng khối cụ thể, không ghi đè toàn bộ file lớn nếu chỉ cần sửa vài dòng.
+- **Bảo toàn chú thích & Cấu hình**: Giữ nguyên toàn bộ comments, biến môi trường (.env), Cloudflare bindings (KV, D1, Pages) và file config.
+
+---
+
+## 2. ⚡ CHỐNG LẶP VÔ HẠN & TỐI ƯU TỐC ĐỘ (Anti-Loop & High Performance)
+- **Bắt buộc tuân thủ tài liệu**: [`ANTI_INFINITE_LOOP.md`](file:///c:/4%20Antigravity%20all/13%20web%20code%20game/ANTI_INFINITE_LOOP.md).
+- **Cấm Polling / Vòng lặp vô hạn**: Không được dùng lệnh vòng lặp chờ vô hạn (while/sleep lặp liên tục để kiểm tra trạng thái). Hãy tận dụng cơ chế reactive notification của hệ thống.
+- **Tối ưu thực thi đồng bộ**: Với các lệnh chạy nhanh, dùng `WaitMsBeforeAsync: 10000` để nhận kết quả ngay, không tạo task nền không cần thiết.
+- **Chính sách 1 lần thử lại (Single Retry Policy)**: Nếu một lệnh hoặc công cụ gặp lỗi, phải phân tích nguyên nhân gốc rễ (Root Cause) ngay lập tức và đưa ra giải pháp khắc phục chính xác. Tuyệt đối không chạy lại cùng một lệnh lỗi quá 2 lần mà không có thay đổi.
+- **Hành động dứt khoát & Tốc độ cao**: Thực thi trực tiếp các thao tác cần thiết mà không yêu cầu xác nhận các bước hiển nhiên. Tránh giải thích dông dài không cần thiết khi đang thực thi.
+- **Không suy diễn/Tạo dữ liệu rác**: Nếu dữ liệu hoặc kết quả tìm kiếm không có, phải báo cáo trung thực, không được tự tạo ra thông tin giả mạo.
+
+---
+
+## 3. 🎨 TUÂN THỦ THIẾT KẾ UI/UX PRO MAX
+- Bắt buộc tuân thủ quy chuẩn thiết kế tại `.antigravity/skills/ui-ux-pro-max/SKILL.md` và `.antigravity/instructions.md`.
+- Tuyệt đối không sử dụng "AI Generic Slop" (không emoji làm icon, không gradient màu tím/hồng vô nghĩa, không chữ xám mờ trên nền xám).
+- Luôn đảm bảo độ tương phản màu chuẩn WCAG AA (>= 4.5:1), touch target tối thiểu 44x44px, và responsive đầy đủ trên mọi thiết bị (375px -> 1440px+).
+
+---
+
+## 4. 🛡️ QUY TRÌNH AN TOÀN & BÀN GIAO (Quality & Safety Gate)
+- **Kiểm tra cú pháp & Build**: Sau khi chỉnh sửa code, luôn xác thực cú pháp và đảm bảo không có lỗi build/lint trước khi hoàn tất phản hồi.
+- **Bảo mật**: Tuyệt đối không để lộ hoặc xóa API Token, Account ID trong `.env`.

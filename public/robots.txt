@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /
+Disallow: /admin
+Disallow: /api/
+Disallow: /sync-bridge.html
+
+Sitemap: https://codegame.shop/sitemap.xml

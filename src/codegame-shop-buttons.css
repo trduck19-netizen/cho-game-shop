@@ -1,0 +1,146 @@
+/* Nút dùng chung cho codegame.shop
+   Gốc: mẫu viền cầu vồng của ShadowShahriar trên Uiverse.io
+   Đã chỉnh lại để dùng đại trà: đổi thành tên lớp riêng, chậm hiệu ứng,
+   thêm kiểu cho bàn phím, nút bị khóa, và lớp dự phòng cho trình duyệt cũ. */
+
+/* Nút chính */
+.cg-btn {
+  --border-radius: 15px;
+  --border-width: 4px;
+
+  appearance: none;
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5em;
+  padding: 1em 2em;
+  border: 0;
+  border-radius: var(--border-radius);
+  background-color: #212121;
+  color: #fff;
+  font-family: "Roboto", Arial, "Segoe UI", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 1.4;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* Lớp viền: mặc định chỉ là khung rỗng, chưa có màu cầu vồng.
+   Màu cầu vồng chỉ được bật trong khối @supports bên dưới, nên
+   trình duyệt cũ không hỗ trợ mặt nạ sẽ thấy nút trơn bình thường,
+   chứ không bị một mảng cầu vồng che kín chữ. */
+.cg-btn::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  padding: var(--border-width);
+  border-radius: var(--border-radius);
+  box-sizing: border-box;
+  pointer-events: none;
+}
+
+/* Chỉ trình duyệt hỗ trợ mặt nạ mới vẽ viền cầu vồng */
+@supports ((mask-composite: exclude) or (-webkit-mask-composite: destination-out)) {
+  .cg-btn::after {
+    --m-i: linear-gradient(#000, #000);
+    --m-o: content-box, padding-box;
+    background-image: conic-gradient(
+      #488cfb,
+      #29dbbc,
+      #ddf505,
+      #ff9f0e,
+      #e440bb,
+      #655adc,
+      #488cfb
+    );
+    -webkit-mask-image: var(--m-i), var(--m-i);
+    mask-image: var(--m-i), var(--m-i);
+    -webkit-mask-origin: var(--m-o);
+    mask-origin: var(--m-o);
+    -webkit-mask-clip: var(--m-o);
+    mask-clip: var(--m-o);
+    mask-composite: exclude;
+    -webkit-mask-composite: destination-out;
+    filter: hue-rotate(0);
+    /* Chậm lại so với gốc (500ms) cho đỡ rối mắt, và mặc định dừng */
+    animation: cg-rotate-hue linear 2.5s infinite;
+    animation-play-state: paused;
+  }
+}
+
+/* Chỉ chạy hiệu ứng khi rê chuột hoặc di chuyển bằng bàn phím tới nút */
+.cg-btn:hover::after,
+.cg-btn:focus-visible::after {
+  animation-play-state: running;
+}
+
+@keyframes cg-rotate-hue {
+  to {
+    filter: hue-rotate(1turn);
+  }
+}
+
+/* Kiểu khi dùng bàn phím: viền ngoài rõ ràng, không chỉ dựa vào đổi màu */
+.cg-btn:focus-visible {
+  outline: 2px solid #488cfb;
+  outline-offset: 3px;
+}
+
+.cg-btn:focus:not(:focus-visible) {
+  outline: none;
+}
+
+/* Lúc bấm xuống: viền dày thêm 1px, kích thước ngoài của nút không đổi */
+.cg-btn:active {
+  --border-width: calc(var(--border-width) + 1px);
+}
+
+/* Nút bị khóa: mờ đi, không bấm được, không chạy hiệu ứng */
+.cg-btn:disabled {
+  opacity: 0.55;
+  cursor: not-allowed;
+}
+
+.cg-btn:disabled:hover::after,
+.cg-btn:disabled:focus-visible::after {
+  animation-play-state: paused;
+}
+
+/* Người dùng bật chế độ giảm chuyển động: tắt hẳn hiệu ứng đổi màu */
+@media (prefers-reduced-motion: reduce) {
+  .cg-btn::after {
+    animation: none;
+  }
+}
+
+/* Biến thể nút phụ: nền nhạt hơn một chút, viền mỏng hơn */
+.cg-btn--secondary {
+  --border-width: 3px;
+  background-color: #444;
+}
+
+/* Biến thể nút nhỏ: dùng cho nút sao chép mã, nút lọc, nút trong thẻ game */
+.cg-btn--small {
+  --border-radius: 10px;
+  --border-width: 3px;
+  padding: 0.55em 1.1em;
+  font-size: 14px;
+}
+
+/* Biến thể nút lớn: dùng cho nút kêu gọi chính ở đầu trang */
+.cg-btn--large {
+  --border-radius: 18px;
+  padding: 1em 2.2em;
+  font-size: 20px;
+}
+
+/* Nút chiếm hết chiều ngang, tiện cho giao diện điện thoại */
+.cg-btn--full {
+  width: 100%;
+}

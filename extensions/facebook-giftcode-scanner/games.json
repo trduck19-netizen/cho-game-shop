@@ -1,0 +1,2437 @@
+[
+  {
+    "id": "pirate-legends",
+    "slug": "pirate-legends",
+    "name": "Pirate Legends: Huyền Thoại Hải Tặc"
+  },
+  {
+    "id": "di-gioi-sinh-ton-oeg",
+    "slug": "di-gioi-sinh-ton-oeg",
+    "name": "Dị Giới Sinh Tồn OEG"
+  },
+  {
+    "id": "yen-van-thap-luc-thanh",
+    "slug": "yen-van-thap-luc-thanh",
+    "name": "Yến Vân Thập Lục Thanh (Where Winds Meet)"
+  },
+  {
+    "id": "3q-dao-dao-dao",
+    "slug": "3q-dao-dao-dao",
+    "name": "3Q Đào Đào Đào"
+  },
+  {
+    "id": "long-tuong-tam-quoc",
+    "slug": "long-tuong-tam-quoc",
+    "name": "Long Tướng Tam Quốc"
+  },
+  {
+    "id": "ta-la-hac-ngo-khong",
+    "slug": "ta-la-hac-ngo-khong",
+    "name": "TA LÀ HẮC NGỘ KHÔNG"
+  },
+  {
+    "id": "thuong-lam-canh-gioi",
+    "slug": "thuong-lam-canh-gioi",
+    "name": "Thương Lam Cảnh Giới"
+  },
+  {
+    "id": "soul-strike",
+    "slug": "soul-strike",
+    "name": "Soul Strike"
+  },
+  {
+    "id": "skyblock-ba-chu-luc-dia",
+    "slug": "skyblock-ba-chu-luc-dia",
+    "name": "SKYBLOCK: BÁ CHỦ LỤC ĐỊA"
+  },
+  {
+    "id": "tien-nghich-tan-tinh-kiem",
+    "slug": "tien-nghich-tan-tinh-kiem",
+    "name": "Tiên Nghịch: Tân Tình Kiếm"
+  },
+  {
+    "id": "gun-x-mobile",
+    "slug": "gun-x-mobile",
+    "name": "Gun X Mobile"
+  },
+  {
+    "id": "cau-ca-van-can",
+    "slug": "cau-ca-van-can",
+    "name": "Câu Cá Vạn Cân"
+  },
+  {
+    "id": "tam-quoc-tu-thoi-ca",
+    "slug": "tam-quoc-tu-thoi-ca",
+    "name": "Tam Quốc Tứ Thời Ca"
+  },
+  {
+    "id": "apex-girls",
+    "slug": "apex-girls",
+    "name": "Apex Girls"
+  },
+  {
+    "id": "nam-quoc-son-ha",
+    "slug": "nam-quoc-son-ha",
+    "name": "Nam Quốc Sơn Hà"
+  },
+  {
+    "id": "loan-chien-3q",
+    "slug": "loan-chien-3q",
+    "name": "Loạn Chiến 3Q"
+  },
+  {
+    "id": "kiem-khach-truyen-ky",
+    "slug": "kiem-khach-truyen-ky",
+    "name": "Kiếm Khách Truyền Kỳ"
+  },
+  {
+    "id": "pixel-defenders-merge-td-game",
+    "slug": "pixel-defenders-merge-td-game",
+    "name": "Pixel Defenders: Merge TD"
+  },
+  {
+    "id": "loan-xi-ngau-3q-oeg",
+    "slug": "loan-xi-ngau-3q-oeg",
+    "name": "Loạn Xì Ngầu 3Q – OEG"
+  },
+  {
+    "id": "tam-quoc-tranh-ba-thien-ha",
+    "slug": "tam-quoc-tranh-ba-thien-ha",
+    "name": "Tam Quốc: Tranh Bá Thiên Hạ"
+  },
+  {
+    "id": "titan-rush-chien-than-thuc-tinh",
+    "slug": "titan-rush-chien-than-thuc-tinh",
+    "name": "TITAN RUSH: CHIẾN THẦN THỨC TỈNH"
+  },
+  {
+    "id": "girls-frontline-2-luu-day",
+    "slug": "girls-frontline-2-luu-day",
+    "name": "Girls&#x27; Frontline 2: Lưu Đày"
+  },
+  {
+    "id": "quan-nhi-ca",
+    "slug": "quan-nhi-ca",
+    "name": "Quan Nhị Ca"
+  },
+  {
+    "id": "doi-tuong-nhi-nho",
+    "slug": "doi-tuong-nhi-nho",
+    "name": "Đội Tướng Nhí Nhố"
+  },
+  {
+    "id": "hac-tay-du-chuong-cam",
+    "slug": "hac-tay-du-chuong-cam",
+    "name": "Hắc Tây Du: Chương Cấm"
+  },
+  {
+    "id": "huyen-thoai-huong-cang",
+    "slug": "huyen-thoai-huong-cang",
+    "name": "Huyền Thoại Hương Cảng"
+  },
+  {
+    "id": "giang-ho-trong-tay",
+    "slug": "giang-ho-trong-tay",
+    "name": "Giang Hồ Trong Tay"
+  },
+  {
+    "id": "diet-quy-origin",
+    "slug": "diet-quy-origin",
+    "name": "Diệt Quỷ Origin"
+  },
+  {
+    "id": "co-lau-loan-the",
+    "slug": "co-lau-loan-the",
+    "name": "CỜ LAU LOẠN THẾ"
+  },
+  {
+    "id": "loan-the-3q-than-ma-lenh-oeg",
+    "slug": "loan-the-3q-than-ma-lenh-oeg",
+    "name": "Loạn Thế 3Q: Thần Ma Lệnh - OEG"
+  },
+  {
+    "id": "shenzhou-m",
+    "slug": "shenzhou-m",
+    "name": "ShenZhou M – Thần Châu"
+  },
+  {
+    "id": "phi-kiem-tru-thien-ma",
+    "slug": "phi-kiem-tru-thien-ma",
+    "name": "Phi Kiếm Trừ Thiên Ma"
+  },
+  {
+    "id": "afk-three-kingdoms",
+    "slug": "afk-three-kingdoms",
+    "name": "AFK Three Kingdoms Idle RPG"
+  },
+  {
+    "id": "khe-uoc-rong",
+    "slug": "khe-uoc-rong",
+    "name": "Khế Ước Rồng"
+  },
+  {
+    "id": "tuyet-dinh-chien-gioi-vplay",
+    "slug": "tuyet-dinh-chien-gioi-vplay",
+    "name": "Tuyệt Đỉnh Chiến Giới"
+  },
+  {
+    "id": "dao-huu-tu-tien",
+    "slug": "dao-huu-tu-tien",
+    "name": "Đạo Hữu Xin Dừng Bước"
+  },
+  {
+    "id": "anime-fighting-simulator-endless",
+    "slug": "anime-fighting-simulator-endless",
+    "name": "Anime Fighting Simulator Endless"
+  },
+  {
+    "id": "anime-vanguards",
+    "slug": "anime-vanguards",
+    "name": "Anime Vanguards"
+  },
+  {
+    "id": "3q-goi-tuong-di",
+    "slug": "3q-goi-tuong-di",
+    "name": "3Q Gọi Tướng Đi"
+  },
+  {
+    "id": "blade-ball",
+    "slug": "blade-ball",
+    "name": "Blade Ball"
+  },
+  {
+    "id": "tam-quoc-chi-vuong-chien",
+    "slug": "tam-quoc-chi-vuong-chien",
+    "name": "Tam Quốc Chí Vương Chiến"
+  },
+  {
+    "id": "nhat-luan-kiem",
+    "slug": "nhat-luan-kiem",
+    "name": "Nhật Luân Kiếm"
+  },
+  {
+    "id": "ark-recode",
+    "slug": "ark-recode",
+    "name": "Ark Re:Code"
+  },
+  {
+    "id": "aniimo",
+    "slug": "aniimo",
+    "name": "Aniimo"
+  },
+  {
+    "id": "tieu-tien-ta-vo-dich",
+    "slug": "tieu-tien-ta-vo-dich",
+    "name": "Tiểu Tiên Ta Vô Địch"
+  },
+  {
+    "id": "giac-ngo-thuat-chu",
+    "slug": "giac-ngo-thuat-chu",
+    "name": "Giác Ngộ Thuật Chú"
+  },
+  {
+    "id": "fairy-tamer",
+    "slug": "fairy-tamer",
+    "name": "Fairy Tamer"
+  },
+  {
+    "id": "hoi-tho-hai-tac",
+    "slug": "hoi-tho-hai-tac",
+    "name": "Hơi Thở Hải Tặc"
+  },
+  {
+    "id": "capybara-go",
+    "slug": "capybara-go",
+    "name": "Capybara Go!"
+  },
+  {
+    "id": "king-legacy",
+    "slug": "king-legacy",
+    "name": "King Legacy"
+  },
+  {
+    "id": "chaos-zero-nightmare",
+    "slug": "chaos-zero-nightmare",
+    "name": "Chaos Zero Nightmare"
+  },
+  {
+    "id": "cookie-run-kingdom",
+    "slug": "cookie-run-kingdom",
+    "name": "CookieRun: Kingdom"
+  },
+  {
+    "id": "gangstar-mirage-city-online",
+    "slug": "gangstar-mirage-city-online",
+    "name": "Gangstar Mirage City: Online"
+  },
+  {
+    "id": "ez-pz-byte-heroes",
+    "slug": "ez-pz-byte-heroes",
+    "name": "EZ PZ: Byte Heroes"
+  },
+  {
+    "id": "lost-sword",
+    "slug": "lost-sword",
+    "name": "Lost Sword"
+  },
+  {
+    "id": "genesis-war",
+    "slug": "genesis-war",
+    "name": "Genesis War"
+  },
+  {
+    "id": "neo-artifacts",
+    "slug": "neo-artifacts",
+    "name": "Neo Artifacts"
+  },
+  {
+    "id": "mongil-star-dive",
+    "slug": "mongil-star-dive",
+    "name": "MONGIL: STAR DIVE"
+  },
+  {
+    "id": "kiem-vu-son-ha",
+    "slug": "kiem-vu-son-ha",
+    "name": "Kiếm Vũ Sơn Hà"
+  },
+  {
+    "id": "greedy-cave-rebirth",
+    "slug": "greedy-cave-rebirth",
+    "name": "Greedy Cave: Rebirth"
+  },
+  {
+    "id": "seven-deadly-sins-origin",
+    "slug": "seven-deadly-sins-origin",
+    "name": "The Seven Deadly Sins: Origin"
+  },
+  {
+    "id": "star-sailors",
+    "slug": "star-sailors",
+    "name": "Star Sailors"
+  },
+  {
+    "id": "ragnarok-huyen-thoai-mmo",
+    "slug": "ragnarok-huyen-thoai-mmo",
+    "name": "Ragnarok: Huyền Thoại MMO"
+  },
+  {
+    "id": "rogue-legend",
+    "slug": "rogue-legend",
+    "name": "Rogue Legend - Roguelike RPG"
+  },
+  {
+    "id": "where-winds-meet-mobile",
+    "slug": "where-winds-meet-mobile",
+    "name": "Where Winds Meet"
+  },
+  {
+    "id": "outerplane",
+    "slug": "outerplane",
+    "name": "Outerplane"
+  },
+  {
+    "id": "wuthering-waves-cyberpunk",
+    "slug": "wuthering-waves-cyberpunk",
+    "name": "Wuthering Waves × Cyberpunk"
+  },
+  {
+    "id": "pham-tran-tien-lo",
+    "slug": "pham-tran-tien-lo",
+    "name": "Phàm Trần Tiên Lộ"
+  },
+  {
+    "id": "vo-lam-hac-dao",
+    "slug": "vo-lam-hac-dao",
+    "name": "Võ Lâm Hắc Đạo"
+  },
+  {
+    "id": "chi-huy-toi-thuong",
+    "slug": "chi-huy-toi-thuong",
+    "name": "Chỉ Huy Tối Thượng"
+  },
+  {
+    "id": "tap-tap-heroes",
+    "slug": "tap-tap-heroes",
+    "name": "TapTap Heroes"
+  },
+  {
+    "id": "van-tien-chien",
+    "slug": "van-tien-chien",
+    "name": "Vạn Tiên Chiến"
+  },
+  {
+    "id": "tieu-cuong-3q",
+    "slug": "tieu-cuong-3q",
+    "name": "Tiểu Cường 3Q"
+  },
+  {
+    "id": "tan-vo-lam",
+    "slug": "tan-vo-lam",
+    "name": "Tân Võ Lâm"
+  },
+  {
+    "id": "pokemon-champions",
+    "slug": "pokemon-champions",
+    "name": "Pokémon Champions"
+  },
+  {
+    "id": "light-and-night",
+    "slug": "light-and-night",
+    "name": "Light and Night"
+  },
+  {
+    "id": "dragon-raja-thuc-tinh",
+    "slug": "dragon-raja-thuc-tinh",
+    "name": "Dragon Raja: Thức Tỉnh"
+  },
+  {
+    "id": "phuong-hoang-tru-tien",
+    "slug": "phuong-hoang-tru-tien",
+    "name": "Phượng Hoàng Tru Tiên"
+  },
+  {
+    "id": "hao-khi-du-hiep",
+    "slug": "hao-khi-du-hiep",
+    "name": "Hào Khí Du Hiệp"
+  },
+  {
+    "id": "bo-lac-3q",
+    "slug": "bo-lac-3q",
+    "name": "Bộ Lạc 3Q"
+  },
+  {
+    "id": "thai-cuc-vo-dao-x-arena",
+    "slug": "thai-cuc-vo-dao-x-arena",
+    "name": "Thái Cực Võ Đạo - X Arena"
+  },
+  {
+    "id": "dao-si-bat-truong-phi",
+    "slug": "dao-si-bat-truong-phi",
+    "name": "Đạo Sĩ Bắt Trương Phi"
+  },
+  {
+    "id": "ever-night-thuc-tinh-oeg",
+    "slug": "ever-night-thuc-tinh-oeg",
+    "name": "Ever Night: Thức Tỉnh - OEG"
+  },
+  {
+    "id": "dau-la-dai-luc",
+    "slug": "dau-la-dai-luc",
+    "name": "Đấu La Đại Lục"
+  },
+  {
+    "id": "top-football-club",
+    "slug": "top-football-club",
+    "name": "TOP Football Club"
+  },
+  {
+    "id": "tien-nghich-mobile",
+    "slug": "tien-nghich-mobile",
+    "name": "Tiên Nghịch Mobile"
+  },
+  {
+    "id": "ts-origin",
+    "slug": "ts-origin",
+    "name": "TS Origin"
+  },
+  {
+    "id": "thu-cung-bao-dan",
+    "slug": "thu-cung-bao-dan",
+    "name": "Thú Cưng Bão Đạn"
+  },
+  {
+    "id": "skyria-dao-ky-bi",
+    "slug": "skyria-dao-ky-bi",
+    "name": "Skyria: Đảo Kỳ Bí"
+  },
+  {
+    "id": "kiem-linh-du-ky",
+    "slug": "kiem-linh-du-ky",
+    "name": "Kiếm Linh Du Ký"
+  },
+  {
+    "id": "infinity-kingdom",
+    "slug": "infinity-kingdom",
+    "name": "Infinity Kingdom"
+  },
+  {
+    "id": "van-thang-nam-de",
+    "slug": "van-thang-nam-de",
+    "name": "Vạn Thắng Nam Đế"
+  },
+  {
+    "id": "kiem-chi-giang-ho-khai-thien",
+    "slug": "kiem-chi-giang-ho-khai-thien",
+    "name": "Kiếm Chỉ Giang Hồ: Khai Thiên"
+  },
+  {
+    "id": "lineage-w",
+    "slug": "lineage-w",
+    "name": "Lineage W"
+  },
+  {
+    "id": "dau-la-the-gioi-san-hon",
+    "slug": "dau-la-the-gioi-san-hon",
+    "name": "Đấu La Đại Lục: Thế Giới Săn Hồn"
+  },
+  {
+    "id": "van-dinh-tam-quoc",
+    "slug": "van-dinh-tam-quoc",
+    "name": "Vấn Đỉnh Tam Quốc"
+  },
+  {
+    "id": "giang-ho-ky-ngo",
+    "slug": "giang-ho-ky-ngo",
+    "name": "Giang Hồ Kỳ Ngộ"
+  },
+  {
+    "id": "anh-kiet-tam-quoc",
+    "slug": "anh-kiet-tam-quoc",
+    "name": "Anh Kiệt Tam Quốc"
+  },
+  {
+    "id": "than-thu-origin",
+    "slug": "than-thu-origin",
+    "name": "Thần Thú Origin"
+  },
+  {
+    "id": "dao-mong-anh-hung-2",
+    "slug": "dao-mong-anh-hung-2",
+    "name": "Đạo Mộng Anh Hùng 2: Ảo Mộng"
+  },
+  {
+    "id": "vuon-hoa-hanh-phuc",
+    "slug": "vuon-hoa-hanh-phuc",
+    "name": "Vườn Hoa Hạnh Phúc"
+  },
+  {
+    "id": "co-giap-vo-han",
+    "slug": "co-giap-vo-han",
+    "name": "Cơ Giáp Vô Hạn – Gamota"
+  },
+  {
+    "id": "lordnine-cuu-vuong-tranh-ba",
+    "slug": "lordnine-cuu-vuong-tranh-ba",
+    "name": "LORDNINE: Cửu Vương Tranh Bá"
+  },
+  {
+    "id": "tinh-kiem-truyen-ky-mobile",
+    "slug": "tinh-kiem-truyen-ky-mobile",
+    "name": "Tình Kiếm Truyền Kỳ Mobile"
+  },
+  {
+    "id": "bloodline-dong-mau-anh-hung",
+    "slug": "bloodline-dong-mau-anh-hung",
+    "name": "Bloodline: Dòng Máu Anh Hùng"
+  },
+  {
+    "id": "total-football-vng",
+    "slug": "total-football-vng",
+    "name": "Total Football VNG"
+  },
+  {
+    "id": "lac-than-chien-ca",
+    "slug": "lac-than-chien-ca",
+    "name": "Lạc Thần Chiến Ca"
+  },
+  {
+    "id": "cookierun-banh-quy",
+    "slug": "cookierun-banh-quy",
+    "name": "CookieRun: Bánh Quy Đại Chiến"
+  },
+  {
+    "id": "nhat-niem-son-hai",
+    "slug": "nhat-niem-son-hai",
+    "name": "Nhất Niệm Sơn Hải – OEG"
+  },
+  {
+    "id": "thu-thanh-dai-chien",
+    "slug": "thu-thanh-dai-chien",
+    "name": "Thủ Thành Đại Chiến"
+  },
+  {
+    "id": "vo-hiep-origin",
+    "slug": "vo-hiep-origin",
+    "name": "Võ Hiệp Origin"
+  },
+  {
+    "id": "haunted-room",
+    "slug": "haunted-room",
+    "name": "Haunted Room: Ngôi Nhà Hắc Ám"
+  },
+  {
+    "id": "tam-quoc-36-ke",
+    "slug": "tam-quoc-36-ke",
+    "name": "Tam Quốc 36 Kế VTC"
+  },
+  {
+    "id": "ta-la-cao-thu-vo-lam",
+    "slug": "ta-la-cao-thu-vo-lam",
+    "name": "Ta Là Cao Thủ Võ Lâm Joygames"
+  },
+  {
+    "id": "vuong-gia-chien-quoc",
+    "slug": "vuong-gia-chien-quoc",
+    "name": "Vương Giả Chiến Quốc"
+  },
+  {
+    "id": "kanban-musume",
+    "slug": "kanban-musume",
+    "name": "Kanban Musume"
+  },
+  {
+    "id": "phap-su-hac-am",
+    "slug": "phap-su-hac-am",
+    "name": "Pháp Sư Hắc Ám"
+  },
+  {
+    "id": "sieu-hai-tac",
+    "slug": "sieu-hai-tac",
+    "name": "Siêu Hải Tặc"
+  },
+  {
+    "id": "than-ma-arena",
+    "slug": "than-ma-arena",
+    "name": "Thần Ma Arena"
+  },
+  {
+    "id": "ballistic-hero",
+    "slug": "ballistic-hero",
+    "name": "Ballistic Hero VNG"
+  },
+  {
+    "id": "vlcm-origin",
+    "slug": "vlcm-origin",
+    "name": "VLCM Origin: Võ Lâm Chân Mệnh Origin – TPL"
+  },
+  {
+    "id": "bang-bang-dai-chien",
+    "slug": "bang-bang-dai-chien",
+    "name": "Bang Bang Đại Chiến"
+  },
+  {
+    "id": "vo-danh-giang-ho",
+    "slug": "vo-danh-giang-ho",
+    "name": "Vô Danh Giang Hồ"
+  },
+  {
+    "id": "ludus-quyet-dau",
+    "slug": "ludus-quyet-dau",
+    "name": "Ludus: Quyết Đấu Chiến Thuật"
+  },
+  {
+    "id": "tan-3q-max",
+    "slug": "tan-3q-max",
+    "name": "Tân 3Q: MAX"
+  },
+  {
+    "id": "hoan-my-tam-quoc",
+    "slug": "hoan-my-tam-quoc",
+    "name": "Hoàn Mỹ Tam Quốc – VGP"
+  },
+  {
+    "id": "de-che-bong-da",
+    "slug": "de-che-bong-da",
+    "name": "Đế Chế Bóng Đá"
+  },
+  {
+    "id": "legends-reborn",
+    "slug": "legends-reborn",
+    "name": "Legends Reborn – Funtap"
+  },
+  {
+    "id": "huyen-tuong-phong-than",
+    "slug": "huyen-tuong-phong-than",
+    "name": "Huyễn Tướng Phong Thần"
+  },
+  {
+    "id": "kiem-de-origin",
+    "slug": "kiem-de-origin",
+    "name": "Kiếm Đế Origin"
+  },
+  {
+    "id": "phong-hau-tam-quoc",
+    "slug": "phong-hau-tam-quoc",
+    "name": "Phong Hầu Tam Quốc"
+  },
+  {
+    "id": "phong-than",
+    "slug": "phong-than",
+    "name": "PHONG THẦN"
+  },
+  {
+    "id": "bomber-vng",
+    "slug": "bomber-vng",
+    "name": "Bomber VNG"
+  },
+  {
+    "id": "vuot-tuong-thep",
+    "slug": "vuot-tuong-thep",
+    "name": "Vượt Tường Thép"
+  },
+  {
+    "id": "phong-than-ta-dinh-doat",
+    "slug": "phong-than-ta-dinh-doat",
+    "name": "Phong Thần – Ta Định Đoạt"
+  },
+  {
+    "id": "ngao-kiem-vo-song-mobile",
+    "slug": "ngao-kiem-vo-song-mobile",
+    "name": "Ngạo Kiếm Vô Song Mobile"
+  },
+  {
+    "id": "quai-thu-phong-thu",
+    "slug": "quai-thu-phong-thu",
+    "name": "Quái Thú Phòng Thủ"
+  },
+  {
+    "id": "the-gioi-hoa-vien-cua-toi",
+    "slug": "the-gioi-hoa-vien-cua-toi",
+    "name": "Thế Giới Hoa Viên Của Tôi"
+  },
+  {
+    "id": "tho-san-sieu-cap",
+    "slug": "tho-san-sieu-cap",
+    "name": "Thợ Săn Siêu Cấp"
+  },
+  {
+    "id": "nhip-dieu-than-tuong-oeg",
+    "slug": "nhip-dieu-than-tuong-oeg",
+    "name": "Nhịp Điệu Thần Tượng – OEG"
+  },
+  {
+    "id": "samkok-tam-quoc",
+    "slug": "samkok-tam-quoc",
+    "name": "Samkok Tam Quốc"
+  },
+  {
+    "id": "dragon-city",
+    "slug": "dragon-city",
+    "name": "Dragon City"
+  },
+  {
+    "id": "tho-san-quy",
+    "slug": "tho-san-quy",
+    "name": "Thợ Săn Quỷ: Đại Chiến Dị Giới"
+  },
+  {
+    "id": "vu-tru-than-thoai",
+    "slug": "vu-tru-than-thoai",
+    "name": "Vũ Trụ Thần Thoại"
+  },
+  {
+    "id": "truyen-thuyet-haki",
+    "slug": "truyen-thuyet-haki",
+    "name": "Truyền Thuyết Haki"
+  },
+  {
+    "id": "truyen-thuyet-than-khi",
+    "slug": "truyen-thuyet-than-khi",
+    "name": "Truyền Thuyết Thần Khí"
+  },
+  {
+    "id": "tran-thi-hang-quy",
+    "slug": "tran-thi-hang-quy",
+    "name": "Trấn Thi Hàng Quỷ"
+  },
+  {
+    "id": "vu-tru-dai-chien",
+    "slug": "vu-tru-dai-chien",
+    "name": "Vũ Trụ Đại Chiến"
+  },
+  {
+    "id": "forsaken-world-2",
+    "slug": "forsaken-world-2",
+    "name": "Forsaken World 2: Thần Ma Đại Chiến"
+  },
+  {
+    "id": "anh-hung-tien-len",
+    "slug": "anh-hung-tien-len",
+    "name": "Anh Hùng Tiến Lên"
+  },
+  {
+    "id": "arcane-hunter",
+    "slug": "arcane-hunter",
+    "name": "Arcane Hunter: Thợ Săn Linh Hồn"
+  },
+  {
+    "id": "3q-chess-ky-thu-tam-quoc",
+    "slug": "3q-chess-ky-thu-tam-quoc",
+    "name": "3Q Chess – Kỳ Thủ Tam Quốc"
+  },
+  {
+    "id": "cherry-tale",
+    "slug": "cherry-tale",
+    "name": "Cherry Tale"
+  },
+  {
+    "id": "quy-mon-quan",
+    "slug": "quy-mon-quan",
+    "name": "Quỷ Môn Quan"
+  },
+  {
+    "id": "huyen-thoai-phuc-yeu",
+    "slug": "huyen-thoai-phuc-yeu",
+    "name": "Huyền Thoại Phục Yêu"
+  },
+  {
+    "id": "hoi-uc-kiem-the",
+    "slug": "hoi-uc-kiem-the",
+    "name": "Hồi Ức Kiếm Thế"
+  },
+  {
+    "id": "tam-quoc-dong-khoi",
+    "slug": "tam-quoc-dong-khoi",
+    "name": "Tam Quốc Đồng Khởi"
+  },
+  {
+    "id": "minh-chu-vo-lam",
+    "slug": "minh-chu-vo-lam",
+    "name": "Wulin Master - Minh Chủ Võ Lâm VPlay"
+  },
+  {
+    "id": "kiem-hiep-tinh",
+    "slug": "kiem-hiep-tinh",
+    "name": "Kiếm Hiệp Tình"
+  },
+  {
+    "id": "arknights-endfield",
+    "slug": "arknights-endfield",
+    "name": "Arknights: Endfield"
+  },
+  {
+    "id": "bleach-soul-resonance",
+    "slug": "bleach-soul-resonance",
+    "name": "BLEACH: Soul Resonance"
+  },
+  {
+    "id": "tan-kiem-hiep-tinh-1",
+    "slug": "tan-kiem-hiep-tinh-1",
+    "name": "Tân Kiếm Hiệp Tình 1"
+  },
+  {
+    "id": "ngoi-sao-thoi-trang",
+    "slug": "ngoi-sao-thoi-trang",
+    "name": "Ngôi Sao Thời Trang"
+  },
+  {
+    "id": "na-tra-phong-than-ky",
+    "slug": "na-tra-phong-than-ky",
+    "name": "Na Tra Phong Thần Ký"
+  },
+  {
+    "id": "ven-nguyen-ky-uc-mobile",
+    "slug": "ven-nguyen-ky-uc-mobile",
+    "name": "Vẹn Nguyên Ký Ức Mobile"
+  },
+  {
+    "id": "thieu-nien-ca-hanh-khoi-dong",
+    "slug": "thieu-nien-ca-hanh-khoi-dong",
+    "name": "Thiếu Niên Ca Hành: Khởi Động"
+  },
+  {
+    "id": "tokyo-ghoul-thuc-tinh",
+    "slug": "tokyo-ghoul-thuc-tinh",
+    "name": "Tokyo Ghoul：Thức Tỉnh"
+  },
+  {
+    "id": "mu-vinh-hang",
+    "slug": "mu-vinh-hang",
+    "name": "MU: Vĩnh Hằng"
+  },
+  {
+    "id": "phi-kiem-tu-tien",
+    "slug": "phi-kiem-tu-tien",
+    "name": "Phi Kiếm Tu Tiên"
+  },
+  {
+    "id": "x-wukong",
+    "slug": "x-wukong",
+    "name": "X Wukong"
+  },
+  {
+    "id": "kiem-linh-nhap-vai-tu-tien",
+    "slug": "kiem-linh-nhap-vai-tu-tien",
+    "name": "Kiếm Linh: Nhập Vai Tu Tiên"
+  },
+  {
+    "id": "thieu-nien-3q-khoi-nguyen",
+    "slug": "thieu-nien-3q-khoi-nguyen",
+    "name": "Thiếu Niên 3Q: Khởi Nguyên"
+  },
+  {
+    "id": "sieu-tien-hoa",
+    "slug": "sieu-tien-hoa",
+    "name": "Siêu Tiến Hóa"
+  },
+  {
+    "id": "dragon-traveler-vn",
+    "slug": "dragon-traveler-vn",
+    "name": "Dragon Traveler VN"
+  },
+  {
+    "id": "drift-racing-3v3",
+    "slug": "drift-racing-3v3",
+    "name": "Drift Racing: 3v3 VN"
+  },
+  {
+    "id": "shinkai-impact-khoi-nguyen",
+    "slug": "shinkai-impact-khoi-nguyen",
+    "name": "Shinkai Impact: Khởi Nguyên"
+  },
+  {
+    "id": "phong-ma-tam-quoc",
+    "slug": "phong-ma-tam-quoc",
+    "name": "Phong Ma Tam Quốc"
+  },
+  {
+    "id": "chien-hoa-tam-gioi-vtc",
+    "slug": "chien-hoa-tam-gioi-vtc",
+    "name": "Chiến Hỏa Tam Giới - VTC"
+  },
+  {
+    "id": "hai-tac-loan-dau",
+    "slug": "hai-tac-loan-dau",
+    "name": "Hải Tặc Loạn Đấu: Idle AFK"
+  },
+  {
+    "id": "crossfire-legends-mobile-vng",
+    "slug": "crossfire-legends-mobile-vng",
+    "name": "Crossfire: Legends Mobile VNG"
+  },
+  {
+    "id": "ta-lam-tong-su-trong-tien-mon",
+    "slug": "ta-lam-tong-su-trong-tien-mon",
+    "name": "Ta Làm Tông Sư Trong Tiên Môn"
+  },
+  {
+    "id": "chien-than-mini",
+    "slug": "chien-than-mini",
+    "name": "Chiến Thần MINI"
+  },
+  {
+    "id": "anh-hung-bat-diet",
+    "slug": "anh-hung-bat-diet",
+    "name": "Anh Hùng Bất Diệt"
+  },
+  {
+    "id": "chien-binh-devias",
+    "slug": "chien-binh-devias",
+    "name": "Chiến Binh Devias"
+  },
+  {
+    "id": "fc-mobile-vn",
+    "slug": "fc-mobile-vn",
+    "name": "FC Mobile VN"
+  },
+  {
+    "id": "lang-tieu-chi",
+    "slug": "lang-tieu-chi",
+    "name": "Lăng Tiêu Chí"
+  },
+  {
+    "id": "thao-tung-tam-quoc",
+    "slug": "thao-tung-tam-quoc",
+    "name": "Thao Túng Tam Quốc"
+  },
+  {
+    "id": "mu-hong-hoa-dao",
+    "slug": "mu-hong-hoa-dao",
+    "name": "MU: Hồng Hoả Đao"
+  },
+  {
+    "id": "tay-du-tam-bao",
+    "slug": "tay-du-tam-bao",
+    "name": "Tây Du Tầm Bảo"
+  },
+  {
+    "id": "lu-khach-dai-luc-idle-rpg",
+    "slug": "lu-khach-dai-luc-idle-rpg",
+    "name": "Lữ Khách Đại Lục: Idle RPG"
+  },
+  {
+    "id": "thanh-long-huyen-thoai",
+    "slug": "thanh-long-huyen-thoai",
+    "name": "Thanh Long Huyền Thoại"
+  },
+  {
+    "id": "mieu-de-tam-quoc",
+    "slug": "mieu-de-tam-quoc",
+    "name": "Miêu Đế Tam Quốc"
+  },
+  {
+    "id": "soul-land-time-reversed",
+    "slug": "soul-land-time-reversed",
+    "name": "Soul Land: Time Reversed"
+  },
+  {
+    "id": "palmon",
+    "slug": "palmon",
+    "name": "Palmon: Cuộc Chiến Sinh Tồn"
+  },
+  {
+    "id": "chien-tuyen-huong-duong",
+    "slug": "chien-tuyen-huong-duong",
+    "name": "Chiến Tuyến Hướng Dương"
+  },
+  {
+    "id": "atlan-origin-luc-dia-troi-day",
+    "slug": "atlan-origin-luc-dia-troi-day",
+    "name": "Atlan Origin: Lục Địa Trỗi Dậy"
+  },
+  {
+    "id": "samkok-new-force",
+    "slug": "samkok-new-force",
+    "name": "Samkok: New Force"
+  },
+  {
+    "id": "quan-anh-phong-hoa-luc",
+    "slug": "quan-anh-phong-hoa-luc",
+    "name": "Tam Quốc Quần Anh"
+  },
+  {
+    "id": "chien-loan-tam-quoc",
+    "slug": "chien-loan-tam-quoc",
+    "name": "Chiến Loạn Tam Quốc"
+  },
+  {
+    "id": "phu-sinh-mong",
+    "slug": "phu-sinh-mong",
+    "name": "Phù Sinh Mộng"
+  },
+  {
+    "id": "thien-ha-ngu-tuyet",
+    "slug": "thien-ha-ngu-tuyet",
+    "name": "Thiên Hạ Ngũ Tuyệt"
+  },
+  {
+    "id": "cong-thanh-truyen-ky-tam-quoc",
+    "slug": "cong-thanh-truyen-ky-tam-quoc",
+    "name": "Công Thành Truyền Kỳ: Tam Quốc"
+  },
+  {
+    "id": "tam-quoc-huyen-tuong-vng",
+    "slug": "tam-quoc-huyen-tuong-vng",
+    "name": "Tam Quốc Huyễn Tướng VNG"
+  },
+  {
+    "id": "chu-thuat-dai-chien",
+    "slug": "chu-thuat-dai-chien",
+    "name": "Chú Thuật Đại Chiến"
+  },
+  {
+    "id": "ky-nguyen-bang-ha-3q",
+    "slug": "ky-nguyen-bang-ha-3q",
+    "name": "Kỷ Nguyên Băng Hà: 3Q"
+  },
+  {
+    "id": "samkok-kingdom-crush",
+    "slug": "samkok-kingdom-crush",
+    "name": "Samkok: Kingdom Crush"
+  },
+  {
+    "id": "quy-tuong-3q-thuc-tinh-oeg",
+    "slug": "quy-tuong-3q-thuc-tinh-oeg",
+    "name": "Quỷ Tướng 3Q: Thức Tỉnh - OEG"
+  },
+  {
+    "id": "tam-quoc-khoi-dong",
+    "slug": "tam-quoc-khoi-dong",
+    "name": "Tam Quốc Khởi Động"
+  },
+  {
+    "id": "tam-quoc-chi-chien-luoc-tth",
+    "slug": "tam-quoc-chi-chien-luoc-tth",
+    "name": "Tam Quốc Chí - Chiến Lược -TTH"
+  },
+  {
+    "id": "manga-ba-chay",
+    "slug": "manga-ba-chay",
+    "name": "Manga Bá Cháy"
+  },
+  {
+    "id": "delta-force",
+    "slug": "delta-force",
+    "name": "Delta Force"
+  },
+  {
+    "id": "hoa-son-kiem-the-vtc",
+    "slug": "hoa-son-kiem-the-vtc",
+    "name": "Hoa Sơn Kiếm Thế - VTC"
+  },
+  {
+    "id": "tan-chan-long-oeg",
+    "slug": "tan-chan-long-oeg",
+    "name": "Tân Chân Long - OEG"
+  },
+  {
+    "id": "stickman-go",
+    "slug": "stickman-go",
+    "name": "Stickman GO"
+  },
+  {
+    "id": "huyen-anh-vo-lam",
+    "slug": "huyen-anh-vo-lam",
+    "name": "Huyền Ảnh Võ Lâm"
+  },
+  {
+    "id": "vo-hiep-truyen-ky-2",
+    "slug": "vo-hiep-truyen-ky-2",
+    "name": "Võ Hiệp Truyền Kỳ 2"
+  },
+  {
+    "id": "tiem-tap-hoa-thoi-gian",
+    "slug": "tiem-tap-hoa-thoi-gian",
+    "name": "Tiệm Tạp Hóa Thời Gian"
+  },
+  {
+    "id": "x-samkok-sieu-nang-tam-quoc",
+    "slug": "x-samkok-sieu-nang-tam-quoc",
+    "name": "X-Samkok: Siêu Năng Tam Quốc"
+  },
+  {
+    "id": "pet-samkok-bao-thu-3q",
+    "slug": "pet-samkok-bao-thu-3q",
+    "name": "Pet Samkok – Báo Thủ 3Q"
+  },
+  {
+    "id": "tan-binh-thuc-tinh",
+    "slug": "tan-binh-thuc-tinh",
+    "name": "Tân Binh Thức Tỉnh"
+  },
+  {
+    "id": "great-sky-dai-thien-the-gioi",
+    "slug": "great-sky-dai-thien-the-gioi",
+    "name": "Great Sky: Đại Thiên Thế Giới"
+  },
+  {
+    "id": "me-ta-tam-quoc",
+    "slug": "me-ta-tam-quoc",
+    "name": "Mê Ta Tam Quốc"
+  },
+  {
+    "id": "dau-pha-thuong-khung-2d",
+    "slug": "dau-pha-thuong-khung-2d",
+    "name": "Đấu Phá Thương Khung 2D"
+  },
+  {
+    "id": "kiem-hiep-auto-chess",
+    "slug": "kiem-hiep-auto-chess",
+    "name": "Kiếm Hiệp Auto Chess"
+  },
+  {
+    "id": "thuc-than-ky",
+    "slug": "thuc-than-ky",
+    "name": "Thức Thần Ký"
+  },
+  {
+    "id": "ts3-chien-than-ky",
+    "slug": "ts3-chien-than-ky",
+    "name": "TS3 Chiến Thần Ký"
+  },
+  {
+    "id": "tay-du-truyen-ky-cmn",
+    "slug": "tay-du-truyen-ky-cmn",
+    "name": "Tây Du Truyền Kỳ CMN"
+  },
+  {
+    "id": "kiem-khach-phong-lang",
+    "slug": "kiem-khach-phong-lang",
+    "name": "Kiếm Khách Phong Lăng"
+  },
+  {
+    "id": "ngao-the-vo-lam",
+    "slug": "ngao-the-vo-lam",
+    "name": "NGẠO THẾ VÕ LÂM"
+  },
+  {
+    "id": "nhat-kiem-phuc-ma",
+    "slug": "nhat-kiem-phuc-ma",
+    "name": "Nhất Kiếm Phục Ma"
+  },
+  {
+    "id": "titan-awakening",
+    "slug": "titan-awakening",
+    "name": "Titan Awakening"
+  },
+  {
+    "id": "thieu-hiep-xin-dung-buoc",
+    "slug": "thieu-hiep-xin-dung-buoc",
+    "name": "Thiếu Hiệp Xin Dừng Bước"
+  },
+  {
+    "id": "souls",
+    "slug": "souls",
+    "name": "SOULS"
+  },
+  {
+    "id": "magic-chess-go-go",
+    "slug": "magic-chess-go-go",
+    "name": "Magic Chess: Go Go FT"
+  },
+  {
+    "id": "tay-du-mobile-tam-gioi-chien",
+    "slug": "tay-du-mobile-tam-gioi-chien",
+    "name": "Tây Du Mobile: Tam Giới Chiến"
+  },
+  {
+    "id": "anh-hung-cam-dia",
+    "slug": "anh-hung-cam-dia",
+    "name": "Anh Hùng Cấm Địa - VTC Game"
+  },
+  {
+    "id": "thoi-khong-chi-mong",
+    "slug": "thoi-khong-chi-mong",
+    "name": "Thời Không Chi Mộng"
+  },
+  {
+    "id": "tam-quoc-phan-cong-vng",
+    "slug": "tam-quoc-phan-cong-vng",
+    "name": "Tam Quốc Phản Công VNG"
+  },
+  {
+    "id": "tieu-tuyet-linh-chu",
+    "slug": "tieu-tuyet-linh-chu",
+    "name": "Tiểu Tuyết Lĩnh Chủ"
+  },
+  {
+    "id": "tay-du-phuc-ma",
+    "slug": "tay-du-phuc-ma",
+    "name": "Tây Du Phục Ma"
+  },
+  {
+    "id": "yeu-thu-van-dao",
+    "slug": "yeu-thu-van-dao",
+    "name": "Yêu Thú Vấn Đạo"
+  },
+  {
+    "id": "dau-than-tuyet-the",
+    "slug": "dau-than-tuyet-the",
+    "name": "Đấu Thần Tuyệt Thế"
+  },
+  {
+    "id": "than-ma-pk",
+    "slug": "than-ma-pk",
+    "name": "Thần Ma PK"
+  },
+  {
+    "id": "ky-nguyen-icarus",
+    "slug": "ky-nguyen-icarus",
+    "name": "Kỷ Nguyên Icarus"
+  },
+  {
+    "id": "mobile-armor-storm",
+    "slug": "mobile-armor-storm",
+    "name": "Mobile Armor:Storm"
+  },
+  {
+    "id": "cuc-toc-tam-quoc",
+    "slug": "cuc-toc-tam-quoc",
+    "name": "Cực Tốc Tam Quốc"
+  },
+  {
+    "id": "anh-hung-pixel",
+    "slug": "anh-hung-pixel",
+    "name": "Anh Hùng Pixel"
+  },
+  {
+    "id": "endless-nightmare-6-reborn",
+    "slug": "endless-nightmare-6-reborn",
+    "name": "Endless Nightmare 6: Reborn"
+  },
+  {
+    "id": "thoi-dai-anh-hung",
+    "slug": "thoi-dai-anh-hung",
+    "name": "Top Heroes - Thời Đại Anh Hùng"
+  },
+  {
+    "id": "tro-ve-tuoi-tho",
+    "slug": "tro-ve-tuoi-tho",
+    "name": "Trở Về Tuổi Thơ"
+  },
+  {
+    "id": "tien-len-alita",
+    "slug": "tien-len-alita",
+    "name": "Tiến Lên Alita"
+  },
+  {
+    "id": "than-ma-loan-vu",
+    "slug": "than-ma-loan-vu",
+    "name": "Thần Ma Loạn Vũ"
+  },
+  {
+    "id": "vo-lam-dai-minh-tinh",
+    "slug": "vo-lam-dai-minh-tinh",
+    "name": "Võ Lâm Đại Minh Tinh"
+  },
+  {
+    "id": "than-ma-ao-hoa",
+    "slug": "than-ma-ao-hoa",
+    "name": "THẦN MA ẢO HÓA"
+  },
+  {
+    "id": "mukbang-tam-quoc",
+    "slug": "mukbang-tam-quoc",
+    "name": "Mukbang Tam Quốc"
+  },
+  {
+    "id": "zenless-zone-zero",
+    "slug": "zenless-zone-zero",
+    "name": "Zenless Zone Zero"
+  },
+  {
+    "id": "roblox",
+    "slug": "roblox",
+    "name": "Roblox"
+  },
+  {
+    "id": "roblox-blox-fruits",
+    "slug": "roblox-blox-fruits",
+    "name": "Roblox Blox Fruits"
+  },
+  {
+    "id": "tay-du-beo-vng",
+    "slug": "tay-du-beo-vng",
+    "name": "Tây Du Béo VNG"
+  },
+  {
+    "id": "3q-trieu-hoan-su",
+    "slug": "3q-trieu-hoan-su",
+    "name": "3Q Triệu Hoán Sư"
+  },
+  {
+    "id": "hero-clash",
+    "slug": "hero-clash",
+    "name": "Hero Clash"
+  },
+  {
+    "id": "thu-ky-huyen",
+    "slug": "thu-ky-huyen",
+    "name": "Thú Kỳ Huyền 3D Mobile"
+  },
+  {
+    "id": "vo-hon",
+    "slug": "vo-hon",
+    "name": "VÕ HỒN"
+  },
+  {
+    "id": "tam-quoc-meo",
+    "slug": "tam-quoc-meo",
+    "name": "Tam Quốc Mèo"
+  },
+  {
+    "id": "dislyte",
+    "slug": "dislyte",
+    "name": "Dislyte: Nhịp Điệu Huyền Bí"
+  },
+  {
+    "id": "ghost-story-thien-nu",
+    "slug": "ghost-story-thien-nu",
+    "name": "Ghost Story: Thiện Nữ"
+  },
+  {
+    "id": "hoc-vien-ninja-g4m",
+    "slug": "hoc-vien-ninja-g4m",
+    "name": "Học Viện Ninja G4M"
+  },
+  {
+    "id": "neverness-to-everness",
+    "slug": "neverness-to-everness",
+    "name": "Neverness to Everness"
+  },
+  {
+    "id": "hanh-trinh-afk",
+    "slug": "hanh-trinh-afk",
+    "name": "Hành Trình AFK"
+  },
+  {
+    "id": "luc-tung-tam-quoc",
+    "slug": "luc-tung-tam-quoc",
+    "name": "Lục Tung Tam Quốc"
+  },
+  {
+    "id": "fortias-saga",
+    "slug": "fortias-saga",
+    "name": "Fortias Saga: Idle RPG"
+  },
+  {
+    "id": "vo-dich-tu-tien-gioi-vtc",
+    "slug": "vo-dich-tu-tien-gioi-vtc",
+    "name": "Vô Địch Tu Tiên Giới - VTC"
+  },
+  {
+    "id": "mobile-legends-bang-bang",
+    "slug": "mobile-legends-bang-bang",
+    "name": "Mobile Legends: Bang Bang"
+  },
+  {
+    "id": "huyet-canh-chi-vuc",
+    "slug": "huyet-canh-chi-vuc",
+    "name": "Huyết Cảnh Chi Vực"
+  },
+  {
+    "id": "dau-truong-chan-ly",
+    "slug": "dau-truong-chan-ly",
+    "name": "Đấu Trường Chân Lý"
+  },
+  {
+    "id": "huyen-thoai-lang-la",
+    "slug": "huyen-thoai-lang-la",
+    "name": "Huyền Thoại Làng Lá"
+  },
+  {
+    "id": "thap-tuyet-tran",
+    "slug": "thap-tuyet-tran",
+    "name": "THẬP TUYỆT TRẬN"
+  },
+  {
+    "id": "nam-lun-tien-len",
+    "slug": "nam-lun-tien-len",
+    "name": "Nấm Lùn Tiến Lên"
+  },
+  {
+    "id": "tay-du-vng",
+    "slug": "tay-du-vng",
+    "name": "Tây Du VNG: Đại Náo Tam Giới"
+  },
+  {
+    "id": "tieu-yeu-tam-dao",
+    "slug": "tieu-yeu-tam-dao",
+    "name": "Tiểu Yêu Tầm Đạo"
+  },
+  {
+    "id": "super-snail",
+    "slug": "super-snail",
+    "name": "Super Snail"
+  },
+  {
+    "id": "nam-dai-chien-tpl",
+    "slug": "nam-dai-chien-tpl",
+    "name": "Nấm Đại Chiến – TPL"
+  },
+  {
+    "id": "kiem-vuc-3d",
+    "slug": "kiem-vuc-3d",
+    "name": "Kiếm Vực 3D"
+  },
+  {
+    "id": "jx2-origin",
+    "slug": "jx2-origin",
+    "name": "JX2 Origin"
+  },
+  {
+    "id": "phong-van-truyen-ky-2",
+    "slug": "phong-van-truyen-ky-2",
+    "name": "Phong Vân Truyền Kỳ 2"
+  },
+  {
+    "id": "chu-cong-xung-xung-xung",
+    "slug": "chu-cong-xung-xung-xung",
+    "name": "Chủ Công Xung Xung Xung"
+  },
+  {
+    "id": "tam-quoc-x",
+    "slug": "tam-quoc-x",
+    "name": "TAM QUỐC X"
+  },
+  {
+    "id": "swordash",
+    "slug": "swordash",
+    "name": "Swordash"
+  },
+  {
+    "id": "genshin-impact",
+    "slug": "genshin-impact",
+    "name": "Genshin Impact"
+  },
+  {
+    "id": "call-of-dragons",
+    "slug": "call-of-dragons",
+    "name": "Call of Dragons"
+  },
+  {
+    "id": "kiem-the-origin",
+    "slug": "kiem-the-origin",
+    "name": "Kiếm Thế Origin VNG"
+  },
+  {
+    "id": "honkai-star-rail",
+    "slug": "honkai-star-rail",
+    "name": "Honkai: Star Rail"
+  },
+  {
+    "id": "kiem-hiep-tinh-2-mobile",
+    "slug": "kiem-hiep-tinh-2-mobile",
+    "name": "Kiếm Hiệp Tình 2 Mobile"
+  },
+  {
+    "id": "immortal-rising-2",
+    "slug": "immortal-rising-2",
+    "name": "Immortal Rising 2"
+  },
+  {
+    "id": "dai-hiep-chay-di",
+    "slug": "dai-hiep-chay-di",
+    "name": "Đại Hiệp Chạy Đi"
+  },
+  {
+    "id": "vo-cuc-tien-do-cmn",
+    "slug": "vo-cuc-tien-do-cmn",
+    "name": "Vô Cực Tiên Đồ CMN"
+  },
+  {
+    "id": "lang-rong-3",
+    "slug": "lang-rong-3",
+    "name": "Làng Rồng 3"
+  },
+  {
+    "id": "giang-ho-bat-phai-phan-tranh",
+    "slug": "giang-ho-bat-phai-phan-tranh",
+    "name": "Giang Hồ Bát Phái Phân Tranh"
+  },
+  {
+    "id": "chronicle-of-infinity",
+    "slug": "chronicle-of-infinity",
+    "name": "Chronicle of Infinity VN"
+  },
+  {
+    "id": "mech-arena",
+    "slug": "mech-arena",
+    "name": "Mech Arena"
+  },
+  {
+    "id": "play-together",
+    "slug": "play-together",
+    "name": "Play Together VNG"
+  },
+  {
+    "id": "afk-arena",
+    "slug": "afk-arena",
+    "name": "AFK Arena"
+  },
+  {
+    "id": "de-quoc-quat-khoi-tan-the-ky",
+    "slug": "de-quoc-quat-khoi-tan-the-ky",
+    "name": "ĐẾ QUỐC QUẬT KHỞI"
+  },
+  {
+    "id": "nhat-niem-tieu-dao-gzone",
+    "slug": "nhat-niem-tieu-dao-gzone",
+    "name": "Nhất Niệm Tiêu Dao - Gzone"
+  },
+  {
+    "id": "chien-gioi-4d",
+    "slug": "chien-gioi-4d",
+    "name": "Chiến Giới 4D"
+  },
+  {
+    "id": "rise-of-kingdoms",
+    "slug": "rise-of-kingdoms",
+    "name": "Rise of Kingdoms"
+  },
+  {
+    "id": "hanh-trinh-bat-tan-sinh-ton",
+    "slug": "hanh-trinh-bat-tan-sinh-ton",
+    "name": "Hành Trình Bất Tận: Sinh Tồn"
+  },
+  {
+    "id": "goi-ta-dai-chuong-quy",
+    "slug": "goi-ta-dai-chuong-quy",
+    "name": "Gọi Ta Đại Chưởng Quỹ"
+  },
+  {
+    "id": "vuong-quoc-kien",
+    "slug": "vuong-quoc-kien",
+    "name": "VƯƠNG QUỐC KIẾN"
+  },
+  {
+    "id": "gunny-origin",
+    "slug": "gunny-origin",
+    "name": "Gunny Origin"
+  },
+  {
+    "id": "mini-world-creata",
+    "slug": "mini-world-creata",
+    "name": "Mini World: CREATA"
+  },
+  {
+    "id": "idle-gog",
+    "slug": "idle-gog",
+    "name": "IDLE GOG VN"
+  },
+  {
+    "id": "pew-pew-slime-idle-rpg",
+    "slug": "pew-pew-slime-idle-rpg",
+    "name": "Pew Pew Slime - Idle RPG"
+  },
+  {
+    "id": "meo-may-sieu-quay",
+    "slug": "meo-may-sieu-quay",
+    "name": "Mèo Máy Siêu Quậy"
+  },
+  {
+    "id": "na-tra-nao-hai",
+    "slug": "na-tra-nao-hai",
+    "name": "Na Tra Náo Hải"
+  },
+  {
+    "id": "tan-omg3q-vng",
+    "slug": "tan-omg3q-vng",
+    "name": "Tân OMG3Q VNG"
+  },
+  {
+    "id": "dai-chien-tam-quoc",
+    "slug": "dai-chien-tam-quoc",
+    "name": "Đại Chiến Tam Quốc"
+  },
+  {
+    "id": "doi-hinh-toi-thuong",
+    "slug": "doi-hinh-toi-thuong",
+    "name": "Đội Hình Tối Thượng"
+  },
+  {
+    "id": "mong-huyen-giang-ho",
+    "slug": "mong-huyen-giang-ho",
+    "name": "Mộng Huyễn Giang Hồ"
+  },
+  {
+    "id": "thanh-quang-thien-su",
+    "slug": "thanh-quang-thien-su",
+    "name": "Thánh Quang Thiên Sứ"
+  },
+  {
+    "id": "thieu-nien-3q-vng",
+    "slug": "thieu-nien-3q-vng",
+    "name": "Thiếu Niên 3Q VNG"
+  },
+  {
+    "id": "mong-canh-tam-quoc",
+    "slug": "mong-canh-tam-quoc",
+    "name": "MỘNG CẢNH TAM QUỐC"
+  },
+  {
+    "id": "lords-mobile",
+    "slug": "lords-mobile",
+    "name": "Lords Mobile: Kingdom Wars"
+  },
+  {
+    "id": "giang-ho-ngu-tuyet-mobile",
+    "slug": "giang-ho-ngu-tuyet-mobile",
+    "name": "Giang Hồ Ngũ Tuyệt Mobile"
+  },
+  {
+    "id": "vo-lam-truyen-ky-1-mobile",
+    "slug": "vo-lam-truyen-ky-1-mobile",
+    "name": "Võ Lâm Truyền Kỳ 1 Mobile"
+  },
+  {
+    "id": "dicero",
+    "slug": "dicero",
+    "name": "Dicero"
+  },
+  {
+    "id": "call-of-duty-mobile-vn",
+    "slug": "call-of-duty-mobile-vn",
+    "name": "Call of Duty: Mobile VN"
+  },
+  {
+    "id": "dau-truong-huyen-thoai",
+    "slug": "dau-truong-huyen-thoai",
+    "name": "Đấu Trường Huyền Thoại"
+  },
+  {
+    "id": "lien-quan-mobile",
+    "slug": "lien-quan-mobile",
+    "name": "Liên Quân Mobile"
+  },
+  {
+    "id": "pubg-mobile",
+    "slug": "pubg-mobile",
+    "name": "PUBG MOBILE"
+  },
+  {
+    "id": "the-seven-deadly-sins-grand-cross",
+    "slug": "the-seven-deadly-sins-grand-cross",
+    "name": "The Seven Deadly Sins: Grand Cross"
+  },
+  {
+    "id": "khu-vuon-tren-may",
+    "slug": "khu-vuon-tren-may",
+    "name": "Khu Vườn Trên Mây"
+  },
+  {
+    "id": "ngoa-long-vng",
+    "slug": "ngoa-long-vng",
+    "name": "Ngọa Long VNG"
+  },
+  {
+    "id": "tam-gioi-anh-hung",
+    "slug": "tam-gioi-anh-hung",
+    "name": "Tam Giới Anh Hùng"
+  },
+  {
+    "id": "danh-tuong-3q-vng",
+    "slug": "danh-tuong-3q-vng",
+    "name": "Danh Tướng 3Q - VNG"
+  },
+  {
+    "id": "grand-blue",
+    "slug": "grand-blue",
+    "name": "Grand Blue"
+  },
+  {
+    "id": "dragon-village-m",
+    "slug": "dragon-village-m",
+    "name": "Dragon Village M"
+  },
+  {
+    "id": "omg-3q",
+    "slug": "omg-3q",
+    "name": "OMG 3Q"
+  },
+  {
+    "id": "zingspeed-mobile",
+    "slug": "zingspeed-mobile",
+    "name": "ZingSpeed Mobile"
+  },
+  {
+    "id": "x-wukong-dai-chien-tam-gioi",
+    "slug": "x-wukong-dai-chien-tam-gioi",
+    "name": "X-WUKONG ĐẠI CHIẾN TAM GIỚI"
+  },
+  {
+    "id": "tam-quoc-huyen-tuong",
+    "slug": "tam-quoc-huyen-tuong",
+    "name": "Tam Quốc Huyễn Tưởng: 3Q AFK"
+  },
+  {
+    "id": "buu-boi-truyen-ky",
+    "slug": "buu-boi-truyen-ky",
+    "name": "Bửu Bối Truyền Kỳ"
+  },
+  {
+    "id": "free-fire",
+    "slug": "free-fire",
+    "name": "Free Fire"
+  },
+  {
+    "id": "gunpow",
+    "slug": "gunpow",
+    "name": "GunPow"
+  },
+  {
+    "id": "god-rivals-rpg-roguelike",
+    "slug": "god-rivals-rpg-roguelike",
+    "name": "God Rivals: RPG Roguelike"
+  },
+  {
+    "id": "gambit-hero",
+    "slug": "gambit-hero",
+    "name": "Gambit Hero: Vận Mệnh Anh Hùng"
+  },
+  {
+    "id": "thien-menh-lac-hong",
+    "slug": "thien-menh-lac-hong",
+    "name": "Thiên Mệnh Lạc Hồng"
+  },
+  {
+    "id": "truyen-ky-tai-khoi",
+    "slug": "truyen-ky-tai-khoi",
+    "name": "Truyền Kỳ Tái Khởi"
+  },
+  {
+    "id": "elpis-fallen-star",
+    "slug": "elpis-fallen-star",
+    "name": "Elpis: Fallen Star"
+  },
+  {
+    "id": "blood-strike-one-punch-man",
+    "slug": "blood-strike-one-punch-man",
+    "name": "Blood Strike x One-Punch Man"
+  },
+  {
+    "id": "lord-of-mysteries",
+    "slug": "lord-of-mysteries",
+    "name": "Lord of Mysteries"
+  },
+  {
+    "id": "gold-and-glory",
+    "slug": "gold-and-glory",
+    "name": "Gold and Glory"
+  },
+  {
+    "id": "astro-arena-3vs3-battle-pvp",
+    "slug": "astro-arena-3vs3-battle-pvp",
+    "name": "Astro Arena: 3vs3 Battle PvP"
+  },
+  {
+    "id": "cuoc-doi-gam-voc",
+    "slug": "cuoc-doi-gam-voc",
+    "name": "Cuộc Đời Gấm Vóc"
+  },
+  {
+    "id": "knight-survivors",
+    "slug": "knight-survivors",
+    "name": "Knight Survivors"
+  },
+  {
+    "id": "heavenfall",
+    "slug": "heavenfall",
+    "name": "Heavenfall Arena"
+  },
+  {
+    "id": "last-war-survival",
+    "slug": "last-war-survival",
+    "name": "Last War: Survival VN"
+  },
+  {
+    "id": "soul-huntress",
+    "slug": "soul-huntress",
+    "name": "Soul Huntress: Dungeon Crawler"
+  },
+  {
+    "id": "dark-war-survival",
+    "slug": "dark-war-survival",
+    "name": "Dark War Survival VN"
+  },
+  {
+    "id": "project-e-tan-nguyen-kiem-hiep",
+    "slug": "project-e-tan-nguyen-kiem-hiep",
+    "name": "Project E: Tân Nguyên Kiếm Hiệp"
+  },
+  {
+    "id": "norse-saga-cuu-gioi-thuc-tinh",
+    "slug": "norse-saga-cuu-gioi-thuc-tinh",
+    "name": "Norse Saga: Cửu Giới Thức Tỉnh"
+  },
+  {
+    "id": "vo-lam-1-3d-tpl",
+    "slug": "vo-lam-1-3d-tpl",
+    "name": "Võ Lâm 1 3D TPL"
+  },
+  {
+    "id": "x-dogs",
+    "slug": "x-dogs",
+    "name": "X-Dogs: Siêu Khuyển"
+  },
+  {
+    "id": "zombies-boom",
+    "slug": "zombies-boom",
+    "name": "Zombies Boom"
+  },
+  {
+    "id": "sea-of-remnants",
+    "slug": "sea-of-remnants",
+    "name": "Sea of Remnants"
+  },
+  {
+    "id": "nguyet-mong",
+    "slug": "nguyet-mong",
+    "name": "Nguyệt Mộng"
+  },
+  {
+    "id": "tam-quoc-hop-tuong",
+    "slug": "tam-quoc-hop-tuong",
+    "name": "Tam Quốc Hợp Tướng"
+  },
+  {
+    "id": "adventurer-alliance",
+    "slug": "adventurer-alliance",
+    "name": "Adventurer Alliance"
+  },
+  {
+    "id": "top-eleven-vng",
+    "slug": "top-eleven-vng",
+    "name": "Top Eleven VNG"
+  },
+  {
+    "id": "pewpew-plants-rogue-garden",
+    "slug": "pewpew-plants-rogue-garden",
+    "name": "PewPew Plants – Rogue Garden"
+  },
+  {
+    "id": "thoi-loan-2",
+    "slug": "thoi-loan-2",
+    "name": "Thời Loạn 2"
+  },
+  {
+    "id": "doomsday-agent",
+    "slug": "doomsday-agent",
+    "name": "Doomsday Agent"
+  },
+  {
+    "id": "xom-nho-tuoi-tho",
+    "slug": "xom-nho-tuoi-tho",
+    "name": "Xóm Nhỏ Tuổi Thơ"
+  },
+  {
+    "id": "dynasty-chronicles",
+    "slug": "dynasty-chronicles",
+    "name": "Dynasty Chronicles"
+  },
+  {
+    "id": "tap-dragon-little-knight-luna",
+    "slug": "tap-dragon-little-knight-luna",
+    "name": "Tap Dragon: Little Knight Luna"
+  },
+  {
+    "id": "mech-transformers",
+    "slug": "mech-transformers",
+    "name": "Mech Transformers"
+  },
+  {
+    "id": "ninja-ma-thuat",
+    "slug": "ninja-ma-thuat",
+    "name": "Ninja Ma Thuật"
+  },
+  {
+    "id": "dao-rong-tai-sinh",
+    "slug": "dao-rong-tai-sinh",
+    "name": "Đảo Rồng Tái Sinh"
+  },
+  {
+    "id": "tan-y-thien-giang-ho-lenh",
+    "slug": "tan-y-thien-giang-ho-lenh",
+    "name": "Tân Ỷ Thiên: Giang Hồ Lệnh"
+  },
+  {
+    "id": "loopy-ducky",
+    "slug": "loopy-ducky",
+    "name": "Loopy Ducky"
+  },
+  {
+    "id": "ky-nguyen-tai-phu",
+    "slug": "ky-nguyen-tai-phu",
+    "name": "Kỷ Nguyên Tài Phú"
+  },
+  {
+    "id": "dao-huu-tu-tien-khong",
+    "slug": "dao-huu-tu-tien-khong",
+    "name": "Đạo Hữu Tu Tiên Không"
+  },
+  {
+    "id": "undead-slayer-extreme",
+    "slug": "undead-slayer-extreme",
+    "name": "Undead Slayer Extreme"
+  },
+  {
+    "id": "tong-su-manh-nhat",
+    "slug": "tong-su-manh-nhat",
+    "name": "Tông Sư Mạnh Nhất"
+  },
+  {
+    "id": "palworld-online",
+    "slug": "palworld-online",
+    "name": "Palworld Online"
+  },
+  {
+    "id": "dawnbound-heroes",
+    "slug": "dawnbound-heroes",
+    "name": "Dawnbound Heroes"
+  },
+  {
+    "id": "eternal-dragons",
+    "slug": "eternal-dragons",
+    "name": "Eternal Dragons"
+  },
+  {
+    "id": "eileen-saga-the-crush-girl",
+    "slug": "eileen-saga-the-crush-girl",
+    "name": "Eileen Saga: The Crush Girl"
+  },
+  {
+    "id": "hoi-tho-mat-troi-mobile",
+    "slug": "hoi-tho-mat-troi-mobile",
+    "name": "Hơi Thở Mặt Trời Mobile"
+  },
+  {
+    "id": "x-hero-save-animals",
+    "slug": "x-hero-save-animals",
+    "name": "X-HERO: Save Animals"
+  },
+  {
+    "id": "fireborn",
+    "slug": "fireborn",
+    "name": "Fireborn"
+  },
+  {
+    "id": "dao-sinh-ton-3d",
+    "slug": "dao-sinh-ton-3d",
+    "name": "Đảo Sinh Tồn 3D"
+  },
+  {
+    "id": "shadow-warriors-idle",
+    "slug": "shadow-warriors-idle",
+    "name": "Shadow Warriors Idle"
+  },
+  {
+    "id": "kiem-rong-vtc-mobile",
+    "slug": "kiem-rong-vtc-mobile",
+    "name": "Kiếm Rồng VTC Mobile"
+  },
+  {
+    "id": "khai-tong-lap-phai",
+    "slug": "khai-tong-lap-phai",
+    "name": "Khai Tông Lập Phái"
+  },
+  {
+    "id": "piggy-town-vn",
+    "slug": "piggy-town-vn",
+    "name": "Piggy Town VN"
+  },
+  {
+    "id": "hao-khi-chien-hon-migame",
+    "slug": "hao-khi-chien-hon-migame",
+    "name": "Hào Khí Chiến Hồn"
+  },
+  {
+    "id": "dinh-phong-tam-quoc-2",
+    "slug": "dinh-phong-tam-quoc-2",
+    "name": "Đỉnh Phong 2: Tân Tam Quốc"
+  },
+  {
+    "id": "soul-knight-defense",
+    "slug": "soul-knight-defense",
+    "name": "Soul Knight Defense"
+  },
+  {
+    "id": "backpack-defense-zombie-td",
+    "slug": "backpack-defense-zombie-td",
+    "name": "Backpack Defense: Zombie TD"
+  },
+  {
+    "id": "idle-heroes-ky-nguyen-anh-hung",
+    "slug": "idle-heroes-ky-nguyen-anh-hung",
+    "name": "Idle Heroes: Kỷ Nguyên Anh Hùng"
+  },
+  {
+    "id": "thanh-chu-tam-quoc-gzone",
+    "slug": "thanh-chu-tam-quoc-gzone",
+    "name": "Thành Chủ Tam Quốc"
+  },
+  {
+    "id": "rise-of-dragons",
+    "slug": "rise-of-dragons",
+    "name": "Rise of Dragons"
+  },
+  {
+    "id": "happy-citizens-mayor-sim",
+    "slug": "happy-citizens-mayor-sim",
+    "name": "Happy Citizens: Mayor Sim"
+  },
+  {
+    "id": "lands-of-jail",
+    "slug": "lands-of-jail",
+    "name": "Lands of Jail"
+  },
+  {
+    "id": "dao-quan-than-thanh",
+    "slug": "dao-quan-than-thanh",
+    "name": "Đạo Quân Thần Thánh"
+  },
+  {
+    "id": "be-a-pro-football",
+    "slug": "be-a-pro-football",
+    "name": "Be a Pro Football"
+  },
+  {
+    "id": "final-war-frozen-defense",
+    "slug": "final-war-frozen-defense",
+    "name": "Final War: Frozen Defense"
+  },
+  {
+    "id": "tieu-dao-vo-lam",
+    "slug": "tieu-dao-vo-lam",
+    "name": "Tiêu Dao Võ Lâm"
+  },
+  {
+    "id": "brown-dust-2",
+    "slug": "brown-dust-2",
+    "name": "Brown Dust 2"
+  },
+  {
+    "id": "bac-thay-kungfu",
+    "slug": "bac-thay-kungfu",
+    "name": "Bậc Thầy Kungfu"
+  },
+  {
+    "id": "the-gioi-moi-ninja",
+    "slug": "the-gioi-moi-ninja",
+    "name": "Thế Giới Mới Ninja"
+  },
+  {
+    "id": "beyond-god-ascension",
+    "slug": "beyond-god-ascension",
+    "name": "Beyond God: Ascension"
+  },
+  {
+    "id": "tu-tien-chi-lo-oeg",
+    "slug": "tu-tien-chi-lo-oeg",
+    "name": "Tu Tiên Chi Lộ - OEG"
+  },
+  {
+    "id": "tang-long-bat-bai",
+    "slug": "tang-long-bat-bai",
+    "name": "Tàng Long Bất Bại"
+  },
+  {
+    "id": "chua-cong-chay-mau",
+    "slug": "chua-cong-chay-mau",
+    "name": "Chúa Công Chạy Mau"
+  },
+  {
+    "id": "tam-quoc-thu-hoa",
+    "slug": "tam-quoc-thu-hoa",
+    "name": "Tam Quốc Thú Hóa"
+  },
+  {
+    "id": "tieu-ngao-doc-ton-vgp",
+    "slug": "tieu-ngao-doc-ton-vgp",
+    "name": "Tiếu Ngạo Độc Tôn VGP"
+  },
+  {
+    "id": "soul-knight",
+    "slug": "soul-knight",
+    "name": "Soul Knight (Kỵ Sĩ Nguyên Khí)"
+  },
+  {
+    "id": "rellion-npc-survival",
+    "slug": "rellion-npc-survival",
+    "name": "RELLION: NPC Survival"
+  },
+  {
+    "id": "idle-cat-gunner",
+    "slug": "idle-cat-gunner",
+    "name": "Idle Cat Gunner"
+  },
+  {
+    "id": "chinh-phuc-cuu-chau",
+    "slug": "chinh-phuc-cuu-chau",
+    "name": "Chinh Phục Cửu Châu"
+  },
+  {
+    "id": "co-gioi-chien-war-robots",
+    "slug": "co-gioi-chien-war-robots",
+    "name": "Cơ Giới Chiến: War Robots"
+  },
+  {
+    "id": "draconia-saga",
+    "slug": "draconia-saga",
+    "name": "Draconia Saga"
+  },
+  {
+    "id": "sword-of-convallaria",
+    "slug": "sword-of-convallaria",
+    "name": "Sword of Convallaria"
+  },
+  {
+    "id": "majo-apocalypse-tactics",
+    "slug": "majo-apocalypse-tactics",
+    "name": "MAJO - Apocalypse Tactics RPG"
+  },
+  {
+    "id": "tram-tien-quyet",
+    "slug": "tram-tien-quyet",
+    "name": "Trảm Tiên Quyết"
+  },
+  {
+    "id": "blue-lock-pwc",
+    "slug": "blue-lock-pwc",
+    "name": "BLUE LOCK PWC"
+  },
+  {
+    "id": "lost-era-immortal-legend",
+    "slug": "lost-era-immortal-legend",
+    "name": "Lost Era: Immortal Legend"
+  },
+  {
+    "id": "big-bang-thoi-khong",
+    "slug": "big-bang-thoi-khong",
+    "name": "Big Bang Thời Không"
+  },
+  {
+    "id": "yong-heroes-2",
+    "slug": "yong-heroes-2",
+    "name": "Yong Heroes 2: Storm Returns"
+  },
+  {
+    "id": "voyage-age-pirate-vow",
+    "slug": "voyage-age-pirate-vow",
+    "name": "Voyage Age: Pirate Vow"
+  },
+  {
+    "id": "tinh-linh-khoi-nguyen",
+    "slug": "tinh-linh-khoi-nguyen",
+    "name": "Tinh Linh Khởi Nguyên"
+  },
+  {
+    "id": "omg-goddess-idle-legends",
+    "slug": "omg-goddess-idle-legends",
+    "name": "OMG Goddess: Idle Legends"
+  },
+  {
+    "id": "revelation-thien-du",
+    "slug": "revelation-thien-du",
+    "name": "Revelation: Thiên Dụ"
+  },
+  {
+    "id": "chien-vi-vinh-quang",
+    "slug": "chien-vi-vinh-quang",
+    "name": "Chiến Vì Vinh Quang"
+  },
+  {
+    "id": "idle-angels",
+    "slug": "idle-angels",
+    "name": "Idle Angels"
+  },
+  {
+    "id": "clash-of-critters",
+    "slug": "clash-of-critters",
+    "name": "Clash of Critters"
+  },
+  {
+    "id": "hyper-spark-ki-clash",
+    "slug": "hyper-spark-ki-clash",
+    "name": "Hyper Spark: Ki Clash"
+  },
+  {
+    "id": "combat-quest",
+    "slug": "combat-quest",
+    "name": "Combat Quest"
+  },
+  {
+    "id": "cai-the-tranh-hung",
+    "slug": "cai-the-tranh-hung",
+    "name": "Garena Cái Thế Tranh Hùng"
+  },
+  {
+    "id": "ngoi-sao-showbiz",
+    "slug": "ngoi-sao-showbiz",
+    "name": "Ngôi Sao Showbiz"
+  },
+  {
+    "id": "than-kiem-ky-thu",
+    "slug": "than-kiem-ky-thu",
+    "name": "Thần Kiếm Kỳ Thư"
+  },
+  {
+    "id": "ares-the-iron-vanguard",
+    "slug": "ares-the-iron-vanguard",
+    "name": "ARES: The Iron Vanguard"
+  },
+  {
+    "id": "red-dragon-legend",
+    "slug": "red-dragon-legend",
+    "name": "Red Dragon Legend - Hunger Chest"
+  },
+  {
+    "id": "soul-knight-prequel",
+    "slug": "soul-knight-prequel",
+    "name": "Soul Knight Prequel"
+  },
+  {
+    "id": "dont-die-survival",
+    "slug": "dont-die-survival",
+    "name": "Don&#x27;t Die: Survival AutoBattler"
+  },
+  {
+    "id": "avalar-raid-of-shadow",
+    "slug": "avalar-raid-of-shadow",
+    "name": "Avalar: Raid of Shadow"
+  },
+  {
+    "id": "ky-tich-atlans",
+    "slug": "ky-tich-atlans",
+    "name": "Kỳ Tích Atlans"
+  },
+  {
+    "id": "pof-con-duong-ma-phap",
+    "slug": "pof-con-duong-ma-phap",
+    "name": "PoF: Con Đường Ma Pháp"
+  },
+  {
+    "id": "tru-tien-3d",
+    "slug": "tru-tien-3d",
+    "name": "Tru Tiên 3D - Thanh Vân Chí"
+  },
+  {
+    "id": "bo-lac-dau-phong",
+    "slug": "bo-lac-dau-phong",
+    "name": "Bộ Lạc Đậu Phộng"
+  },
+  {
+    "id": "allfiring",
+    "slug": "allfiring",
+    "name": "ALLfiring"
+  },
+  {
+    "id": "basketball-zero",
+    "slug": "basketball-zero",
+    "name": "Basketball: Zero"
+  },
+  {
+    "id": "sword-of-reborn",
+    "slug": "sword-of-reborn",
+    "name": "Sword of Reborn"
+  },
+  {
+    "id": "conquest-of-nine-kingdoms",
+    "slug": "conquest-of-nine-kingdoms",
+    "name": "Conquest of Nine Kingdoms"
+  },
+  {
+    "id": "westland-survival",
+    "slug": "westland-survival",
+    "name": "Westland Survival: Cowboy Game"
+  },
+  {
+    "id": "speed-monkey-escape",
+    "slug": "speed-monkey-escape",
+    "name": "+1 Speed Monkey Escape"
+  },
+  {
+    "id": "idle-horizons",
+    "slug": "idle-horizons",
+    "name": "Idle Horizons: Dawn of Heroes"
+  },
+  {
+    "id": "summoners-war",
+    "slug": "summoners-war",
+    "name": "Summoners War: Sky Arena"
+  },
+  {
+    "id": "star-blaster",
+    "slug": "star-blaster",
+    "name": "Star Blaster: Offline Roguelike"
+  },
+  {
+    "id": "dao-rong-dot-bien",
+    "slug": "dao-rong-dot-bien",
+    "name": "Đảo Rồng Đột Biến"
+  },
+  {
+    "id": "world-of-tanks-blitz",
+    "slug": "world-of-tanks-blitz",
+    "name": "World of Tanks Blitz"
+  },
+  {
+    "id": "fortress-saga",
+    "slug": "fortress-saga",
+    "name": "Fortress Saga: Idle AFK RPG"
+  },
+  {
+    "id": "dress-to-impress",
+    "slug": "dress-to-impress",
+    "name": "Dress To Impress"
+  },
+  {
+    "id": "mu-luc-dia-vng",
+    "slug": "mu-luc-dia-vng",
+    "name": "MU Lục Địa VNG"
+  },
+  {
+    "id": "combo-thuc-tinh",
+    "slug": "combo-thuc-tinh",
+    "name": "Combo Thức Tỉnh"
+  },
+  {
+    "id": "meme-war",
+    "slug": "meme-war",
+    "name": "Meme War"
+  },
+  {
+    "id": "vuong-quoc-bat-diet",
+    "slug": "vuong-quoc-bat-diet",
+    "name": "Vương Quốc Bất Diệt"
+  },
+  {
+    "id": "hero-survival-io",
+    "slug": "hero-survival-io",
+    "name": "Hero Survival IO"
+  },
+  {
+    "id": "port-city",
+    "slug": "port-city",
+    "name": "Port City: Ship Tycoon"
+  },
+  {
+    "id": "chien-thu-hon-chien",
+    "slug": "chien-thu-hon-chien",
+    "name": "Chiến Thú Hỗn Chiến"
+  },
+  {
+    "id": "legend-piece",
+    "slug": "legend-piece",
+    "name": "Legend Piece"
+  },
+  {
+    "id": "the-gioi-tu-tien",
+    "slug": "the-gioi-tu-tien",
+    "name": "Thế Giới Tu Tiên"
+  },
+  {
+    "id": "thien-thu-truyen-ky",
+    "slug": "thien-thu-truyen-ky",
+    "name": "Thiên Thư Truyền Kỳ"
+  },
+  {
+    "id": "fallen-souls-idle-rpg",
+    "slug": "fallen-souls-idle-rpg",
+    "name": "Fallen Souls: Idle RPG"
+  },
+  {
+    "id": "vong-xuyen-phong-hoa-luc",
+    "slug": "vong-xuyen-phong-hoa-luc",
+    "name": "Vong Xuyên Phong Hoa Lục"
+  },
+  {
+    "id": "mong-thien-kiem",
+    "slug": "mong-thien-kiem",
+    "name": "Giftcode Mộng Thiên Kiếm"
+  },
+  {
+    "id": "doomsday-last-survivors",
+    "slug": "doomsday-last-survivors",
+    "name": "Doomsday: Last Survivors"
+  },
+  {
+    "id": "pixel-dai-chien",
+    "slug": "pixel-dai-chien",
+    "name": "Pixel Đại Chiến"
+  },
+  {
+    "id": "3q-thanh-chu-tieu-dao",
+    "slug": "3q-thanh-chu-tieu-dao",
+    "name": "3Q: Thành Chủ Tiêu Dao"
+  },
+  {
+    "id": "north-war",
+    "slug": "north-war",
+    "name": "North War: Island Defense 3D"
+  },
+  {
+    "id": "thieu-nu-scarlet",
+    "slug": "thieu-nu-scarlet",
+    "name": "Thiếu Nữ Scarlet"
+  },
+  {
+    "id": "match-go-heroes",
+    "slug": "match-go-heroes",
+    "name": "Match Go! Heroes"
+  },
+  {
+    "id": "tam-quoc-quy-ke",
+    "slug": "tam-quoc-quy-ke",
+    "name": "Tam Quốc Quỷ Kế"
+  },
+  {
+    "id": "dynasty-warriors-overlords",
+    "slug": "dynasty-warriors-overlords",
+    "name": "Dynasty Warriors: Overlords"
+  },
+  {
+    "id": "thieu-nien-tay-du-vtc",
+    "slug": "thieu-nien-tay-du-vtc",
+    "name": "Thiếu Niên Tây Du VTC"
+  }
+]

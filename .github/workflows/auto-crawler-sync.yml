@@ -1,0 +1,36 @@
+name: Auto Giftcode Crawler & Sync
+
+on:
+  schedule:
+    # Chạy tự động mỗi 1 tiếng vào phút 15 (tránh giờ cao điểm phút 0, đảm bảo chạy đúng giờ 100%)
+    - cron: '15 * * * *'
+  workflow_dispatch:
+    # Cho phép kích hoạt thủ công bất kỳ lúc nào từ giao diện GitHub
+
+jobs:
+  crawl-and-sync:
+    name: Crawl, Score & Auto-Sync Codes
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+
+    steps:
+      - name: Checkout Codebase
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js Runtime
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: ''
+
+      - name: Run Crawler & 4-Tier Scorer Engine
+        run: node scripts/crawler/run_crawler.cjs
+        env:
+          SYNC_URL: ${{ secrets.SYNC_URL || 'https://codegame.shop/api/sync' }}
+          ADMIN_SYNC_SECRET: ${{ secrets.ADMIN_SYNC_SECRET || 'b4e08494bf1c3fd6a0c965dd2411780c60513f7f87001bc955d7496331b2faef' }}
+
+      - name: Auto-Resolve & Sync Accurate Game Logos
+        run: node scripts/sync_crawler_game_icons.cjs
+        env:
+          SYNC_URL: ${{ secrets.SYNC_URL || 'https://codegame.shop/api/sync' }}
+          ADMIN_SYNC_SECRET: ${{ secrets.ADMIN_SYNC_SECRET || 'b4e08494bf1c3fd6a0c965dd2411780c60513f7f87001bc955d7496331b2faef' }}

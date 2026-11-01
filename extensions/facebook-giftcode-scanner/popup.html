@@ -1,0 +1,606 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <title>CodeGame.Shop Scanner</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      width: 420px;
+      min-height: 570px;
+      background: #020617;
+      color: #f8fafc;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      font-size: 13px;
+    }
+    .header {
+      padding: 12px 16px;
+      background: linear-gradient(135deg, #1e1b4b 0%, #0f172a 100%);
+      border-bottom: 1px solid #1e293b;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    .header-brand {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+    .header-logo {
+      width: 28px;
+      height: 28px;
+      border-radius: 8px;
+      background: #4f46e5;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      box-shadow: 0 0 10px rgba(79, 70, 229, 0.5);
+    }
+    .header-logo svg { width: 16px; height: 16px; fill: none; stroke: #fde047; stroke-width: 2; }
+    .header-title { font-size: 14px; font-weight: 700; color: #ffffff; }
+    .header-sub { font-size: 11px; color: #818cf8; }
+    .btn-icon {
+      background: #1e293b;
+      border: 1px solid #334155;
+      color: #94a3b8;
+      width: 28px;
+      height: 28px;
+      border-radius: 8px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+      transition: all 0.2s;
+    }
+    .btn-icon:hover { color: #ffffff; background: #334155; }
+
+    .content { padding: 12px 14px; }
+
+    .card {
+      background: #0f172a;
+      border: 1px solid #1e293b;
+      border-radius: 10px;
+      padding: 10px 12px;
+      margin-bottom: 10px;
+    }
+    .card-title {
+      font-size: 10px;
+      font-weight: 700;
+      color: #94a3b8;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+      margin-bottom: 4px;
+    }
+    .page-name {
+      font-size: 13px;
+      font-weight: 700;
+      color: #ffffff;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+    .page-url {
+      font-size: 11px;
+      color: #64748b;
+      font-family: monospace;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      margin-top: 2px;
+    }
+
+    .form-group { margin-bottom: 10px; }
+    .form-label { display: block; font-size: 11px; font-weight: 600; color: #94a3b8; margin-bottom: 4px; }
+    .form-select, .form-input {
+      width: 100%;
+      background: #020617;
+      border: 1px solid #334155;
+      color: #f8fafc;
+      padding: 7px 10px;
+      border-radius: 8px;
+      font-size: 12px;
+      outline: none;
+      transition: border-color 0.2s;
+    }
+    .form-select:focus, .form-input:focus { border-color: #6366f1; }
+
+    /* Scan Controls */
+    .scroll-depth-wrap {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      background: #090d16;
+      border: 1px solid #1e293b;
+      padding: 6px 10px;
+      border-radius: 8px;
+      margin-bottom: 10px;
+      font-size: 11px;
+      color: #94a3b8;
+    }
+    .depth-select {
+      background: #020617;
+      border: 1px solid #334155;
+      color: #f8fafc;
+      padding: 3px 6px;
+      border-radius: 6px;
+      font-size: 11px;
+      outline: none;
+      max-width: 220px;
+    }
+
+    .scan-buttons {
+      display: grid;
+      grid-template-columns: 1fr 1.3fr;
+      gap: 8px;
+      margin-bottom: 10px;
+    }
+    .btn-scan-quick {
+      background: #1e1b4b;
+      border: 1px solid #4338ca;
+      color: #c7d2fe;
+      padding: 9px;
+      border-radius: 8px;
+      font-size: 12px;
+      font-weight: 700;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 6px;
+      transition: all 0.2s;
+    }
+    .btn-scan-quick:hover { background: #312e81; color: #ffffff; }
+
+    .btn-scan-deep {
+      background: linear-gradient(135deg, #4f46e5 0%, #6366f1 100%);
+      color: #ffffff;
+      border: none;
+      padding: 9px;
+      border-radius: 8px;
+      font-size: 12px;
+      font-weight: 700;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 6px;
+      box-shadow: 0 4px 12px rgba(79, 70, 229, 0.4);
+      transition: all 0.2s;
+    }
+    .btn-scan-deep:hover { background: linear-gradient(135deg, #4338ca 0%, #4f46e5 100%); }
+
+    .btn-stop-scan {
+      width: 100%;
+      background: #ef4444;
+      color: #ffffff;
+      border: none;
+      padding: 8px;
+      border-radius: 8px;
+      font-size: 12px;
+      font-weight: 700;
+      cursor: pointer;
+      margin-bottom: 10px;
+      animation: pulse 1.5s infinite;
+    }
+    .btn-stop-scan:hover { background: #dc2626; }
+
+    /* Stats Card */
+    .stats-card {
+      background: #090d16;
+      border: 1px solid #1e293b;
+      border-radius: 8px;
+      padding: 6px 10px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 10px;
+      font-size: 11px;
+    }
+    .stat-item {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 1px;
+    }
+    .stat-label { color: #64748b; font-size: 10px; }
+    .stat-item strong { color: #f8fafc; font-size: 12px; }
+
+    /* Progress Box */
+    .progress-box {
+      background: #090d16;
+      border: 1px solid #6366f1;
+      border-radius: 8px;
+      padding: 8px 12px;
+      margin-bottom: 10px;
+      display: none;
+    }
+    .progress-msg {
+      font-size: 11px;
+      color: #a5b4fc;
+      margin-bottom: 6px;
+      display: flex;
+      align-items: center;
+      gap: 6px;
+    }
+    .progress-bar-wrap {
+      width: 100%;
+      height: 4px;
+      background: #1e293b;
+      border-radius: 2px;
+      overflow: hidden;
+    }
+    .progress-bar-fill {
+      width: 0%;
+      height: 100%;
+      background: linear-gradient(90deg, #6366f1, #34d399);
+      transition: width 0.3s;
+    }
+
+    /* Tabs Bar */
+    .tabs-bar {
+      display: flex;
+      background: #0f172a;
+      border: 1px solid #1e293b;
+      border-radius: 8px;
+      padding: 3px;
+      gap: 4px;
+      margin-bottom: 10px;
+    }
+    .tab-btn {
+      flex: 1;
+      background: transparent;
+      border: none;
+      color: #94a3b8;
+      font-size: 11px;
+      font-weight: 700;
+      padding: 6px 8px;
+      border-radius: 6px;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 6px;
+      transition: all 0.2s;
+    }
+    .tab-btn.active {
+      background: #1e293b;
+      color: #ffffff;
+      box-shadow: 0 1px 3px rgba(0,0,0,0.3);
+    }
+    .badge-count {
+      background: #334155;
+      color: #f8fafc;
+      font-size: 10px;
+      padding: 1px 5px;
+      border-radius: 10px;
+    }
+    .tab-btn.active .badge-count {
+      background: #4f46e5;
+      color: #ffffff;
+    }
+
+    /* Tab Panes */
+    .tab-content { display: none; }
+    .tab-content.active { display: block; }
+
+    /* Action Toolbar in Tabs */
+    .tab-toolbar {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 6px;
+    }
+    .btn-tool-sm {
+      background: #1e293b;
+      border: 1px solid #334155;
+      color: #cbd5e1;
+      font-size: 10px;
+      font-weight: 600;
+      padding: 3px 7px;
+      border-radius: 6px;
+      cursor: pointer;
+      transition: all 0.2s;
+    }
+    .btn-tool-sm:hover { background: #334155; color: #ffffff; }
+
+    /* Code List */
+    .code-list {
+      max-height: 180px;
+      overflow-y: auto;
+      display: flex;
+      flex-direction: column;
+      gap: 6px;
+      margin-bottom: 10px;
+    }
+    .code-row {
+      background: #090d16;
+      border: 1px solid #1e293b;
+      border-radius: 8px;
+      padding: 6px 10px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    .code-badge {
+      font-family: monospace;
+      font-weight: 700;
+      color: #fde047;
+      font-size: 12px;
+      background: rgba(253, 224, 71, 0.1);
+      padding: 2px 6px;
+      border-radius: 4px;
+    }
+    .code-reward {
+      font-size: 11px;
+      color: #94a3b8;
+      max-width: 170px;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+
+    /* Link List */
+    .link-list {
+      max-height: 180px;
+      overflow-y: auto;
+      display: flex;
+      flex-direction: column;
+      gap: 6px;
+      margin-bottom: 10px;
+    }
+    .link-row {
+      background: #090d16;
+      border: 1px solid #1e293b;
+      border-radius: 8px;
+      padding: 6px 10px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 8px;
+    }
+    .link-details {
+      display: flex;
+      flex-direction: column;
+      gap: 2px;
+      min-width: 0;
+      flex: 1;
+    }
+    .link-badge {
+      font-size: 9px;
+      font-weight: 700;
+      text-transform: uppercase;
+      padding: 1px 5px;
+      border-radius: 4px;
+      width: fit-content;
+    }
+    .link-badge.REWARD_LINK { background: rgba(253, 224, 71, 0.15); color: #fde047; }
+    .link-badge.OFFICIAL_WEB { background: rgba(56, 189, 248, 0.15); color: #38bdf8; }
+    .link-badge.POST_PERMALINK { background: rgba(99, 102, 241, 0.15); color: #818cf8; }
+    .link-badge.PAY_LINK { background: rgba(52, 211, 153, 0.15); color: #34d399; }
+    .link-badge.EXTERNAL_LINK { background: rgba(148, 163, 184, 0.15); color: #94a3b8; }
+
+    .link-url-text {
+      font-size: 10px;
+      color: #cbd5e1;
+      font-family: monospace;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+    .link-actions-btn {
+      display: flex;
+      align-items: center;
+      gap: 4px;
+      flex-shrink: 0;
+    }
+    .btn-sm-action {
+      background: #1e293b;
+      border: 1px solid #334155;
+      color: #94a3b8;
+      font-size: 10px;
+      padding: 2px 6px;
+      border-radius: 4px;
+      cursor: pointer;
+      text-decoration: none;
+    }
+    .btn-sm-action:hover { background: #334155; color: #ffffff; }
+
+    .btn-push {
+      width: 100%;
+      background: linear-gradient(135deg, #10b981 0%, #059669 100%);
+      color: #ffffff;
+      border: none;
+      padding: 10px;
+      border-radius: 8px;
+      font-size: 12px;
+      font-weight: 700;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 6px;
+      box-shadow: 0 4px 12px rgba(16, 185, 129, 0.4);
+      transition: all 0.2s;
+    }
+    .btn-push:hover { background: linear-gradient(135deg, #059669 0%, #047857 100%); }
+    .btn-push:disabled { opacity: 0.5; cursor: not-allowed; }
+
+    .status-alert {
+      padding: 8px 10px;
+      border-radius: 8px;
+      font-size: 11px;
+      margin-top: 8px;
+      display: none;
+      line-height: 1.4;
+    }
+    .status-success { background: rgba(16, 185, 129, 0.15); border: 1px solid rgba(16, 185, 129, 0.3); color: #34d399; }
+    .status-error { background: rgba(244, 63, 94, 0.15); border: 1px solid rgba(244, 63, 94, 0.3); color: #fb7185; }
+
+    /* Settings Panel */
+    #settings-panel { display: none; }
+    .settings-title { font-size: 13px; font-weight: 700; margin-bottom: 10px; color: #ffffff; }
+    .btn-save-settings {
+      width: 100%;
+      background: #334155;
+      color: #ffffff;
+      border: none;
+      padding: 8px;
+      border-radius: 8px;
+      font-weight: 600;
+      cursor: pointer;
+      margin-top: 8px;
+    }
+    .btn-save-settings:hover { background: #475569; }
+  </style>
+</head>
+<body>
+  <div class="header">
+    <div class="header-brand">
+      <div class="header-logo">
+        <svg viewBox="0 0 24 24"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"></polygon></svg>
+      </div>
+      <div>
+        <div class="header-title">CodeGame.Shop</div>
+        <div class="header-sub">Facebook Scanner 1-Click</div>
+      </div>
+    </div>
+    <button id="btn-toggle-settings" class="btn-icon" title="Cài đặt kết nối">
+      <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2">
+        <circle cx="12" cy="12" r="3"></circle>
+        <path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83 0 2 2 0 0 1 0-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1-2-2 2 2 0 0 1 2-2h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 0-2.83 2 2 0 0 1 2.83 0l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 2-2 2 2 0 0 1 2 2v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 0 2 2 0 0 1 0 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 2 2 2 2 0 0 1-2 2h-.09a1.65 1.65 0 0 0-1.51 1z"></path>
+      </svg>
+    </button>
+  </div>
+
+  <div class="content">
+    <!-- Main Panel -->
+    <div id="main-panel">
+      <div class="card">
+        <div class="card-title">Fanpage Đang Mở</div>
+        <div id="page-name" class="page-name">Đang nhận diện trang...</div>
+        <div id="page-url" class="page-url">-</div>
+      </div>
+
+      <div class="form-group">
+        <label class="form-label">Tựa Game Áp Dụng (486+ Game):</label>
+        <input type="text" id="game-search" class="form-input" placeholder="🔍 Gõ tìm nhanh tên game..." style="margin-bottom: 5px;">
+        <select id="game-select" class="form-select">
+          <option value="">-- Đang nạp danh mục game --</option>
+        </select>
+      </div>
+
+      <!-- Scroll depth selector -->
+      <div class="scroll-depth-wrap">
+        <span>Độ sâu quét bài viết:</span>
+        <select id="scroll-depth" class="depth-select">
+          <option value="15">15 bài viết (~8-10 lượt)</option>
+          <option value="35" selected>35 bài viết (~15-20 lượt)</option>
+          <option value="60">60 bài viết (~30-40 lượt)</option>
+          <option value="100">100 bài viết (~50-60 lượt)</option>
+          <option value="9999">♾️ Quét Toàn Bộ Fanpage (Không giới hạn)</option>
+        </select>
+      </div>
+
+      <!-- Scan Buttons Group -->
+      <div class="scan-buttons">
+        <button id="btn-scan-quick" class="btn-scan-quick" title="Quét nhanh các bài đang hiển thị">
+          <span>⚡ Quét Nhanh</span>
+        </button>
+        <button id="btn-scan-deep" class="btn-scan-deep" title="Tự động cuộn trang và mở toàn bộ bài viết">
+          <span>🌀 Quét Sâu Toàn Trang</span>
+        </button>
+      </div>
+
+      <!-- Stop Button (Hiển thị khi đang quét sâu) -->
+      <button id="btn-stop-scan" class="btn-stop-scan">⏹️ DỪNG QUÉT NGAY</button>
+
+      <!-- Stats Card -->
+      <div class="stats-card">
+        <div class="stat-item">
+          <span class="stat-label">Bài đã duyệt</span>
+          <strong id="stat-posts">0</strong>
+        </div>
+        <div class="stat-item">
+          <span class="stat-label">Tổng code</span>
+          <strong id="stat-codes">0</strong>
+        </div>
+        <div class="stat-item">
+          <span class="stat-label">⭐ Mã chuẩn</span>
+          <strong id="stat-high-codes" style="color: #34d399;">0</strong>
+        </div>
+        <div class="stat-item">
+          <span class="stat-label">Liên kết</span>
+          <strong id="stat-links">0</strong>
+        </div>
+      </div>
+
+      <!-- Progress Box -->
+      <div id="progress-box" class="progress-box">
+        <div id="progress-msg" class="progress-msg">
+          <span>⏳ Đang bắt đầu cuộn trang...</span>
+        </div>
+        <div class="progress-bar-wrap">
+          <div id="progress-bar-fill" class="progress-bar-fill"></div>
+        </div>
+      </div>
+
+      <!-- Results Section with Tabs -->
+      <div id="results-section" style="display: none;">
+        <div class="tabs-bar">
+          <button id="tab-btn-codes" class="tab-btn active">
+            <span>🎁 Mã Code</span>
+            <span id="badge-codes-count" class="badge-count">0</span>
+          </button>
+          <button id="tab-btn-links" class="tab-btn">
+            <span>🔗 Đường Link</span>
+            <span id="badge-links-count" class="badge-count">0</span>
+          </button>
+        </div>
+
+        <!-- Tab 1: Codes -->
+        <div id="pane-codes" class="tab-content active">
+          <div class="tab-toolbar">
+            <span style="font-size: 11px; color: #94a3b8;">Danh sách mã lọc sạch:</span>
+            <div style="display: flex; gap: 6px;">
+              <button id="btn-purify-codes" class="btn-tool-sm" title="Lọc bỏ các mã rác, từ ngữ tiếng Việt">🧹 Lọc Mã Rác</button>
+              <button id="btn-clear-codes" class="btn-tool-sm" style="color: #fb7185;" title="Xóa toàn bộ mã đã quét">🗑️ Xóa Tất Cả</button>
+            </div>
+          </div>
+          <div id="code-list" class="code-list"></div>
+          <button id="btn-push" class="btn-push">
+            <span>🚀 BẮN THẲNG LÊN WEB CODEGAME.SHOP</span>
+          </button>
+        </div>
+
+        <!-- Tab 2: Links -->
+        <div id="pane-links" class="tab-content">
+          <div class="tab-toolbar">
+            <span style="font-size: 11px; color: #94a3b8;">Link bài viết, sự kiện & Web NPH:</span>
+            <button id="btn-copy-all-links" class="btn-tool-sm">📋 Chép hết link</button>
+          </div>
+          <div id="link-list" class="link-list"></div>
+        </div>
+      </div>
+
+      <div id="status-alert" class="status-alert"></div>
+    </div>
+
+    <!-- Settings Panel -->
+    <div id="settings-panel">
+      <div class="settings-title">⚙️ Cấu Hình Kết Nối API</div>
+      <div class="form-group">
+        <label class="form-label">API Sync Endpoint:</label>
+        <input type="text" id="setting-api-url" class="form-input">
+      </div>
+      <div class="form-group">
+        <label class="form-label">Admin Sync Key:</label>
+        <input type="password" id="setting-sync-key" class="form-input">
+      </div>
+      <button id="btn-save-settings" class="btn-save-settings">Lưu Cấu Hình</button>
+      <button id="btn-back-main" class="btn-save-settings" style="background: #1e293b; margin-top: 6px;">Quay Lại</button>
+    </div>
+  </div>
+
+  <script src="popup.js"></script>
+</body>
+</html>

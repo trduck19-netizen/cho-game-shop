@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="vi" class="dark w-full max-w-full">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="color-scheme" content="dark" />
+    <meta name="theme-color" content="#0B0D19" />
+    <meta name="theme-color" media="(prefers-color-scheme: dark)" content="#0B0D19" />
+    <meta name="theme-color" media="(prefers-color-scheme: light)" content="#0B0D19" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <meta name="apple-mobile-web-app-title" content="CodeGame" />
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+    <meta http-equiv="Pragma" content="no-cache" />
+    <meta http-equiv="Expires" content="0" />
+
+    <!-- Anti-FOUC & Instant Canvas Background Initialization -->
+    <script>
+      (function() {
+        var host = window.location.hostname.toLowerCase();
+        if (host.includes('admin-code-game-shop') || host.startsWith('admin.')) {
+          document.title = 'Quản Trị Hệ Thống | CodeGame.shop';
+          if (window.location.pathname === '/' || window.location.pathname === '') {
+            window.location.replace('/admin' + (window.location.hash || '#/dashboard'));
+            return;
+          }
+        }
+        document.documentElement.classList.add('dark');
+        document.documentElement.style.backgroundColor = '#0B0D19';
+        document.documentElement.style.colorScheme = 'dark';
+        if (document.body) {
+          document.body.style.backgroundColor = '#0B0D19';
+        }
+      })();
+    </script>
+
+    <!-- Official Brand Icons & App Representation -->
+    <link rel="icon" type="image/png" sizes="512x512" href="/logo.png" />
+    <link rel="icon" type="image/png" sizes="192x192" href="/logo.png" />
+    <link rel="icon" type="image/png" sizes="64x64" href="/favicon.png" />
+    <link rel="icon" type="image/x-icon" href="/favicon.ico" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/logo.png" />
+    <link rel="apple-touch-icon-precomposed" href="/logo.png" />
+    <link rel="manifest" href="/manifest.json" />
+
+    <!-- Preload Official Brand Logo for Instant First Paint & Splash Screen -->
+    <link rel="preload" as="image" href="/logo.png" fetchpriority="high" type="image/png" />
+    <link rel="preload" as="image" href="/brand_loader_logo.jpg" fetchpriority="high" type="image/jpeg" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, viewport-fit=cover" />
+    <title>CodeGame.shop - Săn Giftcode Miễn Phí & Giao Dịch Mã Game Uy Tín</title>
+    <meta name="description" content="Kho tổng hợp hơn 11.870+ giftcode game mobile và webgame mới nhất 2026 của 573 tựa game chuẩn (trong đó gồm 347 game có giấy phép G1 ABEI chính thức và game quốc tế). Cập nhật liên tục 24/7 từ các NPH VNG, Garena, VTC, SohaGame, Funtap." />
+    <meta name="keywords" content="giftcode game, code game moi nhat, ma qua tang, giftcode g1, code delta force, code genshin impact, nap game gia re, shop acc game, codegame" />
+    <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
+
+    <link rel="canonical" href="https://codegame.shop/" />
+    <link rel="alternate" hreflang="vi" href="https://codegame.shop/" />
+    <link rel="alternate" hreflang="x-default" href="https://codegame.shop/" />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:site_name" content="CodeGame.shop" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://codegame.shop/" />
+    <meta property="og:title" content="CodeGame.shop - Săn Giftcode Miễn Phí & Giao Dịch Mã Game Uy Tín" />
+    <meta property="og:description" content="Kho tổng hợp hơn 11.870+ giftcode game mobile và webgame mới nhất 2026 của 573 tựa game chuẩn (trong đó gồm 347 game có giấy phép G1 ABEI chính thức và game quốc tế). Cập nhật liên tục 24/7 từ các NPH VNG, Garena, VTC, SohaGame, Funtap." />
+    <meta property="og:image" content="https://codegame.shop/og-image.jpg" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:locale" content="vi_VN" />
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:domain" content="codegame.shop" />
+    <meta name="twitter:url" content="https://codegame.shop/" />
+    <meta name="twitter:title" content="CodeGame.shop - Săn Giftcode Miễn Phí & Giao Dịch Mã Game Uy Tín" />
+    <meta name="twitter:description" content="Kho tổng hợp hơn 11.870+ giftcode game mobile và webgame mới nhất 2026 của 573 tựa game chuẩn (trong đó gồm 347 game có giấy phép G1 ABEI chính thức và game quốc tế). Cập nhật liên tục 24/7 từ các NPH VNG, Garena, VTC, SohaGame, Funtap." />
+    <meta name="twitter:image" content="https://codegame.shop/og-image.jpg" />
+
+    <!-- Schema.org JSON-LD Structured Data for Google Rich Snippets -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "WebSite",
+            "@id": "https://codegame.shop/#website",
+            "url": "https://codegame.shop/",
+            "name": "CodeGame.shop",
+            "description": "Cổng tra cứu giftcode và game bản quyền G1 hàng đầu Việt Nam",
+            "potentialAction": {
+              "@type": "SearchAction",
+              "target": {
+                "@type": "EntryPoint",
+                "urlTemplate": "https://codegame.shop/?search={search_term_string}"
+              },
+              "query-input": "required name=search_term_string"
+            },
+            "inLanguage": "vi-VN"
+          },
+          {
+            "@type": "Organization",
+            "@id": "https://codegame.shop/#organization",
+            "name": "CodeGame.shop",
+            "url": "https://codegame.shop/",
+            "logo": {
+              "@type": "ImageObject",
+              "url": "https://codegame.shop/logo.png",
+              "width": 512,
+              "height": 512
+            },
+            "sameAs": [
+              "https://t.me/webcodegame_vn",
+              "https://zalo.me/g/qdtlmj2tebfa0baraedg",
+              "https://zalo.me/0386767888"
+            ],
+            "contactPoint": {
+              "@type": "ContactPoint",
+              "telephone": "+84-386-767-888",
+              "contactType": "customer service",
+              "availableLanguage": ["Vietnamese", "English"]
+            }
+          }
+        ]
+      }
+    </script>
+
+    <!-- Typography: Inter (Tối ưu 4 mức đậm chính 400, 600, 700, 800 - Tải bất đồng bộ không chặn render) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" media="print" onload="this.media='all'" />
+    <noscript>
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" />
+    </noscript>
+
+    <style>
+      /* Critical Base & Variables */
+      :root {
+        color-scheme: dark;
+        background-color: #0B0D19;
+      }
+      *, *::before, *::after {
+        box-sizing: border-box;
+      }
+      html {
+        background-color: #0B0D19 !important;
+        color-scheme: dark;
+        font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif !important;
+        -webkit-font-smoothing: antialiased;
+      }
+      body {
+        background-color: #0B0D19 !important;
+        color: #F8FAFC;
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden;
+        min-height: 100vh;
+        font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif !important;
+      }
+
+      /* Critical Header CSS (Strict CLS & FOUC Prevention with Dropdown Overflow Support) */
+      header, .site-header {
+        position: sticky;
+        top: 0;
+        left: 0;
+        right: 0;
+        z-index: 50;
+        width: 100%;
+        height: 56px;
+        min-height: 56px;
+        background: rgba(11, 13, 25, 0.95);
+        backdrop-filter: blur(12px);
+        -webkit-backdrop-filter: blur(12px);
+        border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0 12px;
+        box-sizing: border-box;
+        overflow: visible;
+      }
+      @media (min-width: 640px) {
+        header, .site-header {
+          height: 72px;
+          min-height: 72px;
+          padding: 0 24px;
+        }
+      }
+
+      /* Navigation Tabs: STRICTLY HIDDEN ON MOBILE (<768px) to eliminate overlap */
+      header nav, .site-header nav, .header-nav-tabs {
+        display: none !important;
+      }
+      @media (min-width: 768px) {
+        header nav, .site-header nav, .header-nav-tabs {
+          display: flex !important;
+          align-items: center;
+          gap: 16px;
+        }
+      }
+
+      /* Logo container */
+      .header-logo, header a:first-child {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+        text-decoration: none;
+        color: #fff;
+        flex-shrink: 0;
+        min-height: 36px;
+      }
+      .header-logo img, header a:first-child img {
+        width: 32px;
+        height: 32px;
+        border-radius: 8px;
+        object-fit: cover;
+        display: inline-block;
+      }
+      @media (min-width: 640px) {
+        .header-logo img, header a:first-child img {
+          width: 44px;
+          height: 44px;
+          border-radius: 12px;
+        }
+      }
+
+      /* Critical Hero Banner */
+      .critical-hero-banner {
+        background-color: #0e1222;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+        padding: 24px 16px;
+        text-align: center;
+        min-height: 120px;
+      }
+
+      /* Critical Cards Grid Layout (Mobile: 2 cols, Desktop: up to 6 cols) */
+      .critical-cards-grid {
+        display: grid;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 10px;
+        width: 100%;
+        box-sizing: border-box;
+      }
+      @media (min-width: 640px) {
+        .critical-cards-grid {
+          grid-template-columns: repeat(3, minmax(0, 1fr));
+          gap: 12px;
+        }
+      }
+      @media (min-width: 768px) {
+        .critical-cards-grid {
+          grid-template-columns: repeat(4, minmax(0, 1fr));
+          gap: 14px;
+        }
+      }
+      @media (min-width: 1024px) {
+        .critical-cards-grid {
+          grid-template-columns: repeat(6, minmax(0, 1fr));
+          gap: 16px;
+        }
+      }
+      .critical-card-item {
+        background-color: #11162B;
+        border: 1px solid rgba(255, 255, 255, 0.08);
+        border-radius: 12px;
+        padding: 10px;
+        min-height: 148px;
+        box-sizing: border-box;
+        text-decoration: none;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+      }
+      @media (min-width: 640px) {
+        .critical-card-item {
+          border-radius: 16px;
+          padding: 12px;
+          min-height: 168px;
+        }
+      }
+
+      #app-preloader {
+        position: fixed !important;
+        inset: 0 !important;
+        width: 100vw !important;
+        height: 100vh !important;
+        background: #0B0D19 !important;
+        display: flex !important;
+        flex-direction: column !important;
+        align-items: center !important;
+        justify-content: center !important;
+        z-index: 9999999 !important;
+        gap: 16px !important;
+        opacity: 1;
+        transition: opacity 0.35s ease, visibility 0.35s ease;
+      }
+      .loader-wrapper {
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 170px;
+        height: 170px;
+        border-radius: 50%;
+        background-color: transparent;
+      }
+      .loader {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        aspect-ratio: 1 / 1;
+        border-radius: 50%;
+        background-color: transparent;
+        animation: loader-rotate 2s linear infinite;
+        z-index: 0;
+      }
+      @keyframes loader-rotate {
+        0% { transform: rotate(90deg); box-shadow: 0 10px 20px 0 #fff inset, 0 20px 30px 0 #ad5fff inset, 0 60px 60px 0 #471eec inset; }
+        50% { transform: rotate(270deg); box-shadow: 0 10px 20px 0 #fff inset, 0 20px 10px 0 #d60a47 inset, 0 40px 60px 0 #311e80 inset; }
+        100% { transform: rotate(450deg); box-shadow: 0 10px 20px 0 #fff inset, 0 20px 30px 0 #ad5fff inset, 0 60px 60px 0 #471eec inset; }
+      }
+      .loader-center-avatar {
+        position: relative;
+        z-index: 2;
+        width: 102px;
+        height: 102px;
+        border-radius: 50%;
+        overflow: hidden;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        box-shadow: 0 0 24px rgba(173, 95, 255, 0.45);
+        border: 2px solid rgba(255, 255, 255, 0.6);
+        background: #0b0d19;
+      }
+      .loader-center-avatar img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        border-radius: 50%;
+      }
+      .loader-letter {
+        display: inline-block;
+        opacity: 0.4;
+        animation: loader-letter-anim 2s infinite;
+        font-family: 'Inter', sans-serif;
+        font-weight: 800;
+        letter-spacing: 0.15em;
+        color: #fff;
+        font-size: 14px;
+      }
+      @keyframes loader-letter-anim {
+        0%, 100% { opacity: 0.4; transform: translateY(0); }
+        20% { opacity: 1; transform: scale(1.15); }
+        40% { opacity: 0.7; transform: translateY(0); }
+      }
+    </style>
+  </head>
+  <body class="bg-background text-foreground min-h-screen font-sans antialiased selection:bg-primary selection:text-white w-full max-w-full relative">
+    <!-- Persistent Splash Preloader Overlay covering entire screen until React hydrates -->
+    <div id="app-preloader">
+      <div class="loader-wrapper">
+        <div class="loader"></div>
+        <div class="loader-center-avatar">
+          <img
+            src="/logo.png"
+            alt="Code Game Logo"
+            width="102"
+            height="102"
+            fetchpriority="high"
+            loading="eager"
+            decoding="async"
+            onerror="this.onerror=null;this.src='/brand_loader_logo.jpg';"
+          />
+        </div>
+      </div>
+      <div style="display:flex;gap:4px;">
+        <span class="loader-letter" style="animation-delay:0s">C</span>
+        <span class="loader-letter" style="animation-delay:0.1s">O</span>
+        <span class="loader-letter" style="animation-delay:0.2s">D</span>
+        <span class="loader-letter" style="animation-delay:0.3s">E</span>
+        <span class="loader-letter" style="animation-delay:0.4s">&nbsp;</span>
+        <span class="loader-letter" style="animation-delay:0.5s">G</span>
+        <span class="loader-letter" style="animation-delay:0.6s">A</span>
+        <span class="loader-letter" style="animation-delay:0.7s">M</span>
+        <span class="loader-letter" style="animation-delay:0.8s">E</span>
+      </div>
+    </div>
+
+    <div id="root"></div>
+    <script>
+      (function() {
+        var timer = setTimeout(function() {
+          var p = document.getElementById('app-preloader');
+          if (p) {
+            p.style.opacity = '0';
+            p.style.pointerEvents = 'none';
+            setTimeout(function() { if (p.parentNode) p.parentNode.removeChild(p); }, 360);
+          }
+        }, 2200);
+        window.addEventListener('load', function() {
+          setTimeout(function() {
+            var p = document.getElementById('app-preloader');
+            if (p) {
+              p.style.opacity = '0';
+              p.style.pointerEvents = 'none';
+              setTimeout(function() { if (p.parentNode) p.parentNode.removeChild(p); }, 360);
+            }
+          }, 600);
+        });
+      })();
+    </script>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>

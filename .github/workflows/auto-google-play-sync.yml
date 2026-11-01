@@ -1,0 +1,30 @@
+name: Auto Google Play Game Crawler & Sync
+
+on:
+  schedule:
+    # Chạy tự động mỗi ngày vào 03:00 UTC (10:00 sáng giờ Việt Nam)
+    - cron: '0 3 * * *'
+  workflow_dispatch:
+    # Cho phép kích hoạt thủ công bất kỳ lúc nào từ giao diện GitHub hoặc Admin
+
+jobs:
+  google-play-crawler:
+    name: Crawl & Sync New Google Play Games
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+
+    steps:
+      - name: Checkout Codebase
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js Runtime
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: ''
+
+      - name: Run Multi-Source Game Crawler Engine (Google Play & CodeMoi - Phương Án B)
+        run: node scripts/crawler/sync_new_games.cjs
+        env:
+          SYNC_URL: ${{ secrets.SYNC_URL || 'https://codegame.shop/api/sync' }}
+          ADMIN_SYNC_SECRET: ${{ secrets.ADMIN_SYNC_SECRET || 'b4e08494bf1c3fd6a0c965dd2411780c60513f7f87001bc955d7496331b2faef' }}

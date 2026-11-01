@@ -1,0 +1,1720 @@
+{
+  "IDLE & Nhập Vai": [
+    {
+      "stt": 1,
+      "id": "anh-hung-tien-len",
+      "name": "Anh Hùng Tiến Lên",
+      "publisher": "CÔNG TY CỔ PHẦN TRỰC TUYẾN CMN VIỆT NAM (CMN Online)",
+      "license_g1": "218/QĐ-BTTTT",
+      "iconUrl": "/game_icons/anh-hung-tien-len.webp",
+      "redeemUrl": "https://anhhungcmn.vn/giftcode"
+    }
+  ],
+  "Chiến Thuật & MOBA": [
+    {
+      "stt": 2,
+      "id": "lien-quan-mobile",
+      "name": "Liên Quân Mobile",
+      "publisher": "CÔNG TY CỔ PHẦN GIẢI TRÍ VÀ THỂ THAO ĐIỆN TỬ VIỆT NAM",
+      "license_g1": "351/QĐ-PTTH&TTĐT",
+      "iconUrl": "/game_icons/lien-quan-mobile.webp",
+      "redeemUrl": "https://lienquan.garena.vn, https://lienquanmobi.vn"
+    },
+    {
+      "stt": 22,
+      "id": "lords-mobile",
+      "name": "Lords Mobile: Kingdom Wars",
+      "publisher": "CÔNG TY CỔ PHẦN GAMOTA",
+      "license_g1": "286/QĐ-PTTH&TTĐT",
+      "iconUrl": "/game_icons/lords-mobile.webp",
+      "redeemUrl": "www.lordsmobile.igg.gamota.com"
+    }
+  ],
+  "Gacha & Anime": [
+    {
+      "stt": 3,
+      "id": "genshin-impact",
+      "name": "Genshin Impact",
+      "publisher": "CÔNG TY CỔ PHẦN FUNTAP GAMES",
+      "license_g1": "401/QĐ-PTTH&TTĐT",
+      "iconUrl": "/game_icons/genshin-impact.webp",
+      "redeemUrl": "https://genshin.funtap.games"
+    },
+    {
+      "stt": 29,
+      "id": "arknights-endfield",
+      "name": "Arknights: Endfield",
+      "publisher": "CÔNG TY CỔ PHẦN FUNTAP GAMES",
+      "license_g1": "381/QĐ-PTTH&TTĐT",
+      "iconUrl": "/game_icons/arknights-endfield.webp",
+      "redeemUrl": "https://endfield.funtap.games"
+    },
+    {
+      "stt": 40,
+      "id": "manga-ba-chay",
+      "name": "Manga Bá Cháy",
+      "publisher": "CÔNG TY CỔ PHẦN VGP",
+      "license_g1": "409/QĐ-PTTH&TTĐT",
+      "iconUrl": "/game_icons/manga-ba-chay.webp",
+      "redeemUrl": "https://mangabachay.vgplay.vn"
+    },
+    {
+      "stt": 180,
+      "id": "thuc-than-ky",
+      "name": "Thức Thần Ký",
+      "publisher": "CÔNG TY CỔ PHẦN VGP",
+      "license_g1": "404/QĐ-PTTH&TTĐT",
+      "iconUrl": "/game_icons/thuc-than-ky.webp",
+      "redeemUrl": "https://hkcc.vgplay.vn"
+    }
+  ],
+  "Thẻ Bài Đấu Tướng": [
+    {
+      "stt": 4,
+      "id": "dau-truong-chan-ly",
+      "name": "Đấu Trường Chân Lý",
+      "publisher": "CÔNG TY CỔ PHẦN TẬP ĐOÀN VNG",
+      "license_g1": "104/QĐ-PTTH&TTĐT",
+      "iconUrl": "/game_icons/dau-truong-chan-ly.webp",
+      "redeemUrl": "https://dtcl.vnggames.com"
+    },
+    {
+      "stt": 52,
+      "id": "magic-chess-go-go",
+      "name": "Magic Chess: Go Go FT",
+      "publisher": "CÔNG TY TNHH GIẢI TRÍ JOY",
+      "license_g1": "2004/QĐ-BTTTT",
+      "iconUrl": "/game_icons/magic-chess-go-go.webp",
+      "redeemUrl": "www.mechabangbang.joygame.vn"
+    }
+  ],
+  "Casual & Giải Trí": [
+    {
+      "stt": 5,
+      "id": "play-together",
+      "name": "Play Together",
+      "publisher": "CÔNG TY CỔ PHẦN TẬP ĐOÀN VNG",
+      "license_g1": "280/QĐ-PTTH&TTĐT",
+      "iconUrl": "/game_icons/play-together.webp",
+      "redeemUrl": "https://playtogether.vnggames.com"
+    },
+    {
+      "stt": 39,
+      "id": "doi-tuong-nhi-nho",
+      "name": "Đội Tướng Nhí Nhố",
+      "publisher": "CÔNG TY CỔ PHẦN GIẢI TRÍ TRỰC TUYẾN KAN",
+      "license_g1": "440 /QĐ-PTTH&TTĐT",
+      "iconUrl": "/game_icons/doi-tuong-nhi-nho.webp",
+      "redeemUrl": "http://doituongnhinho.vn/"
+    },
+    {
+      "stt": 46,
+      "id": "cookierun-banh-quy",
+      "name": "CookieRun: Bánh Quy Đại Chiến",
+      "publisher": "CÔNG TY CỔ PHẦN TẬP ĐOÀN VNG",
+      "license_g1": "469/QĐ-PTTH&TTĐT",
+      "iconUrl": "/game_icons/cookierun-banh-quy.webp",
+      "redeemUrl": "https://ovensmash.vnggames.com"
+    },
+    {
+      "stt": 183,
+      "id": "cau-ca-van-can",
+      "name": "Câu Cá Vạn Cân",
+      "publisher": "CÔNG TY TNHH THẾ GIỚI MINI",
+      "license_g1": "570/QĐ-PTTH&TTĐT",
+      "iconUrl": "/game_icons/cau-ca-van-can.webp",
+      "redeemUrl": "www.miniworldgame.vn"
+    }
+  ],
+  "Hành Động FPS & MOBA": [
+    {
+      "stt": 6,
+      "id": "pubg-mobile",
+      "name": "PUBG MOBILE",
+      "publisher": "CÔNG TY CỔ PHẦN TẬP ĐOÀN VNG",
+      "license_g1": "311/QĐ-PTTH&TTĐT",
+      "iconUrl": "/game_icons/pubg-mobile.webp",
+      "redeemUrl": "https://pubgm.vnggames.com, https://pubgm.zing.vn"
+    },
+    {
+      "stt": 7,
+      "id": "call-of-duty-mobile-vn",
+      "name": "Call of Duty: Mobile VN",
+      "publisher": "CÔNG TY CỔ PHẦN TẬP ĐOÀN VNG",
+      "license_g1": "133/QĐ-PTTH&TTĐT",
+      "iconUrl": "/game_icons/call-of-duty-mobile-vn.webp",
+      "redeemUrl": "https://codm.360mobi.vn, https://codm.vnggames.com"
+    },
+    {
+      "stt": 8,
+      "id": "zingspeed-mobile",
+      "name": "ZingSpeed Mobile",
+      "publisher": "CÔNG TY CỔ PHẦN TẬP ĐOÀN VNG",
+      "license_g1": "79/QĐ-PTTH&TTĐT",
+      "iconUrl": "/game_icons/zingspeed-mobile.webp",
+      "redeemUrl": "https://zingspeedm.vnggames.com"
+    },
+    {
+      "stt": 9,
+      "id": "mobile-legends-bang-bang",
+      "name": "Mobile Legends: Bang Bang",
+      "publisher": "CÔNG TY CỔ PHẦN PHÁT TRIỂN CÔNG NGHỆ SỐ HỒNG HÀ",
+      "license_g1": "96/QĐ-BTTTT",
+      "iconUrl": "/game_icons/mobile-legends-bang-bang.webp",
+      "redeemUrl": "https://mladventure.hhgame.vn"
+    },
+    {
+      "stt": 25,
+      "id": "crossfire-legends-mobile-vng",
+      "name": "Crossfire: Legends Mobile VNG",
+      "publisher": "CÔNG TY CỔ PHẦN TẬP ĐOÀN VNG",
+      "license_g1": "252/QĐ-PTTH&TTĐT",
+      "iconUrl": "/game_icons/crossfire-legends-mobile-vng.webp",
+      "redeemUrl": "https://cfl.vnggames.com"
+    },
+    {
+      "stt": 136,
+      "id": "ven-nguyen-ky-uc-mobile",
+      "name": "Vẹn Nguyên Ký Ức Mobile",
+      "publisher": "CÔNG TY TNHH DỊCH VỤ BÁCH GIA",
+      "license_g1": "3/QĐ-PTTH&TTĐT",
+      "iconUrl": "/game_icons/ven-nguyen-ky-uc-mobile.webp",
+      "redeemUrl": "https://vennguyenkyuc.vn"
+    },
+    {
+      "stt": 152,
+      "id": "tien-nghich-mobile",
+      "name": "Tiên Nghịch Mobile",
+      "publisher": "CÔNG TY TNHH JOYGAMES",
+      "license_g1": "210/QĐ-PTTH&TTĐT",
+      "iconUrl": "/game_icons/tien-nghich-mobile.webp",
+      "redeemUrl": "https://tiennghich.joyplay.vn/"
+    }
+  ],
+  "Tiên Hiệp & Kiếm Hiệp": [
+    {
+      "stt": 10,
+      "id": "vo-lam-truyen-ky-1-mobile",
+      "name": "Võ Lâm Truyền Kỳ 1 Mobile",
+      "publisher": "CÔNG TY CỔ PHẦN TẬP ĐOÀN VNG",
+      "license_g1": "112/QĐ-PTTH&TTĐT",
+      "iconUrl": "/game_icons/vo-lam-truyen-ky-1-mobile.webp",
+      "redeemUrl": "https://vltkm.zing.vn, https://vltkm.360game.vn, https://vltkm.vnggames.com"
+    },
+    {
+      "stt": 11,
+      "id": "kiem-the-origin",
+      "name": "Kiếm Thế Origin VNG",
+      "publisher": "CÔNG TY CỔ PHẦN TẬP ĐOÀN VNG",
+      "license_g1": "533/QĐ-PTTH&TTĐT",
+      "iconUrl": "/game_icons/kiem-the-origin.webp",
+      "redeemUrl": "https://kto.vnggames.com"
+    },
+    {
+      "stt": 36,
+      "id": "vo-lam-dai-minh-tinh",
+      "name": "Võ Lâm Đại Minh Tinh",
+      "publisher": "CÔNG TY TNHH PHẦN MỀM MGOL",
+      "license_g1": "1791/QĐ-BTTTT",
+      "iconUrl": "/game_icons/vo-lam-dai-minh-tinh.webp",
+      "redeemUrl": "http://vldmt.mgol.vn"
+    },
+    {
+      "stt": 37,
+      "id": "tan-vo-lam",
+      "name": "Tân Võ Lâm",
+      "publisher": "CÔNG TY CỔ PHẦN GIẢI TRÍ TRỰC TUYẾN GIGANTIC",
+      "license_g1": "200/QĐ-PTTH&TTĐT",
+      "iconUrl": "/game_icons/tan-vo-lam.webp",
+      "redeemUrl": "https://tanvolam.gigantic.vn"
+    },
+    {
+      "stt": 64,
+      "id": "kiem-linh-du-ky",
+      "name": "Kiếm Linh Du Ký",
+      "publisher": "CÔNG TY TNHH OPENGAME",
+      "license_g1": "168/QĐ-PTTH&TTĐT",
+      "iconUrl": "/game_icons/kiem-linh-du-ky.webp",
+      "redeemUrl": "https://kiemlinh.opengame.vn"
+    },
+    {
+      "stt": 66,
+      "id": "ta-la-cao-thu-vo-lam",
+      "name": "Ta Là Cao Thủ Võ Lâm Joygames",
+      "publisher": "CÔNG TY TNHH JOYGAMES",
+      "license_g1": "84/QĐ-PTTH&TTĐT",
+      "iconUrl": "/game_icons/ta-la-cao-thu-vo-lam.webp",
+      "redeemUrl": "https://talacaothuvolam.joyplay.vn/"
+    },
+    {
+      "stt": 74,
+      "id": "phi-kiem-tu-tien",
+      "name": "Phi Kiếm Tu Tiên",
+      "publisher": "Công ty TNHH Velalive",
+      "license_g1": "29/QĐ-PTTH&TTĐT",
+      "iconUrl": "/game_icons/phi-kiem-tu-tien.webp",
+      "redeemUrl": "https://pktt.velalive.net.vn/"
+    },
+    {
+      "stt": 75,
+      "id": "kiem-khach-phong-lang",
+      "name": "Kiếm Khách Phong Lăng",
+      "publisher": "CÔNG TY CỔ PHẦN VGP",
+      "license_g1": "177/QĐ-PTTH&TTĐT",
+      "iconUrl": "/game_icons/kiem-khach-phong-lang.webp",
+      "redeemUrl": "www.kiemkhachphonglang.vgplay.vn"
+    },
+    {
+      "stt": 86,
+      "id": "huyen-anh-vo-lam",
+      "name": "Huyền Ảnh Võ Lâm",
+      "publisher": "CÔNG TY CỔ PHẦN TRUYỀN HÌNH TƯƠNG TÁC VIỆT NAM",
+      "license_g1": "238/QĐ-PTTH&TTĐT",
+      "iconUrl": "/game_icons/huyen-anh-vo-lam.webp",
+      "redeemUrl": "www.vplay.vn"
+    },
+    {
+      "stt": 87,
+      "id": "hoa-son-kiem-the-vtc",
+      "name": "Hoa Sơn Kiếm Thế - VTC",
+      "publisher": "CÔNG TY CỔ PHẦN VTC DỊCH VỤ DI ĐỘNG",
+      "license_g1": "138 /QĐ-PTTH&TTĐT",
+      "iconUrl": "/game_icons/hoa-son-kiem-the-vtc.webp",
+      "redeemUrl": "https://hoasonkiemthe.splay.vn"
+    },
+    {
+      "stt": 88,
+      "id": "kiem-vuc-3d",
+      "name": "Kiếm Vực 3D",
+      "publisher": "CÔNG TY TNHH MOBILE INTELLIGENCE SAIGON",
+      "license_g1": "1476/QĐ-BTTTT",
+      "iconUrl": "/game_icons/kiem-vuc-3d.webp",
+      "redeemUrl": "www.intelligencessaigon.vn"
+    },
+    {
+      "stt": 92,
+      "id": "kiem-de-origin",
+      "name": "Kiếm Đế Origin",
+      "publisher": "CÔNG TY TNHH TRUYỀN THÔNG FUNFINITY STUDIO",
+      "license_g1": "75/QĐ-PTTH&TTĐT",
+      "iconUrl": "/game_icons/kiem-de-origin.webp",
+      "redeemUrl": "https://kiemde.fungames.vn"
+    },
+    {
+      "stt": 93,
+      "id": "hoi-uc-kiem-the",
+      "name": "Hồi Ức Kiếm Thế",
+      "publisher": "CÔNG TY CỔ PHẦN GZONE MEDIA VIỆT NAM",
+      "license_g1": "39/QĐ-PTTH&TTĐT",
+      "iconUrl": "/game_icons/hoi-uc-kiem-the.webp",
+      "redeemUrl": "https://hoiuckt.zoneplay.vn"
+    },
+    {
+      "stt": 108,
+      "id": "kiem-vu-son-ha",
+      "name": "Kiếm Vũ Sơn Hà",
+      "publisher": "Công ty Cổ phần Broga",
+      "license_g1": "45/QĐ-PTTH&TTĐT",
+      "iconUrl": "/game_icons/kiem-vu-son-ha.webp",
+      "redeemUrl": "http://kvsh.broga.vn/"
+    },
+    {
+      "stt": 115,
+      "id": "ngao-kiem-vo-song-mobile",
+      "name": "Ngạo Kiếm Vô Song Mobile",
+      "publisher": "CÔNG TY TNHH MYG",
+      "license_g1": "131/QĐ-PTTH&TTĐT",
+      "iconUrl": "/game_icons/ngao-kiem-vo-song-mobile.webp",
+      "redeemUrl": "http://nkvsmobile.vn"
+    },
+    {
+      "stt": 122,
+      "id": "vlcm-origin",
+      "name": "VLCM Origin: Võ Lâm Chân Mệnh Origin – TPL",
+      "publisher": "Công Ty Cổ phần Tepaylink",
+      "license_g1": "336/QĐ-PTTH&TTĐT",
+      "iconUrl": "/game_icons/vlcm-origin.webp",
+      "redeemUrl": "http://www.mongchiton.vn/"
+    },
+    {
+      "stt": 127,
+      "id": "tinh-kiem-truyen-ky-mobile",
+      "name": "Tình Kiếm Truyền Kỳ Mobile",
+      "publisher": "CÔNG TY CỔ PHẦN TITAN STUDIO VIỆT NAM",
+      "license_g1": "205 /QĐ-PTTH&TTĐT",
+      "iconUrl": "/game_icons/tinh-kiem-truyen-ky-mobile.webp",
+      "redeemUrl": "titanstudio.vn"
+    },
+    {
+      "stt": 142,
+      "id": "mong-huyen-giang-ho",
+      "name": "Mộng Huyễn Giang Hồ",
+      "publisher": "CÔNG TY CỔ PHẦN GGO",
+      "license_g1": "861/QĐ-BTTTT",
+      "iconUrl": "/game_icons/mong-huyen-giang-ho.webp",
+      "redeemUrl": "www.mhgh.ggo.vn"
+    },
+    {
+      "stt": 143,
+      "id": "kiem-chi-giang-ho-khai-thien",
+      "name": "Kiếm Chỉ Giang Hồ: Khai Thiên",
+      "publisher": "CÔNG TY TNHH PHẦN MỀM WEPLAY",
+      "license_g1": "187/QĐ-PTTH&TTĐT",
+      "iconUrl": "/game_icons/kiem-chi-giang-ho-khai-thien.webp",
+      "redeemUrl": "kcghkt.weplayz.com"
+    },
+    {
+      "stt": 148,
+      "id": "vo-lam-hac-dao",
+      "name": "Võ Lâm Hắc Đạo",
+      "publisher": "CÔNG TY TNHH SOHA",
+      "license_g1": "19/QĐ-PTTH&TTĐT",
+      "iconUrl": "/game_icons/vo-lam-hac-dao.webp",
+      "redeemUrl": "https://volamhacdao.sohagame.vn"
+    },
+    {
+      "stt": 153,
+      "id": "vo-dich-tu-tien-gioi-vtc",
+      "name": "Vô Địch Tu Tiên Giới - VTC",
+      "publisher": "CÔNG TY CỔ PHẦN VTC DỊCH VỤ DI ĐỘNG",
+      "license_g1": "194/QĐ-PTTH&TTĐT",
+      "iconUrl": "/game_icons/vo-dich-tu-tien-gioi-vtc.webp",
+      "redeemUrl": "https://vodichtutiengioi.vn"
+    },
+    {
+      "stt": 156,
+      "id": "hanh-trinh-afk",
+      "name": "Hành Trình AFK",
+      "publisher": "CÔNG TY CỔ PHẦN TRAVELLET VIỆT NAM",
+      "license_g1": "2202/QĐ-BTTTT",
+      "iconUrl": "/game_icons/hanh-trinh-afk.webp",
+      "redeemUrl": "https://hanhtrinhafk.travelletgames.vn"
+    },
+    {
+      "stt": 163,
+      "id": "giang-ho-ngu-tuyet-mobile",
+      "name": "Giang Hồ Ngũ Tuyệt Mobile",
+      "publisher": "CÔNG TY CỔ PHẦN VTC DỊCH VỤ DI ĐỘNG -",
+      "license_g1": "93/QĐ-PTTH&TTĐT",
+      "iconUrl": "/game_icons/giang-ho-ngu-tuyet-mobile.webp",
+      "redeemUrl": "https://ghnt.vn"
+    },
+    {
+      "stt": 185,
+      "id": "giang-ho-ky-ngo",
+      "name": "Giang Hồ Kỳ Ngộ",
+      "publisher": "CÔNG TY CỔ PHẦN TRUYỀN HÌNH TƯƠNG TÁC VIỆT NAM",
+      "license_g1": "85/QĐ-PTTH&TTĐT",
+      "iconUrl": "/game_icons/giang-ho-ky-ngo.webp",
+      "redeemUrl": "https://gianghokyngo.vplay.vn/"
+    }
+  ],
+  "Game Mobile Hot": [
+    {
+      "stt": 12,
+      "id": "gunny-origin",
+      "name": "Gunny Origin",
+      "publisher": "CÔNG TY CỔ PHẦN TẬP ĐOÀN VNG",
+      "license_g1": "534/QĐ-PTTH&TTĐT",
+      "iconUrl": "/game_icons/gunny-origin.webp",
+      "redeemUrl": "https://gunnyorigin.vnggames.com"
+    },
+    {
+      "stt": 13,
+      "id": "zenless-zone-zero",
+      "name": "Zenless Zone Zero",
+      "publisher": "CÔNG TY CỔ PHẦN GAMOTA",
+      "license_g1": "674/QĐ-BTTTT",
+      "iconUrl": "/game_icons/zenless-zone-zero.webp",
+      "redeemUrl": "www.zenless.gamota.com"
+    },
+    {
+      "stt": 18,
+      "id": "dau-la-dai-luc",
+      "name": "Đấu La Đại Lục",
+      "publisher": "CÔNG TY CỔ PHẦN FUNTAP GAMES",
+      "license_g1": "251/QĐ-PTTH&TTĐT",
+      "iconUrl": "/game_icons/dau-la-dai-luc.webp",
+      "redeemUrl": "https://daulasanhon.funtap.games"
+    },
+    {
+      "stt": 19,
+      "id": "nhat-niem-tieu-dao-gzone",
+      "name": "Nhất Niệm Tiêu Dao - Gzone",
+      "publisher": "CÔNG TY CỔ PHẦN GZONE MEDIA VIỆT NAM",
+      "license_g1": "1622/QĐ-BTTTT",
+      "iconUrl": "/game_icons/nhat-niem-tieu-dao-gzone.webp",
+      "redeemUrl": "www.nntd.zoneplay.vn"
+    },
+    {
+      "stt": 20,
+      "id": "nam-lun-tien-len",
+      "name": "Nấm Lùn Tiến Lên",
+      "publisher": "CÔNG TY CỔ PHẦN GIẢI TRÍ THIÊN THƯỢNG HỎA",
+      "license_g1": "150/QĐ-BTTTT",
+      "iconUrl": "/game_icons/nam-lun-tien-len.webp",
+      "redeemUrl": "http://maplerushtth.com"
+    },
+    {
+      "stt": 21,
+      "id": "rise-of-kingdoms",
+      "name": "Rise of Kingdoms",
+      "publisher": "CÔNG TY CỔ PHẦN GAMOTA",
+      "license_g1": "1731 /QĐ-BTTTT",
+      "iconUrl": "/game_icons/rise-of-kingdoms.webp",
+      "redeemUrl": "www.riseofkingdoms.gamota.com"
+    },
+    {
+      "stt": 24,
+      "id": "delta-force",
+      "name": "Delta Force",
+      "publisher": "CÔNG TY TNHH DỊCH VỤ PHẦN MỀM HÒA THÁI",
+      "license_g1": "231/QĐ-PTTH&TTĐT",
+      "iconUrl": "/game_icons/delta-force.webp",
+      "redeemUrl": "https://deltaforce.vn"
+    },
+    {
+      "stt": 31,
+      "id": "lineage-w",
+      "name": "Lineage W",
+      "publisher": "Công ty TNHH VNGGames",
+      "license_g1": "40/QĐ-PTTH&TTĐT",
+      "iconUrl": "/game_icons/lineage-w.webp",
+      "redeemUrl": "https://lineagew.vnggames.com/"
+    },
+    {
+      "stt": 32,
+      "id": "hero-clash",
+      "name": "Hero Clash",
+      "publisher": "CÔNG TY CỔ PHẦN TRÒ CHƠI MỘC",
+      "license_g1": "807/QĐ-BTTTT",
+      "iconUrl": "/game_icons/hero-clash.webp",
+      "redeemUrl": "http://heroclash.mocgame.vn"
+    },
+    {
+      "stt": 33,
+      "id": "mu-vinh-hang",
+      "name": "MU: Vĩnh Hằng",
+      "publisher": "CÔNG TY CỔ PHẦN GIẢI TRÍ TRỰC TUYẾN 3T",
+      "license_g1": "514/QĐ-PTTH&TTĐT",
+      "iconUrl": "/game_icons/mu-vinh-hang.webp",
+      "redeemUrl": "www.muvh.vn"
+    },
+    {
+      "stt": 34,
+      "id": "mu-hong-hoa-dao",
+      "name": "MU: Hồng Hoả Đao",
+      "publisher": "CÔNG TY CỔ PHẦN GAMOTA",
+      "license_g1": "333/QĐ-PTTH&TTĐT",
+      "iconUrl": "/game_icons/mu-hong-hoa-dao.webp",
+      "redeemUrl": "www.muhhd.gamota.com"
+    },
+    {
+      "stt": 35,
+      "id": "tay-du-vng",
+      "name": "Tây Du VNG: Đại Náo Tam Giới",
+      "publisher": "CÔNG TY CỔ PHẦN VNG",
+      "license_g1": "118/QĐ-PTTH&TTĐT",
+      "iconUrl": "/game_icons/tay-du-vng.webp",
+      "redeemUrl": "https://taydu.vnggames.net"
+    },
+    {
+      "stt": 47,
+      "id": "huyen-thoai-lang-la",
+      "name": "Huyền Thoại Làng Lá",
+      "publisher": "CÔNG TY CỔ PHẦN ACE GAME",
+      "license_g1": "388/QĐ-BTTTT",
+      "iconUrl": "/game_icons/huyen-thoai-lang-la.webp",
+      "redeemUrl": "www.huyenthoailangla.vn"
+    },
+    {
+      "stt": 48,
+      "id": "dislyte",
+      "name": "Dislyte: Nhịp Điệu Huyền Bí",
+      "publisher": "CÔNG TY CỔ PHẦN TRAVELLET VIỆT NAM",
+      "license_g1": "501/QĐ-BTTTT",
+      "iconUrl": "/game_icons/dislyte.webp",
+      "redeemUrl": "http://games.travellet.vn/games/ddhb"
+    },
+    {
+      "stt": 49,
+      "id": "ragnarok-huyen-thoai-mmo",
+      "name": "Ragnarok: Huyền Thoại MMO",
+      "publisher": "CÔNG TY CỔ PHẦN THS GAME",
+      "license_g1": "233 /QĐ-PTTH&TTĐT",
+      "iconUrl": "/game_icons/ragnarok-huyen-thoai-mmo.webp",
+      "redeemUrl": "https://ro.thsgame.com.vn/"
+    },
+    {
+      "stt": 50,
+      "id": "bomber-vng",
+      "name": "Bomber VNG",
+      "publisher": "CÔNG TY CỔ PHẦN VNG",
+      "license_g1": "135/QĐ-PTTH&TTĐT",
+      "iconUrl": "/game_icons/bomber-vng.webp",
+      "redeemUrl": "https://bomber.vnggamers.com"
+    },
+    {
+      "stt": 51,
+      "id": "total-football-vng",
+      "name": "Total Football VNG",
+      "publisher": "Công ty TNHH VNGGames",
+      "license_g1": "21/QĐ-PTTH&TTĐT",
+      "iconUrl": "/game_icons/total-football-vng.webp",
+      "redeemUrl": "https://totalfootball.vnggames.com"
+    },
+    {
+      "stt": 53,
+      "id": "tieu-yeu-tam-dao",
+      "name": "Tiểu Yêu Tầm Đạo",
+      "publisher": "CÔNG TY CỔ PHẦN PHÁT TRIỂN CÔNG NGHỆ SỐ HỒNG HÀ",
+      "license_g1": "134/QĐ-BTTTT",
+      "iconUrl": "/game_icons/tieu-yeu-tam-dao.webp",
+      "redeemUrl": "www.tytd.playfun.vn"
+    },
+    {
+      "stt": 54,
+      "id": "dai-hiep-chay-di",
+      "name": "Đại Hiệp Chạy Đi",
+      "publisher": "CÔNG TY TNHH PHẦN MỀM MGOL",
+      "license_g1": "1242/QĐ-BTTTT",
+      "iconUrl": "/game_icons/dai-hiep-chay-di.webp",
+      "redeemUrl": "https://dh.mgol.vn"
+    },
+    {
+      "stt": 55,
+      "id": "mini-world-creata",
+      "name": "Mini World: CREATA",
+      "publisher": "CÔNG TY TNHH LAVA DIGITAL",
+      "license_g1": "85/GXN-PTTH&TTĐT",
+      "iconUrl": "/game_icons/mini-world-creata.webp",
+      "redeemUrl": "https://abrandgame.com"
+    },
+    {
+      "stt": 56,
+      "id": "dao-huu-tu-tien",
+      "name": "Đạo Hữu Xin Dừng Bước",
+      "publisher": "CÔNG TY TNHH JOYGAMES",
+      "license_g1": "90/QĐ-PTTH&TTĐT",
+      "iconUrl": "/game_icons/dao-huu-tu-tien.webp",
+      "redeemUrl": "https://daohuuxindungbuoc.joyplay.vn/"
+    },
+    {
+      "stt": 57,
+      "id": "dau-pha-thuong-khung-2d",
+      "name": "Đấu Phá Thương Khung 2D",
+      "publisher": "CÔNG TY CỔ PHẦN GAMOTA",
+      "license_g1": "129/QĐ-PTTH&TTĐT",
+      "iconUrl": "/game_icons/dau-pha-thuong-khung-2d.webp",
+      "redeemUrl": "www.dptk.gamota.com"
+    },
+    {
+      "stt": 58,
+      "id": "tiem-tap-hoa-thoi-gian",
+      "name": "Tiệm Tạp Hóa Thời Gian",
+      "publisher": "CÔNG TY CỔ PHẦN ĐẦU TƯ CÔNG NGHỆ VISION INVEST",
+      "license_g1": "193/QĐ-PTTH&TTĐT",
+      "iconUrl": "/game_icons/tiem-tap-hoa-thoi-gian.webp",
+      "redeemUrl": "www.tiemtaphoathoigian.vn"
+    },
+    {
+      "stt": 59,
+      "id": "than-ma-arena",
+      "name": "Thần Ma Arena",
+      "publisher": "CÔNG TY CỔ PHẦN TRỰC TUYẾN CMN VIỆT NAM",
+      "license_g1": "61/QĐ-PTTH&TTĐT",
+      "iconUrl": "/game_icons/than-ma-arena.webp",
+      "redeemUrl": "https://thanmaarenacmn.vn/"
+    },
+    {
+      "stt": 62,
+      "id": "dau-than-tuyet-the",
+      "name": "Đấu Thần Tuyệt Thế",
+      "publisher": "CÔNG TY CỔ PHẦN TRUYỀN HÌNH TƯƠNG TÁC VIỆT NAM",
+      "license_g1": "1091/QĐ-BTTTT",
+      "iconUrl": "/game_icons/dau-than-tuyet-the.webp",
+      "redeemUrl": "www.dauthan.vplay.vn"
+    },
+    {
+      "stt": 63,
+      "id": "thien-ha-ngu-tuyet",
+      "name": "Thiên Hạ Ngũ Tuyệt",
+      "publisher": "CÔNG TY CỔ PHẦN GIẢI TRÍ YGAME",
+      "license_g1": "1687 /QĐ-BTTTT",
+      "iconUrl": "/game_icons/thien-ha-ngu-tuyet.webp",
+      "redeemUrl": "www.ngutuyet.ygame.vn"
+    },
+    {
+      "stt": 65,
+      "id": "phong-than-ta-dinh-doat",
+      "name": "Phong Thần – Ta Định Đoạt",
+      "publisher": "CÔNG TY CỔ PHẦN GIẢI TRÍ 568E",
+      "license_g1": "107/QĐ-PTTH&TTĐT",
+      "iconUrl": "/game_icons/phong-than-ta-dinh-doat.webp",
+      "redeemUrl": "https://phongthantdd.vn và https://phongthantdd.568play.vn"
+    },
+    {
+      "stt": 68,
+      "id": "tay-du-truyen-ky-cmn",
+      "name": "Tây Du Truyền Kỳ CMN",
+      "publisher": "CÔNG TY CỔ PHẦN TRỰC TUYẾN CMN VIỆT NAM",
+      "license_g1": "66/QĐ-PTTH&TTĐT",
+      "iconUrl": "/game_icons/tay-du-truyen-ky-cmn.webp",
+      "redeemUrl": "http://taydu.cmn.vn."
+    },
+    {
+      "stt": 69,
+      "id": "dao-mong-anh-hung-2",
+      "name": "Đạo Mộng Anh Hùng 2: Ảo Mộng",
+      "publisher": "CÔNG TY CỔ PHẦN FUNTAP GAMES",
+      "license_g1": "247/QĐ-PTTH&TTĐT",
+      "iconUrl": "/game_icons/dao-mong-anh-hung-2.webp",
+      "redeemUrl": "https://dream2.funtap.games"
+    },
+    {
+      "stt": 71,
+      "id": "bloodline-dong-mau-anh-hung",
+      "name": "Bloodline: Dòng Máu Anh Hùng",
+      "publisher": "CÔNG TY CỔ PHẦN GZONE MEDIA VIỆT NAM na",
+      "license_g1": "66/QĐ-PTTH&TTĐT",
+      "iconUrl": "/game_icons/bloodline-dong-mau-anh-hung.webp",
+      "redeemUrl": "https://dmah.zoneplay.vn"
+    },
+    {
+      "stt": 72,
+      "id": "vuot-tuong-thep",
+      "name": "Vượt Tường Thép",
+      "publisher": "CÔNG TY CỔ PHẦN GIẢI TRÍ TRỰC TUYẾN KAN",
+      "license_g1": "44/QĐ-PTTH&TTĐT",
+      "iconUrl": "/game_icons/vuot-tuong-thep.webp",
+      "redeemUrl": "vuottuongthep.vn"
+    },
+    {
+      "stt": 73,
+      "id": "buu-boi-truyen-ky",
+      "name": "Bửu Bối Truyền Kỳ",
+      "publisher": "CÔNG TY CỔ PHẦN TRỰC TUYẾN CMN VIỆT NAM",
+      "license_g1": "37/QĐ-PTTH&TTĐT",
+      "iconUrl": "/game_icons/buu-boi-truyen-ky.webp",
+      "redeemUrl": "http://buuboitruyenky.vn"
+    },
+    {
+      "stt": 77,
+      "id": "vo-cuc-tien-do-cmn",
+      "name": "Vô Cực Tiên Đồ CMN",
+      "publisher": "CÔNG TY CỔ PHẦN TRỰC TUYẾN CMN VIỆT NAM",
+      "license_g1": "2309/QĐ-BTTTT",
+      "iconUrl": "/game_icons/vo-cuc-tien-do-cmn.webp",
+      "redeemUrl": "www.vocuctiendo.cmn.vn"
+    },
+    {
+      "stt": 78,
+      "id": "stickman-go",
+      "name": "Stickman GO",
+      "publisher": "CÔNG TY CỔ PHẦN MẠNG TRỰC TUYẾN META",
+      "license_g1": "215/GXN-PTTH&TTĐT",
+      "iconUrl": "/game_icons/stickman-go.webp",
+      "redeemUrl": "www.gamevui.vn"
+    },
+    {
+      "stt": 79,
+      "id": "dao-si-bat-truong-phi",
+      "name": "Đạo Sĩ Bắt Trương Phi",
+      "publisher": "CÔNG TY CỔ PHẦN VTC DỊCH VỤ DI ĐỘNG",
+      "license_g1": "178/QĐ-PTTH&TTĐT",
+      "iconUrl": "/game_icons/dao-si-bat-truong-phi.webp",
+      "redeemUrl": "http://ds.splay.vn"
+    },
+    {
+      "stt": 80,
+      "id": "nhip-dieu-than-tuong-oeg",
+      "name": "Nhịp Điệu Thần Tượng – OEG",
+      "publisher": "CÔNG TY CỔ PHẦN CÔNG NGHỆ SỐ ALO",
+      "license_g1": "97/QĐ-PTTH&TTĐT",
+      "iconUrl": "/game_icons/nhip-dieu-than-tuong-oeg.webp",
+      "redeemUrl": "https://nhipdieu.alogame.vn/"
+    },
+    {
+      "stt": 81,
+      "id": "bang-bang-dai-chien",
+      "name": "Bang Bang Đại Chiến",
+      "publisher": "CÔNG TY CỔ PHẦN PHÁT TRIỂN CÔNG NGHỆ SỐ HỒNG HÀ",
+      "license_g1": "49/QĐ-PTTH&TTĐT",
+      "iconUrl": "/game_icons/bang-bang-dai-chien.webp",
+      "redeemUrl": "http://bangbangwar.hhgame.vn/"
+    },
+    {
+      "stt": 82,
+      "id": "ta-lam-tong-su-trong-tien-mon",
+      "name": "Ta Làm Tông Sư Trong Tiên Môn",
+      "publisher": "CÔNG TY CỔ PHẦN VISION GAME",
+      "license_g1": "493/QĐ-PTTH&TTĐT",
+      "iconUrl": "/game_icons/ta-lam-tong-su-trong-tien-mon.webp",
+      "redeemUrl": "www.play.visiongame.vn."
+    },
+    {
+      "stt": 83,
+      "id": "palmon",
+      "name": "Palmon: Cuộc Chiến Sinh Tồn",
+      "publisher": "CÔNG TY CỔ PHẦN GAMOTA",
+      "license_g1": "420/QĐ-PTTH&TTĐT",
+      "iconUrl": "/game_icons/palmon.webp",
+      "redeemUrl": "www.palmon.gamota.com"
+    },
+    {
+      "stt": 84,
+      "id": "anh-hung-bat-diet",
+      "name": "Anh Hùng Bất Diệt",
+      "publisher": "CÔNG TY CỔ PHẦN TRÒ CHƠI MỘC",
+      "license_g1": "383/QĐ-PTTH&TTĐT",
+      "iconUrl": "/game_icons/anh-hung-bat-diet.webp",
+      "redeemUrl": "https://yymys.mocgame.vn và https://yxmysvn.mocgames.com"
+    },
+    {
+      "stt": 85,
+      "id": "chien-hoa-tam-gioi-vtc",
+      "name": "Chiến Hỏa Tam Giới - VTC",
+      "publisher": "CÔNG TY CỔ PHẦN VTC DỊCH VỤ DI ĐỘNG",
+      "license_g1": "380/QĐ-PTTH&TTĐT",
+      "iconUrl": "/game_icons/chien-hoa-tam-gioi-vtc.webp",
+      "redeemUrl": "https://chienhoa.splay.vn."
+    },
+    {
+      "stt": 89,
+      "id": "anh-hung-cam-dia",
+      "name": "Anh Hùng Cấm Địa - VTC Game",
+      "publisher": "CÔNG TY VTC CÔNG NGHỆ VÀ NỘI DUNG SỐ",
+      "license_g1": "42/GXN-PTTH&TTĐT",
+      "iconUrl": "/game_icons/anh-hung-cam-dia.webp",
+      "redeemUrl": "http://ahcd.vtcgame.vn"
+    },
+    {
+      "stt": 91,
+      "id": "tho-san-sieu-cap",
+      "name": "Thợ Săn Siêu Cấp",
+      "publisher": "CÔNG TY CỔ PHẦN VGP",
+      "license_g1": "113/QĐ-PTTH&TTĐT",
+      "iconUrl": "/game_icons/tho-san-sieu-cap.webp",
+      "redeemUrl": "https://thosan.vgplay.vn"
+    },
+    {
+      "stt": 94,
+      "id": "skyria-dao-ky-bi",
+      "name": "Skyria: Đảo Kỳ Bí",
+      "publisher": "CÔNG TY CỔ PHẦN GGO",
+      "license_g1": "28/QĐ-PTTH&TTĐT",
+      "iconUrl": "/game_icons/skyria-dao-ky-bi.webp",
+      "redeemUrl": "http://www.dragonsoulawakening.com.vn/"
+    },
+    {
+      "stt": 95,
+      "id": "thieu-nien-ca-hanh-khoi-dong",
+      "name": "Thiếu Niên Ca Hành: Khởi Động",
+      "publisher": "CÔNG TY CỔ PHẦN GAMOTA",
+      "license_g1": "516 /QĐ-PTTH&TTĐT",
+      "iconUrl": "/game_icons/thieu-nien-ca-hanh-khoi-dong.webp",
+      "redeemUrl": "https://tnch.gamota.com/"
+    },
+    {
+      "stt": 96,
+      "id": "atlan-origin-luc-dia-troi-day",
+      "name": "Atlan Origin: Lục Địa Trỗi Dậy",
+      "publisher": "CÔNG TY CỔ PHẦN VGP",
+      "license_g1": "412 /QĐ-PTTH&TTĐT",
+      "iconUrl": "/game_icons/atlan-origin-luc-dia-troi-day.webp",
+      "redeemUrl": "https://vgplay.vn"
+    },
+    {
+      "stt": 97,
+      "id": "chu-thuat-dai-chien",
+      "name": "Chú Thuật Đại Chiến",
+      "publisher": "CÔNG TY TNHH VMGE",
+      "license_g1": "1806/QĐ-BTTTT",
+      "iconUrl": "/game_icons/chu-thuat-dai-chien.webp",
+      "redeemUrl": "www.chuthuatdaichien.vn"
+    },
+    {
+      "stt": 100,
+      "id": "tam-gioi-anh-hung",
+      "name": "Tam Giới Anh Hùng",
+      "publisher": "CÔNG TY CỔ PHẦN VGP",
+      "license_g1": "269/QĐ-BTTTT",
+      "iconUrl": "/game_icons/tam-gioi-anh-hung.webp",
+      "redeemUrl": "http://tamgioi.vgplay.vn"
+    },
+    {
+      "stt": 101,
+      "id": "ts3-chien-than-ky",
+      "name": "TS3 Chiến Thần Ký",
+      "publisher": "CÔNG TY TNHH PHẦN MỀM KKSOFT",
+      "license_g1": "157/QĐ-PTTH&TTĐT",
+      "iconUrl": "/game_icons/ts3-chien-than-ky.webp",
+      "redeemUrl": "https://ts3.kksoft.vn/"
+    },
+    {
+      "stt": 103,
+      "id": "tan-chan-long-oeg",
+      "name": "Tân Chân Long - OEG",
+      "publisher": "CÔNG TY CỔ PHẦN TẬP ĐOÀN GIẢI TRÍ ĐẠI DƯƠNG",
+      "license_g1": "153/QĐ-PTTH&TTĐT",
+      "iconUrl": "/game_icons/tan-chan-long-oeg.webp",
+      "redeemUrl": "https://tanchanlong.oeg.vn"
+    },
+    {
+      "stt": 104,
+      "id": "than-thu-origin",
+      "name": "Thần Thú Origin",
+      "publisher": "CÔNG TY TNHH TRUYỀN THÔNG FUNFINITY STUDIO",
+      "license_g1": "143/QĐ-PTTH&TTĐT",
+      "iconUrl": "/game_icons/than-thu-origin.webp",
+      "redeemUrl": "https://thanthu.fungames.vn"
+    },
+    {
+      "stt": 105,
+      "id": "hai-tac-loan-dau",
+      "name": "Hải Tặc Loạn Đấu: Idle AFK",
+      "publisher": "CÔNG TY TNHH KỸ THUẬT CÔNG NGHỆ BLUE DREAM",
+      "license_g1": "96/QĐ-PTTH&TTĐT",
+      "iconUrl": "/game_icons/hai-tac-loan-dau.webp",
+      "redeemUrl": "http://bluegame.vn"
+    },
+    {
+      "stt": 106,
+      "id": "na-tra-nao-hai",
+      "name": "Na Tra Náo Hải",
+      "publisher": "CÔNG TY CỔ PHẦN CÔNG NGHỆ SỐ ALO",
+      "license_g1": "98/QĐ-PTTH&TTĐT",
+      "iconUrl": "/game_icons/na-tra-nao-hai.webp",
+      "redeemUrl": "https://natranaohai.alogame.vn/"
+    },
+    {
+      "stt": 107,
+      "id": "vo-hiep-origin",
+      "name": "Võ Hiệp Origin",
+      "publisher": "CÔNG TY TNHH TRUYỀN THÔNG FUNFINITY STUDIO",
+      "license_g1": "68/QĐ-PTTH&TTĐT",
+      "iconUrl": "/game_icons/vo-hiep-origin.webp",
+      "redeemUrl": "https://vohiep.fungames.vn/"
+    },
+    {
+      "stt": 109,
+      "id": "chien-tuyen-huong-duong",
+      "name": "Chiến Tuyến Hướng Dương",
+      "publisher": "CÔNG TY TNHH PHẦN MỀM MGOL",
+      "license_g1": "145/QĐ-PTTH&TTĐT",
+      "iconUrl": "/game_icons/chien-tuyen-huong-duong.webp",
+      "redeemUrl": "https://cthd.mgol.vn"
+    },
+    {
+      "stt": 110,
+      "id": "tieu-tuyet-linh-chu",
+      "name": "Tiểu Tuyết Lĩnh Chủ",
+      "publisher": "CÔNG TY TNHH PHẦN MỀM MGOL",
+      "license_g1": "59/QĐ-PTTH&TTĐT",
+      "iconUrl": "/game_icons/tieu-tuyet-linh-chu.webp",
+      "redeemUrl": "ttlc.mgol.vn"
+    },
+    {
+      "stt": 111,
+      "id": "x-wukong",
+      "name": "X Wukong",
+      "publisher": "CÔNG TY TNHH SOHA",
+      "license_g1": "84/QĐ-BTTTT",
+      "iconUrl": "/game_icons/x-wukong.webp",
+      "redeemUrl": "https://xwukong.sohagame.vn"
+    },
+    {
+      "stt": 112,
+      "id": "yeu-thu-van-dao",
+      "name": "Yêu Thú Vấn Đạo",
+      "publisher": "CÔNG TY TNHH PHẦN MỀM MGOL",
+      "license_g1": "68/QĐ-BTTTT",
+      "iconUrl": "/game_icons/yeu-thu-van-dao.webp",
+      "redeemUrl": "http://ytvd.mgol.vn"
+    },
+    {
+      "stt": 114,
+      "id": "van-thang-nam-de",
+      "name": "Vạn Thắng Nam Đế",
+      "publisher": "CÔNG TY CỔ PHẦN TRỰC TUYẾN GOSU",
+      "license_g1": "197/QĐ-PTTH&TTĐT",
+      "iconUrl": "/game_icons/van-thang-nam-de.webp",
+      "redeemUrl": "https://vanthangnamde.vn"
+    },
+    {
+      "stt": 116,
+      "id": "meo-may-sieu-quay",
+      "name": "Mèo Máy Siêu Quậy",
+      "publisher": "CÔNG TY CỔ PHẦN DRAGON GAME",
+      "license_g1": "86/QĐ-PTTH&TTĐT",
+      "iconUrl": "/game_icons/meo-may-sieu-quay.webp",
+      "redeemUrl": "http://meomaysieuquay.vn"
+    },
+    {
+      "stt": 117,
+      "id": "hoc-vien-ninja-g4m",
+      "name": "Học Viện Ninja G4M",
+      "publisher": "CÔNG TY TNHH G4M",
+      "license_g1": "764/QĐ-BTTTT",
+      "iconUrl": "/game_icons/hoc-vien-ninja-g4m.webp",
+      "redeemUrl": "https://hocvienninja.vn"
+    },
+    {
+      "stt": 118,
+      "id": "lordnine-cuu-vuong-tranh-ba",
+      "name": "LORDNINE: Cửu Vương Tranh Bá",
+      "publisher": "CÔNG TY CỔ PHẦN VTC TRUYỀN THÔNG TRỰC TUYẾN",
+      "license_g1": "235 /QĐ-PTTH&TTĐT",
+      "iconUrl": "/game_icons/lordnine-cuu-vuong-tranh-ba.webp",
+      "redeemUrl": "https://l9asia.onstove.vn/"
+    },
+    {
+      "stt": 119,
+      "id": "chi-huy-toi-thuong",
+      "name": "Chỉ Huy Tối Thượng",
+      "publisher": "CÔNG TY CỔ PHẦN GAMOTA",
+      "license_g1": "182/QĐ-PTTH&TTĐT",
+      "iconUrl": "/game_icons/chi-huy-toi-thuong.webp",
+      "redeemUrl": "https://chtt.gamota.com"
+    },
+    {
+      "stt": 120,
+      "id": "de-che-bong-da",
+      "name": "Đế Chế Bóng Đá",
+      "publisher": "CÔNG TY TNHH PHẦN MỀM WEPLAY",
+      "license_g1": "81/QĐ-PTTH&TTĐT",
+      "iconUrl": "/game_icons/de-che-bong-da.webp",
+      "redeemUrl": "http://www.dechebongda.weplayz.com/"
+    },
+    {
+      "stt": 121,
+      "id": "truyen-thuyet-haki",
+      "name": "Truyền Thuyết Haki",
+      "publisher": "CÔNG TY CỔ PHẦN EPICGOLD",
+      "license_g1": "63/QĐ-PTTH&TTĐT",
+      "iconUrl": "/game_icons/truyen-thuyet-haki.webp",
+      "redeemUrl": "www.epicgold.vn"
+    },
+    {
+      "stt": 123,
+      "id": "sieu-tien-hoa",
+      "name": "Siêu Tiến Hóa",
+      "publisher": "CÔNG TY CỔ PHẦN TRỰC TUYỂN DUO",
+      "license_g1": "566/QĐ-BTTTT",
+      "iconUrl": "/game_icons/sieu-tien-hoa.webp",
+      "redeemUrl": "www.sieutienhoa.vn"
+    },
+    {
+      "stt": 124,
+      "id": "forsaken-world-2",
+      "name": "Forsaken World 2: Thần Ma Đại Chiến",
+      "publisher": "CÔNG TY TNHH TRUYỀN THÔNG MINH PHƯƠNG THỊNH",
+      "license_g1": "390/QĐ-BTTTT",
+      "iconUrl": "/game_icons/forsaken-world-2.webp",
+      "redeemUrl": "http://fw.zing.vn"
+    },
+    {
+      "stt": 125,
+      "id": "ts-origin",
+      "name": "TS Origin",
+      "publisher": "CÔNG TY CỔ PHẦN VTC DỊCH VỤ DI ĐỘNG",
+      "license_g1": "241/QĐ-PTTH&TTĐT",
+      "iconUrl": "/game_icons/ts-origin.webp",
+      "redeemUrl": "https://ts.vtczone.vn"
+    },
+    {
+      "stt": 126,
+      "id": "vuon-hoa-hanh-phuc",
+      "name": "Vườn Hoa Hạnh Phúc",
+      "publisher": "CÔNG TY CỔ PHẦN GZONE MEDIA VIỆT NAM",
+      "license_g1": "223/QĐ-PTTH&TTĐT",
+      "iconUrl": "/game_icons/vuon-hoa-hanh-phuc.webp",
+      "redeemUrl": "https://vhhp.zoneplay.vn"
+    },
+    {
+      "stt": 129,
+      "id": "lac-than-chien-ca",
+      "name": "Lạc Thần Chiến Ca",
+      "publisher": "CÔNG TY CỔ PHẦN TRỰC TUYẾN GOSU",
+      "license_g1": "396/QĐ-PTTH&TTĐT",
+      "iconUrl": "/game_icons/lac-than-chien-ca.webp",
+      "redeemUrl": "https://lacthan.gosu.vn"
+    },
+    {
+      "stt": 130,
+      "id": "diet-quy-origin",
+      "name": "Diệt Quỷ Origin",
+      "publisher": "CÔNG TY TNHH TRUYỀN THÔNG HNXSOFT",
+      "license_g1": "156/QĐ-PTTH&TTĐT",
+      "iconUrl": "/game_icons/diet-quy-origin.webp",
+      "redeemUrl": "https://hnxgames.vn"
+    },
+    {
+      "stt": 131,
+      "id": "quai-thu-phong-thu",
+      "name": "Quái Thú Phòng Thủ",
+      "publisher": "CÔNG TY CỔ PHẦN TẬP ĐOÀN GIẢI TRÍ ĐẠI DƯƠNG",
+      "license_g1": "155/QĐ-BVHTTDL",
+      "iconUrl": "/game_icons/quai-thu-phong-thu.webp",
+      "redeemUrl": "https://quaithu.oeg.vn"
+    },
+    {
+      "stt": 132,
+      "id": "phong-van-truyen-ky-2",
+      "name": "Phong Vân Truyền Kỳ 2",
+      "publisher": "CÔNG TY CỔ PHẦN TRỰC TUYẾN CMN VIỆT NAM",
+      "license_g1": "110/QĐ-PTTH&TTĐT",
+      "iconUrl": "/game_icons/phong-van-truyen-ky-2.webp",
+      "redeemUrl": "http://pvtk.cmn.vn"
+    },
+    {
+      "stt": 133,
+      "id": "vu-tru-than-thoai",
+      "name": "Vũ Trụ Thần Thoại",
+      "publisher": "CÔNG TY CỔ PHẦN THƯƠNG MẠI DỊCH VỤ CÔNG NGHỆ CMTECH",
+      "license_g1": "95/QĐ-PTTH&TTĐT",
+      "iconUrl": "/game_icons/vu-tru-than-thoai.webp",
+      "redeemUrl": "https://cmplay.vn/"
+    },
+    {
+      "stt": 134,
+      "id": "thu-thanh-dai-chien",
+      "name": "Thủ Thành Đại Chiến",
+      "publisher": "CÔNG TY CỔ PHẦN SKYWAY",
+      "license_g1": "99/QĐ-PTTH&TTĐT",
+      "iconUrl": "/game_icons/thu-thanh-dai-chien.webp",
+      "redeemUrl": "https://ttdc.skw.vn/"
+    },
+    {
+      "stt": 135,
+      "id": "nam-dai-chien-tpl",
+      "name": "Nấm Đại Chiến – TPL",
+      "publisher": "CÔNG TY CỔ PHẦN TEPAYLINK",
+      "license_g1": "74/QĐ-PTTH&TTĐT",
+      "iconUrl": "/game_icons/nam-dai-chien-tpl.webp",
+      "redeemUrl": "https://maplex.vn"
+    },
+    {
+      "stt": 138,
+      "id": "ky-nguyen-icarus",
+      "name": "Kỷ Nguyên Icarus",
+      "publisher": "CÔNG TY TNHH TRUYỀN THÔNG HNXSOFT",
+      "license_g1": "31/QĐ-PTTH&TTĐT",
+      "iconUrl": "/game_icons/ky-nguyen-icarus.webp",
+      "redeemUrl": "https://kynguyeicarus.vn"
+    },
+    {
+      "stt": 139,
+      "id": "sieu-hai-tac",
+      "name": "Siêu Hải Tặc",
+      "publisher": "CÔNG TY TNHH VMGE",
+      "license_g1": "54/QĐ-PTTH&TTĐT",
+      "iconUrl": "/game_icons/sieu-hai-tac.webp",
+      "redeemUrl": "https://sieuhaitac.vmgeplay.vn"
+    },
+    {
+      "stt": 144,
+      "id": "co-giap-vo-han",
+      "name": "Cơ Giáp Vô Hạn – Gamota",
+      "publisher": "CÔNG TY CỔ PHẦN GAMOTA",
+      "license_g1": "184/QĐ-PTTH&TTĐT",
+      "iconUrl": "/game_icons/co-giap-vo-han.webp",
+      "redeemUrl": "https://cgvh.gamota.com"
+    },
+    {
+      "stt": 147,
+      "id": "vuong-gia-chien-quoc",
+      "name": "Vương Giả Chiến Quốc",
+      "publisher": "CÔNG TY CỔ PHẦN ADNX",
+      "license_g1": "250/QĐ-PTTH&TTĐT",
+      "iconUrl": "/game_icons/vuong-gia-chien-quoc.webp",
+      "redeemUrl": "https://vuonggiachienquoc.adnxgames.vn"
+    },
+    {
+      "stt": 149,
+      "id": "quy-mon-quan",
+      "name": "Quỷ Môn Quan",
+      "publisher": "CÔNG TY CỔ PHẦN TRUYỀN HÌNH TƯƠNG TÁC VIỆT NAM",
+      "license_g1": "602/QĐ-PTTH&TTĐT",
+      "iconUrl": "/game_icons/quy-mon-quan.webp",
+      "redeemUrl": "www.vplay.vn"
+    },
+    {
+      "stt": 150,
+      "id": "tho-san-quy",
+      "name": "Thợ Săn Quỷ: Đại Chiến Dị Giới",
+      "publisher": "CÔNG TY CỔ PHẦN GAMOTA",
+      "license_g1": "33/QĐ-PTTH&TTĐT",
+      "iconUrl": "/game_icons/tho-san-quy.webp",
+      "redeemUrl": "https://tsqdigioi.gamota.com/"
+    },
+    {
+      "stt": 151,
+      "id": "ballistic-hero",
+      "name": "Ballistic Hero VNG",
+      "publisher": "Công ty TNHH VNGGames",
+      "license_g1": "177/QĐ-PTTH&TTĐT",
+      "iconUrl": "/game_icons/ballistic-hero.webp",
+      "redeemUrl": "https://ballisticvn.vnggames.com"
+    },
+    {
+      "stt": 154,
+      "id": "ngoa-long-vng",
+      "name": "Ngọa Long VNG",
+      "publisher": "CÔNG TY CỔ PHẦN TẬP ĐOÀN VNG",
+      "license_g1": "30/QĐ-PTTH&TTĐT",
+      "iconUrl": "/game_icons/ngoa-long-vng.webp",
+      "redeemUrl": "https://ngoalong.vnggames.com"
+    },
+    {
+      "stt": 157,
+      "id": "chien-than-mini",
+      "name": "Chiến Thần MINI",
+      "publisher": "CÔNG TY TNHH MOBILE INTELLIGENCE SAIGON",
+      "license_g1": "400 /QĐ-PTTH&TTĐT",
+      "iconUrl": "/game_icons/chien-than-mini.png",
+      "redeemUrl": "https://chienthanmi.intelligenc"
+    },
+    {
+      "stt": 158,
+      "id": "tay-du-phuc-ma",
+      "name": "Tây Du Phục Ma",
+      "publisher": "CÔNG TY TNHH TRỰC TUYÊN THIÊN HÀ",
+      "license_g1": "2052/QĐ-BTTTT",
+      "iconUrl": "/game_icons/tay-du-phuc-ma.webp",
+      "redeemUrl": "https://tavduphucma.garnes.vn."
+    },
+    {
+      "stt": 159,
+      "id": "chien-gioi-4d",
+      "name": "Chiến Giới 4D",
+      "publisher": "CÔNG TY CỔ PHẦN TRUYỀN HÌNH TƯƠNG TÁC VIỆT NAM",
+      "license_g1": "856/QĐ-BTTTT",
+      "iconUrl": "/game_icons/chien-gioi-4d.webp",
+      "redeemUrl": "www.chiengioi.vplay.vn"
+    },
+    {
+      "stt": 160,
+      "id": "goi-ta-dai-chuong-quy",
+      "name": "Gọi Ta Đại Chưởng Quỹ",
+      "publisher": "CÔNG TY CỔ PHẦN GIẢI TRÍ TRỰC TUYẾN SUNGAME",
+      "license_g1": "807/QĐ-BTTTT",
+      "iconUrl": "/game_icons/goi-ta-dai-chuong-quy.webp",
+      "redeemUrl": "http://dcq.sungame.vn"
+    },
+    {
+      "stt": 162,
+      "id": "anh-hung-pixel",
+      "name": "Anh Hùng Pixel",
+      "publisher": "CÔNG TY TNHH PHẦN MỀM WEPLAY",
+      "license_g1": "2165/QĐ-BTTTT",
+      "iconUrl": "/game_icons/anh-hung-pixel.webp",
+      "redeemUrl": "https://anhhungpixel.weplayz.com"
+    },
+    {
+      "stt": 164,
+      "id": "the-gioi-hoa-vien-cua-toi",
+      "name": "Thế Giới Hoa Viên Của Tôi",
+      "publisher": "CÔNG TY TNHH TRUYỀN THÔNG GENZ",
+      "license_g1": "83/QĐ-PTTH&TTĐT",
+      "iconUrl": "/game_icons/the-gioi-hoa-vien-cua-toi.webp",
+      "redeemUrl": "https://tghvct.genzzz.vn/"
+    },
+    {
+      "stt": 165,
+      "id": "hao-khi-du-hiep",
+      "name": "Hào Khí Du Hiệp",
+      "publisher": "CÔNG TY CỔ PHẦN DỊCH VỤ TRỰC TUYẾN MIGA",
+      "license_g1": "55/QĐ-PTTH&TTĐT",
+      "iconUrl": "/game_icons/hao-khi-du-hiep.webp",
+      "redeemUrl": "http://haokhiduhiep.vn"
+    },
+    {
+      "stt": 167,
+      "id": "huyen-thoai-phuc-yeu",
+      "name": "Huyền Thoại Phục Yêu",
+      "publisher": "CÔNG TY TNHH NEXFUN",
+      "license_g1": "389/QĐ-PTTH&TTĐT",
+      "iconUrl": "/game_icons/huyen-thoai-phuc-yeu.png",
+      "redeemUrl": "www.nexfungames.vn"
+    },
+    {
+      "stt": 188,
+      "id": "thoi-khong-chi-mong",
+      "name": "Thời Không Chi Mộng",
+      "publisher": "CÔNG TY CỔ PHẦN TRUYỀN HÌNH TƯƠNG TÁC VIỆT NAM",
+      "license_g1": "108/QĐ-PTTH&TTĐT",
+      "iconUrl": "/game_icons/thoi-khong-chi-mong.webp",
+      "redeemUrl": "www.vplay.vn."
+    }
+  ],
+  "Game Mobile": [
+    {
+      "stt": 14,
+      "id": "thoi-dai-anh-hung",
+      "name": "Top Heroes - Thời Đại Anh Hùng",
+      "publisher": "CÔNG TY CỔ PHẦN FUNTAP GAMES",
+      "license_g1": "519/QĐ-PTTH&TTĐT",
+      "iconUrl": "/game_icons/thoi-dai-anh-hung.webp",
+      "redeemUrl": "https://topheroes.funtap.games"
+    },
+    {
+      "stt": 23,
+      "id": "ever-night-thuc-tinh-oeg",
+      "name": "Ever Night: Thức Tỉnh - OEG",
+      "publisher": "CÔNG TY CỔ PHẦN TẬP ĐOÀN GIẢI TRÍ ĐẠI DƯƠNG",
+      "license_g1": "532/QĐ-PTTH&TTĐT",
+      "iconUrl": "/game_icons/ever-night-thuc-tinh-oeg.webp",
+      "redeemUrl": "https://evernight.oeg.vn"
+    },
+    {
+      "stt": 169,
+      "id": "phi-kiem-tru-thien-ma",
+      "name": "Phi Kiếm Trừ Thiên Ma",
+      "publisher": "CÔNG TY TNHH CÔNG NGHỆ MẠNG AT",
+      "license_g1": "373/QĐ-PTTH&TTĐT",
+      "iconUrl": "/game_icons/phi-kiem-tru-thien-ma.webp",
+      "redeemUrl": "https://phikiemtruthienma.atgame.com.vn/"
+    },
+    {
+      "stt": 170,
+      "id": "khe-uoc-rong",
+      "name": "Khế Ước Rồng",
+      "publisher": "CÔNG TY CỔ PHẦN VGP",
+      "license_g1": "535/QĐ-PTTH&TTĐT",
+      "iconUrl": "/game_icons/khe-uoc-rong.webp",
+      "redeemUrl": "https://kheuocrong.vgplay.vn"
+    },
+    {
+      "stt": 173,
+      "id": "nhat-luan-kiem",
+      "name": "Nhật Luân Kiếm",
+      "publisher": "CÔNG TY TNHH SKYMOBI",
+      "license_g1": "333/QĐ-PTTH&TTĐT",
+      "iconUrl": "/game_icons/nhat-luan-kiem.webp",
+      "redeemUrl": "https://nhatluankiem.com"
+    },
+    {
+      "stt": 175,
+      "id": "tay-du-tam-bao",
+      "name": "Tây Du Tầm Bảo",
+      "publisher": "CÔNG TY TNHH SOHA",
+      "license_g1": "523/QĐ-PTTH&TTĐT",
+      "iconUrl": "/game_icons/tay-du-tam-bao.webp",
+      "redeemUrl": "https://taydutambao.sohagame.vn"
+    },
+    {
+      "stt": 176,
+      "id": "doi-hinh-toi-thuong",
+      "name": "Đội Hình Tối Thượng",
+      "publisher": "CÔNG TY CỔ PHẦN GZONE MEDIA VIỆT NAM",
+      "license_g1": "474/QĐ-PTTH&TTĐT",
+      "iconUrl": "/game_icons/doi-hinh-toi-thuong.webp",
+      "redeemUrl": "https://dhtt.zoneplay.vn"
+    },
+    {
+      "stt": 177,
+      "id": "chu-cong-xung-xung-xung",
+      "name": "Chủ Công Xung Xung Xung",
+      "publisher": "CÔNG TY CỔ PHẦN VISION GAME",
+      "license_g1": "391/QĐ-PTTH&TTĐT",
+      "iconUrl": "/game_icons/chu-cong-xung-xung-xung.webp",
+      "redeemUrl": "https://3q.vsgame.vn"
+    }
+  ],
+  "Tam Quốc": [
+    {
+      "stt": 15,
+      "id": "tieu-cuong-3q",
+      "name": "Tiểu Cường 3Q",
+      "publisher": "CÔNG TY CỔ PHẦN CÔNG NGHỆ SỐ ALO",
+      "license_g1": "365 /QĐ-PTTH&TTĐT",
+      "iconUrl": "/game_icons/tieu-cuong-3q.webp",
+      "redeemUrl": "https://tieucuong.alogame.vn"
+    },
+    {
+      "stt": 16,
+      "id": "omg-3q",
+      "name": "OMG 3Q",
+      "publisher": "Công ty TNHH VNGGames",
+      "license_g1": "574/QĐ-PTTH&TTĐT",
+      "iconUrl": "/game_icons/omg-3q.webp",
+      "redeemUrl": "https://omg3q.vnggames.com/"
+    },
+    {
+      "stt": 17,
+      "id": "thieu-nien-3q-vng",
+      "name": "Thiếu Niên 3Q VNG",
+      "publisher": "CÔNG TY CỔ PHẦN GAMOTA",
+      "license_g1": "583/QĐ-PTTH&TTĐT",
+      "iconUrl": "/game_icons/thieu-nien-3q-vng.webp",
+      "redeemUrl": "https://tn3q.gamota.com"
+    },
+    {
+      "stt": 26,
+      "id": "tam-quoc-chi-chien-luoc-tth",
+      "name": "Tam Quốc Chí - Chiến Lược -TTH",
+      "publisher": "CÔNG TY CỔ PHẦN VTC DỊCH VỤ DI ĐỘNG",
+      "license_g1": "410/QĐ-PTTH&TTĐT",
+      "iconUrl": "/game_icons/tam-quoc-chi-chien-luoc-tth.webp",
+      "redeemUrl": "https://tamquocchi.splay.vn"
+    },
+    {
+      "stt": 27,
+      "id": "loan-xi-ngau-3q-oeg",
+      "name": "Loạn Xì Ngầu 3Q – OEG",
+      "publisher": "CÔNG TY CỔ PHẦN CÔNG NGHỆ SỐ ALO",
+      "license_g1": "264/QĐ-PTTH&TTĐT",
+      "iconUrl": "/game_icons/loan-xi-ngau-3q-oeg.webp",
+      "redeemUrl": "http://loanxingau3q.alogame.vn"
+    },
+    {
+      "stt": 28,
+      "id": "danh-tuong-3q-vng",
+      "name": "Danh Tướng 3Q - VNG",
+      "publisher": "CÔNG TY CỔ PHẦN VNG",
+      "license_g1": "215/QĐ-PTTH&TTĐT",
+      "iconUrl": "/game_icons/danh-tuong-3q-vng.webp",
+      "redeemUrl": "www.dt3q.zing.vn"
+    },
+    {
+      "stt": 38,
+      "id": "tam-quoc-tranh-ba-thien-ha",
+      "name": "Tam Quốc: Tranh Bá Thiên Hạ",
+      "publisher": "Công ty TNHH Trò chơi Mộc",
+      "license_g1": "419/QĐ-PTTH&TTĐT",
+      "iconUrl": "/game_icons/tam-quoc-tranh-ba-thien-ha.webp",
+      "redeemUrl": "https://tqywvn.mocgame.vn/"
+    },
+    {
+      "stt": 42,
+      "id": "thao-tung-tam-quoc",
+      "name": "Thao Túng Tam Quốc",
+      "publisher": "CÔNG TY CỔ PHẦN TRUYỀN HÌNH TƯƠNG TÁC VIỆT NAM",
+      "license_g1": "277/QĐ-PTTH&TTĐT",
+      "iconUrl": "/game_icons/thao-tung-tam-quoc.webp",
+      "redeemUrl": "www.thaotungtamquoc.vplay.vn"
+    },
+    {
+      "stt": 43,
+      "id": "quan-anh-phong-hoa-luc",
+      "name": "Tam Quốc Quần Anh",
+      "publisher": "CÔNG TY CỔ PHẦN TRUYỀN HÌNH TƯƠNG TÁC VIỆT NAM",
+      "license_g1": "350/QĐ-PTTH&TTĐT",
+      "iconUrl": "/game_icons/quan-anh-phong-hoa-luc.webp",
+      "redeemUrl": "https://tamquocquananh.vplay.vn"
+    },
+    {
+      "stt": 44,
+      "id": "loan-the-3q-than-ma-lenh-oeg",
+      "name": "Loạn Thế 3Q: Thần Ma Lệnh - OEG",
+      "publisher": "CÔNG TY CỔ PHẦN CÔNG NGHỆ SỐ ALO",
+      "license_g1": "475/QĐ-PTTH&TTĐT",
+      "iconUrl": "/game_icons/loan-the-3q-than-ma-lenh-oeg.webp",
+      "redeemUrl": "https://loanthe3q.alogame.vn/"
+    },
+    {
+      "stt": 60,
+      "id": "tam-quoc-huyen-tuong-vng",
+      "name": "Tam Quốc Huyễn Tướng VNG",
+      "publisher": "CÔNG TY CỔ PHẦN VNG",
+      "license_g1": "217/QĐ-PTTH&TTĐT",
+      "iconUrl": "/game_icons/tam-quoc-huyen-tuong-vng.webp",
+      "redeemUrl": "https://tamquochuyentuong.vnggames.com"
+    },
+    {
+      "stt": 61,
+      "id": "tam-quoc-meo",
+      "name": "Tam Quốc Mèo",
+      "publisher": "CÔNG TY TNHH SOHA",
+      "license_g1": "921/QĐ-BTTTT",
+      "iconUrl": "/game_icons/tam-quoc-meo.webp",
+      "redeemUrl": "www.tamquocmeo.vn"
+    },
+    {
+      "stt": 67,
+      "id": "3q-chess-ky-thu-tam-quoc",
+      "name": "3Q Chess – Kỳ Thủ Tam Quốc",
+      "publisher": "CÔNG TY TNHH SOHA",
+      "license_g1": "461/QĐ-PTTH&TTĐT",
+      "iconUrl": "/game_icons/3q-chess-ky-thu-tam-quoc.webp",
+      "redeemUrl": "https://3qchess.sohagame.vn/"
+    },
+    {
+      "stt": 70,
+      "id": "anh-kiet-tam-quoc",
+      "name": "Anh Kiệt Tam Quốc",
+      "publisher": "CÔNG TY CỔ PHẦN TRỰC TUYẾN CMN VIỆT NAM",
+      "license_g1": "76/QĐ-PTTH&TTĐT",
+      "iconUrl": "/game_icons/anh-kiet-tam-quoc.webp",
+      "redeemUrl": "https://anhkiet3q.cmn.vn/ và https://anhkiet3q.vn/"
+    },
+    {
+      "stt": 76,
+      "id": "3q-trieu-hoan-su",
+      "name": "3Q Triệu Hoán Sư",
+      "publisher": "CÔNG TY TNHH CÔNG NGHỆ GIA ĐÌNH",
+      "license_g1": "1392/QĐ-BTTTT",
+      "iconUrl": "/game_icons/3q-trieu-hoan-su.webp",
+      "redeemUrl": "www.game.funzy.vn"
+    },
+    {
+      "stt": 90,
+      "id": "pet-samkok-bao-thu-3q",
+      "name": "Pet Samkok – Báo Thủ 3Q",
+      "publisher": "CÔNG TY TNHH SOHA",
+      "license_g1": "507/QĐ-PTTH&TTĐT",
+      "iconUrl": "/game_icons/pet-samkok-bao-thu-3q.webp",
+      "redeemUrl": "https://petsamkok.sohagame.vn"
+    },
+    {
+      "stt": 98,
+      "id": "tam-quoc-x",
+      "name": "TAM QUỐC X",
+      "publisher": "CÔNG TY CỔ PHẦN FUNTAP",
+      "license_g1": "2310/QĐ-BTTTT",
+      "iconUrl": "/game_icons/tam-quoc-x.webp",
+      "redeemUrl": "https://tamquocx.playfun.vn"
+    },
+    {
+      "stt": 99,
+      "id": "loan-chien-3q",
+      "name": "Loạn Chiến 3Q",
+      "publisher": "CÔNG TY TNHH TRỰC TUYẾN THIÊN HÀ",
+      "license_g1": "98 /QĐ-BTTTT",
+      "iconUrl": "/game_icons/loan-chien-3q.webp",
+      "redeemUrl": "https://loanchien3q.ggames.vn"
+    },
+    {
+      "stt": 128,
+      "id": "quy-tuong-3q-thuc-tinh-oeg",
+      "name": "Quỷ Tướng 3Q: Thức Tỉnh - OEG",
+      "publisher": "CÔNG TY CỔ PHẦN TẬP ĐOÀN GIẢI TRÍ ĐẠI DƯƠNG",
+      "license_g1": "149/QĐ-PTTH&TTĐT",
+      "iconUrl": "/game_icons/quy-tuong-3q-thuc-tinh-oeg.webp",
+      "redeemUrl": "https://quytuong3q.oeg.vn"
+    },
+    {
+      "stt": 137,
+      "id": "ky-nguyen-bang-ha-3q",
+      "name": "Kỷ Nguyên Băng Hà: 3Q",
+      "publisher": "CÔNG TY CỔ PHẦN TRAVELLET VIỆT NAM",
+      "license_g1": "276/QĐ-PTTH&TTĐT",
+      "iconUrl": "/game_icons/ky-nguyen-bang-ha-3q.webp",
+      "redeemUrl": "https://icewartravellet.vn"
+    },
+    {
+      "stt": 140,
+      "id": "hoan-my-tam-quoc",
+      "name": "Hoàn Mỹ Tam Quốc – VGP",
+      "publisher": "CÔNG TY CỔ PHẦN VGP",
+      "license_g1": "91/QĐ-PTTH&TTĐT",
+      "iconUrl": "/game_icons/hoan-my-tam-quoc.webp",
+      "redeemUrl": "https://hoanmytamquoc.vgplay.vn/"
+    },
+    {
+      "stt": 141,
+      "id": "me-ta-tam-quoc",
+      "name": "Mê Ta Tam Quốc",
+      "publisher": "CÔNG TY CỔ PHẦN TRUYỀN HÌNH TƯƠNG TÁC VIỆT NAM",
+      "license_g1": "168/QĐ-PTTH&TTĐT",
+      "iconUrl": "/game_icons/me-ta-tam-quoc.webp",
+      "redeemUrl": "www.vplay.vn."
+    },
+    {
+      "stt": 145,
+      "id": "chien-loan-tam-quoc",
+      "name": "Chiến Loạn Tam Quốc",
+      "publisher": "CÔNG TY CỔ PHẦN TRỰC TUYẾN CMN VIỆT NAM",
+      "license_g1": "315/QĐ-PTTH&TTĐT",
+      "iconUrl": "/game_icons/chien-loan-tam-quoc.webp",
+      "redeemUrl": "http://game.cmn.vn."
+    },
+    {
+      "stt": 146,
+      "id": "mukbang-tam-quoc",
+      "name": "Mukbang Tam Quốc",
+      "publisher": "CÔNG TY CỔ PHẦN TRUYỀN HÌNH TƯƠNG TÁC VIỆT NAM",
+      "license_g1": "58/QĐ-BTTTT",
+      "iconUrl": "/game_icons/mukbang-tam-quoc.webp",
+      "redeemUrl": "www.mukbangtamquoc.vplay.vn"
+    },
+    {
+      "stt": 155,
+      "id": "luc-tung-tam-quoc",
+      "name": "Lục Tung Tam Quốc",
+      "publisher": "CÔNG TY CỔ PHẦN TRUYỀN HÌNH TƯƠNG TÁC VIỆT NAM",
+      "license_g1": "945/QĐ-BTTTT",
+      "iconUrl": "/game_icons/luc-tung-tam-quoc.webp",
+      "redeemUrl": "www.luctung.vplay.vn"
+    },
+    {
+      "stt": 161,
+      "id": "tam-quoc-36-ke",
+      "name": "Tam Quốc 36 Kế VTC",
+      "publisher": "CÔNG TY CỔ PHẦN VTC DỊCH VỤ DI ĐỘNG",
+      "license_g1": "48/QĐ-PTTH&TTĐT",
+      "iconUrl": "/game_icons/tam-quoc-36-ke.webp",
+      "redeemUrl": "https://tamquoc36ke.vn"
+    },
+    {
+      "stt": 166,
+      "id": "mieu-de-tam-quoc",
+      "name": "Miêu Đế Tam Quốc",
+      "publisher": "Công ty TNHH Velalive",
+      "license_g1": "457/QĐ-PTTH&TTĐT",
+      "iconUrl": "/game_icons/mieu-de-tam-quoc.webp",
+      "redeemUrl": "https://mieude.velalive.vn/"
+    },
+    {
+      "stt": 171,
+      "id": "cuc-toc-tam-quoc",
+      "name": "Cực Tốc Tam Quốc",
+      "publisher": "CÔNG TY CỔ PHẦN FUNTAP GAMES",
+      "license_g1": "382/QĐ-PTTH&TTĐT",
+      "iconUrl": "/game_icons/cuc-toc-tam-quoc.webp",
+      "redeemUrl": "https://cuctoctamquoc.funtap.ga"
+    },
+    {
+      "stt": 174,
+      "id": "phong-hau-tam-quoc",
+      "name": "Phong Hầu Tam Quốc",
+      "publisher": "CÔNG TY TNHH SOHA",
+      "license_g1": "506/QĐ-PTTH&TTĐT",
+      "iconUrl": "/game_icons/phong-hau-tam-quoc.webp",
+      "redeemUrl": "https://phonghautamquoc.sohagame.vn"
+    },
+    {
+      "stt": 178,
+      "id": "van-dinh-tam-quoc",
+      "name": "Vấn Đỉnh Tam Quốc",
+      "publisher": "CÔNG TY TNHH SOHA",
+      "license_g1": "522/QĐ-PTTH&TTĐT",
+      "iconUrl": "/game_icons/van-dinh-tam-quoc.webp",
+      "redeemUrl": "https://vandinhtamquoc.sohagame.vn"
+    },
+    {
+      "stt": 184,
+      "id": "samkok-tam-quoc",
+      "name": "Samkok Tam Quốc",
+      "publisher": "CÔNG TY CỔ PHẦN TRUYỀN HÌNH TƯƠNG TÁC VIỆT NAM",
+      "license_g1": "41/QĐ-PTTH&TTĐT",
+      "iconUrl": "/game_icons/samkok-tam-quoc.webp",
+      "redeemUrl": "https://samkoktamquoc.vplay.vn/"
+    },
+    {
+      "stt": 186,
+      "id": "bo-lac-3q",
+      "name": "Bộ Lạc 3Q",
+      "publisher": "CÔNG TY CỔ PHẦN TRỰC TUYẾN CMN VIỆT NAM",
+      "license_g1": "121/QĐ-PTTH&TTĐT",
+      "iconUrl": "/game_icons/bo-lac-3q.webp",
+      "redeemUrl": "https://bolac3q.vn/"
+    },
+    {
+      "stt": 187,
+      "id": "3q-goi-tuong-di",
+      "name": "3Q Gọi Tướng Đi",
+      "publisher": "CÔNG TY CỔ PHẦN GIẢI TRÍ 568E",
+      "license_g1": "219/QĐ-PTTH&TTĐT",
+      "iconUrl": "/game_icons/3q-goi-tuong-di.webp",
+      "redeemUrl": "https://3qgoituongdi.vn/, https://3qgoituongdi.568play.vn"
+    }
+  ],
+  "Anime & Manga": [
+    {
+      "stt": 30,
+      "id": "tokyo-ghoul-thuc-tinh",
+      "name": "Tokyo Ghoul：Thức Tỉnh",
+      "publisher": "CÔNG TY CỔ PHẦN GAMOTA",
+      "license_g1": "465/QĐ-PTTH&TTĐT",
+      "iconUrl": "/game_icons/tokyo-ghoul-thuc-tinh.webp",
+      "redeemUrl": "https://tgtt.gamota.com"
+    }
+  ],
+  "Kiếm Hiệp & Tiên Hiệp": [
+    {
+      "stt": 41,
+      "id": "phuong-hoang-tru-tien",
+      "name": "Phượng Hoàng Tru Tiên",
+      "publisher": "CÔNG TY CỔ PHẦN TRUYỀN HÌNH TƯƠNG TÁC VIỆT NAM",
+      "license_g1": "267/QĐ-PTTH&TTĐT",
+      "iconUrl": "/game_icons/phuong-hoang-tru-tien.webp",
+      "redeemUrl": "https://phuonghoangtrutien.vplay.vn"
+    },
+    {
+      "stt": 45,
+      "id": "giang-ho-bat-phai-phan-tranh",
+      "name": "Giang Hồ Bát Phái Phân Tranh",
+      "publisher": "CÔNG TY CỔ PHẦN VTC DỊCH VỤ DI ĐỘNG",
+      "license_g1": "434/QĐ-PTTH&TTĐT",
+      "iconUrl": "/game_icons/giang-ho-bat-phai-phan-tranh.webp",
+      "redeemUrl": "https://gianghobatphai.splay.vn"
+    },
+    {
+      "stt": 168,
+      "id": "tieu-tien-ta-vo-dich",
+      "name": "Tiểu Tiên Ta Vô Địch",
+      "publisher": "CÔNG TY CỔ PHẦN CÔNG NGHỆ SỐ ALO",
+      "license_g1": "366/QĐ-PTTH&TTĐT",
+      "iconUrl": "/game_icons/tieu-tien-ta-vo-dich.webp",
+      "redeemUrl": "https://tieutien.alogame.vn"
+    },
+    {
+      "stt": 172,
+      "id": "huyen-thoai-huong-cang",
+      "name": "Huyền Thoại Hương Cảng",
+      "publisher": "Công ty TNHH Velalive",
+      "license_g1": "372/QĐ-PTTH&TTĐT",
+      "iconUrl": "/game_icons/huyen-thoai-huong-cang.webp",
+      "redeemUrl": "https://velalive.net.vn"
+    },
+    {
+      "stt": 179,
+      "id": "kiem-hiep-tinh",
+      "name": "Kiếm Hiệp Tình",
+      "publisher": "Công ty TNHH VNGGames",
+      "license_g1": "418/QĐ-PTTH&TTĐT",
+      "iconUrl": "/game_icons/kiem-hiep-tinh.webp",
+      "redeemUrl": "kiemhieptinh.vnggames.com"
+    },
+    {
+      "stt": 181,
+      "id": "thanh-long-huyen-thoai",
+      "name": "Thanh Long Huyền Thoại",
+      "publisher": "Công ty Cổ phần Song Long Game",
+      "license_g1": "470/QĐ-PTTH&TTĐT",
+      "iconUrl": "/game_icons/thanh-long-huyen-thoai.webp",
+      "redeemUrl": "https://slgplay.vn"
+    },
+    {
+      "stt": 182,
+      "id": "thai-cuc-vo-dao-x-arena",
+      "name": "Thái Cực Võ Đạo - X Arena",
+      "publisher": "CÔNG TY TNHH X ARENA",
+      "license_g1": "334/QĐ-PTTH&TTĐT",
+      "iconUrl": "/game_icons/thai-cuc-vo-dao-x-arena.webp",
+      "redeemUrl": "https://thaicucpc.vn"
+    }
+  ],
+  "Chiến Thuật SLG": [
+    {
+      "stt": 102,
+      "id": "ludus-quyet-dau",
+      "name": "Ludus: Quyết Đấu Chiến Thuật",
+      "publisher": "CÔNG TY CỔ PHẦN TẬP ĐOÀN GIẢI TRÍ ĐẠI DƯƠNG",
+      "license_g1": "154/QĐ-PTTH&TTĐT",
+      "iconUrl": "/game_icons/ludus-quyet-dau.webp",
+      "redeemUrl": "https://ludus.oeg.vn"
+    },
+    {
+      "stt": 113,
+      "id": "huyen-tuong-phong-than",
+      "name": "Huyễn Tướng Phong Thần",
+      "publisher": "CÔNG TY CỔ PHẦN TRỰC TUYẾN CMN VIỆT NAM",
+      "license_g1": "1570/QĐ-BTTTT",
+      "iconUrl": "/game_icons/huyen-tuong-phong-than.webp",
+      "redeemUrl": "www.huyentuong.cmn.vn."
+    }
+  ]
+}

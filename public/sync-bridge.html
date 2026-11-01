@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8" />
+  <title>WCG Cross-Origin Sync Bridge</title>
+</head>
+<body style="display:none;">
+  <script>
+    (function() {
+      const ALLOWED_ORIGINS = new Set([
+        'https://codegame.shop',
+        'https://www.codegame.shop',
+        'https://web-code-game.pages.dev',
+        'https://admin-code-game-shop.pages.dev',
+        window.location.origin
+      ]);
+
+      function isAllowed(origin) {
+        if (ALLOWED_ORIGINS.has(origin)) return true;
+        if (origin.endsWith('.codegame.shop') || origin === 'https://codegame.shop') return true;
+        if (origin.endsWith('.web-code-game.pages.dev')) return true;
+        if (origin.endsWith('.admin-code-game-shop.pages.dev')) return true;
+        if (origin.includes('localhost') || origin.includes('127.0.0.1')) return true;
+        return false;
+      }
+
+      window.addEventListener('message', function(event) {
+        if (!isAllowed(event.origin)) return;
+
+        const data = event.data;
+        if (!data || typeof data !== 'object') return;
+
+        if (data.type === 'WCG_CROSS_SYNC_SET' && data.key) {
+          try {
+            if (data.value === null || data.value === undefined) {
+              localStorage.removeItem(data.key);
+            } else {
+              localStorage.setItem(data.key, typeof data.value === 'string' ? data.value : JSON.stringify(data.value));
+            }
+            window.dispatchEvent(new CustomEvent('wcg_admin_data_updated', { detail: { key: data.key } }));
+            if ('BroadcastChannel' in window) {
+              try {
+                const bc = new BroadcastChannel('wcg_data_sync');
+                bc.postMessage({ type: data.key, timestamp: Date.now() });
+              } catch {}
+            }
+          } catch (e) {
+            console.error('[SyncBridge] Error writing localStorage:', e);
+          }
+        } else if (data.type === 'WCG_CROSS_SYNC_GET' && data.key && event.source) {
+          try {
+            const val = localStorage.getItem(data.key);
+            event.source.postMessage({
+              type: 'WCG_CROSS_SYNC_GET_RES',
+              key: data.key,
+              value: val,
+              requestId: data.requestId
+            }, event.origin);
+          } catch (e) {
+            console.error('[SyncBridge] Error reading localStorage:', e);
+          }
+        }
+      });
+
+      // Notify parent that bridge is ready
+      if (window.parent && window.parent !== window) {
+        try {
+          window.parent.postMessage({ type: 'WCG_SYNC_BRIDGE_READY' }, '*');
+        } catch {}
+      }
+    })();
+  </script>
+</body>
+</html>

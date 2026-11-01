@@ -1,0 +1,12 @@
+{
+  "telegram-notifier": {
+    "enabled": true,
+    "Stop": [
+      {
+        "type": "command",
+        "command": "python \"c:/43. telegram/notify_telegram.py\"",
+        "timeout": 20
+      }
+    ]
+  }
+}

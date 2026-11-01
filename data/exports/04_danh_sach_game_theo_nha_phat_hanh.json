@@ -1,0 +1,1660 @@
+{
+  "CÔNG TY CỔ PHẦN TRỰC TUYẾN CMN VIỆT NAM (CMN Online)": [
+    {
+      "stt": 1,
+      "id": "anh-hung-tien-len",
+      "name": "Anh Hùng Tiến Lên",
+      "category": "IDLE & Nhập Vai",
+      "license_g1": "218/QĐ-BTTTT",
+      "iconUrl": "/game_icons/anh-hung-tien-len.webp"
+    }
+  ],
+  "CÔNG TY CỔ PHẦN GIẢI TRÍ VÀ THỂ THAO ĐIỆN TỬ VIỆT NAM": [
+    {
+      "stt": 2,
+      "id": "lien-quan-mobile",
+      "name": "Liên Quân Mobile",
+      "category": "Chiến Thuật & MOBA",
+      "license_g1": "351/QĐ-PTTH&TTĐT",
+      "iconUrl": "/game_icons/lien-quan-mobile.webp"
+    }
+  ],
+  "CÔNG TY CỔ PHẦN FUNTAP GAMES": [
+    {
+      "stt": 3,
+      "id": "genshin-impact",
+      "name": "Genshin Impact",
+      "category": "Gacha & Anime",
+      "license_g1": "401/QĐ-PTTH&TTĐT",
+      "iconUrl": "/game_icons/genshin-impact.webp"
+    },
+    {
+      "stt": 14,
+      "id": "thoi-dai-anh-hung",
+      "name": "Top Heroes - Thời Đại Anh Hùng",
+      "category": "Game Mobile",
+      "license_g1": "519/QĐ-PTTH&TTĐT",
+      "iconUrl": "/game_icons/thoi-dai-anh-hung.webp"
+    },
+    {
+      "stt": 18,
+      "id": "dau-la-dai-luc",
+      "name": "Đấu La Đại Lục",
+      "category": "Game Mobile Hot",
+      "license_g1": "251/QĐ-PTTH&TTĐT",
+      "iconUrl": "/game_icons/dau-la-dai-luc.webp"
+    },
+    {
+      "stt": 29,
+      "id": "arknights-endfield",
+      "name": "Arknights: Endfield",
+      "category": "Gacha & Anime",
+      "license_g1": "381/QĐ-PTTH&TTĐT",
+      "iconUrl": "/game_icons/arknights-endfield.webp"
+    },
+    {
+      "stt": 69,
+      "id": "dao-mong-anh-hung-2",
+      "name": "Đạo Mộng Anh Hùng 2: Ảo Mộng",
+      "category": "Game Mobile Hot",
+      "license_g1": "247/QĐ-PTTH&TTĐT",
+      "iconUrl": "/game_icons/dao-mong-anh-hung-2.webp"
+    },
+    {
+      "stt": 171,
+      "id": "cuc-toc-tam-quoc",
+      "name": "Cực Tốc Tam Quốc",
+      "category": "Tam Quốc",
+      "license_g1": "382/QĐ-PTTH&TTĐT",
+      "iconUrl": "/game_icons/cuc-toc-tam-quoc.webp"
+    }
+  ],
+  "CÔNG TY CỔ PHẦN TẬP ĐOÀN VNG": [
+    {
+      "stt": 4,
+      "id": "dau-truong-chan-ly",
+      "name": "Đấu Trường Chân Lý",
+      "category": "Thẻ Bài Đấu Tướng",
+      "license_g1": "104/QĐ-PTTH&TTĐT",
+      "iconUrl": "/game_icons/dau-truong-chan-ly.webp"
+    },
+    {
+      "stt": 5,
+      "id": "play-together",
+      "name": "Play Together",
+      "category": "Casual & Giải Trí",
+      "license_g1": "280/QĐ-PTTH&TTĐT",
+      "iconUrl": "/game_icons/play-together.webp"
+    },
+    {
+      "stt": 6,
+      "id": "pubg-mobile",
+      "name": "PUBG MOBILE",
+      "category": "Hành Động FPS & MOBA",
+      "license_g1": "311/QĐ-PTTH&TTĐT",
+      "iconUrl": "/game_icons/pubg-mobile.webp"
+    },
+    {
+      "stt": 7,
+      "id": "call-of-duty-mobile-vn",
+      "name": "Call of Duty: Mobile VN",
+      "category": "Hành Động FPS & MOBA",
+      "license_g1": "133/QĐ-PTTH&TTĐT",
+      "iconUrl": "/game_icons/call-of-duty-mobile-vn.webp"
+    },
+    {
+      "stt": 8,
+      "id": "zingspeed-mobile",
+      "name": "ZingSpeed Mobile",
+      "category": "Hành Động FPS & MOBA",
+      "license_g1": "79/QĐ-PTTH&TTĐT",
+      "iconUrl": "/game_icons/zingspeed-mobile.webp"
+    },
+    {
+      "stt": 10,
+      "id": "vo-lam-truyen-ky-1-mobile",
+      "name": "Võ Lâm Truyền Kỳ 1 Mobile",
+      "category": "Tiên Hiệp & Kiếm Hiệp",
+      "license_g1": "112/QĐ-PTTH&TTĐT",
+      "iconUrl": "/game_icons/vo-lam-truyen-ky-1-mobile.webp"
+    },
+    {
+      "stt": 11,
+      "id": "kiem-the-origin",
+      "name": "Kiếm Thế Origin VNG",
+      "category": "Tiên Hiệp & Kiếm Hiệp",
+      "license_g1": "533/QĐ-PTTH&TTĐT",
+      "iconUrl": "/game_icons/kiem-the-origin.webp"
+    },
+    {
+      "stt": 12,
+      "id": "gunny-origin",
+      "name": "Gunny Origin",
+      "category": "Game Mobile Hot",
+      "license_g1": "534/QĐ-PTTH&TTĐT",
+      "iconUrl": "/game_icons/gunny-origin.webp"
+    },
+    {
+      "stt": 25,
+      "id": "crossfire-legends-mobile-vng",
+      "name": "Crossfire: Legends Mobile VNG",
+      "category": "Hành Động FPS & MOBA",
+      "license_g1": "252/QĐ-PTTH&TTĐT",
+      "iconUrl": "/game_icons/crossfire-legends-mobile-vng.webp"
+    },
+    {
+      "stt": 46,
+      "id": "cookierun-banh-quy",
+      "name": "CookieRun: Bánh Quy Đại Chiến",
+      "category": "Casual & Giải Trí",
+      "license_g1": "469/QĐ-PTTH&TTĐT",
+      "iconUrl": "/game_icons/cookierun-banh-quy.webp"
+    },
+    {
+      "stt": 154,
+      "id": "ngoa-long-vng",
+      "name": "Ngọa Long VNG",
+      "category": "Game Mobile Hot",
+      "license_g1": "30/QĐ-PTTH&TTĐT",
+      "iconUrl": "/game_icons/ngoa-long-vng.webp"
+    }
+  ],
+  "CÔNG TY CỔ PHẦN PHÁT TRIỂN CÔNG NGHỆ SỐ HỒNG HÀ": [
+    {
+      "stt": 9,
+      "id": "mobile-legends-bang-bang",
+      "name": "Mobile Legends: Bang Bang",
+      "category": "Hành Động FPS & MOBA",
+      "license_g1": "96/QĐ-BTTTT",
+      "iconUrl": "/game_icons/mobile-legends-bang-bang.webp"
+    },
+    {
+      "stt": 53,
+      "id": "tieu-yeu-tam-dao",
+      "name": "Tiểu Yêu Tầm Đạo",
+      "category": "Game Mobile Hot",
+      "license_g1": "134/QĐ-BTTTT",
+      "iconUrl": "/game_icons/tieu-yeu-tam-dao.webp"
+    },
+    {
+      "stt": 81,
+      "id": "bang-bang-dai-chien",
+      "name": "Bang Bang Đại Chiến",
+      "category": "Game Mobile Hot",
+      "license_g1": "49/QĐ-PTTH&TTĐT",
+      "iconUrl": "/game_icons/bang-bang-dai-chien.webp"
+    }
+  ],
+  "CÔNG TY CỔ PHẦN GAMOTA": [
+    {
+      "stt": 13,
+      "id": "zenless-zone-zero",
+      "name": "Zenless Zone Zero",
+      "category": "Game Mobile Hot",
+      "license_g1": "674/QĐ-BTTTT",
+      "iconUrl": "/game_icons/zenless-zone-zero.webp"
+    },
+    {
+      "stt": 17,
+      "id": "thieu-nien-3q-vng",
+      "name": "Thiếu Niên 3Q VNG",
+      "category": "Tam Quốc",
+      "license_g1": "583/QĐ-PTTH&TTĐT",
+      "iconUrl": "/game_icons/thieu-nien-3q-vng.webp"
+    },
+    {
+      "stt": 21,
+      "id": "rise-of-kingdoms",
+      "name": "Rise of Kingdoms",
+      "category": "Game Mobile Hot",
+      "license_g1": "1731 /QĐ-BTTTT",
+      "iconUrl": "/game_icons/rise-of-kingdoms.webp"
+    },
+    {
+      "stt": 22,
+      "id": "lords-mobile",
+      "name": "Lords Mobile: Kingdom Wars",
+      "category": "Chiến Thuật & MOBA",
+      "license_g1": "286/QĐ-PTTH&TTĐT",
+      "iconUrl": "/game_icons/lords-mobile.webp"
+    },
+    {
+      "stt": 30,
+      "id": "tokyo-ghoul-thuc-tinh",
+      "name": "Tokyo Ghoul：Thức Tỉnh",
+      "category": "Anime & Manga",
+      "license_g1": "465/QĐ-PTTH&TTĐT",
+      "iconUrl": "/game_icons/tokyo-ghoul-thuc-tinh.webp"
+    },
+    {
+      "stt": 34,
+      "id": "mu-hong-hoa-dao",
+      "name": "MU: Hồng Hoả Đao",
+      "category": "Game Mobile Hot",
+      "license_g1": "333/QĐ-PTTH&TTĐT",
+      "iconUrl": "/game_icons/mu-hong-hoa-dao.webp"
+    },
+    {
+      "stt": 57,
+      "id": "dau-pha-thuong-khung-2d",
+      "name": "Đấu Phá Thương Khung 2D",
+      "category": "Game Mobile Hot",
+      "license_g1": "129/QĐ-PTTH&TTĐT",
+      "iconUrl": "/game_icons/dau-pha-thuong-khung-2d.webp"
+    },
+    {
+      "stt": 83,
+      "id": "palmon",
+      "name": "Palmon: Cuộc Chiến Sinh Tồn",
+      "category": "Game Mobile Hot",
+      "license_g1": "420/QĐ-PTTH&TTĐT",
+      "iconUrl": "/game_icons/palmon.webp"
+    },
+    {
+      "stt": 95,
+      "id": "thieu-nien-ca-hanh-khoi-dong",
+      "name": "Thiếu Niên Ca Hành: Khởi Động",
+      "category": "Game Mobile Hot",
+      "license_g1": "516 /QĐ-PTTH&TTĐT",
+      "iconUrl": "/game_icons/thieu-nien-ca-hanh-khoi-dong.webp"
+    },
+    {
+      "stt": 119,
+      "id": "chi-huy-toi-thuong",
+      "name": "Chỉ Huy Tối Thượng",
+      "category": "Game Mobile Hot",
+      "license_g1": "182/QĐ-PTTH&TTĐT",
+      "iconUrl": "/game_icons/chi-huy-toi-thuong.webp"
+    },
+    {
+      "stt": 144,
+      "id": "co-giap-vo-han",
+      "name": "Cơ Giáp Vô Hạn – Gamota",
+      "category": "Game Mobile Hot",
+      "license_g1": "184/QĐ-PTTH&TTĐT",
+      "iconUrl": "/game_icons/co-giap-vo-han.webp"
+    },
+    {
+      "stt": 150,
+      "id": "tho-san-quy",
+      "name": "Thợ Săn Quỷ: Đại Chiến Dị Giới",
+      "category": "Game Mobile Hot",
+      "license_g1": "33/QĐ-PTTH&TTĐT",
+      "iconUrl": "/game_icons/tho-san-quy.webp"
+    }
+  ],
+  "CÔNG TY CỔ PHẦN CÔNG NGHỆ SỐ ALO": [
+    {
+      "stt": 15,
+      "id": "tieu-cuong-3q",
+      "name": "Tiểu Cường 3Q",
+      "category": "Tam Quốc",
+      "license_g1": "365 /QĐ-PTTH&TTĐT",
+      "iconUrl": "/game_icons/tieu-cuong-3q.webp"
+    },
+    {
+      "stt": 27,
+      "id": "loan-xi-ngau-3q-oeg",
+      "name": "Loạn Xì Ngầu 3Q – OEG",
+      "category": "Tam Quốc",
+      "license_g1": "264/QĐ-PTTH&TTĐT",
+      "iconUrl": "/game_icons/loan-xi-ngau-3q-oeg.webp"
+    },
+    {
+      "stt": 44,
+      "id": "loan-the-3q-than-ma-lenh-oeg",
+      "name": "Loạn Thế 3Q: Thần Ma Lệnh - OEG",
+      "category": "Tam Quốc",
+      "license_g1": "475/QĐ-PTTH&TTĐT",
+      "iconUrl": "/game_icons/loan-the-3q-than-ma-lenh-oeg.webp"
+    },
+    {
+      "stt": 80,
+      "id": "nhip-dieu-than-tuong-oeg",
+      "name": "Nhịp Điệu Thần Tượng – OEG",
+      "category": "Game Mobile Hot",
+      "license_g1": "97/QĐ-PTTH&TTĐT",
+      "iconUrl": "/game_icons/nhip-dieu-than-tuong-oeg.webp"
+    },
+    {
+      "stt": 106,
+      "id": "na-tra-nao-hai",
+      "name": "Na Tra Náo Hải",
+      "category": "Game Mobile Hot",
+      "license_g1": "98/QĐ-PTTH&TTĐT",
+      "iconUrl": "/game_icons/na-tra-nao-hai.webp"
+    },
+    {
+      "stt": 168,
+      "id": "tieu-tien-ta-vo-dich",
+      "name": "Tiểu Tiên Ta Vô Địch",
+      "category": "Kiếm Hiệp & Tiên Hiệp",
+      "license_g1": "366/QĐ-PTTH&TTĐT",
+      "iconUrl": "/game_icons/tieu-tien-ta-vo-dich.webp"
+    }
+  ],
+  "Công ty TNHH VNGGames": [
+    {
+      "stt": 16,
+      "id": "omg-3q",
+      "name": "OMG 3Q",
+      "category": "Tam Quốc",
+      "license_g1": "574/QĐ-PTTH&TTĐT",
+      "iconUrl": "/game_icons/omg-3q.webp"
+    },
+    {
+      "stt": 31,
+      "id": "lineage-w",
+      "name": "Lineage W",
+      "category": "Game Mobile Hot",
+      "license_g1": "40/QĐ-PTTH&TTĐT",
+      "iconUrl": "/game_icons/lineage-w.webp"
+    },
+    {
+      "stt": 51,
+      "id": "total-football-vng",
+      "name": "Total Football VNG",
+      "category": "Game Mobile Hot",
+      "license_g1": "21/QĐ-PTTH&TTĐT",
+      "iconUrl": "/game_icons/total-football-vng.webp"
+    },
+    {
+      "stt": 151,
+      "id": "ballistic-hero",
+      "name": "Ballistic Hero VNG",
+      "category": "Game Mobile Hot",
+      "license_g1": "177/QĐ-PTTH&TTĐT",
+      "iconUrl": "/game_icons/ballistic-hero.webp"
+    },
+    {
+      "stt": 179,
+      "id": "kiem-hiep-tinh",
+      "name": "Kiếm Hiệp Tình",
+      "category": "Kiếm Hiệp & Tiên Hiệp",
+      "license_g1": "418/QĐ-PTTH&TTĐT",
+      "iconUrl": "/game_icons/kiem-hiep-tinh.webp"
+    }
+  ],
+  "CÔNG TY CỔ PHẦN GZONE MEDIA VIỆT NAM": [
+    {
+      "stt": 19,
+      "id": "nhat-niem-tieu-dao-gzone",
+      "name": "Nhất Niệm Tiêu Dao - Gzone",
+      "category": "Game Mobile Hot",
+      "license_g1": "1622/QĐ-BTTTT",
+      "iconUrl": "/game_icons/nhat-niem-tieu-dao-gzone.webp"
+    },
+    {
+      "stt": 93,
+      "id": "hoi-uc-kiem-the",
+      "name": "Hồi Ức Kiếm Thế",
+      "category": "Tiên Hiệp & Kiếm Hiệp",
+      "license_g1": "39/QĐ-PTTH&TTĐT",
+      "iconUrl": "/game_icons/hoi-uc-kiem-the.webp"
+    },
+    {
+      "stt": 126,
+      "id": "vuon-hoa-hanh-phuc",
+      "name": "Vườn Hoa Hạnh Phúc",
+      "category": "Game Mobile Hot",
+      "license_g1": "223/QĐ-PTTH&TTĐT",
+      "iconUrl": "/game_icons/vuon-hoa-hanh-phuc.webp"
+    },
+    {
+      "stt": 176,
+      "id": "doi-hinh-toi-thuong",
+      "name": "Đội Hình Tối Thượng",
+      "category": "Game Mobile",
+      "license_g1": "474/QĐ-PTTH&TTĐT",
+      "iconUrl": "/game_icons/doi-hinh-toi-thuong.webp"
+    }
+  ],
+  "CÔNG TY CỔ PHẦN GIẢI TRÍ THIÊN THƯỢNG HỎA": [
+    {
+      "stt": 20,
+      "id": "nam-lun-tien-len",
+      "name": "Nấm Lùn Tiến Lên",
+      "category": "Game Mobile Hot",
+      "license_g1": "150/QĐ-BTTTT",
+      "iconUrl": "/game_icons/nam-lun-tien-len.webp"
+    }
+  ],
+  "CÔNG TY CỔ PHẦN TẬP ĐOÀN GIẢI TRÍ ĐẠI DƯƠNG": [
+    {
+      "stt": 23,
+      "id": "ever-night-thuc-tinh-oeg",
+      "name": "Ever Night: Thức Tỉnh - OEG",
+      "category": "Game Mobile",
+      "license_g1": "532/QĐ-PTTH&TTĐT",
+      "iconUrl": "/game_icons/ever-night-thuc-tinh-oeg.webp"
+    },
+    {
+      "stt": 102,
+      "id": "ludus-quyet-dau",
+      "name": "Ludus: Quyết Đấu Chiến Thuật",
+      "category": "Chiến Thuật SLG",
+      "license_g1": "154/QĐ-PTTH&TTĐT",
+      "iconUrl": "/game_icons/ludus-quyet-dau.webp"
+    },
+    {
+      "stt": 103,
+      "id": "tan-chan-long-oeg",
+      "name": "Tân Chân Long - OEG",
+      "category": "Game Mobile Hot",
+      "license_g1": "153/QĐ-PTTH&TTĐT",
+      "iconUrl": "/game_icons/tan-chan-long-oeg.webp"
+    },
+    {
+      "stt": 128,
+      "id": "quy-tuong-3q-thuc-tinh-oeg",
+      "name": "Quỷ Tướng 3Q: Thức Tỉnh - OEG",
+      "category": "Tam Quốc",
+      "license_g1": "149/QĐ-PTTH&TTĐT",
+      "iconUrl": "/game_icons/quy-tuong-3q-thuc-tinh-oeg.webp"
+    },
+    {
+      "stt": 131,
+      "id": "quai-thu-phong-thu",
+      "name": "Quái Thú Phòng Thủ",
+      "category": "Game Mobile Hot",
+      "license_g1": "155/QĐ-BVHTTDL",
+      "iconUrl": "/game_icons/quai-thu-phong-thu.webp"
+    }
+  ],
+  "CÔNG TY TNHH DỊCH VỤ PHẦN MỀM HÒA THÁI": [
+    {
+      "stt": 24,
+      "id": "delta-force",
+      "name": "Delta Force",
+      "category": "Game Mobile Hot",
+      "license_g1": "231/QĐ-PTTH&TTĐT",
+      "iconUrl": "/game_icons/delta-force.webp"
+    }
+  ],
+  "CÔNG TY CỔ PHẦN VTC DỊCH VỤ DI ĐỘNG": [
+    {
+      "stt": 26,
+      "id": "tam-quoc-chi-chien-luoc-tth",
+      "name": "Tam Quốc Chí - Chiến Lược -TTH",
+      "category": "Tam Quốc",
+      "license_g1": "410/QĐ-PTTH&TTĐT",
+      "iconUrl": "/game_icons/tam-quoc-chi-chien-luoc-tth.webp"
+    },
+    {
+      "stt": 45,
+      "id": "giang-ho-bat-phai-phan-tranh",
+      "name": "Giang Hồ Bát Phái Phân Tranh",
+      "category": "Kiếm Hiệp & Tiên Hiệp",
+      "license_g1": "434/QĐ-PTTH&TTĐT",
+      "iconUrl": "/game_icons/giang-ho-bat-phai-phan-tranh.webp"
+    },
+    {
+      "stt": 79,
+      "id": "dao-si-bat-truong-phi",
+      "name": "Đạo Sĩ Bắt Trương Phi",
+      "category": "Game Mobile Hot",
+      "license_g1": "178/QĐ-PTTH&TTĐT",
+      "iconUrl": "/game_icons/dao-si-bat-truong-phi.webp"
+    },
+    {
+      "stt": 85,
+      "id": "chien-hoa-tam-gioi-vtc",
+      "name": "Chiến Hỏa Tam Giới - VTC",
+      "category": "Game Mobile Hot",
+      "license_g1": "380/QĐ-PTTH&TTĐT",
+      "iconUrl": "/game_icons/chien-hoa-tam-gioi-vtc.webp"
+    },
+    {
+      "stt": 87,
+      "id": "hoa-son-kiem-the-vtc",
+      "name": "Hoa Sơn Kiếm Thế - VTC",
+      "category": "Tiên Hiệp & Kiếm Hiệp",
+      "license_g1": "138 /QĐ-PTTH&TTĐT",
+      "iconUrl": "/game_icons/hoa-son-kiem-the-vtc.webp"
+    },
+    {
+      "stt": 125,
+      "id": "ts-origin",
+      "name": "TS Origin",
+      "category": "Game Mobile Hot",
+      "license_g1": "241/QĐ-PTTH&TTĐT",
+      "iconUrl": "/game_icons/ts-origin.webp"
+    },
+    {
+      "stt": 153,
+      "id": "vo-dich-tu-tien-gioi-vtc",
+      "name": "Vô Địch Tu Tiên Giới - VTC",
+      "category": "Tiên Hiệp & Kiếm Hiệp",
+      "license_g1": "194/QĐ-PTTH&TTĐT",
+      "iconUrl": "/game_icons/vo-dich-tu-tien-gioi-vtc.webp"
+    },
+    {
+      "stt": 161,
+      "id": "tam-quoc-36-ke",
+      "name": "Tam Quốc 36 Kế VTC",
+      "category": "Tam Quốc",
+      "license_g1": "48/QĐ-PTTH&TTĐT",
+      "iconUrl": "/game_icons/tam-quoc-36-ke.webp"
+    }
+  ],
+  "CÔNG TY CỔ PHẦN VNG": [
+    {
+      "stt": 28,
+      "id": "danh-tuong-3q-vng",
+      "name": "Danh Tướng 3Q - VNG",
+      "category": "Tam Quốc",
+      "license_g1": "215/QĐ-PTTH&TTĐT",
+      "iconUrl": "/game_icons/danh-tuong-3q-vng.webp"
+    },
+    {
+      "stt": 35,
+      "id": "tay-du-vng",
+      "name": "Tây Du VNG: Đại Náo Tam Giới",
+      "category": "Game Mobile Hot",
+      "license_g1": "118/QĐ-PTTH&TTĐT",
+      "iconUrl": "/game_icons/tay-du-vng.webp"
+    },
+    {
+      "stt": 50,
+      "id": "bomber-vng",
+      "name": "Bomber VNG",
+      "category": "Game Mobile Hot",
+      "license_g1": "135/QĐ-PTTH&TTĐT",
+      "iconUrl": "/game_icons/bomber-vng.webp"
+    },
+    {
+      "stt": 60,
+      "id": "tam-quoc-huyen-tuong-vng",
+      "name": "Tam Quốc Huyễn Tướng VNG",
+      "category": "Tam Quốc",
+      "license_g1": "217/QĐ-PTTH&TTĐT",
+      "iconUrl": "/game_icons/tam-quoc-huyen-tuong-vng.webp"
+    }
+  ],
+  "CÔNG TY CỔ PHẦN TRÒ CHƠI MỘC": [
+    {
+      "stt": 32,
+      "id": "hero-clash",
+      "name": "Hero Clash",
+      "category": "Game Mobile Hot",
+      "license_g1": "807/QĐ-BTTTT",
+      "iconUrl": "/game_icons/hero-clash.webp"
+    },
+    {
+      "stt": 84,
+      "id": "anh-hung-bat-diet",
+      "name": "Anh Hùng Bất Diệt",
+      "category": "Game Mobile Hot",
+      "license_g1": "383/QĐ-PTTH&TTĐT",
+      "iconUrl": "/game_icons/anh-hung-bat-diet.webp"
+    }
+  ],
+  "CÔNG TY CỔ PHẦN GIẢI TRÍ TRỰC TUYẾN 3T": [
+    {
+      "stt": 33,
+      "id": "mu-vinh-hang",
+      "name": "MU: Vĩnh Hằng",
+      "category": "Game Mobile Hot",
+      "license_g1": "514/QĐ-PTTH&TTĐT",
+      "iconUrl": "/game_icons/mu-vinh-hang.webp"
+    }
+  ],
+  "CÔNG TY TNHH PHẦN MỀM MGOL": [
+    {
+      "stt": 36,
+      "id": "vo-lam-dai-minh-tinh",
+      "name": "Võ Lâm Đại Minh Tinh",
+      "category": "Tiên Hiệp & Kiếm Hiệp",
+      "license_g1": "1791/QĐ-BTTTT",
+      "iconUrl": "/game_icons/vo-lam-dai-minh-tinh.webp"
+    },
+    {
+      "stt": 54,
+      "id": "dai-hiep-chay-di",
+      "name": "Đại Hiệp Chạy Đi",
+      "category": "Game Mobile Hot",
+      "license_g1": "1242/QĐ-BTTTT",
+      "iconUrl": "/game_icons/dai-hiep-chay-di.webp"
+    },
+    {
+      "stt": 109,
+      "id": "chien-tuyen-huong-duong",
+      "name": "Chiến Tuyến Hướng Dương",
+      "category": "Game Mobile Hot",
+      "license_g1": "145/QĐ-PTTH&TTĐT",
+      "iconUrl": "/game_icons/chien-tuyen-huong-duong.webp"
+    },
+    {
+      "stt": 110,
+      "id": "tieu-tuyet-linh-chu",
+      "name": "Tiểu Tuyết Lĩnh Chủ",
+      "category": "Game Mobile Hot",
+      "license_g1": "59/QĐ-PTTH&TTĐT",
+      "iconUrl": "/game_icons/tieu-tuyet-linh-chu.webp"
+    },
+    {
+      "stt": 112,
+      "id": "yeu-thu-van-dao",
+      "name": "Yêu Thú Vấn Đạo",
+      "category": "Game Mobile Hot",
+      "license_g1": "68/QĐ-BTTTT",
+      "iconUrl": "/game_icons/yeu-thu-van-dao.webp"
+    }
+  ],
+  "CÔNG TY CỔ PHẦN GIẢI TRÍ TRỰC TUYẾN GIGANTIC": [
+    {
+      "stt": 37,
+      "id": "tan-vo-lam",
+      "name": "Tân Võ Lâm",
+      "category": "Tiên Hiệp & Kiếm Hiệp",
+      "license_g1": "200/QĐ-PTTH&TTĐT",
+      "iconUrl": "/game_icons/tan-vo-lam.webp"
+    }
+  ],
+  "Công ty TNHH Trò chơi Mộc": [
+    {
+      "stt": 38,
+      "id": "tam-quoc-tranh-ba-thien-ha",
+      "name": "Tam Quốc: Tranh Bá Thiên Hạ",
+      "category": "Tam Quốc",
+      "license_g1": "419/QĐ-PTTH&TTĐT",
+      "iconUrl": "/game_icons/tam-quoc-tranh-ba-thien-ha.webp"
+    }
+  ],
+  "CÔNG TY CỔ PHẦN GIẢI TRÍ TRỰC TUYẾN KAN": [
+    {
+      "stt": 39,
+      "id": "doi-tuong-nhi-nho",
+      "name": "Đội Tướng Nhí Nhố",
+      "category": "Casual & Giải Trí",
+      "license_g1": "440 /QĐ-PTTH&TTĐT",
+      "iconUrl": "/game_icons/doi-tuong-nhi-nho.webp"
+    },
+    {
+      "stt": 72,
+      "id": "vuot-tuong-thep",
+      "name": "Vượt Tường Thép",
+      "category": "Game Mobile Hot",
+      "license_g1": "44/QĐ-PTTH&TTĐT",
+      "iconUrl": "/game_icons/vuot-tuong-thep.webp"
+    }
+  ],
+  "CÔNG TY CỔ PHẦN VGP": [
+    {
+      "stt": 40,
+      "id": "manga-ba-chay",
+      "name": "Manga Bá Cháy",
+      "category": "Gacha & Anime",
+      "license_g1": "409/QĐ-PTTH&TTĐT",
+      "iconUrl": "/game_icons/manga-ba-chay.webp"
+    },
+    {
+      "stt": 75,
+      "id": "kiem-khach-phong-lang",
+      "name": "Kiếm Khách Phong Lăng",
+      "category": "Tiên Hiệp & Kiếm Hiệp",
+      "license_g1": "177/QĐ-PTTH&TTĐT",
+      "iconUrl": "/game_icons/kiem-khach-phong-lang.webp"
+    },
+    {
+      "stt": 91,
+      "id": "tho-san-sieu-cap",
+      "name": "Thợ Săn Siêu Cấp",
+      "category": "Game Mobile Hot",
+      "license_g1": "113/QĐ-PTTH&TTĐT",
+      "iconUrl": "/game_icons/tho-san-sieu-cap.webp"
+    },
+    {
+      "stt": 96,
+      "id": "atlan-origin-luc-dia-troi-day",
+      "name": "Atlan Origin: Lục Địa Trỗi Dậy",
+      "category": "Game Mobile Hot",
+      "license_g1": "412 /QĐ-PTTH&TTĐT",
+      "iconUrl": "/game_icons/atlan-origin-luc-dia-troi-day.webp"
+    },
+    {
+      "stt": 100,
+      "id": "tam-gioi-anh-hung",
+      "name": "Tam Giới Anh Hùng",
+      "category": "Game Mobile Hot",
+      "license_g1": "269/QĐ-BTTTT",
+      "iconUrl": "/game_icons/tam-gioi-anh-hung.webp"
+    },
+    {
+      "stt": 140,
+      "id": "hoan-my-tam-quoc",
+      "name": "Hoàn Mỹ Tam Quốc – VGP",
+      "category": "Tam Quốc",
+      "license_g1": "91/QĐ-PTTH&TTĐT",
+      "iconUrl": "/game_icons/hoan-my-tam-quoc.webp"
+    },
+    {
+      "stt": 170,
+      "id": "khe-uoc-rong",
+      "name": "Khế Ước Rồng",
+      "category": "Game Mobile",
+      "license_g1": "535/QĐ-PTTH&TTĐT",
+      "iconUrl": "/game_icons/khe-uoc-rong.webp"
+    },
+    {
+      "stt": 180,
+      "id": "thuc-than-ky",
+      "name": "Thức Thần Ký",
+      "category": "Gacha & Anime",
+      "license_g1": "404/QĐ-PTTH&TTĐT",
+      "iconUrl": "/game_icons/thuc-than-ky.webp"
+    }
+  ],
+  "CÔNG TY CỔ PHẦN TRUYỀN HÌNH TƯƠNG TÁC VIỆT NAM": [
+    {
+      "stt": 41,
+      "id": "phuong-hoang-tru-tien",
+      "name": "Phượng Hoàng Tru Tiên",
+      "category": "Kiếm Hiệp & Tiên Hiệp",
+      "license_g1": "267/QĐ-PTTH&TTĐT",
+      "iconUrl": "/game_icons/phuong-hoang-tru-tien.webp"
+    },
+    {
+      "stt": 42,
+      "id": "thao-tung-tam-quoc",
+      "name": "Thao Túng Tam Quốc",
+      "category": "Tam Quốc",
+      "license_g1": "277/QĐ-PTTH&TTĐT",
+      "iconUrl": "/game_icons/thao-tung-tam-quoc.webp"
+    },
+    {
+      "stt": 43,
+      "id": "quan-anh-phong-hoa-luc",
+      "name": "Tam Quốc Quần Anh",
+      "category": "Tam Quốc",
+      "license_g1": "350/QĐ-PTTH&TTĐT",
+      "iconUrl": "/game_icons/quan-anh-phong-hoa-luc.webp"
+    },
+    {
+      "stt": 62,
+      "id": "dau-than-tuyet-the",
+      "name": "Đấu Thần Tuyệt Thế",
+      "category": "Game Mobile Hot",
+      "license_g1": "1091/QĐ-BTTTT",
+      "iconUrl": "/game_icons/dau-than-tuyet-the.webp"
+    },
+    {
+      "stt": 86,
+      "id": "huyen-anh-vo-lam",
+      "name": "Huyền Ảnh Võ Lâm",
+      "category": "Tiên Hiệp & Kiếm Hiệp",
+      "license_g1": "238/QĐ-PTTH&TTĐT",
+      "iconUrl": "/game_icons/huyen-anh-vo-lam.webp"
+    },
+    {
+      "stt": 141,
+      "id": "me-ta-tam-quoc",
+      "name": "Mê Ta Tam Quốc",
+      "category": "Tam Quốc",
+      "license_g1": "168/QĐ-PTTH&TTĐT",
+      "iconUrl": "/game_icons/me-ta-tam-quoc.webp"
+    },
+    {
+      "stt": 146,
+      "id": "mukbang-tam-quoc",
+      "name": "Mukbang Tam Quốc",
+      "category": "Tam Quốc",
+      "license_g1": "58/QĐ-BTTTT",
+      "iconUrl": "/game_icons/mukbang-tam-quoc.webp"
+    },
+    {
+      "stt": 149,
+      "id": "quy-mon-quan",
+      "name": "Quỷ Môn Quan",
+      "category": "Game Mobile Hot",
+      "license_g1": "602/QĐ-PTTH&TTĐT",
+      "iconUrl": "/game_icons/quy-mon-quan.webp"
+    },
+    {
+      "stt": 155,
+      "id": "luc-tung-tam-quoc",
+      "name": "Lục Tung Tam Quốc",
+      "category": "Tam Quốc",
+      "license_g1": "945/QĐ-BTTTT",
+      "iconUrl": "/game_icons/luc-tung-tam-quoc.webp"
+    },
+    {
+      "stt": 159,
+      "id": "chien-gioi-4d",
+      "name": "Chiến Giới 4D",
+      "category": "Game Mobile Hot",
+      "license_g1": "856/QĐ-BTTTT",
+      "iconUrl": "/game_icons/chien-gioi-4d.webp"
+    },
+    {
+      "stt": 184,
+      "id": "samkok-tam-quoc",
+      "name": "Samkok Tam Quốc",
+      "category": "Tam Quốc",
+      "license_g1": "41/QĐ-PTTH&TTĐT",
+      "iconUrl": "/game_icons/samkok-tam-quoc.webp"
+    },
+    {
+      "stt": 185,
+      "id": "giang-ho-ky-ngo",
+      "name": "Giang Hồ Kỳ Ngộ",
+      "category": "Tiên Hiệp & Kiếm Hiệp",
+      "license_g1": "85/QĐ-PTTH&TTĐT",
+      "iconUrl": "/game_icons/giang-ho-ky-ngo.webp"
+    },
+    {
+      "stt": 188,
+      "id": "thoi-khong-chi-mong",
+      "name": "Thời Không Chi Mộng",
+      "category": "Game Mobile Hot",
+      "license_g1": "108/QĐ-PTTH&TTĐT",
+      "iconUrl": "/game_icons/thoi-khong-chi-mong.webp"
+    }
+  ],
+  "CÔNG TY CỔ PHẦN ACE GAME": [
+    {
+      "stt": 47,
+      "id": "huyen-thoai-lang-la",
+      "name": "Huyền Thoại Làng Lá",
+      "category": "Game Mobile Hot",
+      "license_g1": "388/QĐ-BTTTT",
+      "iconUrl": "/game_icons/huyen-thoai-lang-la.webp"
+    }
+  ],
+  "CÔNG TY CỔ PHẦN TRAVELLET VIỆT NAM": [
+    {
+      "stt": 48,
+      "id": "dislyte",
+      "name": "Dislyte: Nhịp Điệu Huyền Bí",
+      "category": "Game Mobile Hot",
+      "license_g1": "501/QĐ-BTTTT",
+      "iconUrl": "/game_icons/dislyte.webp"
+    },
+    {
+      "stt": 137,
+      "id": "ky-nguyen-bang-ha-3q",
+      "name": "Kỷ Nguyên Băng Hà: 3Q",
+      "category": "Tam Quốc",
+      "license_g1": "276/QĐ-PTTH&TTĐT",
+      "iconUrl": "/game_icons/ky-nguyen-bang-ha-3q.webp"
+    },
+    {
+      "stt": 156,
+      "id": "hanh-trinh-afk",
+      "name": "Hành Trình AFK",
+      "category": "Tiên Hiệp & Kiếm Hiệp",
+      "license_g1": "2202/QĐ-BTTTT",
+      "iconUrl": "/game_icons/hanh-trinh-afk.webp"
+    }
+  ],
+  "CÔNG TY CỔ PHẦN THS GAME": [
+    {
+      "stt": 49,
+      "id": "ragnarok-huyen-thoai-mmo",
+      "name": "Ragnarok: Huyền Thoại MMO",
+      "category": "Game Mobile Hot",
+      "license_g1": "233 /QĐ-PTTH&TTĐT",
+      "iconUrl": "/game_icons/ragnarok-huyen-thoai-mmo.webp"
+    }
+  ],
+  "CÔNG TY TNHH GIẢI TRÍ JOY": [
+    {
+      "stt": 52,
+      "id": "magic-chess-go-go",
+      "name": "Magic Chess: Go Go FT",
+      "category": "Thẻ Bài Đấu Tướng",
+      "license_g1": "2004/QĐ-BTTTT",
+      "iconUrl": "/game_icons/magic-chess-go-go.webp"
+    }
+  ],
+  "CÔNG TY TNHH LAVA DIGITAL": [
+    {
+      "stt": 55,
+      "id": "mini-world-creata",
+      "name": "Mini World: CREATA",
+      "category": "Game Mobile Hot",
+      "license_g1": "85/GXN-PTTH&TTĐT",
+      "iconUrl": "/game_icons/mini-world-creata.webp"
+    }
+  ],
+  "CÔNG TY TNHH JOYGAMES": [
+    {
+      "stt": 56,
+      "id": "dao-huu-tu-tien",
+      "name": "Đạo Hữu Xin Dừng Bước",
+      "category": "Game Mobile Hot",
+      "license_g1": "90/QĐ-PTTH&TTĐT",
+      "iconUrl": "/game_icons/dao-huu-tu-tien.webp"
+    },
+    {
+      "stt": 66,
+      "id": "ta-la-cao-thu-vo-lam",
+      "name": "Ta Là Cao Thủ Võ Lâm Joygames",
+      "category": "Tiên Hiệp & Kiếm Hiệp",
+      "license_g1": "84/QĐ-PTTH&TTĐT",
+      "iconUrl": "/game_icons/ta-la-cao-thu-vo-lam.webp"
+    },
+    {
+      "stt": 152,
+      "id": "tien-nghich-mobile",
+      "name": "Tiên Nghịch Mobile",
+      "category": "Hành Động FPS & MOBA",
+      "license_g1": "210/QĐ-PTTH&TTĐT",
+      "iconUrl": "/game_icons/tien-nghich-mobile.webp"
+    }
+  ],
+  "CÔNG TY CỔ PHẦN ĐẦU TƯ CÔNG NGHỆ VISION INVEST": [
+    {
+      "stt": 58,
+      "id": "tiem-tap-hoa-thoi-gian",
+      "name": "Tiệm Tạp Hóa Thời Gian",
+      "category": "Game Mobile Hot",
+      "license_g1": "193/QĐ-PTTH&TTĐT",
+      "iconUrl": "/game_icons/tiem-tap-hoa-thoi-gian.webp"
+    }
+  ],
+  "CÔNG TY CỔ PHẦN TRỰC TUYẾN CMN VIỆT NAM": [
+    {
+      "stt": 59,
+      "id": "than-ma-arena",
+      "name": "Thần Ma Arena",
+      "category": "Game Mobile Hot",
+      "license_g1": "61/QĐ-PTTH&TTĐT",
+      "iconUrl": "/game_icons/than-ma-arena.webp"
+    },
+    {
+      "stt": 68,
+      "id": "tay-du-truyen-ky-cmn",
+      "name": "Tây Du Truyền Kỳ CMN",
+      "category": "Game Mobile Hot",
+      "license_g1": "66/QĐ-PTTH&TTĐT",
+      "iconUrl": "/game_icons/tay-du-truyen-ky-cmn.webp"
+    },
+    {
+      "stt": 70,
+      "id": "anh-kiet-tam-quoc",
+      "name": "Anh Kiệt Tam Quốc",
+      "category": "Tam Quốc",
+      "license_g1": "76/QĐ-PTTH&TTĐT",
+      "iconUrl": "/game_icons/anh-kiet-tam-quoc.webp"
+    },
+    {
+      "stt": 73,
+      "id": "buu-boi-truyen-ky",
+      "name": "Bửu Bối Truyền Kỳ",
+      "category": "Game Mobile Hot",
+      "license_g1": "37/QĐ-PTTH&TTĐT",
+      "iconUrl": "/game_icons/buu-boi-truyen-ky.webp"
+    },
+    {
+      "stt": 77,
+      "id": "vo-cuc-tien-do-cmn",
+      "name": "Vô Cực Tiên Đồ CMN",
+      "category": "Game Mobile Hot",
+      "license_g1": "2309/QĐ-BTTTT",
+      "iconUrl": "/game_icons/vo-cuc-tien-do-cmn.webp"
+    },
+    {
+      "stt": 113,
+      "id": "huyen-tuong-phong-than",
+      "name": "Huyễn Tướng Phong Thần",
+      "category": "Chiến Thuật SLG",
+      "license_g1": "1570/QĐ-BTTTT",
+      "iconUrl": "/game_icons/huyen-tuong-phong-than.webp"
+    },
+    {
+      "stt": 132,
+      "id": "phong-van-truyen-ky-2",
+      "name": "Phong Vân Truyền Kỳ 2",
+      "category": "Game Mobile Hot",
+      "license_g1": "110/QĐ-PTTH&TTĐT",
+      "iconUrl": "/game_icons/phong-van-truyen-ky-2.webp"
+    },
+    {
+      "stt": 145,
+      "id": "chien-loan-tam-quoc",
+      "name": "Chiến Loạn Tam Quốc",
+      "category": "Tam Quốc",
+      "license_g1": "315/QĐ-PTTH&TTĐT",
+      "iconUrl": "/game_icons/chien-loan-tam-quoc.webp"
+    },
+    {
+      "stt": 186,
+      "id": "bo-lac-3q",
+      "name": "Bộ Lạc 3Q",
+      "category": "Tam Quốc",
+      "license_g1": "121/QĐ-PTTH&TTĐT",
+      "iconUrl": "/game_icons/bo-lac-3q.webp"
+    }
+  ],
+  "CÔNG TY TNHH SOHA": [
+    {
+      "stt": 61,
+      "id": "tam-quoc-meo",
+      "name": "Tam Quốc Mèo",
+      "category": "Tam Quốc",
+      "license_g1": "921/QĐ-BTTTT",
+      "iconUrl": "/game_icons/tam-quoc-meo.webp"
+    },
+    {
+      "stt": 67,
+      "id": "3q-chess-ky-thu-tam-quoc",
+      "name": "3Q Chess – Kỳ Thủ Tam Quốc",
+      "category": "Tam Quốc",
+      "license_g1": "461/QĐ-PTTH&TTĐT",
+      "iconUrl": "/game_icons/3q-chess-ky-thu-tam-quoc.webp"
+    },
+    {
+      "stt": 90,
+      "id": "pet-samkok-bao-thu-3q",
+      "name": "Pet Samkok – Báo Thủ 3Q",
+      "category": "Tam Quốc",
+      "license_g1": "507/QĐ-PTTH&TTĐT",
+      "iconUrl": "/game_icons/pet-samkok-bao-thu-3q.webp"
+    },
+    {
+      "stt": 111,
+      "id": "x-wukong",
+      "name": "X Wukong",
+      "category": "Game Mobile Hot",
+      "license_g1": "84/QĐ-BTTTT",
+      "iconUrl": "/game_icons/x-wukong.webp"
+    },
+    {
+      "stt": 148,
+      "id": "vo-lam-hac-dao",
+      "name": "Võ Lâm Hắc Đạo",
+      "category": "Tiên Hiệp & Kiếm Hiệp",
+      "license_g1": "19/QĐ-PTTH&TTĐT",
+      "iconUrl": "/game_icons/vo-lam-hac-dao.webp"
+    },
+    {
+      "stt": 174,
+      "id": "phong-hau-tam-quoc",
+      "name": "Phong Hầu Tam Quốc",
+      "category": "Tam Quốc",
+      "license_g1": "506/QĐ-PTTH&TTĐT",
+      "iconUrl": "/game_icons/phong-hau-tam-quoc.webp"
+    },
+    {
+      "stt": 175,
+      "id": "tay-du-tam-bao",
+      "name": "Tây Du Tầm Bảo",
+      "category": "Game Mobile",
+      "license_g1": "523/QĐ-PTTH&TTĐT",
+      "iconUrl": "/game_icons/tay-du-tam-bao.webp"
+    },
+    {
+      "stt": 178,
+      "id": "van-dinh-tam-quoc",
+      "name": "Vấn Đỉnh Tam Quốc",
+      "category": "Tam Quốc",
+      "license_g1": "522/QĐ-PTTH&TTĐT",
+      "iconUrl": "/game_icons/van-dinh-tam-quoc.webp"
+    }
+  ],
+  "CÔNG TY CỔ PHẦN GIẢI TRÍ YGAME": [
+    {
+      "stt": 63,
+      "id": "thien-ha-ngu-tuyet",
+      "name": "Thiên Hạ Ngũ Tuyệt",
+      "category": "Game Mobile Hot",
+      "license_g1": "1687 /QĐ-BTTTT",
+      "iconUrl": "/game_icons/thien-ha-ngu-tuyet.webp"
+    }
+  ],
+  "CÔNG TY TNHH OPENGAME": [
+    {
+      "stt": 64,
+      "id": "kiem-linh-du-ky",
+      "name": "Kiếm Linh Du Ký",
+      "category": "Tiên Hiệp & Kiếm Hiệp",
+      "license_g1": "168/QĐ-PTTH&TTĐT",
+      "iconUrl": "/game_icons/kiem-linh-du-ky.webp"
+    }
+  ],
+  "CÔNG TY CỔ PHẦN GIẢI TRÍ 568E": [
+    {
+      "stt": 65,
+      "id": "phong-than-ta-dinh-doat",
+      "name": "Phong Thần – Ta Định Đoạt",
+      "category": "Game Mobile Hot",
+      "license_g1": "107/QĐ-PTTH&TTĐT",
+      "iconUrl": "/game_icons/phong-than-ta-dinh-doat.webp"
+    },
+    {
+      "stt": 187,
+      "id": "3q-goi-tuong-di",
+      "name": "3Q Gọi Tướng Đi",
+      "category": "Tam Quốc",
+      "license_g1": "219/QĐ-PTTH&TTĐT",
+      "iconUrl": "/game_icons/3q-goi-tuong-di.webp"
+    }
+  ],
+  "CÔNG TY CỔ PHẦN GZONE MEDIA VIỆT NAM na": [
+    {
+      "stt": 71,
+      "id": "bloodline-dong-mau-anh-hung",
+      "name": "Bloodline: Dòng Máu Anh Hùng",
+      "category": "Game Mobile Hot",
+      "license_g1": "66/QĐ-PTTH&TTĐT",
+      "iconUrl": "/game_icons/bloodline-dong-mau-anh-hung.webp"
+    }
+  ],
+  "Công ty TNHH Velalive": [
+    {
+      "stt": 74,
+      "id": "phi-kiem-tu-tien",
+      "name": "Phi Kiếm Tu Tiên",
+      "category": "Tiên Hiệp & Kiếm Hiệp",
+      "license_g1": "29/QĐ-PTTH&TTĐT",
+      "iconUrl": "/game_icons/phi-kiem-tu-tien.webp"
+    },
+    {
+      "stt": 166,
+      "id": "mieu-de-tam-quoc",
+      "name": "Miêu Đế Tam Quốc",
+      "category": "Tam Quốc",
+      "license_g1": "457/QĐ-PTTH&TTĐT",
+      "iconUrl": "/game_icons/mieu-de-tam-quoc.webp"
+    },
+    {
+      "stt": 172,
+      "id": "huyen-thoai-huong-cang",
+      "name": "Huyền Thoại Hương Cảng",
+      "category": "Kiếm Hiệp & Tiên Hiệp",
+      "license_g1": "372/QĐ-PTTH&TTĐT",
+      "iconUrl": "/game_icons/huyen-thoai-huong-cang.webp"
+    }
+  ],
+  "CÔNG TY TNHH CÔNG NGHỆ GIA ĐÌNH": [
+    {
+      "stt": 76,
+      "id": "3q-trieu-hoan-su",
+      "name": "3Q Triệu Hoán Sư",
+      "category": "Tam Quốc",
+      "license_g1": "1392/QĐ-BTTTT",
+      "iconUrl": "/game_icons/3q-trieu-hoan-su.webp"
+    }
+  ],
+  "CÔNG TY CỔ PHẦN MẠNG TRỰC TUYẾN META": [
+    {
+      "stt": 78,
+      "id": "stickman-go",
+      "name": "Stickman GO",
+      "category": "Game Mobile Hot",
+      "license_g1": "215/GXN-PTTH&TTĐT",
+      "iconUrl": "/game_icons/stickman-go.webp"
+    }
+  ],
+  "CÔNG TY CỔ PHẦN VISION GAME": [
+    {
+      "stt": 82,
+      "id": "ta-lam-tong-su-trong-tien-mon",
+      "name": "Ta Làm Tông Sư Trong Tiên Môn",
+      "category": "Game Mobile Hot",
+      "license_g1": "493/QĐ-PTTH&TTĐT",
+      "iconUrl": "/game_icons/ta-lam-tong-su-trong-tien-mon.webp"
+    },
+    {
+      "stt": 177,
+      "id": "chu-cong-xung-xung-xung",
+      "name": "Chủ Công Xung Xung Xung",
+      "category": "Game Mobile",
+      "license_g1": "391/QĐ-PTTH&TTĐT",
+      "iconUrl": "/game_icons/chu-cong-xung-xung-xung.webp"
+    }
+  ],
+  "CÔNG TY TNHH MOBILE INTELLIGENCE SAIGON": [
+    {
+      "stt": 88,
+      "id": "kiem-vuc-3d",
+      "name": "Kiếm Vực 3D",
+      "category": "Tiên Hiệp & Kiếm Hiệp",
+      "license_g1": "1476/QĐ-BTTTT",
+      "iconUrl": "/game_icons/kiem-vuc-3d.webp"
+    },
+    {
+      "stt": 157,
+      "id": "chien-than-mini",
+      "name": "Chiến Thần MINI",
+      "category": "Game Mobile Hot",
+      "license_g1": "400 /QĐ-PTTH&TTĐT",
+      "iconUrl": "/game_icons/chien-than-mini.png"
+    }
+  ],
+  "CÔNG TY VTC CÔNG NGHỆ VÀ NỘI DUNG SỐ": [
+    {
+      "stt": 89,
+      "id": "anh-hung-cam-dia",
+      "name": "Anh Hùng Cấm Địa - VTC Game",
+      "category": "Game Mobile Hot",
+      "license_g1": "42/GXN-PTTH&TTĐT",
+      "iconUrl": "/game_icons/anh-hung-cam-dia.webp"
+    }
+  ],
+  "CÔNG TY TNHH TRUYỀN THÔNG FUNFINITY STUDIO": [
+    {
+      "stt": 92,
+      "id": "kiem-de-origin",
+      "name": "Kiếm Đế Origin",
+      "category": "Tiên Hiệp & Kiếm Hiệp",
+      "license_g1": "75/QĐ-PTTH&TTĐT",
+      "iconUrl": "/game_icons/kiem-de-origin.webp"
+    },
+    {
+      "stt": 104,
+      "id": "than-thu-origin",
+      "name": "Thần Thú Origin",
+      "category": "Game Mobile Hot",
+      "license_g1": "143/QĐ-PTTH&TTĐT",
+      "iconUrl": "/game_icons/than-thu-origin.webp"
+    },
+    {
+      "stt": 107,
+      "id": "vo-hiep-origin",
+      "name": "Võ Hiệp Origin",
+      "category": "Game Mobile Hot",
+      "license_g1": "68/QĐ-PTTH&TTĐT",
+      "iconUrl": "/game_icons/vo-hiep-origin.webp"
+    }
+  ],
+  "CÔNG TY CỔ PHẦN GGO": [
+    {
+      "stt": 94,
+      "id": "skyria-dao-ky-bi",
+      "name": "Skyria: Đảo Kỳ Bí",
+      "category": "Game Mobile Hot",
+      "license_g1": "28/QĐ-PTTH&TTĐT",
+      "iconUrl": "/game_icons/skyria-dao-ky-bi.webp"
+    },
+    {
+      "stt": 142,
+      "id": "mong-huyen-giang-ho",
+      "name": "Mộng Huyễn Giang Hồ",
+      "category": "Tiên Hiệp & Kiếm Hiệp",
+      "license_g1": "861/QĐ-BTTTT",
+      "iconUrl": "/game_icons/mong-huyen-giang-ho.webp"
+    }
+  ],
+  "CÔNG TY TNHH VMGE": [
+    {
+      "stt": 97,
+      "id": "chu-thuat-dai-chien",
+      "name": "Chú Thuật Đại Chiến",
+      "category": "Game Mobile Hot",
+      "license_g1": "1806/QĐ-BTTTT",
+      "iconUrl": "/game_icons/chu-thuat-dai-chien.webp"
+    },
+    {
+      "stt": 139,
+      "id": "sieu-hai-tac",
+      "name": "Siêu Hải Tặc",
+      "category": "Game Mobile Hot",
+      "license_g1": "54/QĐ-PTTH&TTĐT",
+      "iconUrl": "/game_icons/sieu-hai-tac.webp"
+    }
+  ],
+  "CÔNG TY CỔ PHẦN FUNTAP": [
+    {
+      "stt": 98,
+      "id": "tam-quoc-x",
+      "name": "TAM QUỐC X",
+      "category": "Tam Quốc",
+      "license_g1": "2310/QĐ-BTTTT",
+      "iconUrl": "/game_icons/tam-quoc-x.webp"
+    }
+  ],
+  "CÔNG TY TNHH TRỰC TUYẾN THIÊN HÀ": [
+    {
+      "stt": 99,
+      "id": "loan-chien-3q",
+      "name": "Loạn Chiến 3Q",
+      "category": "Tam Quốc",
+      "license_g1": "98 /QĐ-BTTTT",
+      "iconUrl": "/game_icons/loan-chien-3q.webp"
+    }
+  ],
+  "CÔNG TY TNHH PHẦN MỀM KKSOFT": [
+    {
+      "stt": 101,
+      "id": "ts3-chien-than-ky",
+      "name": "TS3 Chiến Thần Ký",
+      "category": "Game Mobile Hot",
+      "license_g1": "157/QĐ-PTTH&TTĐT",
+      "iconUrl": "/game_icons/ts3-chien-than-ky.webp"
+    }
+  ],
+  "CÔNG TY TNHH KỸ THUẬT CÔNG NGHỆ BLUE DREAM": [
+    {
+      "stt": 105,
+      "id": "hai-tac-loan-dau",
+      "name": "Hải Tặc Loạn Đấu: Idle AFK",
+      "category": "Game Mobile Hot",
+      "license_g1": "96/QĐ-PTTH&TTĐT",
+      "iconUrl": "/game_icons/hai-tac-loan-dau.webp"
+    }
+  ],
+  "Công ty Cổ phần Broga": [
+    {
+      "stt": 108,
+      "id": "kiem-vu-son-ha",
+      "name": "Kiếm Vũ Sơn Hà",
+      "category": "Tiên Hiệp & Kiếm Hiệp",
+      "license_g1": "45/QĐ-PTTH&TTĐT",
+      "iconUrl": "/game_icons/kiem-vu-son-ha.webp"
+    }
+  ],
+  "CÔNG TY CỔ PHẦN TRỰC TUYẾN GOSU": [
+    {
+      "stt": 114,
+      "id": "van-thang-nam-de",
+      "name": "Vạn Thắng Nam Đế",
+      "category": "Game Mobile Hot",
+      "license_g1": "197/QĐ-PTTH&TTĐT",
+      "iconUrl": "/game_icons/van-thang-nam-de.webp"
+    },
+    {
+      "stt": 129,
+      "id": "lac-than-chien-ca",
+      "name": "Lạc Thần Chiến Ca",
+      "category": "Game Mobile Hot",
+      "license_g1": "396/QĐ-PTTH&TTĐT",
+      "iconUrl": "/game_icons/lac-than-chien-ca.webp"
+    }
+  ],
+  "CÔNG TY TNHH MYG": [
+    {
+      "stt": 115,
+      "id": "ngao-kiem-vo-song-mobile",
+      "name": "Ngạo Kiếm Vô Song Mobile",
+      "category": "Tiên Hiệp & Kiếm Hiệp",
+      "license_g1": "131/QĐ-PTTH&TTĐT",
+      "iconUrl": "/game_icons/ngao-kiem-vo-song-mobile.webp"
+    }
+  ],
+  "CÔNG TY CỔ PHẦN DRAGON GAME": [
+    {
+      "stt": 116,
+      "id": "meo-may-sieu-quay",
+      "name": "Mèo Máy Siêu Quậy",
+      "category": "Game Mobile Hot",
+      "license_g1": "86/QĐ-PTTH&TTĐT",
+      "iconUrl": "/game_icons/meo-may-sieu-quay.webp"
+    }
+  ],
+  "CÔNG TY TNHH G4M": [
+    {
+      "stt": 117,
+      "id": "hoc-vien-ninja-g4m",
+      "name": "Học Viện Ninja G4M",
+      "category": "Game Mobile Hot",
+      "license_g1": "764/QĐ-BTTTT",
+      "iconUrl": "/game_icons/hoc-vien-ninja-g4m.webp"
+    }
+  ],
+  "CÔNG TY CỔ PHẦN VTC TRUYỀN THÔNG TRỰC TUYẾN": [
+    {
+      "stt": 118,
+      "id": "lordnine-cuu-vuong-tranh-ba",
+      "name": "LORDNINE: Cửu Vương Tranh Bá",
+      "category": "Game Mobile Hot",
+      "license_g1": "235 /QĐ-PTTH&TTĐT",
+      "iconUrl": "/game_icons/lordnine-cuu-vuong-tranh-ba.webp"
+    }
+  ],
+  "CÔNG TY TNHH PHẦN MỀM WEPLAY": [
+    {
+      "stt": 120,
+      "id": "de-che-bong-da",
+      "name": "Đế Chế Bóng Đá",
+      "category": "Game Mobile Hot",
+      "license_g1": "81/QĐ-PTTH&TTĐT",
+      "iconUrl": "/game_icons/de-che-bong-da.webp"
+    },
+    {
+      "stt": 143,
+      "id": "kiem-chi-giang-ho-khai-thien",
+      "name": "Kiếm Chỉ Giang Hồ: Khai Thiên",
+      "category": "Tiên Hiệp & Kiếm Hiệp",
+      "license_g1": "187/QĐ-PTTH&TTĐT",
+      "iconUrl": "/game_icons/kiem-chi-giang-ho-khai-thien.webp"
+    },
+    {
+      "stt": 162,
+      "id": "anh-hung-pixel",
+      "name": "Anh Hùng Pixel",
+      "category": "Game Mobile Hot",
+      "license_g1": "2165/QĐ-BTTTT",
+      "iconUrl": "/game_icons/anh-hung-pixel.webp"
+    }
+  ],
+  "CÔNG TY CỔ PHẦN EPICGOLD": [
+    {
+      "stt": 121,
+      "id": "truyen-thuyet-haki",
+      "name": "Truyền Thuyết Haki",
+      "category": "Game Mobile Hot",
+      "license_g1": "63/QĐ-PTTH&TTĐT",
+      "iconUrl": "/game_icons/truyen-thuyet-haki.webp"
+    }
+  ],
+  "Công Ty Cổ phần Tepaylink": [
+    {
+      "stt": 122,
+      "id": "vlcm-origin",
+      "name": "VLCM Origin: Võ Lâm Chân Mệnh Origin – TPL",
+      "category": "Tiên Hiệp & Kiếm Hiệp",
+      "license_g1": "336/QĐ-PTTH&TTĐT",
+      "iconUrl": "/game_icons/vlcm-origin.webp"
+    }
+  ],
+  "CÔNG TY CỔ PHẦN TRỰC TUYỂN DUO": [
+    {
+      "stt": 123,
+      "id": "sieu-tien-hoa",
+      "name": "Siêu Tiến Hóa",
+      "category": "Game Mobile Hot",
+      "license_g1": "566/QĐ-BTTTT",
+      "iconUrl": "/game_icons/sieu-tien-hoa.webp"
+    }
+  ],
+  "CÔNG TY TNHH TRUYỀN THÔNG MINH PHƯƠNG THỊNH": [
+    {
+      "stt": 124,
+      "id": "forsaken-world-2",
+      "name": "Forsaken World 2: Thần Ma Đại Chiến",
+      "category": "Game Mobile Hot",
+      "license_g1": "390/QĐ-BTTTT",
+      "iconUrl": "/game_icons/forsaken-world-2.webp"
+    }
+  ],
+  "CÔNG TY CỔ PHẦN TITAN STUDIO VIỆT NAM": [
+    {
+      "stt": 127,
+      "id": "tinh-kiem-truyen-ky-mobile",
+      "name": "Tình Kiếm Truyền Kỳ Mobile",
+      "category": "Tiên Hiệp & Kiếm Hiệp",
+      "license_g1": "205 /QĐ-PTTH&TTĐT",
+      "iconUrl": "/game_icons/tinh-kiem-truyen-ky-mobile.webp"
+    }
+  ],
+  "CÔNG TY TNHH TRUYỀN THÔNG HNXSOFT": [
+    {
+      "stt": 130,
+      "id": "diet-quy-origin",
+      "name": "Diệt Quỷ Origin",
+      "category": "Game Mobile Hot",
+      "license_g1": "156/QĐ-PTTH&TTĐT",
+      "iconUrl": "/game_icons/diet-quy-origin.webp"
+    },
+    {
+      "stt": 138,
+      "id": "ky-nguyen-icarus",
+      "name": "Kỷ Nguyên Icarus",
+      "category": "Game Mobile Hot",
+      "license_g1": "31/QĐ-PTTH&TTĐT",
+      "iconUrl": "/game_icons/ky-nguyen-icarus.webp"
+    }
+  ],
+  "CÔNG TY CỔ PHẦN THƯƠNG MẠI DỊCH VỤ CÔNG NGHỆ CMTECH": [
+    {
+      "stt": 133,
+      "id": "vu-tru-than-thoai",
+      "name": "Vũ Trụ Thần Thoại",
+      "category": "Game Mobile Hot",
+      "license_g1": "95/QĐ-PTTH&TTĐT",
+      "iconUrl": "/game_icons/vu-tru-than-thoai.webp"
+    }
+  ],
+  "CÔNG TY CỔ PHẦN SKYWAY": [
+    {
+      "stt": 134,
+      "id": "thu-thanh-dai-chien",
+      "name": "Thủ Thành Đại Chiến",
+      "category": "Game Mobile Hot",
+      "license_g1": "99/QĐ-PTTH&TTĐT",
+      "iconUrl": "/game_icons/thu-thanh-dai-chien.webp"
+    }
+  ],
+  "CÔNG TY CỔ PHẦN TEPAYLINK": [
+    {
+      "stt": 135,
+      "id": "nam-dai-chien-tpl",
+      "name": "Nấm Đại Chiến – TPL",
+      "category": "Game Mobile Hot",
+      "license_g1": "74/QĐ-PTTH&TTĐT",
+      "iconUrl": "/game_icons/nam-dai-chien-tpl.webp"
+    }
+  ],
+  "CÔNG TY TNHH DỊCH VỤ BÁCH GIA": [
+    {
+      "stt": 136,
+      "id": "ven-nguyen-ky-uc-mobile",
+      "name": "Vẹn Nguyên Ký Ức Mobile",
+      "category": "Hành Động FPS & MOBA",
+      "license_g1": "3/QĐ-PTTH&TTĐT",
+      "iconUrl": "/game_icons/ven-nguyen-ky-uc-mobile.webp"
+    }
+  ],
+  "CÔNG TY CỔ PHẦN ADNX": [
+    {
+      "stt": 147,
+      "id": "vuong-gia-chien-quoc",
+      "name": "Vương Giả Chiến Quốc",
+      "category": "Game Mobile Hot",
+      "license_g1": "250/QĐ-PTTH&TTĐT",
+      "iconUrl": "/game_icons/vuong-gia-chien-quoc.webp"
+    }
+  ],
+  "CÔNG TY TNHH TRỰC TUYÊN THIÊN HÀ": [
+    {
+      "stt": 158,
+      "id": "tay-du-phuc-ma",
+      "name": "Tây Du Phục Ma",
+      "category": "Game Mobile Hot",
+      "license_g1": "2052/QĐ-BTTTT",
+      "iconUrl": "/game_icons/tay-du-phuc-ma.webp"
+    }
+  ],
+  "CÔNG TY CỔ PHẦN GIẢI TRÍ TRỰC TUYẾN SUNGAME": [
+    {
+      "stt": 160,
+      "id": "goi-ta-dai-chuong-quy",
+      "name": "Gọi Ta Đại Chưởng Quỹ",
+      "category": "Game Mobile Hot",
+      "license_g1": "807/QĐ-BTTTT",
+      "iconUrl": "/game_icons/goi-ta-dai-chuong-quy.webp"
+    }
+  ],
+  "CÔNG TY CỔ PHẦN VTC DỊCH VỤ DI ĐỘNG -": [
+    {
+      "stt": 163,
+      "id": "giang-ho-ngu-tuyet-mobile",
+      "name": "Giang Hồ Ngũ Tuyệt Mobile",
+      "category": "Tiên Hiệp & Kiếm Hiệp",
+      "license_g1": "93/QĐ-PTTH&TTĐT",
+      "iconUrl": "/game_icons/giang-ho-ngu-tuyet-mobile.webp"
+    }
+  ],
+  "CÔNG TY TNHH TRUYỀN THÔNG GENZ": [
+    {
+      "stt": 164,
+      "id": "the-gioi-hoa-vien-cua-toi",
+      "name": "Thế Giới Hoa Viên Của Tôi",
+      "category": "Game Mobile Hot",
+      "license_g1": "83/QĐ-PTTH&TTĐT",
+      "iconUrl": "/game_icons/the-gioi-hoa-vien-cua-toi.webp"
+    }
+  ],
+  "CÔNG TY CỔ PHẦN DỊCH VỤ TRỰC TUYẾN MIGA": [
+    {
+      "stt": 165,
+      "id": "hao-khi-du-hiep",
+      "name": "Hào Khí Du Hiệp",
+      "category": "Game Mobile Hot",
+      "license_g1": "55/QĐ-PTTH&TTĐT",
+      "iconUrl": "/game_icons/hao-khi-du-hiep.webp"
+    }
+  ],
+  "CÔNG TY TNHH NEXFUN": [
+    {
+      "stt": 167,
+      "id": "huyen-thoai-phuc-yeu",
+      "name": "Huyền Thoại Phục Yêu",
+      "category": "Game Mobile Hot",
+      "license_g1": "389/QĐ-PTTH&TTĐT",
+      "iconUrl": "/game_icons/huyen-thoai-phuc-yeu.png"
+    }
+  ],
+  "CÔNG TY TNHH CÔNG NGHỆ MẠNG AT": [
+    {
+      "stt": 169,
+      "id": "phi-kiem-tru-thien-ma",
+      "name": "Phi Kiếm Trừ Thiên Ma",
+      "category": "Game Mobile",
+      "license_g1": "373/QĐ-PTTH&TTĐT",
+      "iconUrl": "/game_icons/phi-kiem-tru-thien-ma.webp"
+    }
+  ],
+  "CÔNG TY TNHH SKYMOBI": [
+    {
+      "stt": 173,
+      "id": "nhat-luan-kiem",
+      "name": "Nhật Luân Kiếm",
+      "category": "Game Mobile",
+      "license_g1": "333/QĐ-PTTH&TTĐT",
+      "iconUrl": "/game_icons/nhat-luan-kiem.webp"
+    }
+  ],
+  "Công ty Cổ phần Song Long Game": [
+    {
+      "stt": 181,
+      "id": "thanh-long-huyen-thoai",
+      "name": "Thanh Long Huyền Thoại",
+      "category": "Kiếm Hiệp & Tiên Hiệp",
+      "license_g1": "470/QĐ-PTTH&TTĐT",
+      "iconUrl": "/game_icons/thanh-long-huyen-thoai.webp"
+    }
+  ],
+  "CÔNG TY TNHH X ARENA": [
+    {
+      "stt": 182,
+      "id": "thai-cuc-vo-dao-x-arena",
+      "name": "Thái Cực Võ Đạo - X Arena",
+      "category": "Kiếm Hiệp & Tiên Hiệp",
+      "license_g1": "334/QĐ-PTTH&TTĐT",
+      "iconUrl": "/game_icons/thai-cuc-vo-dao-x-arena.webp"
+    }
+  ],
+  "CÔNG TY TNHH THẾ GIỚI MINI": [
+    {
+      "stt": 183,
+      "id": "cau-ca-van-can",
+      "name": "Câu Cá Vạn Cân",
+      "category": "Casual & Giải Trí",
+      "license_g1": "570/QĐ-PTTH&TTĐT",
+      "iconUrl": "/game_icons/cau-ca-van-can.webp"
+    }
+  ]
+}

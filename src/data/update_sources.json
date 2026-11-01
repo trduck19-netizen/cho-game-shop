@@ -1,0 +1,52 @@
+[
+  {
+    "id": "codegame_store",
+    "name": "CodeGame Store",
+    "url": "https://codegame.store/",
+    "type": "CRAWLER_PRIMARY",
+    "status": "ACTIVE",
+    "description": "Nguồn tổng hợp giftcode game mobile, webgame bản quyền G1 và mã quà tặng độc quyền.",
+    "lastSync": "2026-10-03T11:28:00Z",
+    "frequency": "Tự động cập nhật liên tục 24/7"
+  },
+  {
+    "id": "abei_gov",
+    "name": "Cục Phát thanh, Truyền hình và Thông tin điện tử (ABEI)",
+    "url": "https://abei.gov.vn",
+    "type": "GOVERNMENT_LICENSE",
+    "status": "ACTIVE",
+    "description": "Cơ sở dữ liệu giấy phép phát hành trò chơi điện tử G1 chính thức tại Việt Nam.",
+    "lastSync": "2026-10-03T11:28:00Z",
+    "frequency": "Cập nhật hàng ngày"
+  },
+  {
+    "id": "sforum",
+    "name": "Sforum Gaming",
+    "url": "https://cellphones.com.vn/sforum/game-app",
+    "type": "NEWS_CRAWLER",
+    "status": "ACTIVE",
+    "description": "Chuyên trang tin tức và hướng dẫn nhập giftcode game uy tín.",
+    "lastSync": "2026-10-03T11:28:00Z",
+    "frequency": "Cập nhật hàng ngày"
+  },
+  {
+    "id": "motgame",
+    "name": "Mọt Game",
+    "url": "https://motgame.vn/giftcode",
+    "type": "NEWS_CRAWLER",
+    "status": "ACTIVE",
+    "description": "Tin tức game mobile, giftcode tân thủ và mã đổi thưởng sự kiện.",
+    "lastSync": "2026-10-03T11:28:00Z",
+    "frequency": "Cập nhật hàng ngày"
+  },
+  {
+    "id": "gamek",
+    "name": "GameK",
+    "url": "https://gamek.vn",
+    "type": "NEWS_CRAWLER",
+    "status": "ACTIVE",
+    "description": "Cổng thông tin game hàng đầu Việt Nam, phân phối giftcode sự kiện.",
+    "lastSync": "2026-10-03T11:28:00Z",
+    "frequency": "Cập nhật hàng ngày"
+  }
+]

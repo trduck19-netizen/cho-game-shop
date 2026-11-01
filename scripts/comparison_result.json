@@ -1,0 +1,1242 @@
+{
+  "matched": [
+    {
+      "sheet": "Đấu Trường Chân Lý (Teamfight Tactics)",
+      "matchedWith": "Đấu Trường Chân Lý",
+      "slug": "dau-truong-chan-ly",
+      "publisher": "VNGGames & VNG Game Studios"
+    },
+    {
+      "sheet": "PUBG Mobile VN",
+      "matchedWith": "PUBG MOBILE",
+      "slug": "pubg-mobile",
+      "publisher": "VNGGames & VNG Game Studios"
+    },
+    {
+      "sheet": "Play Together VNG",
+      "matchedWith": "Play Together VNG",
+      "slug": "play-together",
+      "publisher": "VNGGames & VNG Game Studios"
+    },
+    {
+      "sheet": "Võ Lâm Truyền Kỳ 1 Mobile",
+      "matchedWith": "Võ Lâm Truyền Kỳ 1 Mobile",
+      "slug": "vo-lam-truyen-ky-1-mobile",
+      "publisher": "VNGGames & VNG Game Studios"
+    },
+    {
+      "sheet": "Kiếm Thế Origin",
+      "matchedWith": "Kiếm Thế Origin VNG",
+      "slug": "kiem-the-origin",
+      "publisher": "VNGGames & VNG Game Studios"
+    },
+    {
+      "sheet": "Gunny Origin",
+      "matchedWith": "Gunny Origin",
+      "slug": "gunny-origin",
+      "publisher": "VNGGames & VNG Game Studios"
+    },
+    {
+      "sheet": "GunPow",
+      "matchedWith": "GunPow",
+      "slug": "gunpow",
+      "publisher": "VNGGames & VNG Game Studios"
+    },
+    {
+      "sheet": "ZingSpeed Mobile",
+      "matchedWith": "ZingSpeed Mobile",
+      "slug": "zingspeed-mobile",
+      "publisher": "VNGGames & VNG Game Studios"
+    },
+    {
+      "sheet": "Ghost Story: Thiện Nữ",
+      "matchedWith": "Ghost Story: Thiện Nữ",
+      "slug": "ghost-story-thien-nu",
+      "publisher": "VNGGames & VNG Game Studios"
+    },
+    {
+      "sheet": "Danh Tướng 3Q - VNG",
+      "matchedWith": "Danh Tướng 3Q - VNG",
+      "slug": "danh-tuong-3q-vng",
+      "publisher": "VNGGames & VNG Game Studios"
+    },
+    {
+      "sheet": "Call of Duty: Mobile VN",
+      "matchedWith": "Call of Duty: Mobile VN",
+      "slug": "call-of-duty-mobile-vn",
+      "publisher": "VNGGames & VNG Game Studios"
+    },
+    {
+      "sheet": "Liên Quân Mobile (Arena of Valor)",
+      "matchedWith": "Liên Quân Mobile",
+      "slug": "lien-quan-mobile",
+      "publisher": "Garena (Vietnam Esports)"
+    },
+    {
+      "sheet": "Garena Free Fire",
+      "matchedWith": "Free Fire",
+      "slug": "free-fire",
+      "publisher": "Garena (Vietnam Esports)"
+    },
+    {
+      "sheet": "EA Sports FC Mobile VN",
+      "matchedWith": "FC Mobile VN",
+      "slug": "fc-mobile-vn",
+      "publisher": "Garena (Vietnam Esports)"
+    },
+    {
+      "sheet": "Garena Cái Thế Tranh Hùng",
+      "matchedWith": "Garena Cái Thế Tranh Hùng",
+      "slug": "cai-the-tranh-hung",
+      "publisher": "Garena (Vietnam Esports)"
+    },
+    {
+      "sheet": "Garena Delta Force",
+      "matchedWith": "Delta Force",
+      "slug": "delta-force",
+      "publisher": "Garena (Vietnam Esports)"
+    },
+    {
+      "sheet": "Đột Kích (CrossFire)",
+      "matchedWith": "Crossfire: Legends Mobile VNG",
+      "slug": "crossfire-legends-mobile-vng",
+      "publisher": "VTC (VTC Game & VTC Mobile)"
+    },
+    {
+      "sheet": "Be A Pro: Football",
+      "matchedWith": "Be a Pro Football",
+      "slug": "be-a-pro-football",
+      "publisher": "VTC (VTC Game & VTC Mobile)"
+    },
+    {
+      "sheet": "Tiểu Yêu Tầm Đạo",
+      "matchedWith": "Tiểu Yêu Tầm Đạo",
+      "slug": "tieu-yeu-tam-dao",
+      "publisher": "Funtap Games (Playfun)"
+    },
+    {
+      "sheet": "Mobile Legends: Bang Bang VN",
+      "matchedWith": "Mobile Legends: Bang Bang",
+      "slug": "mobile-legends-bang-bang",
+      "publisher": "Funtap Games (Playfun)"
+    },
+    {
+      "sheet": "Đấu La Đại Lục: Hồn Sư Đối Quyết",
+      "matchedWith": "Đấu La Đại Lục",
+      "slug": "dau-la-dai-luc",
+      "publisher": "Funtap Games (Playfun)"
+    },
+    {
+      "sheet": "Tam Quốc X",
+      "matchedWith": "TAM QUỐC X",
+      "slug": "tam-quoc-x",
+      "publisher": "Funtap Games (Playfun)"
+    },
+    {
+      "sheet": "Vương Quốc Kiến - Gamota (The Ants)",
+      "matchedWith": "VƯƠNG QUỐC KIẾN",
+      "slug": "vuong-quoc-kien",
+      "publisher": "Gamota"
+    },
+    {
+      "sheet": "Thiếu Niên 3Q Khởi Nguyên",
+      "matchedWith": "Thiếu Niên 3Q: Khởi Nguyên",
+      "slug": "thieu-nien-3q-khoi-nguyen",
+      "publisher": "Gamota"
+    },
+    {
+      "sheet": "Tam Quốc Tứ Thời Ca",
+      "matchedWith": "Tam Quốc Tứ Thời Ca",
+      "slug": "tam-quoc-tu-thoi-ca",
+      "publisher": "SohaGame"
+    },
+    {
+      "sheet": "Phong Hầu Tam Quốc",
+      "matchedWith": "Phong Hầu Tam Quốc",
+      "slug": "phong-hau-tam-quoc",
+      "publisher": "SohaGame"
+    },
+    {
+      "sheet": "Võ Lâm Hắc Đạo",
+      "matchedWith": "Võ Lâm Hắc Đạo",
+      "slug": "vo-lam-hac-dao",
+      "publisher": "SohaGame"
+    },
+    {
+      "sheet": "Kiếm Hiệp Auto Chess / 3Q Chess",
+      "matchedWith": "Kiếm Hiệp Auto Chess",
+      "slug": "kiem-hiep-auto-chess",
+      "publisher": "SohaGame"
+    },
+    {
+      "sheet": "Vấn Đỉnh Tam Quốc",
+      "matchedWith": "Vấn Đỉnh Tam Quốc",
+      "slug": "van-dinh-tam-quoc",
+      "publisher": "SohaGame"
+    },
+    {
+      "sheet": "Gun X Mobile - Vô Hạn Thành",
+      "matchedWith": "Gun X Mobile",
+      "slug": "gun-x-mobile",
+      "publisher": "SohaGame"
+    },
+    {
+      "sheet": "Tây Du Tầm Bảo",
+      "matchedWith": "Tây Du Tầm Bảo",
+      "slug": "tay-du-tam-bao",
+      "publisher": "SohaGame"
+    },
+    {
+      "sheet": "Ngạo Kiếm Vô Song Mobile",
+      "matchedWith": "Ngạo Kiếm Vô Song Mobile",
+      "slug": "ngao-kiem-vo-song-mobile",
+      "publisher": "GOSU"
+    },
+    {
+      "sheet": "Vô Cực Tiên Đồ",
+      "matchedWith": "Vô Cực Tiên Đồ CMN",
+      "slug": "vo-cuc-tien-do-cmn",
+      "publisher": "CMN Online"
+    },
+    {
+      "sheet": "Phong Vân Truyền Kỳ 2",
+      "matchedWith": "Phong Vân Truyền Kỳ 2",
+      "slug": "phong-van-truyen-ky-2",
+      "publisher": "CMN Online"
+    },
+    {
+      "sheet": "Bộ Lạc 3Q / Anh Hùng Tiến Lên",
+      "matchedWith": "Bộ Lạc 3Q",
+      "slug": "bo-lac-3q",
+      "publisher": "CMN Online"
+    },
+    {
+      "sheet": "Khu Vườn Trên Mây ZingPlay",
+      "matchedWith": "Khu Vườn Trên Mây",
+      "slug": "khu-vuon-tren-may",
+      "publisher": "ZingPlay"
+    }
+  ],
+  "unmatched": [
+    {
+      "sttTotal": "1",
+      "sttNph": "1",
+      "publisher": "VNGGames & VNG Game Studios",
+      "group": "NPH Nội địa & Studio Phát hành Quốc tế",
+      "gameName": "Liên Minh Huyền Thoại (League of Legends)",
+      "genre": "MOBA eSports",
+      "platform": "PC",
+      "officialUrl": "https://lienminh.vnggames.com/",
+      "fanpageUrl": "https://www.facebook.com/Leagueoflegendsvn/",
+      "status": "Đang hoạt động (Nội địa)"
+    },
+    {
+      "sttTotal": "3",
+      "sttNph": "3",
+      "publisher": "VNGGames & VNG Game Studios",
+      "group": "NPH Nội địa & Studio Phát hành Quốc tế",
+      "gameName": "VALORANT",
+      "genre": "Bắn súng chiến thuật FPS",
+      "platform": "PC",
+      "officialUrl": "https://valorant.vnggames.com/",
+      "fanpageUrl": "https://www.facebook.com/VALORANTvn/",
+      "status": "Đang hoạt động (Nội địa)"
+    },
+    {
+      "sttTotal": "4",
+      "sttNph": "4",
+      "publisher": "VNGGames & VNG Game Studios",
+      "group": "NPH Nội địa & Studio Phát hành Quốc tế",
+      "gameName": "Liên Minh Huyền Thoại: Tốc Chiến (Wild Rift)",
+      "genre": "MOBA eSports",
+      "platform": "Mobile (iOS/Android)",
+      "officialUrl": "https://shop.vnggames.com/vn/game/tocchien",
+      "fanpageUrl": "https://www.facebook.com/TocChien/",
+      "status": "Đang hoạt động (Nội địa)"
+    },
+    {
+      "sttTotal": "8",
+      "sttNph": "8",
+      "publisher": "VNGGames & VNG Game Studios",
+      "group": "NPH Nội địa & Studio Phát hành Quốc tế",
+      "gameName": "Võ Lâm Truyền Kỳ Mobile",
+      "genre": "Nhập vai kiếm hiệp (MMORPG)",
+      "platform": "Mobile (iOS/Android)",
+      "officialUrl": "https://vnggames.com/vi/games/",
+      "fanpageUrl": "https://www.facebook.com/volamtruyenkymobile/",
+      "status": "Đang hoạt động (Nội địa)"
+    },
+    {
+      "sttTotal": "9",
+      "sttNph": "9",
+      "publisher": "VNGGames & VNG Game Studios",
+      "group": "NPH Nội địa & Studio Phát hành Quốc tế",
+      "gameName": "Võ Lâm Truyền Kỳ MAX",
+      "genre": "Nhập vai kiếm hiệp 3D (MMORPG)",
+      "platform": "Mobile & PC",
+      "officialUrl": "https://vnggames.com/vi/games/",
+      "fanpageUrl": "https://www.facebook.com/groups/vltkmax/",
+      "status": "Đang hoạt động (Nội địa)"
+    },
+    {
+      "sttTotal": "11",
+      "sttNph": "11",
+      "publisher": "VNGGames & VNG Game Studios",
+      "group": "NPH Nội địa & Studio Phát hành Quốc tế",
+      "gameName": "Kiếm Thế PC",
+      "genre": "Nhập vai kiếm hiệp (MMORPG)",
+      "platform": "PC",
+      "officialUrl": "https://kiemthe.vnggames.com/",
+      "fanpageUrl": "https://www.facebook.com/kiemtheorigin/",
+      "status": "Đang hoạt động (Nội địa)"
+    },
+    {
+      "sttTotal": "15",
+      "sttNph": "15",
+      "publisher": "VNGGames & VNG Game Studios",
+      "group": "NPH Nội địa & Studio Phát hành Quốc tế",
+      "gameName": "Nghịch Thủy Hàn",
+      "genre": "Nhập vai MMORPG Thế giới mở",
+      "platform": "PC & Mobile",
+      "officialUrl": "https://nghichthuyhan.vnggames.com/",
+      "fanpageUrl": "https://www.facebook.com/nghichthuyhanofficial/",
+      "status": "Đang hoạt động (Nội địa)"
+    },
+    {
+      "sttTotal": "16",
+      "sttNph": "16",
+      "publisher": "VNGGames & VNG Game Studios",
+      "group": "NPH Nội địa & Studio Phát hành Quốc tế",
+      "gameName": "Thiên Nhai Minh Nguyệt Đao VNG",
+      "genre": "Nhập vai kiếm hiệp (MMORPG)",
+      "platform": "PC & Mobile",
+      "officialUrl": "https://vnggames.com/vi/games/",
+      "fanpageUrl": "https://www.facebook.com/Thiennhaiminhnguyetdaovng/",
+      "status": "Đang hoạt động (Nội địa)"
+    },
+    {
+      "sttTotal": "19",
+      "sttNph": "19",
+      "publisher": "VNGGames & VNG Game Studios",
+      "group": "NPH Nội địa & Studio Phát hành Quốc tế",
+      "gameName": "Metal Slug: Awakening",
+      "genre": "Bắn súng màn hình ngang (Action)",
+      "platform": "Mobile & PC",
+      "officialUrl": "https://vnggames.com/vi/games/",
+      "fanpageUrl": "https://www.facebook.com/Metalslugawakening/",
+      "status": "Đang hoạt động (Nội địa & Khu vực)"
+    },
+    {
+      "sttTotal": "21",
+      "sttNph": "21",
+      "publisher": "VNGGames & VNG Game Studios",
+      "group": "NPH Nội địa & Studio Phát hành Quốc tế",
+      "gameName": "Dead Target: Zombie Games 3D (VNG Studios)",
+      "genre": "Bắn súng FPS Zombie",
+      "platform": "Mobile (iOS/Android)",
+      "officialUrl": "https://vnggames.com/en/games/",
+      "fanpageUrl": "https://www.facebook.com/deadtarget/",
+      "status": "Đang hoạt động (Phát hành Quốc tế)"
+    },
+    {
+      "sttTotal": "24",
+      "sttNph": "3",
+      "publisher": "Garena (Vietnam Esports)",
+      "group": "NPH Nội địa",
+      "gameName": "EA Sports FC Online",
+      "genre": "Thể thao Bóng đá (eSports)",
+      "platform": "PC",
+      "officialUrl": "https://fconline.garena.vn/",
+      "fanpageUrl": "https://www.facebook.com/EASportsFCOnlineVN/",
+      "status": "Đang hoạt động"
+    },
+    {
+      "sttTotal": "28",
+      "sttNph": "1",
+      "publisher": "VTC (VTC Game & VTC Mobile)",
+      "group": "NPH Nội địa",
+      "gameName": "Audition - Nhịp Điệu Cuộc Sống",
+      "genre": "Âm nhạc & Thời trang (Casual Dancing)",
+      "platform": "PC",
+      "officialUrl": "https://au.vtcgame.vn/",
+      "fanpageUrl": "https://www.facebook.com/AuditionVTC/",
+      "status": "Đang hoạt động"
+    },
+    {
+      "sttTotal": "30",
+      "sttNph": "3",
+      "publisher": "VTC (VTC Game & VTC Mobile)",
+      "group": "NPH Nội địa",
+      "gameName": "Truy Kích PC (Battle Teams 2)",
+      "genre": "Bắn súng góc nhìn thứ nhất (FPS)",
+      "platform": "PC",
+      "officialUrl": "https://vtcgame.vn/vi/danh-sach-game",
+      "fanpageUrl": "https://www.facebook.com/bt2.vietnam/",
+      "status": "Đang hoạt động"
+    },
+    {
+      "sttTotal": "31",
+      "sttNph": "4",
+      "publisher": "VTC (VTC Game & VTC Mobile)",
+      "group": "NPH Nội địa",
+      "gameName": "Silkroad Origin VTC (Con Đường Tơ Lụa)",
+      "genre": "Nhập vai trực tuyến (MMORPG)",
+      "platform": "PC",
+      "officialUrl": "https://sro.vtcgame.vn/",
+      "fanpageUrl": "https://www.facebook.com/sro.vtcgame.vn/",
+      "status": "Đang hoạt động"
+    },
+    {
+      "sttTotal": "32",
+      "sttNph": "5",
+      "publisher": "VTC (VTC Game & VTC Mobile)",
+      "group": "NPH Nội địa",
+      "gameName": "Phi Đội (Phi Đội 1, 2 & 3 Legend)",
+      "genre": "Không chiến nhập vai 3D",
+      "platform": "PC",
+      "officialUrl": "https://phidoi.vtcgame.vn/",
+      "fanpageUrl": "https://www.facebook.com/PhiDoiVTC/",
+      "status": "Đang hoạt động"
+    },
+    {
+      "sttTotal": "33",
+      "sttNph": "6",
+      "publisher": "VTC (VTC Game & VTC Mobile)",
+      "group": "NPH Nội địa",
+      "gameName": "Au 2!",
+      "genre": "Âm nhạc, Thời trang & Hẹn hò",
+      "platform": "Mobile (iOS/Android)",
+      "officialUrl": "https://au2.vtcgame.vn/",
+      "fanpageUrl": "https://www.facebook.com/au2.vtcgame.vn/",
+      "status": "Đang hoạt động"
+    },
+    {
+      "sttTotal": "34",
+      "sttNph": "7",
+      "publisher": "VTC (VTC Game & VTC Mobile)",
+      "group": "NPH Nội địa",
+      "gameName": "Phục Kích",
+      "genre": "Bắn súng FPS eSports",
+      "platform": "Mobile (iOS/Android)",
+      "officialUrl": "https://phuckich.vtcgame.vn/",
+      "fanpageUrl": "https://www.facebook.com/PKvtcgame/",
+      "status": "Đang hoạt động"
+    },
+    {
+      "sttTotal": "36",
+      "sttNph": "9",
+      "publisher": "VTC (VTC Game & VTC Mobile)",
+      "group": "NPH Nội địa",
+      "gameName": "UFC - Siêu Sao Bóng Đá",
+      "genre": "Quản lý bóng đá",
+      "platform": "Mobile (iOS/Android)",
+      "officialUrl": "https://vtcgame.vn/vi/danh-sach-game",
+      "fanpageUrl": "https://www.facebook.com/AuditionVTC/",
+      "status": "Đang hoạt động"
+    },
+    {
+      "sttTotal": "37",
+      "sttNph": "1",
+      "publisher": "Funtap Games (Playfun)",
+      "group": "NPH Nội địa",
+      "gameName": "Tình Kiếm 3D",
+      "genre": "Nhập vai kiếm hiệp (MMORPG)",
+      "platform": "Mobile (iOS/Android)",
+      "officialUrl": "https://tinhkiem3d.playfun.vn/home",
+      "fanpageUrl": "https://www.facebook.com/tinhkiem3d/",
+      "status": "Đang hoạt động"
+    },
+    {
+      "sttTotal": "38",
+      "sttNph": "2",
+      "publisher": "Funtap Games (Playfun)",
+      "group": "NPH Nội địa",
+      "gameName": "Nhất Kiếm Giang Hồ Mobile",
+      "genre": "Nhập vai võ lâm (MMORPG)",
+      "platform": "Mobile (iOS/Android)",
+      "officialUrl": "https://playfun.vn/game/nhat-kiem-giang-ho-mobile",
+      "fanpageUrl": "https://www.facebook.com/nhatkiemgiangho3D/",
+      "status": "Đang hoạt động"
+    },
+    {
+      "sttTotal": "43",
+      "sttNph": "7",
+      "publisher": "Funtap Games (Playfun)",
+      "group": "NPH Nội địa",
+      "gameName": "MU: Vượt Thời Đại",
+      "genre": "Nhập vai MMORPG",
+      "platform": "Mobile (iOS/Android)",
+      "officialUrl": "https://playfun.vn/game",
+      "fanpageUrl": "https://www.facebook.com/mu.acrosstime.vn/",
+      "status": "Đang hoạt động"
+    },
+    {
+      "sttTotal": "44",
+      "sttNph": "8",
+      "publisher": "Funtap Games (Playfun)",
+      "group": "NPH Nội địa",
+      "gameName": "Liên Minh Kiến (Ant Legion)",
+      "genre": "Chiến thuật SLG",
+      "platform": "Mobile (iOS/Android)",
+      "officialUrl": "https://antlegion.funtap.games/",
+      "fanpageUrl": "https://www.facebook.com/antlegiongame.Funtap/",
+      "status": "Đang hoạt động"
+    },
+    {
+      "sttTotal": "45",
+      "sttNph": "9",
+      "publisher": "Funtap Games (Playfun)",
+      "group": "NPH Nội địa",
+      "gameName": "Kiếm Ma 3D",
+      "genre": "Nhập vai dị giới (MMORPG)",
+      "platform": "Mobile (iOS/Android)",
+      "officialUrl": "https://playfun.vn/game",
+      "fanpageUrl": "https://www.facebook.com/kiemma3dfuntap/",
+      "status": "Đang hoạt động"
+    },
+    {
+      "sttTotal": "46",
+      "sttNph": "10",
+      "publisher": "Funtap Games (Playfun)",
+      "group": "NPH Nội địa",
+      "gameName": "State of Survival Việt Nam",
+      "genre": "Chiến thuật sinh tồn Zombie",
+      "platform": "Mobile (iOS/Android)",
+      "officialUrl": "https://playfun.vn/game",
+      "fanpageUrl": "https://www.facebook.com/groups/S.O.S.GameVN/",
+      "status": "Đang hoạt động"
+    },
+    {
+      "sttTotal": "47",
+      "sttNph": "1",
+      "publisher": "Gamota",
+      "group": "NPH Nội địa",
+      "gameName": "Tru Tiên 3D Mobile",
+      "genre": "Nhập vai tiên hiệp (MMORPG)",
+      "platform": "Mobile (iOS/Android)",
+      "officialUrl": "https://trutien.gamota.com/",
+      "fanpageUrl": "https://www.facebook.com/trutien.gamota/",
+      "status": "Đang hoạt động"
+    },
+    {
+      "sttTotal": "48",
+      "sttNph": "2",
+      "publisher": "Gamota",
+      "group": "NPH Nội địa",
+      "gameName": "Ỷ Thiên 3D",
+      "genre": "Nhập vai kiếm hiệp Kim Dung",
+      "platform": "Mobile (iOS/Android)",
+      "officialUrl": "https://ythien.gamota.com/",
+      "fanpageUrl": "https://www.facebook.com/ythiendolongky3d/",
+      "status": "Đang hoạt động"
+    },
+    {
+      "sttTotal": "49",
+      "sttNph": "3",
+      "publisher": "Gamota",
+      "group": "NPH Nội địa",
+      "gameName": "Tiếu Ngạo - Gamota",
+      "genre": "Nhập vai kiếm hiệp 3D",
+      "platform": "Mobile (iOS/Android)",
+      "officialUrl": "https://tieungao.gamota.com/",
+      "fanpageUrl": "https://www.facebook.com/TieuNgaoGamota/",
+      "status": "Đang hoạt động"
+    },
+    {
+      "sttTotal": "51",
+      "sttNph": "5",
+      "publisher": "Gamota",
+      "group": "NPH Nội địa",
+      "gameName": "Ảo Mộng Tru Tiên",
+      "genre": "Nhập vai MMORPG",
+      "platform": "Mobile (iOS/Android)",
+      "officialUrl": "https://gamota.com/games/",
+      "fanpageUrl": "https://www.facebook.com/AoMongTruTien.Gamota/",
+      "status": "Đang hoạt động"
+    },
+    {
+      "sttTotal": "53",
+      "sttNph": "7",
+      "publisher": "Gamota",
+      "group": "NPH Nội địa",
+      "gameName": "Anh Hùng Xạ Điêu - Gamota",
+      "genre": "Nhập vai kiếm hiệp Kim Dung",
+      "platform": "Mobile (iOS/Android)",
+      "officialUrl": "https://gamota.com/games/",
+      "fanpageUrl": "https://m.facebook.com/ahxd.gamota/",
+      "status": "Đang hoạt động"
+    },
+    {
+      "sttTotal": "54",
+      "sttNph": "8",
+      "publisher": "Gamota",
+      "group": "NPH Nội địa",
+      "gameName": "Độc Cô Kỳ Hiệp (Võ Lâm Kỳ Hiệp)",
+      "genre": "Nhập vai kiếm hiệp",
+      "platform": "Mobile (iOS/Android)",
+      "officialUrl": "https://gamota.com/games/",
+      "fanpageUrl": "https://www.facebook.com/Doccokyhiep.gamota/",
+      "status": "Đang hoạt động"
+    },
+    {
+      "sttTotal": "58",
+      "sttNph": "4",
+      "publisher": "SohaGame",
+      "group": "NPH Nội địa",
+      "gameName": "Tru Tiên Kiếm Vũ",
+      "genre": "Nhập vai tiên hiệp (MMORPG)",
+      "platform": "Mobile (iOS/Android)",
+      "officialUrl": "https://trutienkiemvu.sohagame.vn/",
+      "fanpageUrl": "https://www.facebook.com/sohagame/",
+      "status": "Đang hoạt động"
+    },
+    {
+      "sttTotal": "63",
+      "sttNph": "1",
+      "publisher": "GOSU",
+      "group": "NPH Nội địa",
+      "gameName": "Cửu Âm Chân Kinh 2",
+      "genre": "Nhập vai kiếm hiệp 3D (Client)",
+      "platform": "PC",
+      "officialUrl": "https://cuuam.gosu.vn/",
+      "fanpageUrl": "https://www.facebook.com/cuuam.gosu.vn/",
+      "status": "Đang hoạt động"
+    },
+    {
+      "sttTotal": "64",
+      "sttNph": "2",
+      "publisher": "GOSU",
+      "group": "NPH Nội địa",
+      "gameName": "Cửu Âm Chân Kinh Mobile",
+      "genre": "Nhập vai kiếm hiệp 3D",
+      "platform": "Mobile (iOS/Android)",
+      "officialUrl": "https://cuuam.gosu.vn/",
+      "fanpageUrl": "https://www.facebook.com/cuuamchankinhmobilegosu/",
+      "status": "Đang hoạt động"
+    },
+    {
+      "sttTotal": "65",
+      "sttNph": "3",
+      "publisher": "GOSU",
+      "group": "NPH Nội địa",
+      "gameName": "Ngạo Kiếm Vô Song Origin",
+      "genre": "Nhập vai kiếm hiệp",
+      "platform": "PC & Mobile",
+      "officialUrl": "https://nkvso.gosu.vn/",
+      "fanpageUrl": "https://www.facebook.com/nkvsogosu/",
+      "status": "Đang hoạt động"
+    },
+    {
+      "sttTotal": "67",
+      "sttNph": "1",
+      "publisher": "Dzogame",
+      "group": "NPH Nội địa",
+      "gameName": "Cửu Long Chí Tôn (9Dragons Ultimate)",
+      "genre": "Nhập vai kiếm hiệp (MMORPG)",
+      "platform": "PC",
+      "officialUrl": "https://cuulongchiton.dzogame.vn/",
+      "fanpageUrl": "https://www.facebook.com/cuulongchiton.dzogame/",
+      "status": "Đang hoạt động"
+    },
+    {
+      "sttTotal": "68",
+      "sttNph": "2",
+      "publisher": "Dzogame",
+      "group": "NPH Nội địa",
+      "gameName": "Hiệp Khách Mobile",
+      "genre": "Nhập vai kiếm hiệp (MMORPG)",
+      "platform": "Mobile (iOS/Android)",
+      "officialUrl": "https://hkm.dzogame.vn/",
+      "fanpageUrl": "https://www.facebook.com/cuulongchiton.dzogame/",
+      "status": "Đang hoạt động"
+    },
+    {
+      "sttTotal": "69",
+      "sttNph": "3",
+      "publisher": "Dzogame",
+      "group": "NPH Nội địa",
+      "gameName": "Đấu Trường Onmyoji (Âm Dương Sư MOBA)",
+      "genre": "MOBA 5v5 Anime",
+      "platform": "Mobile (iOS/Android)",
+      "officialUrl": "https://dzogame.vn/",
+      "fanpageUrl": "https://www.facebook.com/on.dzogame/",
+      "status": "Đang hoạt động"
+    },
+    {
+      "sttTotal": "70",
+      "sttNph": "4",
+      "publisher": "Dzogame",
+      "group": "NPH Nội địa",
+      "gameName": "Hiệp Khách Idle",
+      "genre": "Nhập vai rảnh tay (Idle RPG)",
+      "platform": "Mobile (iOS/Android)",
+      "officialUrl": "https://dzogame.vn/",
+      "fanpageUrl": "https://www.facebook.com/cuulongchiton.dzogame/",
+      "status": "Đang hoạt động"
+    },
+    {
+      "sttTotal": "71",
+      "sttNph": "5",
+      "publisher": "Dzogame",
+      "group": "NPH Nội địa",
+      "gameName": "MeloJam",
+      "genre": "Âm nhạc & Thời trang",
+      "platform": "Mobile (iOS/Android)",
+      "officialUrl": "https://dzogame.vn/",
+      "fanpageUrl": "https://www.facebook.com/on.dzogame/",
+      "status": "Đang hoạt động"
+    },
+    {
+      "sttTotal": "72",
+      "sttNph": "6",
+      "publisher": "Dzogame",
+      "group": "NPH Nội địa",
+      "gameName": "TS Online - Dzogame",
+      "genre": "Nhập vai theo lượt (Turn-based RPG)",
+      "platform": "PC & Mobile",
+      "officialUrl": "https://dzogame.vn/",
+      "fanpageUrl": "https://www.facebook.com/TS.Dzogame/",
+      "status": "Đang hoạt động"
+    },
+    {
+      "sttTotal": "75",
+      "sttNph": "3",
+      "publisher": "CMN Online",
+      "group": "NPH Nội địa",
+      "gameName": "BangBang Online",
+      "genre": "Bắn xe tăng casual",
+      "platform": "Web & PC",
+      "officialUrl": "https://game.cmn.vn/su-kien/bang-bang/sinh-nhat-10",
+      "fanpageUrl": "https://www.facebook.com/pvtk2.vn/",
+      "status": "Đang hoạt động"
+    },
+    {
+      "sttTotal": "76",
+      "sttNph": "4",
+      "publisher": "CMN Online",
+      "group": "NPH Nội địa",
+      "gameName": "Kiếm Vũ / Kiếm Linh",
+      "genre": "Nhập vai kiếm hiệp",
+      "platform": "Web & Mobile",
+      "officialUrl": "https://game.cmn.vn/tro-choi",
+      "fanpageUrl": "https://www.facebook.com/p/V%C3%B4-C%E1%BB%B1c-Ti%C3%AAn-%C4%90%E1%BB%93-100090676061593/",
+      "status": "Đang hoạt động"
+    },
+    {
+      "sttTotal": "78",
+      "sttNph": "1",
+      "publisher": "TeaMobi (Gomobi)",
+      "group": "NPH & Studio Nội địa",
+      "gameName": "Ngọc Rồng Online (Chú Bé Rồng Online)",
+      "genre": "Nhập vai hành động (RPG)",
+      "platform": "PC, Android, iOS, Java",
+      "officialUrl": "https://ngocrongonline.com/",
+      "fanpageUrl": "https://www.facebook.com/TeaMobi/",
+      "status": "Đang hoạt động"
+    },
+    {
+      "sttTotal": "79",
+      "sttNph": "2",
+      "publisher": "TeaMobi (Gomobi)",
+      "group": "NPH & Studio Nội địa",
+      "gameName": "Ninja School Online",
+      "genre": "Nhập vai hành động",
+      "platform": "PC & Mobile",
+      "officialUrl": "http://gomobi.vn/home/trang-chu.html",
+      "fanpageUrl": "https://www.facebook.com/TeaMobi/",
+      "status": "Đang hoạt động"
+    },
+    {
+      "sttTotal": "80",
+      "sttNph": "3",
+      "publisher": "TeaMobi (Gomobi)",
+      "group": "NPH & Studio Nội địa",
+      "gameName": "Hải Tặc Tí Hon",
+      "genre": "Nhập vai phiêu lưu",
+      "platform": "PC & Mobile",
+      "officialUrl": "https://hotro.gomobi.vn/",
+      "fanpageUrl": "https://www.facebook.com/ht.teamobi/",
+      "status": "Đang hoạt động"
+    },
+    {
+      "sttTotal": "81",
+      "sttNph": "4",
+      "publisher": "TeaMobi (Gomobi)",
+      "group": "NPH & Studio Nội địa",
+      "gameName": "Avatar Land / Avatar - Thế Giới Diệu Kỳ",
+      "genre": "Mô phỏng nông trại & Kết bạn",
+      "platform": "Mobile (iOS/Android)",
+      "officialUrl": "http://gomobi.vn/home/trang-chu.html",
+      "fanpageUrl": "https://www.facebook.com/al.teamobi1/",
+      "status": "Đang hoạt động"
+    },
+    {
+      "sttTotal": "82",
+      "sttNph": "5",
+      "publisher": "TeaMobi (Gomobi)",
+      "group": "NPH & Studio Nội địa",
+      "gameName": "Avatar Bum",
+      "genre": "Giải trí ném bóng nước",
+      "platform": "Mobile (iOS/Android)",
+      "officialUrl": "https://hotro.gomobi.vn/",
+      "fanpageUrl": "https://www.facebook.com/avatar.bum.teamobi/",
+      "status": "Đang hoạt động"
+    },
+    {
+      "sttTotal": "83",
+      "sttNph": "6",
+      "publisher": "TeaMobi (Gomobi)",
+      "group": "NPH & Studio Nội địa",
+      "gameName": "Thời Đại Hiệp Sĩ (Hiệp Sĩ Online)",
+      "genre": "Nhập vai phiêu lưu (RPG)",
+      "platform": "PC & Mobile",
+      "officialUrl": "https://hotro.gomobi.vn/",
+      "fanpageUrl": "https://www.facebook.com/TeaMobi/",
+      "status": "Đang hoạt động"
+    },
+    {
+      "sttTotal": "85",
+      "sttNph": "2",
+      "publisher": "ZingPlay",
+      "group": "NPH Nội địa & Quốc tế",
+      "gameName": "Bida ZingPlay (8 Ball / Bida Phỏm)",
+      "genre": "Thể thao Bida giải trí",
+      "platform": "Mobile (iOS/Android)",
+      "officialUrl": "https://pay.zingplay.com/index.html",
+      "fanpageUrl": "https://www.facebook.com/zingplayconggame/",
+      "status": "Đang hoạt động"
+    },
+    {
+      "sttTotal": "86",
+      "sttNph": "3",
+      "publisher": "ZingPlay",
+      "group": "NPH Nội địa & Quốc tế",
+      "gameName": "iCá ZingPlay",
+      "genre": "Giải trí bắn cá siêu thị",
+      "platform": "Mobile (iOS/Android)",
+      "officialUrl": "https://pay.zingplay.com/index.html",
+      "fanpageUrl": "https://www.facebook.com/zingplayconggame/",
+      "status": "Đang hoạt động"
+    },
+    {
+      "sttTotal": "87",
+      "sttNph": "4",
+      "publisher": "ZingPlay",
+      "group": "NPH Nội địa & Quốc tế",
+      "gameName": "Cờ Tỷ Phú ZingPlay",
+      "genre": "Board Game chiến thuật",
+      "platform": "Mobile (iOS/Android)",
+      "officialUrl": "https://pay.zingplay.com/index.html",
+      "fanpageUrl": "https://www.facebook.com/zingplayconggame/",
+      "status": "Đang hoạt động"
+    },
+    {
+      "sttTotal": "88",
+      "sttNph": "5",
+      "publisher": "ZingPlay",
+      "group": "NPH Nội địa & Quốc tế",
+      "gameName": "Cờ Tướng ZingPlay",
+      "genre": "Cờ trí tuệ",
+      "platform": "Mobile & PC",
+      "officialUrl": "https://pay.zingplay.com/index.html",
+      "fanpageUrl": "https://www.facebook.com/zingplayconggame/",
+      "status": "Đang hoạt động"
+    },
+    {
+      "sttTotal": "89",
+      "sttNph": "1",
+      "publisher": "Amanotes (Studio Quốc tế)",
+      "group": "Studio Việt phát hành Game ra Quốc tế (Hơn 3 tỷ lượt tải)",
+      "gameName": "Magic Tiles 3",
+      "genre": "Âm nhạc (Music Piano Game)",
+      "platform": "Mobile (iOS/Android)",
+      "officialUrl": "https://www.amanotes.com/products",
+      "fanpageUrl": "https://www.facebook.com/MagicTiles3/",
+      "status": "Đang hoạt động (1B+ lượt tải toàn cầu)"
+    },
+    {
+      "sttTotal": "90",
+      "sttNph": "2",
+      "publisher": "Amanotes (Studio Quốc tế)",
+      "group": "Studio Việt phát hành Game ra Quốc tế (Hơn 3 tỷ lượt tải)",
+      "gameName": "Tiles Hop: EDM Rush!",
+      "genre": "Âm nhạc (Music Ball Smash)",
+      "platform": "Mobile (iOS/Android)",
+      "officialUrl": "https://www.amanotes.com/products",
+      "fanpageUrl": "https://www.facebook.com/MagicTiles3/",
+      "status": "Đang hoạt động (~1B lượt tải toàn cầu)"
+    },
+    {
+      "sttTotal": "91",
+      "sttNph": "3",
+      "publisher": "Amanotes (Studio Quốc tế)",
+      "group": "Studio Việt phát hành Game ra Quốc tế (Hơn 3 tỷ lượt tải)",
+      "gameName": "Duet Cats: Cute Cat Music",
+      "genre": "Âm nhạc Casual (Rhythm Meow)",
+      "platform": "Mobile (iOS/Android)",
+      "officialUrl": "https://www.amanotes.com/products",
+      "fanpageUrl": "https://www.facebook.com/amanotes.duettiles/",
+      "status": "Đang hoạt động (Quốc tế)"
+    },
+    {
+      "sttTotal": "92",
+      "sttNph": "4",
+      "publisher": "Amanotes (Studio Quốc tế)",
+      "group": "Studio Việt phát hành Game ra Quốc tế (Hơn 3 tỷ lượt tải)",
+      "gameName": "Duet Tiles - Dual Vocal Game",
+      "genre": "Âm nhạc (Dual Vocal Rhythm)",
+      "platform": "Mobile (iOS/Android)",
+      "officialUrl": "https://www.amanotes.com/products",
+      "fanpageUrl": "https://www.facebook.com/amanotes.duettiles/",
+      "status": "Đang hoạt động (Quốc tế)"
+    },
+    {
+      "sttTotal": "93",
+      "sttNph": "5",
+      "publisher": "Amanotes (Studio Quốc tế)",
+      "group": "Studio Việt phát hành Game ra Quốc tế (Hơn 3 tỷ lượt tải)",
+      "gameName": "Dancing Road: Color Ball Run!",
+      "genre": "Âm nhạc Casual",
+      "platform": "Mobile (iOS/Android)",
+      "officialUrl": "https://www.amanotes.com/products",
+      "fanpageUrl": "https://www.facebook.com/MagicTiles3/",
+      "status": "Đang hoạt động (Quốc tế)"
+    },
+    {
+      "sttTotal": "94",
+      "sttNph": "6",
+      "publisher": "Amanotes (Studio Quốc tế)",
+      "group": "Studio Việt phát hành Game ra Quốc tế (Hơn 3 tỷ lượt tải)",
+      "gameName": "Hop Ball 3D: Jump On EDM Beat",
+      "genre": "Âm nhạc Casual",
+      "platform": "Mobile (iOS/Android)",
+      "officialUrl": "https://www.amanotes.com/products",
+      "fanpageUrl": "https://www.facebook.com/MagicTiles3/",
+      "status": "Đang hoạt động (Quốc tế)"
+    },
+    {
+      "sttTotal": "95",
+      "sttNph": "7",
+      "publisher": "Amanotes (Studio Quốc tế)",
+      "group": "Studio Việt phát hành Game ra Quốc tế (Hơn 3 tỷ lượt tải)",
+      "gameName": "Beat Jumper - EDM Rush up!",
+      "genre": "Âm nhạc Casual",
+      "platform": "Mobile (iOS/Android)",
+      "officialUrl": "https://www.amanotes.com/products",
+      "fanpageUrl": "https://www.facebook.com/MagicTiles3/",
+      "status": "Đang hoạt động (Quốc tế)"
+    },
+    {
+      "sttTotal": "96",
+      "sttNph": "8",
+      "publisher": "Amanotes (Studio Quốc tế)",
+      "group": "Studio Việt phát hành Game ra Quốc tế (Hơn 3 tỷ lượt tải)",
+      "gameName": "Magic Dream Tiles",
+      "genre": "Âm nhạc (Piano Tiles)",
+      "platform": "Mobile (iOS/Android)",
+      "officialUrl": "https://apps.apple.com/ae/app/magic-dream-tiles/id1454330654?platform=ipad",
+      "fanpageUrl": "https://www.facebook.com/MagicTiles3/",
+      "status": "Đang hoạt động (Quốc tế)"
+    },
+    {
+      "sttTotal": "97",
+      "sttNph": "1",
+      "publisher": "Onesoft (1SOFT) & ABI Game Studio",
+      "group": "Studio Việt phát hành Game ra Quốc tế (Top 2 NPH Đông Nam Á)",
+      "gameName": "1945 Air Force: Plane Shooter",
+      "genre": "Bắn máy bay Arcade (Plane Shooter)",
+      "platform": "Mobile (iOS/Android)",
+      "officialUrl": "https://play.google.com/store/apps/details?id=com.os.airforce",
+      "fanpageUrl": "https://www.facebook.com/abigamestudio/",
+      "status": "Đang hoạt động (Quốc tế)"
+    },
+    {
+      "sttTotal": "98",
+      "sttNph": "2",
+      "publisher": "Onesoft (1SOFT) & ABI Game Studio",
+      "group": "Studio Việt phát hành Game ra Quốc tế (Top 2 NPH Đông Nam Á)",
+      "gameName": "Space Shooter: Galaxy Attack",
+      "genre": "Bắn súng không gian (Arcade)",
+      "platform": "Mobile (iOS/Android)",
+      "officialUrl": "https://play.google.com/store/apps/details?id=com.os.airforce",
+      "fanpageUrl": "https://www.facebook.com/abigamestudio/",
+      "status": "Đang hoạt động (Quốc tế)"
+    },
+    {
+      "sttTotal": "99",
+      "sttNph": "3",
+      "publisher": "Onesoft (1SOFT) & ABI Game Studio",
+      "group": "Studio Việt phát hành Game ra Quốc tế (Top 2 NPH Đông Nam Á)",
+      "gameName": "Galaxy Attack: Alien Shooting",
+      "genre": "Bắn súng không gian (Space Shooting)",
+      "platform": "Mobile (iOS/Android)",
+      "officialUrl": "https://abigames.com.vn/",
+      "fanpageUrl": "https://www.facebook.com/abigamestudio/",
+      "status": "Đang hoạt động (100M+ lượt tải)"
+    },
+    {
+      "sttTotal": "100",
+      "sttNph": "4",
+      "publisher": "Onesoft (1SOFT) & ABI Game Studio",
+      "group": "Studio Việt phát hành Game ra Quốc tế (Top 2 NPH Đông Nam Á)",
+      "gameName": "Wood Nuts & Bolts Puzzle",
+      "genre": "Giải đố (Puzzle)",
+      "platform": "Mobile (iOS/Android)",
+      "officialUrl": "https://abigames.com.vn/",
+      "fanpageUrl": "https://www.facebook.com/abigamestudio/",
+      "status": "Đang hoạt động (100M+ lượt tải)"
+    },
+    {
+      "sttTotal": "101",
+      "sttNph": "5",
+      "publisher": "Onesoft (1SOFT) & ABI Game Studio",
+      "group": "Studio Việt phát hành Game ra Quốc tế (Top 2 NPH Đông Nam Á)",
+      "gameName": "Satisdom",
+      "genre": "Giải đố thư giãn (ASMR Puzzle)",
+      "platform": "Mobile (iOS/Android)",
+      "officialUrl": "https://abigames.com.vn/",
+      "fanpageUrl": "https://www.facebook.com/abigamestudio/",
+      "status": "Đang hoạt động (5M+ lượt tải)"
+    },
+    {
+      "sttTotal": "102",
+      "sttNph": "6",
+      "publisher": "Onesoft (1SOFT) & ABI Game Studio",
+      "group": "Studio Việt phát hành Game ra Quốc tế (Top 2 NPH Đông Nam Á)",
+      "gameName": "Super Ball Adventure",
+      "genre": "Hành động Casual",
+      "platform": "Mobile (iOS/Android)",
+      "officialUrl": "https://abigames.com.vn/",
+      "fanpageUrl": "https://www.facebook.com/abigamestudio/",
+      "status": "Đang hoạt động (100M+ lượt tải)"
+    },
+    {
+      "sttTotal": "103",
+      "sttNph": "1",
+      "publisher": "Wolffun Game (Studio Quốc tế)",
+      "group": "Studio Việt phát hành Game ra Quốc tế (200M+ người dùng toàn cầu)",
+      "gameName": "Thetan Arena",
+      "genre": "MOBA / Bắn súng đấu trường",
+      "platform": "Mobile & PC",
+      "officialUrl": "https://www.wolffungame.com/",
+      "fanpageUrl": "https://www.facebook.com/thetanarena/",
+      "status": "Đang hoạt động (Quốc tế)"
+    },
+    {
+      "sttTotal": "104",
+      "sttNph": "2",
+      "publisher": "Wolffun Game (Studio Quốc tế)",
+      "group": "Studio Việt phát hành Game ra Quốc tế (200M+ người dùng toàn cầu)",
+      "gameName": "Thetan Rivals",
+      "genre": "Party Royale (Thetan World)",
+      "platform": "Mobile & PC",
+      "officialUrl": "https://www.wolffungame.com/",
+      "fanpageUrl": "https://www.facebook.com/wolffungame/",
+      "status": "Đang hoạt động (Quốc tế)"
+    },
+    {
+      "sttTotal": "105",
+      "sttNph": "3",
+      "publisher": "Wolffun Game (Studio Quốc tế)",
+      "group": "Studio Việt phát hành Game ra Quốc tế (200M+ người dùng toàn cầu)",
+      "gameName": "Heroes Strike",
+      "genre": "MOBA 4v4 Hành động",
+      "platform": "Mobile (iOS/Android)",
+      "officialUrl": "https://www.wolffungame.com/",
+      "fanpageUrl": "https://www.facebook.com/wolffungame/",
+      "status": "Đang hoạt động (Quốc tế)"
+    },
+    {
+      "sttTotal": "106",
+      "sttNph": "4",
+      "publisher": "Wolffun Game (Studio Quốc tế)",
+      "group": "Studio Việt phát hành Game ra Quốc tế (200M+ người dùng toàn cầu)",
+      "gameName": "Tank Raid Online",
+      "genre": "Bắn xe tăng MOBA 3D",
+      "platform": "Mobile (iOS/Android)",
+      "officialUrl": "https://vgda.vn/wolffun-game-1",
+      "fanpageUrl": "https://www.facebook.com/wolffungame/",
+      "status": "Đang hoạt động (Quốc tế)"
+    },
+    {
+      "sttTotal": "107",
+      "sttNph": "1",
+      "publisher": "Bravestars Games",
+      "group": "Studio Việt phát hành Game ra Quốc tế (Top 9 NPH toàn cầu iOS & Android)",
+      "gameName": "Stickman Revenge",
+      "genre": "Hành động chặt chém (Action RPG)",
+      "platform": "Mobile (iOS/Android)",
+      "officialUrl": "https://bravestars.com/",
+      "fanpageUrl": "https://www.facebook.com/fptiscareer/posts/122284364222161077/",
+      "status": "Đang hoạt động (Quốc tế)"
+    },
+    {
+      "sttTotal": "108",
+      "sttNph": "2",
+      "publisher": "Bravestars Games",
+      "group": "Studio Việt phát hành Game ra Quốc tế (Top 9 NPH toàn cầu iOS & Android)",
+      "gameName": "Hair Salon / Barber Shop",
+      "genre": "Mô phỏng Casual",
+      "platform": "Mobile (iOS/Android)",
+      "officialUrl": "https://bravestars.com/",
+      "fanpageUrl": "https://www.facebook.com/fptiscareer/posts/122284364222161077/",
+      "status": "Đang hoạt động (Quốc tế)"
+    },
+    {
+      "sttTotal": "109",
+      "sttNph": "3",
+      "publisher": "Bravestars Games",
+      "group": "Studio Việt phát hành Game ra Quốc tế (Top 9 NPH toàn cầu iOS & Android)",
+      "gameName": "Merge Defense / Shadow Action Series",
+      "genre": "Chiến thuật thủ thành & Hành động",
+      "platform": "Mobile (iOS/Android)",
+      "officialUrl": "https://bravestars.com/",
+      "fanpageUrl": "https://www.facebook.com/fptiscareer/posts/122284364222161077/",
+      "status": "Đang hoạt động (Quốc tế)"
+    },
+    {
+      "sttTotal": "110",
+      "sttNph": "1",
+      "publisher": "Topebox",
+      "group": "Studio Việt phát hành Game ra Quốc tế",
+      "gameName": "Sky Dancer: EscapingFromEden",
+      "genre": "Hành động Endless Runner",
+      "platform": "Mobile (iOS/Android)",
+      "officialUrl": "https://topebox.com/",
+      "fanpageUrl": "https://www.facebook.com/topebox/",
+      "status": "Đang hoạt động (Quốc tế)"
+    },
+    {
+      "sttTotal": "111",
+      "sttNph": "2",
+      "publisher": "Topebox",
+      "group": "Studio Việt phát hành Game ra Quốc tế",
+      "gameName": "Thief Puzzle: to pass a level",
+      "genre": "Giải đố Casual (Puzzle)",
+      "platform": "Mobile (iOS/Android)",
+      "officialUrl": "https://topebox.com/",
+      "fanpageUrl": "https://www.facebook.com/topebox/",
+      "status": "Đang hoạt động (Quốc tế)"
+    },
+    {
+      "sttTotal": "112",
+      "sttNph": "3",
+      "publisher": "Topebox",
+      "group": "Studio Việt phát hành Game ra Quốc tế",
+      "gameName": "Pocket Army / Ark of War Series",
+      "genre": "Chiến thuật nhập vai",
+      "platform": "Mobile (iOS/Android)",
+      "officialUrl": "https://topebox.com/",
+      "fanpageUrl": "https://www.facebook.com/topebox/",
+      "status": "Đang hoạt động (Quốc tế)"
+    },
+    {
+      "sttTotal": "113",
+      "sttNph": "1",
+      "publisher": "iKame Global (Zego Studio)",
+      "group": "Studio Việt phát hành Game ra Quốc tế",
+      "gameName": "Wood Screw Puzzle",
+      "genre": "Giải đố (Puzzle)",
+      "platform": "Mobile (iOS/Android)",
+      "officialUrl": "https://zegostudio.com/privacy-policy.html",
+      "fanpageUrl": "https://www.facebook.com/MirchiFunFB/posts/1099956102845524/",
+      "status": "Đang hoạt động (Quốc tế)"
+    },
+    {
+      "sttTotal": "114",
+      "sttNph": "2",
+      "publisher": "iKame Global (Zego Studio)",
+      "group": "Studio Việt phát hành Game ra Quốc tế",
+      "gameName": "Farm City: Farming & Building",
+      "genre": "Mô phỏng nông trại & Xây dựng thành phố",
+      "platform": "Mobile (iOS/Android)",
+      "officialUrl": "https://zegostudio.com/privacy-policy.html",
+      "fanpageUrl": "https://www.facebook.com/MirchiFunFB/posts/1099956102845524/",
+      "status": "Đang hoạt động (Quốc tế)"
+    },
+    {
+      "sttTotal": "115",
+      "sttNph": "3",
+      "publisher": "iKame Global (Zego Studio)",
+      "group": "Studio Việt phát hành Game ra Quốc tế",
+      "gameName": "Car Race 3D",
+      "genre": "Đua xe tốc độ Casual",
+      "platform": "Mobile (iOS/Android)",
+      "officialUrl": "https://zegostudio.com/privacy-policy.html",
+      "fanpageUrl": "https://www.facebook.com/MirchiFunFB/posts/1099956102845524/",
+      "status": "Đang hoạt động (Quốc tế)"
+    },
+    {
+      "sttTotal": "116",
+      "sttNph": "1",
+      "publisher": "Hiker Games",
+      "group": "Studio Phát triển & Phát hành Game Việt Nam",
+      "gameName": "Hotpot Frenzy",
+      "genre": "Giải đố Casual (Puzzle)",
+      "platform": "Mobile (iOS/Android)",
+      "officialUrl": "http://www.hikergames.com/",
+      "fanpageUrl": "https://www.facebook.com/ptitgames/",
+      "status": "Đang hoạt động (Quốc tế)"
+    },
+    {
+      "sttTotal": "117",
+      "sttNph": "2",
+      "publisher": "Hiker Games",
+      "group": "Studio Phát triển & Phát hành Game Việt Nam",
+      "gameName": "Unscrew Master: Color Nut Bolt",
+      "genre": "Giải đố Casual (Puzzle)",
+      "platform": "Mobile (iOS/Android)",
+      "officialUrl": "http://www.hikergames.com/",
+      "fanpageUrl": "https://www.facebook.com/ptitgames/",
+      "status": "Đang hoạt động (Quốc tế)"
+    },
+    {
+      "sttTotal": "118",
+      "sttNph": "3",
+      "publisher": "Hiker Games",
+      "group": "Studio Phát triển & Phát hành Game Việt Nam",
+      "gameName": "Tangled Line 3D",
+      "genre": "Giải đố Casual (Puzzle)",
+      "platform": "Mobile (iOS/Android)",
+      "officialUrl": "http://www.hikergames.com/",
+      "fanpageUrl": "https://www.facebook.com/ptitgames/",
+      "status": "Đang hoạt động (Quốc tế)"
+    },
+    {
+      "sttTotal": "119",
+      "sttNph": "4",
+      "publisher": "Hiker Games",
+      "group": "Studio Phát triển & Phát hành Game Việt Nam",
+      "gameName": "Numberland",
+      "genre": "Giải đố Casual (Puzzle)",
+      "platform": "Mobile (iOS/Android)",
+      "officialUrl": "http://www.hikergames.com/",
+      "fanpageUrl": "https://www.facebook.com/ptitgames/",
+      "status": "Đang hoạt động (Quốc tế)"
+    },
+    {
+      "sttTotal": "120",
+      "sttNph": "5",
+      "publisher": "Hiker Games",
+      "group": "Studio Phát triển & Phát hành Game Việt Nam",
+      "gameName": "Toy Factory",
+      "genre": "Giải đố Casual (Puzzle)",
+      "platform": "Mobile (iOS/Android)",
+      "officialUrl": "http://www.hikergames.com/",
+      "fanpageUrl": "https://www.facebook.com/ptitgames/",
+      "status": "Đang hoạt động (Quốc tế)"
+    },
+    {
+      "sttTotal": "121",
+      "sttNph": "6",
+      "publisher": "Hiker Games",
+      "group": "Studio Phát triển & Phát hành Game Việt Nam",
+      "gameName": "Meow vs Zombie",
+      "genre": "Hành động Casual (Action)",
+      "platform": "Mobile (iOS/Android)",
+      "officialUrl": "http://www.hikergames.com/",
+      "fanpageUrl": "https://www.facebook.com/ptitgames/",
+      "status": "Đang hoạt động (Quốc tế)"
+    }
+  ]
+}

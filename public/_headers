@@ -1,0 +1,45 @@
+/*
+  X-Frame-Options: SAMEORIGIN
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: strict-origin-when-cross-origin
+  Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+  Permissions-Policy: camera=(), microphone=(), geolocation=(), payment=()
+  Cross-Origin-Opener-Policy: same-origin-allow-popups
+  Content-Security-Policy: default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://challenges.cloudflare.com; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com data:; img-src 'self' data: blob: https:; connect-src 'self' https://codegame.shop https://*.codegame.shop https://web-code-game.pages.dev https://admin-code-game-shop.pages.dev https://challenges.cloudflare.com https://api.dicebear.com https://my.sepay.vn; frame-src 'self' https://challenges.cloudflare.com https://codegame.shop https://*.codegame.shop https://web-code-game.pages.dev https://admin-code-game-shop.pages.dev;
+
+/sync-bridge*
+  Content-Security-Policy: default-src 'self'; script-src 'self' 'unsafe-inline'; frame-ancestors 'self' https://codegame.shop https://*.codegame.shop https://web-code-game.pages.dev https://admin-code-game-shop.pages.dev http://localhost:* http://127.0.0.1:*;
+  Access-Control-Allow-Origin: *
+
+/sync-bridge
+  Content-Security-Policy: default-src 'self'; script-src 'self' 'unsafe-inline'; frame-ancestors 'self' https://codegame.shop https://*.codegame.shop https://web-code-game.pages.dev https://admin-code-game-shop.pages.dev http://localhost:* http://127.0.0.1:*;
+  Access-Control-Allow-Origin: *
+
+/data/*
+  Cache-Control: public, max-age=3600, s-maxage=86400, stale-while-revalidate=86400
+  Access-Control-Allow-Origin: *
+
+/game_icons/*
+  Cache-Control: public, max-age=604800, s-maxage=2592000, immutable
+  Access-Control-Allow-Origin: *
+
+/assets/*
+  Cache-Control: public, max-age=31536000, immutable
+
+/download/*
+  Content-Type: application/vnd.android.package-archive
+  Content-Disposition: attachment
+  Cache-Control: public, max-age=3600
+  Access-Control-Allow-Origin: *
+
+/index.html
+  Cache-Control: no-cache, no-store, must-revalidate, max-age=0
+
+/*.html
+  Cache-Control: no-cache, no-store, must-revalidate, max-age=0
+
+/sw.js
+  Cache-Control: no-cache, no-store, must-revalidate, max-age=0
+
+/
+  Cache-Control: no-cache, no-store, must-revalidate, max-age=0

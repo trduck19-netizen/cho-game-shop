@@ -1,0 +1,81 @@
+# ==============================================================================
+# PROFESSIONAL GITIGNORE FOR WEB-CODE-GAME
+# ==============================================================================
+
+# Dependencies
+node_modules/
+.pnp
+.pnp.js
+
+# Environment Variables & Secrets (CRITICAL SECURITY)
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.cert
+*.pfx
+id_rsa
+id_ed25519
+
+# Build Outputs & Bundles
+dist/
+build/
+out/
+.wrangler/
+
+# Temporary Files & Local Caches
+scratch/
+temp_sync.json
+test_game_page.html
+abei_g1.html
+abei_rsc.txt
+rsc_dump.txt
+rsc_unescaped.txt
+g1_bundle.js
+chunk_3394.js
+*.tmp
+*.bak
+*.swp
+
+# Backups & Deployment Dumps
+backups/
+backup_restored_deployments/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Operating System Files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE & Editor Configurations
+.vscode/*
+!.vscode/extensions.json
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Local Tooling & Submodules
+.antigravity/
+.antigravity
+**/.antigravity/**
+
+# Android Build Outputs & Caches
+android/.gradle/
+android/build/
+android/app/build/
+android/.idea/
+android/*.iml
+android/app/*.iml
+android/local.properties
+

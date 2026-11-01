@@ -1,0 +1,33 @@
+name: Auto News Publisher Engine 24/7
+
+on:
+  # TẠM DỪNG LỊCH TRÌNH TỰ ĐỘNG TỚI SAU 23:59 NGÀY 08/11/2026 THEO QUY ĐỊNH FREEZE DỮ LIỆU.
+  # Để bật lại sau 08/11: Bỏ dấu chú thích (#) ở 2 dòng dưới (schedule: và - cron: '45 * * * *').
+  # schedule:
+  #   - cron: '45 * * * *'
+  workflow_dispatch:
+    # Cho phép kích hoạt thủ công bất kỳ lúc nào từ GitHub Actions tab
+
+jobs:
+  auto-publish-news:
+    name: Crawl, Rewrite SEO & Auto-Publish News
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+
+    steps:
+      - name: Checkout Codebase
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js Runtime
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: ''
+
+      - name: Run Auto News Publisher Engine
+        run: node scripts/crawler/auto_news_publisher.cjs
+        env:
+          SYNC_URL: ${{ secrets.SYNC_URL || 'https://codegame.shop/api/sync' }}
+          ADMIN_SYNC_SECRET: ${{ secrets.ADMIN_SYNC_SECRET || 'b4e08494bf1c3fd6a0c965dd2411780c60513f7f87001bc955d7496331b2faef' }}
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
