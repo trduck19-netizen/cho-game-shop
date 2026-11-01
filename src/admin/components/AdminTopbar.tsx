@@ -119,7 +119,7 @@ export const AdminTopbar: React.FC<AdminTopbarProps> = ({
     return () => document.removeEventListener('mousedown', handleClickOutside);
   }, []);
 
-  const meta = tabTitles[currentTab] || { title: 'Quản Trị Hệ Thống', subtitle: 'Hệ thống quản lý CodeGame' };
+  const meta = tabTitles[currentTab] || { title: 'Quản Trị Hệ Thống', subtitle: 'Hệ thống quản lý Chợ Game' };
 
   return (
     <header className="sticky top-0 z-30 flex h-16 w-full items-center justify-between border-b border-slate-200 bg-white/80 px-3.5 sm:px-6 backdrop-blur-md dark:border-slate-800 dark:bg-slate-900/80">

@@ -177,7 +177,7 @@ export const Header: React.FC<HeaderProps> = ({
                 <span className="font-display font-bold text-xs sm:text-base tracking-normal sm:tracking-wider text-foreground group-hover:text-primary-light transition-colors whitespace-nowrap">
                   {branding?.siteTitle && branding.siteTitle.toUpperCase() !== 'WEB CODE GAME' && branding.siteTitle.toUpperCase() !== 'WEB CODE'
                     ? branding.siteTitle
-                    : 'CodeGame.Shop'}
+                    : 'Chợ Game'}
                 </span>
                 {branding?.siteTitle === 'WEB CODE' && (
                   <span className="text-[9px] sm:text-xs px-1 sm:px-1.5 py-0.2 rounded-md bg-accent/20 text-accent font-mono font-bold tracking-tight border border-accent/30">

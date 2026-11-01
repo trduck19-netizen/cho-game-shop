@@ -703,7 +703,7 @@ export const App: React.FC = () => {
           window.history.replaceState(null, '', '/nhiem-vu');
         }
       } else {
-        document.title = 'CodeGame.shop - Cổng Tra Cứu Giftcode & Game Bản Quyền Hàng Đầu';
+        document.title = 'Chợ Game - Sàn Thương Mại Điện Tử Tiện Ích & Vật Phẩm Game Số 1 Việt Nam';
         if (window.location.pathname !== '/' || window.location.hash) {
           window.history.replaceState(null, '', '/');
         }
@@ -1102,8 +1102,8 @@ export const App: React.FC = () => {
     const cleanTitle =
       rawTitle && rawTitle.toUpperCase() !== 'WEB CODE GAME' && rawTitle.toUpperCase() !== 'WEB CODE'
         ? rawTitle
-        : 'CodeGame.Shop';
-    document.title = `${cleanTitle} - Cổng Tra Cứu Giftcode & Tiện Ích Game`;
+        : 'Chợ Game';
+    document.title = `${cleanTitle} - Sàn Thương Mại Điện Tử Tiện Ích & Vật Phẩm Game Số 1 Việt Nam`;
   }, [branding.avatarUrl, branding.siteTitle]);
 
   // Real-time listener for CMS content changes (Events, Storage & BroadcastChannel)

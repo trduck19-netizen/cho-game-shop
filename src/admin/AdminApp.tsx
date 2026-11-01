@@ -148,8 +148,8 @@ export const AdminApp: React.FC<AdminAppProps> = ({ onBackToClient }) => {
 
     const endpoints = [
       '/api/auth/me',
-      'https://admin-code-game-shop.pages.dev/api/auth/me',
-      'https://codegame.shop/api/auth/me',
+      'https://admin-cho-game-shop.pages.dev/api/auth/me',
+      'https://cho-game-shop.pages.dev/api/auth/me',
     ];
 
     for (const endpoint of endpoints) {
@@ -417,11 +417,12 @@ export const AdminApp: React.FC<AdminAppProps> = ({ onBackToClient }) => {
     if (onBackToClient) {
       onBackToClient();
     } else {
-      const isDedicatedAdmin = typeof window !== 'undefined' && window.location.hostname.includes('admin-code-game-shop');
+      const isDedicatedAdmin = typeof window !== 'undefined' && (window.location.hostname.includes('admin-cho-game-shop') || window.location.hostname.includes('admin-code-game-shop'));
       if (isDedicatedAdmin) {
-        const newWin = window.open('https://codegame.shop', '_blank');
+        const targetUrl = window.location.hostname.includes('admin-cho-game-shop') ? 'https://cho-game-shop.pages.dev' : 'https://codegame.shop';
+        const newWin = window.open(targetUrl, '_blank');
         if (!newWin || newWin.closed || typeof newWin.closed === 'undefined') {
-          window.location.href = 'https://codegame.shop';
+          window.location.href = targetUrl;
         }
       } else {
         if (window.location.pathname.toLowerCase().startsWith('/admin')) {

@@ -274,7 +274,7 @@ export const AdminSidebar: React.FC<AdminSidebarProps> = ({
             </div>
             <div>
               <h1 className="text-sm font-bold tracking-tight text-slate-900 dark:text-white">
-                CodeGame Admin
+                Chợ Game Admin
               </h1>
               <p className="text-[10px] font-semibold text-indigo-600 dark:text-indigo-400">
                 PRO PORTAL v2.5

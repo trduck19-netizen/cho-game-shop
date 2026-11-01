@@ -133,7 +133,7 @@ export const AdminLoginGuard: React.FC<AdminLoginGuardProps> = ({
             ADMIN CONSOLE <span className="text-xs px-2 py-0.5 rounded-full bg-cyan-500/20 text-cyan-300 border border-cyan-500/30 font-semibold">v4.0 SECURE</span>
           </h1>
           <p className="text-xs text-slate-400 mt-1 font-medium">
-            Hệ thống Quản trị & Điều hành Dữ liệu CodeGame.Shop
+            Hệ thống Quản trị & Điều hành Dữ liệu Chợ Game
           </p>
         </div>
 
@@ -229,7 +229,7 @@ export const AdminLoginGuard: React.FC<AdminLoginGuardProps> = ({
             className="inline-flex items-center gap-1.5 text-xs text-slate-400 hover:text-cyan-400 transition cursor-pointer"
           >
             <ExternalLink className="w-3.5 h-3.5" />
-            <span>Quay về trang web khách (CodeGame.Shop)</span>
+            <span>Quay về trang web khách (Chợ Game)</span>
           </button>
         </div>
       </div>

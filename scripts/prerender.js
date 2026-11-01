@@ -269,7 +269,7 @@ async function runPrerender() {
   const homeDescription = `Kho tổng hợp hơn ${totalCodesFormatted}+ giftcode game mobile và webgame mới nhất 2026 của ${canonicalGamesCount} tựa game chuẩn (trong đó gồm 347 game có giấy phép G1 ABEI chính thức và game quốc tế). Cập nhật liên tục 24/7 từ các NPH VNG, Garena, VTC, SohaGame, Funtap.`;
 
   const homeHtml = buildPageHtml({
-    title: 'CodeGame.shop - Săn Giftcode Miễn Phí & Giao Dịch Mã Game Uy Tín',
+    title: 'Chợ Game - Sàn Thương Mại Điện Tử Tiện Ích & Vật Phẩm Game Số 1 Việt Nam',
     description: homeDescription,
     canonicalPath: '/',
     ogType: 'website',
@@ -351,7 +351,7 @@ async function runPrerender() {
         <header class="site-header sticky top-0 z-40 w-full border-b border-gray-800/80 bg-[#0B0D19]/95 backdrop-blur-md px-3 sm:px-6 lg:px-8 py-2.5 sm:py-3.5 flex items-center justify-between">
           <a href="/" class="header-logo flex items-center gap-2 text-brand-400 font-extrabold text-base sm:text-lg">
             <img src="/logo.png" alt="CodeGame.shop" width="32" height="32" class="w-8 h-8 rounded-lg object-cover" />
-            <span class="text-white font-bold">CodeGame.Shop</span>
+            <span class="text-white font-bold">Chợ Game</span>
           </a>
           <nav class="header-nav-tabs hidden md:flex items-center space-x-3 sm:space-x-6 text-xs sm:text-sm font-bold text-gray-300">
             <a href="/" class="text-brand-400 font-black">Mã Miễn Phí</a>
@@ -500,7 +500,7 @@ async function runPrerender() {
         <header class="site-header sticky top-0 z-40 w-full border-b border-slate-800 bg-slate-900/90 backdrop-blur-md px-3 sm:px-6 lg:px-8 py-2.5 sm:py-3.5 flex items-center justify-between">
           <a href="/" class="header-logo flex items-center gap-2 text-blue-500 font-extrabold text-base sm:text-lg">
             <img src="/logo.png" alt="CodeGame.shop" width="32" height="32" class="w-8 h-8 rounded-lg object-cover" />
-            <span class="text-white font-bold">CodeGame.Shop</span>
+            <span class="text-white font-bold">Chợ Game</span>
           </a>
           <nav class="header-nav-tabs hidden md:flex items-center space-x-3 sm:space-x-6 text-xs sm:text-sm font-bold text-slate-300">
             <a href="/" class="hover:text-blue-400 transition-colors">Tra Cứu Code</a>
@@ -599,7 +599,7 @@ async function runPrerender() {
           <header class="site-header sticky top-0 z-40 w-full border-b border-slate-800 bg-slate-900/90 backdrop-blur-md px-3 sm:px-6 lg:px-8 py-2.5 sm:py-3.5 flex items-center justify-between">
             <a href="/" class="header-logo flex items-center gap-2 text-blue-500 font-extrabold text-base sm:text-lg">
               <img src="/logo.png" alt="CodeGame.shop" width="32" height="32" class="w-8 h-8 rounded-lg object-cover" />
-              <span class="text-white font-bold">CodeGame.Shop</span>
+              <span class="text-white font-bold">Chợ Game</span>
             </a>
             <nav class="header-nav-tabs hidden md:flex items-center space-x-3 sm:space-x-6 text-xs sm:text-sm font-bold text-slate-300">
               <a href="/" class="hover:text-blue-400 transition-colors">Tra Cứu Code</a>
@@ -926,8 +926,8 @@ async function runPrerender() {
   if (!fs.existsSync(adminDir)) fs.mkdirSync(adminDir, { recursive: true });
 
   const adminHtml = buildPageHtml({
-    title: 'Quản Trị Hệ Thống | CodeGame.shop',
-    description: 'Bảng điều khiển quản trị hệ thống CodeGame.shop.',
+    title: 'Quản Trị Hệ Thống | Chợ Game',
+    description: 'Bảng điều khiển quản trị hệ thống Chợ Game.',
     canonicalPath: '/admin',
     noindex: true,
     bodyContent: `
@@ -1153,7 +1153,7 @@ async function runPrerender() {
           <header class="site-header sticky top-0 z-40 w-full border-b border-gray-800/80 bg-dark-950/85 backdrop-blur-md px-3 sm:px-6 lg:px-8 py-2.5 sm:py-3.5 flex items-center justify-between">
             <a href="/" class="header-logo flex items-center gap-2 text-brand-400 font-extrabold text-base sm:text-lg">
               <img src="/logo.png" alt="CodeGame.shop" width="32" height="32" class="w-8 h-8 rounded-lg object-cover" />
-              <span class="text-white font-bold">CodeGame.Shop</span>
+              <span class="text-white font-bold">Chợ Game</span>
             </a>
             <nav class="header-nav-tabs hidden md:flex items-center space-x-3 sm:space-x-6 text-xs sm:text-sm font-bold text-gray-300">
               <a href="/" class="text-brand-400 font-black">Mã Miễn Phí</a>
@@ -1434,7 +1434,7 @@ async function runPrerender() {
           <header class="site-header sticky top-0 z-40 w-full border-b border-gray-800/80 bg-dark-950/85 backdrop-blur-md px-3 sm:px-6 lg:px-8 py-2.5 sm:py-3.5 flex items-center justify-between">
             <a href="/" class="header-logo flex items-center gap-2 text-brand-400 font-extrabold text-base sm:text-lg">
               <img src="/logo.png" alt="CodeGame.shop" width="32" height="32" class="w-8 h-8 rounded-lg object-cover" />
-              <span class="text-white font-bold">CodeGame.Shop</span>
+              <span class="text-white font-bold">Chợ Game</span>
             </a>
             <nav class="header-nav-tabs hidden md:flex items-center space-x-3 sm:space-x-6 text-xs sm:text-sm font-bold text-gray-300">
               <a href="/" class="hover:text-white transition-colors">Trang Chủ</a>
@@ -1587,7 +1587,7 @@ async function runPrerender() {
         <header class="site-header sticky top-0 z-40 w-full border-b border-gray-800/80 bg-dark-950/85 backdrop-blur-md px-3 sm:px-6 lg:px-8 py-2.5 sm:py-3.5 flex items-center justify-between">
           <a href="/" class="header-logo flex items-center gap-2 text-brand-400 font-extrabold text-base sm:text-lg">
             <img src="/logo.png" alt="CodeGame.shop" width="32" height="32" class="w-8 h-8 rounded-lg object-cover" />
-            <span class="text-white font-bold">CodeGame.Shop</span>
+            <span class="text-white font-bold">Chợ Game</span>
           </a>
           <nav class="header-nav-tabs hidden md:flex items-center space-x-3 sm:space-x-6 text-xs sm:text-sm font-bold text-gray-300">
             <a href="/" class="hover:text-white transition-colors">Trang Chủ</a>

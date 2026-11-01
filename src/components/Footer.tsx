@@ -37,8 +37,8 @@ export const Footer: React.FC<FooterProps> = ({ onSelectCategory, categories, on
   };
 
   const branding = dataService.getWebsiteBranding();
-  const rawBrand = (footerData?.extraData?.brandTitle || branding.siteTitle || 'CodeGame.Shop').trim();
-  const brandTitle = (!rawBrand || rawBrand.toUpperCase() === 'WEB CODE GAME' || rawBrand.toUpperCase() === 'WEB CODE') ? 'CodeGame.Shop' : rawBrand;
+  const rawBrand = (footerData?.extraData?.brandTitle || branding.siteTitle || 'Chợ Game').trim();
+  const brandTitle = (!rawBrand || rawBrand.toUpperCase() === 'WEB CODE GAME' || rawBrand.toUpperCase() === 'WEB CODE') ? 'Chợ Game' : rawBrand;
   const brandLogo = (footerData?.extraData?.brandLogo || branding.logoUrl || '/logo.png').trim();
   const badge1Text = (footerData?.extraData?.badge1Text ?? 'Cloudflare Pages & D1').trim();
   const badge1Visible = footerData?.extraData?.badge1Visible !== false;
@@ -46,7 +46,7 @@ export const Footer: React.FC<FooterProps> = ({ onSelectCategory, categories, on
   const badge2Visible = footerData?.extraData?.badge2Visible !== false;
   const rawIntro = (footerData?.content || '').trim();
   const siteIntro = (!rawIntro || rawIntro.startsWith('Web Code Game'))
-    ? 'CodeGame.Shop — Nền tảng tổng hợp và chia sẻ giftcode game mobile & PC hàng đầu Việt Nam. Cập nhật mã quà tặng mới nhất mỗi ngày từ NPH chính thức.'
+    ? 'Chợ Game — Sàn Thương Mại Điện Tử Tiện Ích & Vật Phẩm Game Số 1 Việt Nam. Cập nhật mã quà tặng và ưu đãi mới nhất mỗi ngày từ NPH chính thức.'
     : rawIntro;
   const supportTelegram = footerData?.extraData?.telegram || 'https://t.me/webcodegame_vn';
   const supportZalo = footerData?.extraData?.zalo || 'https://zalo.me/0386767888';
