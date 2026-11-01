@@ -45,6 +45,7 @@ import * as missionsAiKeysApi from './api/missions/ai-keys';
 import * as missionsAuditLogsApi from './api/missions/audit-logs';
 import * as apiKeysIndexApi from './api/api-keys/index';
 import * as apiKeysIdApi from './api/api-keys/[id]';
+import * as marketplaceApi from './api/marketplace/index';
 import * as eventSchedulerApi from './api/event-scheduler/index';
 import { invalidateCatalogEdgeCache } from './services/cache_service';
 import fallbackGiveawaysData from '../src/data/giveaways.json';
@@ -695,6 +696,13 @@ async function handleWorkerRequest(request: Request, env: Env, ctx: ExecutionCon
         if (method === 'OPTIONS') return await apiKeysIdApi.onRequestOptions();
         if (method === 'PATCH' || method === 'PUT') return await apiKeysIdApi.onRequestPatch(customContext);
         if (method === 'DELETE') return await apiKeysIdApi.onRequestDelete(customContext);
+      }
+
+      // 16. Marketplace (san so) APIs
+      if (pathname === '/api/marketplace/products' || pathname === '/api/marketplace/sellers/register' || pathname === '/api/marketplace/sellers/approve' || pathname === '/api/marketplace/products/approve' || pathname === '/api/marketplace/codes' || pathname === '/api/marketplace/orders/create' || pathname === '/api/marketplace/orders/confirm' || pathname === '/api/marketplace/disputes' || pathname === '/api/marketplace/sellers/me') {
+        if (method === 'OPTIONS') return await marketplaceApi.onRequestOptions();
+        if (method === 'POST') return await marketplaceApi.onRequestPost(context);
+        return await marketplaceApi.onRequestGet(context);
       }
 
       // Fallback for any unknown /api route
