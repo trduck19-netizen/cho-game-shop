@@ -93,6 +93,7 @@ CREATE TABLE IF NOT EXISTS marketplace_ledger (
 
 CREATE INDEX IF NOT EXISTS idx_marketplace_ledger_seller_id ON marketplace_ledger(seller_id);
 CREATE INDEX IF NOT EXISTS idx_marketplace_ledger_order_id ON marketplace_ledger(order_id);
+CREATE UNIQUE INDEX IF NOT EXISTS idx_marketplace_ledger_order_release ON marketplace_ledger(order_id, type) WHERE type IN ('ESCROW_RELEASE', 'ESCROW_REFUND');
 
 CREATE TABLE IF NOT EXISTS marketplace_disputes (
   id TEXT PRIMARY KEY,
