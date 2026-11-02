@@ -34,10 +34,17 @@ function slugify(text: string) {
 }
 
 const SCHEMA_STATEMENTS: string[] = [
-  `CREATE TABLE IF NOT EXISTS sellers (id TEXT PRIMARY KEY, member_id TEXT NOT NULL UNIQUE, shop_name TEXT NOT NULL, shop_slug TEXT NOT NULL UNIQUE, description TEXT DEFAULT '', avatar_url TEXT DEFAULT '', status TEXT NOT NULL DEFAULT 'PENDING' CHECK (status IN ('PENDING', 'APPROVED', 'SUSPENDED', 'REJECTED')), available_balance INTEGER NOT NULL DEFAULT 0 CHECK (available_balance >= 0), held_balance INTEGER NOT NULL DEFAULT 0 CHECK (held_balance >= 0), total_sold INTEGER NOT NULL DEFAULT 0 CHECK (total_sold >= 0), rating_sum INTEGER NOT NULL DEFAULT 0 CHECK (rating_sum >= 0), rating_count INTEGER NOT NULL DEFAULT 0 CHECK (rating_count >= 0), created_at TEXT NOT NULL DEFAULT (datetime('now')), updated_at TEXT NOT NULL DEFAULT (datetime('now')))`,
+  `CREATE TABLE IF NOT EXISTS sellers (id TEXT PRIMARY KEY, member_id TEXT NOT NULL UNIQUE, shop_name TEXT NOT NULL, shop_slug TEXT NOT NULL UNIQUE, description TEXT DEFAULT '', avatar_url TEXT DEFAULT '', status TEXT NOT NULL DEFAULT 'PENDING' CHECK (status IN ('PENDING', 'APPROVED', 'SUSPENDED', 'REJECTED')), available_balance INTEGER NOT NULL DEFAULT 0 CHECK (available_balance >= 0), held_balance INTEGER NOT NULL DEFAULT 0 CHECK (held_balance >= 0), total_sold INTEGER NOT NULL DEFAULT 0 CHECK (total_sold >= 0), rating_sum INTEGER NOT NULL DEFAULT 0 CHECK (rating_sum >= 0), rating_count INTEGER NOT NULL DEFAULT 0 CHECK (rating_count >= 0), admin_note TEXT DEFAULT '', permanent_ban INTEGER NOT NULL DEFAULT 0 CHECK (permanent_ban IN (0, 1)), banned_at TEXT, banned_reason TEXT DEFAULT '', appeal_until TEXT, suspended_at TEXT, created_at TEXT NOT NULL DEFAULT (datetime('now')), updated_at TEXT NOT NULL DEFAULT (datetime('now')))`,
   `CREATE INDEX IF NOT EXISTS idx_sellers_member_id ON sellers(member_id)`,
   `CREATE INDEX IF NOT EXISTS idx_sellers_status ON sellers(status)`,
-  `CREATE TABLE IF NOT EXISTS marketplace_products (id TEXT PRIMARY KEY, seller_id TEXT NOT NULL, title TEXT NOT NULL, game_slug TEXT, game_name TEXT, product_type TEXT NOT NULL DEFAULT 'CODE' CHECK (product_type IN ('CODE')), original_price INTEGER NOT NULL DEFAULT 0 CHECK (original_price >= 0), current_price INTEGER NOT NULL DEFAULT 0 CHECK (current_price >= 0), stock_quantity INTEGER NOT NULL DEFAULT 0 CHECK (stock_quantity >= 0), sold_count INTEGER NOT NULL DEFAULT 0 CHECK (sold_count >= 0), approval_status TEXT NOT NULL DEFAULT 'PENDING' CHECK (approval_status IN ('PENDING', 'APPROVED', 'REJECTED')), is_active INTEGER NOT NULL DEFAULT 1 CHECK (is_active IN (0, 1)), instructions TEXT DEFAULT '', created_at TEXT NOT NULL DEFAULT (datetime('now')), updated_at TEXT NOT NULL DEFAULT (datetime('now')))`,
+  `ALTER TABLE sellers ADD COLUMN admin_note TEXT DEFAULT ''`,
+  `ALTER TABLE sellers ADD COLUMN permanent_ban INTEGER NOT NULL DEFAULT 0`,
+  `ALTER TABLE sellers ADD COLUMN banned_at TEXT`,
+  `ALTER TABLE sellers ADD COLUMN banned_reason TEXT DEFAULT ''`,
+  `ALTER TABLE sellers ADD COLUMN appeal_until TEXT`,
+  `ALTER TABLE sellers ADD COLUMN suspended_at TEXT`,
+  `CREATE TABLE IF NOT EXISTS marketplace_products (id TEXT PRIMARY KEY, seller_id TEXT NOT NULL, title TEXT NOT NULL, game_slug TEXT, game_name TEXT, product_type TEXT NOT NULL DEFAULT 'CODE' CHECK (product_type IN ('CODE')), original_price INTEGER NOT NULL DEFAULT 0 CHECK (original_price >= 0), current_price INTEGER NOT NULL DEFAULT 0 CHECK (current_price >= 0), stock_quantity INTEGER NOT NULL DEFAULT 0 CHECK (stock_quantity >= 0), sold_count INTEGER NOT NULL DEFAULT 0 CHECK (sold_count >= 0), approval_status TEXT NOT NULL DEFAULT 'PENDING' CHECK (approval_status IN ('PENDING', 'APPROVED', 'REJECTED')), is_active INTEGER NOT NULL DEFAULT 1 CHECK (is_active IN (0, 1)), instructions TEXT DEFAULT '', admin_note TEXT DEFAULT '', created_at TEXT NOT NULL DEFAULT (datetime('now')), updated_at TEXT NOT NULL DEFAULT (datetime('now')))`,
+  `ALTER TABLE marketplace_products ADD COLUMN admin_note TEXT DEFAULT ''`,
   `CREATE INDEX IF NOT EXISTS idx_marketplace_products_seller_id ON marketplace_products(seller_id)`,
   `CREATE INDEX IF NOT EXISTS idx_marketplace_products_approval ON marketplace_products(approval_status, is_active)`,
   `CREATE TABLE IF NOT EXISTS marketplace_inventory_codes (id TEXT PRIMARY KEY, product_id TEXT NOT NULL, seller_id TEXT NOT NULL, code_content TEXT NOT NULL, status TEXT NOT NULL DEFAULT 'AVAILABLE' CHECK (status IN ('AVAILABLE', 'SOLD', 'RESERVED')), order_id TEXT, sold_at TEXT, created_at TEXT NOT NULL DEFAULT (datetime('now')))`,
@@ -147,7 +154,8 @@ export const onRequestGet: PagesFunction<Env> = async (context) => {
     const products = [];
     for (const p of rows) {
       const countRow = await env.DB.prepare(`SELECT COUNT(*) as cnt FROM marketplace_inventory_codes WHERE product_id = ? AND status = 'AVAILABLE'`).bind(p.id).first<any>();
-      products.push({ ...p, available_codes: Number(countRow?.cnt || 0) });
+      const { admin_note: _adminNote, ...publicProduct } = p as any;
+      products.push({ ...publicProduct, available_codes: Number(countRow?.cnt || 0) });
     }
     return json({ success: true, products });
   }
@@ -157,6 +165,12 @@ export const onRequestGet: PagesFunction<Env> = async (context) => {
     if (!member) return json({ success: false, message: 'Vui lòng đăng nhập.' }, 401);
     const seller = await getSellerForMember(env.DB, member.id);
     if (!seller) return json({ success: true, seller: null });
+    // Ghi chú nội bộ chỉ hiện cho người bán khi bị từ chối hoặc bị khóa vĩnh viễn (lý do);
+    // các trường hợp khác thì ẩn để khỏi lộ bàn luận nội bộ.
+    if (seller.status !== 'REJECTED' && Number(seller.permanent_ban || 0) !== 1) {
+      delete seller.admin_note;
+      delete seller.banned_reason;
+    }
     return json({ success: true, seller });
   }
 
@@ -189,17 +203,37 @@ export const onRequestPost: PagesFunction<Env> = async (context) => {
     return json({ success: true, message: 'Đã gửi hồ sơ gian hàng, đang chờ quản trị duyệt.', seller });
   }
 
-  // Duyệt gian hàng: chỉ quản trị.
+  // Duyệt gian hàng: chỉ quản trị. Khóa vĩnh viễn là trạng thái riêng:
+  // chỉ SUPER_ADMIN được áp hoặc gỡ, bắt buộc có lý do bằng văn bản,
+  // thời gian khiếu nại 7 ngày, lưu bằng cờ permanent_ban (không đổi
+  // CHECK cũ của bảng sellers nên cơ sở dữ liệu cũ vẫn chạy được),
+  // trạng thái hiển thị vẫn là SUSPENDED để mọi chỗ kiểm tra APPROVED
+  // đều chặn bán. Tạm khóa tối đa 14 ngày rồi quản trị phải quyết.
   if (pathname === '/api/marketplace/sellers/approve') {
     const member = await getMemberFromRequest(request, env);
     if (!member || !isAdmin(member)) return json({ success: false, message: 'Không có quyền quản trị.' }, 403);
     const sellerId = String(body?.seller_id || '').trim();
     const status = String(body?.status || '').toUpperCase();
-    if (!sellerId || !['APPROVED', 'REJECTED', 'SUSPENDED'].includes(status)) return json({ success: false, message: 'Trạng thái duyệt không hợp lệ.' }, 400);
-    await env.DB.prepare(`UPDATE sellers SET status = ?, updated_at = datetime('now') WHERE id = ?`).bind(status, sellerId).run();
+    const adminNote = String(body?.admin_note || '').trim().substring(0, 1000);
+    if (!sellerId || !['APPROVED', 'REJECTED', 'SUSPENDED', 'PERMANENTLY_BANNED'].includes(status)) return json({ success: false, message: 'Trạng thái duyệt không hợp lệ.' }, 400);
+    const isSuperAdmin = String(member?.role || '').toUpperCase() === 'SUPER_ADMIN';
+    const existingSeller = await env.DB.prepare('SELECT * FROM sellers WHERE id = ? LIMIT 1').bind(sellerId).first<any>();
+    if (!existingSeller) return json({ success: false, message: 'Không tìm thấy gian hàng.' }, 404);
+    const wasPermanent = Number(existingSeller.permanent_ban || 0) === 1;
+    if (status === 'PERMANENTLY_BANNED') {
+      if (!isSuperAdmin) return json({ success: false, message: 'Khóa vĩnh viễn chỉ quản trị cấp cao được áp.' }, 403);
+      if (!adminNote) return json({ success: false, message: 'Khóa vĩnh viễn bắt buộc có lý do bằng văn bản.' }, 400);
+      await env.DB.prepare(`UPDATE sellers SET status = 'SUSPENDED', admin_note = ?, permanent_ban = 1, banned_at = datetime('now'), banned_reason = ?, appeal_until = datetime('now', '+7 days'), suspended_at = NULL, updated_at = datetime('now') WHERE id = ?`).bind(adminNote, adminNote, sellerId).run();
+    } else {
+      if (wasPermanent && !isSuperAdmin) return json({ success: false, message: 'Gỡ khóa vĩnh viễn chỉ quản trị cấp cao được làm.' }, 403);
+      if (status === 'SUSPENDED') {
+        await env.DB.prepare(`UPDATE sellers SET status = ?, admin_note = ?, permanent_ban = 0, banned_at = NULL, banned_reason = '', appeal_until = NULL, suspended_at = datetime('now'), updated_at = datetime('now') WHERE id = ?`).bind(status, adminNote, sellerId).run();
+      } else {
+        await env.DB.prepare(`UPDATE sellers SET status = ?, admin_note = ?, permanent_ban = 0, banned_at = NULL, banned_reason = '', appeal_until = NULL, suspended_at = NULL, updated_at = datetime('now') WHERE id = ?`).bind(status, adminNote, sellerId).run();
+      }
+    }
     const seller = await env.DB.prepare('SELECT * FROM sellers WHERE id = ? LIMIT 1').bind(sellerId).first<any>();
-    if (!seller) return json({ success: false, message: 'Không tìm thấy gian hàng.' }, 404);
-    await logAdminAction(env.DB, member, 'SELLER_APPROVE', 'seller', sellerId, `Duyệt gian hàng thành ${status}`);
+    await logAdminAction(env.DB, member, 'SELLER_APPROVE', 'seller', sellerId, `Duyệt gian hàng thành ${status}${adminNote ? ': ' + adminNote.substring(0, 200) : ''}`);
     return json({ success: true, seller });
   }
 
@@ -221,17 +255,20 @@ export const onRequestPost: PagesFunction<Env> = async (context) => {
     return json({ success: true, message: 'Đã tạo sản phẩm, đang chờ quản trị duyệt.', product });
   }
 
-  // Duyệt sản phẩm: chỉ quản trị.
+  // Duyệt sản phẩm: chỉ quản trị. Ghi chú nội bộ chỉ lưu kiểm toán;
+  // khi từ chối, ghi chú này là lý do hiện cho người bán qua sellers/me
+  // của gian hàng, không hiện trong danh sách sản phẩm công khai.
   if (pathname === '/api/marketplace/products/approve') {
     const member = await getMemberFromRequest(request, env);
     if (!member || !isAdmin(member)) return json({ success: false, message: 'Không có quyền quản trị.' }, 403);
     const productId = String(body?.product_id || '').trim();
     const status = String(body?.status || '').toUpperCase();
+    const adminNote = String(body?.admin_note || '').trim().substring(0, 1000);
     if (!productId || !['APPROVED', 'REJECTED'].includes(status)) return json({ success: false, message: 'Trạng thái duyệt không hợp lệ.' }, 400);
-    await env.DB.prepare(`UPDATE marketplace_products SET approval_status = ?, updated_at = datetime('now') WHERE id = ?`).bind(status, productId).run();
+    await env.DB.prepare(`UPDATE marketplace_products SET approval_status = ?, admin_note = ?, updated_at = datetime('now') WHERE id = ?`).bind(status, adminNote, productId).run();
     const product = await env.DB.prepare('SELECT * FROM marketplace_products WHERE id = ? LIMIT 1').bind(productId).first<any>();
     if (!product) return json({ success: false, message: 'Không tìm thấy sản phẩm.' }, 404);
-    await logAdminAction(env.DB, member, 'PRODUCT_APPROVE', 'product', productId, `Duyệt sản phẩm thành ${status}`);
+    await logAdminAction(env.DB, member, 'PRODUCT_APPROVE', 'product', productId, `Duyệt sản phẩm thành ${status}${adminNote ? ': ' + adminNote.substring(0, 200) : ''}`);
     return json({ success: true, product });
   }
 
