@@ -25,6 +25,7 @@ const GiveawaysView = lazyWithRetry(() => import('./components/GiveawaysView').t
 const StoreView = lazyWithRetry(() => import('./components/StoreView').then((m) => ({ default: m.StoreView })));
 const UtilitiesView = lazyWithRetry(() => import('./components/UtilitiesView').then((m) => ({ default: m.UtilitiesView })));
 const MissionsView = lazyWithRetry(() => import('./components/MissionsView').then((m) => ({ default: m.MissionsView })));
+const MarketplaceView = lazyWithRetry(() => import('./components/MarketplaceView').then((m) => ({ default: m.MarketplaceView })));
 const GameDetailModal = lazyWithRetry(() => import('./components/GameDetailModal').then((m) => ({ default: m.GameDetailModal })));
 const SubmitCodeModal = lazyWithRetry(() => import('./components/SubmitCodeModal').then((m) => ({ default: m.SubmitCodeModal })));
 const BookmarkDrawer = lazyWithRetry(() => import('./components/BookmarkDrawer').then((m) => ({ default: m.BookmarkDrawer })));
@@ -85,7 +86,7 @@ export const App: React.FC = () => {
   const [, startTransition] = useTransition();
 
   // Navigation Tab State (Decoupled Frontends Domain Detection & Hash Routing)
-  const [currentTab, setCurrentTab] = useState<'catalog' | 'news' | 'giveaways' | 'store' | 'utilities' | 'missions' | 'admin'>(() => {
+  const [currentTab, setCurrentTab] = useState<'catalog' | 'news' | 'giveaways' | 'store' | 'utilities' | 'missions' | 'marketplace' | 'admin'>(() => {
     if (typeof window !== 'undefined') {
       const host = window.location.hostname.toLowerCase();
       const hash = window.location.hash.toLowerCase();
@@ -103,6 +104,7 @@ export const App: React.FC = () => {
       if (hash.includes('store') || hash.includes('product=') || hash.includes('prod=') || path === '/store' || path.startsWith('/store/')) return 'store';
       if (hash.includes('utilities') || hash.includes('utility=') || hash.includes('ut=') || path === '/utilities' || path.startsWith('/utilities/')) return 'utilities';
       if (hash.includes('missions') || hash.includes('nhiem-vu') || path === '/missions' || path.startsWith('/missions/') || path === '/nhiem-vu' || path.startsWith('/nhiem-vu/')) return 'missions';
+      if (hash.includes('marketplace') || path === '/marketplace' || path.startsWith('/marketplace/')) return 'marketplace';
     }
     return 'catalog';
   });
@@ -526,6 +528,9 @@ export const App: React.FC = () => {
         } else if (hashLower === '#catalog' || hashLower.startsWith('#catalog')) {
           setCurrentTab('catalog');
           return;
+        } else if (hashLower === '#marketplace' || hashLower.startsWith('#marketplace')) {
+          setCurrentTab('marketplace');
+          return;
         } else if (hashLower.includes('g=') || urlParams.get('g') || urlParams.get('game')) {
           const slug = urlParams.get('g') || urlParams.get('game') || hash.split(/g=/i)[1]?.split('&')[0];
           if (slug) {
@@ -577,6 +582,9 @@ export const App: React.FC = () => {
           setCurrentTab('missions');
           const mId = window.location.pathname.replace(/^\/(?:nhiem-vu|missions)\/?/i, '').split('/')[0].trim();
           if (mId) setInitialMissionId(mId);
+          return;
+        } else if (pathname === '/marketplace' || pathname.startsWith('/marketplace/')) {
+          setCurrentTab('marketplace');
           return;
         } else if (!hash || hash === '#' || hash === '#catalog') {
           setCurrentTab('catalog');
@@ -639,7 +647,7 @@ export const App: React.FC = () => {
   }, []);
 
   // Unified Single-Click Tab Switcher (History pushState routing without hash conflicts)
-  const handleSelectTab = useCallback((tab: 'catalog' | 'news' | 'giveaways' | 'store' | 'utilities' | 'missions') => {
+  const handleSelectTab = useCallback((tab: 'catalog' | 'news' | 'giveaways' | 'store' | 'utilities' | 'missions' | 'marketplace') => {
     setSelectedGame(null);
     setSelectedProduct(null);
     setSelectedUtilityId(null);
@@ -702,6 +710,11 @@ export const App: React.FC = () => {
         if (normPath !== '/nhiem-vu' || window.location.hash || window.location.pathname.endsWith('/')) {
           window.history.replaceState(null, '', '/nhiem-vu');
         }
+      } else if (currentTab === 'marketplace') {
+        document.title = 'Chợ mã game — Sàn mua bán mã dùng một lần | CodeGame.shop';
+        if (window.location.pathname !== '/marketplace' || window.location.hash) {
+          window.history.replaceState(null, '', '/marketplace');
+        }
       } else {
         document.title = 'Chợ Game - Sàn Thương Mại Điện Tử Tiện Ích & Vật Phẩm Game Số 1 Việt Nam';
         if (window.location.pathname !== '/' || window.location.hash) {
@@ -759,6 +772,11 @@ export const App: React.FC = () => {
         setCurrentTab('missions');
         return;
       }
+      if (hash === '#marketplace' || hash.startsWith('#marketplace')) {
+        setSelectedGame(null);
+        setCurrentTab('marketplace');
+        return;
+      }
 
       // 2. Pathname routes
       if (path.startsWith('/game/') || path.startsWith('/g/')) {
@@ -790,6 +808,9 @@ export const App: React.FC = () => {
       } else if (path === '/missions' || path.startsWith('/missions/') || path === '/nhiem-vu' || path.startsWith('/nhiem-vu/')) {
         setSelectedGame(null);
         setCurrentTab('missions');
+      } else if (path === '/marketplace' || path.startsWith('/marketplace/')) {
+        setSelectedGame(null);
+        setCurrentTab('marketplace');
       } else if (path === '/' || path === '') {
         setSelectedGame(null);
         setCurrentTab('catalog');
@@ -1644,6 +1665,13 @@ export const App: React.FC = () => {
                 onOpenAuth={() => setIsAuthModalOpen(true)}
                 onOpenWallet={() => setIsWalletModalOpen(true)}
                 initialMissionId={initialMissionId}
+              />
+            )}
+
+            {currentTab === 'marketplace' && (
+              <MarketplaceView
+                currentUser={currentUser}
+                onOpenAuth={() => setIsAuthModalOpen(true)}
               />
             )}
           </Suspense>

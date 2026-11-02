@@ -13,8 +13,8 @@ import { formatCore } from '../utils/textUtils';
 import { useLanguage } from '../context/LanguageContext';
 
 interface MobileBottomNavProps {
-  currentTab: 'catalog' | 'news' | 'giveaways' | 'store' | 'utilities' | 'missions';
-  onSelectTab: (tab: 'catalog' | 'news' | 'giveaways' | 'store' | 'utilities' | 'missions') => void;
+  currentTab: 'catalog' | 'news' | 'giveaways' | 'store' | 'utilities' | 'missions' | 'marketplace';
+  onSelectTab: (tab: 'catalog' | 'news' | 'giveaways' | 'store' | 'utilities' | 'missions' | 'marketplace') => void;
   onOpenReceivedCodes: (initialTab?: 'giveaways' | 'orders' | 'privates' | 'missions') => void;
   onOpenAuth: () => void;
   onOpenWallet: () => void;

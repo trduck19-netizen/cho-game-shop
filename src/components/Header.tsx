@@ -26,8 +26,8 @@ import { LanguageSelector } from './LanguageSelector';
 import { growthService } from '../services/growthService';
 
 interface HeaderProps {
-  currentTab: 'catalog' | 'news' | 'giveaways' | 'store' | 'utilities' | 'missions';
-  onSelectTab: (tab: 'catalog' | 'news' | 'giveaways' | 'store' | 'utilities' | 'missions') => void;
+  currentTab: 'catalog' | 'news' | 'giveaways' | 'store' | 'utilities' | 'missions' | 'marketplace';
+  onSelectTab: (tab: 'catalog' | 'news' | 'giveaways' | 'store' | 'utilities' | 'missions' | 'marketplace') => void;
   searchQuery?: string;
   onSearchChange?: (q: string) => void;
   bookmarkCount: number;
@@ -263,6 +263,19 @@ export const Header: React.FC<HeaderProps> = ({
             >
               <Award className="w-4 h-4 text-primary-light" />
               <span>{t.nav.missions || 'Nhiệm Vụ'}</span>
+            </button>
+
+            <button
+              type="button"
+              onClick={() => onSelectTab('marketplace')}
+              className={`flex items-center gap-1.5 px-2.5 sm:px-3 py-1.5 rounded-xl text-xs font-bold transition-all cursor-pointer ${
+                currentTab === 'marketplace'
+                  ? 'bg-amber-600 text-white shadow-sm'
+                  : 'text-slate-300 hover:text-white hover:bg-card'
+              }`}
+            >
+              <ShoppingBag className="w-4 h-4 text-amber-400" />
+              <span>Chợ mã</span>
             </button>
           </nav>
 
