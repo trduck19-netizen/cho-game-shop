@@ -97,15 +97,8 @@ export const onRequestGet: PagesFunction<Env> = async (context) => {
   const pathname = url.pathname.replace(/\/$/, '') || '/';
   if (!env.DB) return json({ success: false, message: 'D1 Database chưa được cấu hình.' }, 500);
   await ensureCoordSchema(env.DB);
-  const member = await getMemberFromRequest(request, env);
-  if (!member) return json({ success: false, message: 'Vui lòng đăng nhập.' }, 401);
-  const limit = Math.max(1, Math.min(50, Number(url.searchParams.get('limit') || 24) || 24));
-
-  if (pathname === '/api/marketplace/orders/mine') {
-    const rows = (await env.DB.prepare(`SELECT o.*, e.status as escrow_status FROM orders o LEFT JOIN marketplace_escrow e ON e.order_id = o.id WHERE o.member_id = ? ORDER BY o.created_at DESC LIMIT ?`).bind(member.id, limit).all<any>()).results || [];
-    return json({ success: true, orders: rows });
-  }
-
+  // Hồ sơ gian hàng công khai: ai cũng xem được, không cần đăng nhập.
+  // Lỗi trước đây: kiểm tra đăng nhập ở đầu hàm chặn cả đường công khai này.
   if (pathname === '/api/marketplace/sellers/public') {
     const sellerId = String(url.searchParams.get('seller_id') || '').trim();
     const shopSlug = String(url.searchParams.get('shop_slug') || '').trim();
@@ -115,6 +108,15 @@ export const onRequestGet: PagesFunction<Env> = async (context) => {
       : await env.DB.prepare(`SELECT id, shop_name, shop_slug, description, avatar_url, status, total_sold, rating_sum, rating_count, created_at FROM sellers WHERE shop_slug = ? AND status = 'APPROVED' LIMIT 1`).bind(shopSlug).first<any>();
     if (!seller) return json({ success: false, message: 'Không tìm thấy gian hàng đã duyệt.' }, 404);
     return json({ success: true, seller });
+  }
+
+  const member = await getMemberFromRequest(request, env);
+  if (!member) return json({ success: false, message: 'Vui lòng đăng nhập.' }, 401);
+  const limit = Math.max(1, Math.min(50, Number(url.searchParams.get('limit') || 24) || 24));
+
+  if (pathname === '/api/marketplace/orders/mine') {
+    const rows = (await env.DB.prepare(`SELECT o.*, e.status as escrow_status FROM orders o LEFT JOIN marketplace_escrow e ON e.order_id = o.id WHERE o.member_id = ? ORDER BY o.created_at DESC LIMIT ?`).bind(member.id, limit).all<any>()).results || [];
+    return json({ success: true, orders: rows });
   }
 
   if (pathname === '/api/marketplace/disputes/mine') {
