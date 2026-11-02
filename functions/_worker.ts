@@ -46,6 +46,11 @@ import * as missionsAuditLogsApi from './api/missions/audit-logs';
 import * as apiKeysIndexApi from './api/api-keys/index';
 import * as apiKeysIdApi from './api/api-keys/[id]';
 import * as marketplaceApi from './api/marketplace/index';
+import * as marketplaceReconcile from './api/marketplace/reconcile';
+import * as marketplaceOpsApi from './api/marketplace/ops';
+import * as marketplaceReviewsApi from './api/marketplace/reviews';
+import * as marketplaceCompliance from './api/marketplace/compliance';
+import * as marketplaceCoordReads from './api/marketplace/coord-reads';
 import * as eventSchedulerApi from './api/event-scheduler/index';
 import { invalidateCatalogEdgeCache } from './services/cache_service';
 import fallbackGiveawaysData from '../src/data/giveaways.json';
@@ -696,6 +701,50 @@ async function handleWorkerRequest(request: Request, env: Env, ctx: ExecutionCon
         if (method === 'OPTIONS') return await apiKeysIdApi.onRequestOptions();
         if (method === 'PATCH' || method === 'PUT') return await apiKeysIdApi.onRequestPatch(customContext);
         if (method === 'DELETE') return await apiKeysIdApi.onRequestDelete(customContext);
+      }
+
+      // 16a. Marketplace — doi soat / rut tien (khoi 3): phai chan TRUOC khoi
+      // Marketplace cu, vi khoi cu da liet ke GET /api/marketplace/payouts
+      // nhung index.ts chi xu ly POST cho duong nay, GET roi vao do se 404.
+      if (
+        (pathname === '/api/marketplace/payouts' && method === 'GET') ||
+        pathname === '/api/marketplace/reconcile' ||
+        pathname === '/api/marketplace/sellers/me/held' ||
+        pathname === '/api/marketplace/sellers/me/ledger'
+      ) {
+        if (method === 'OPTIONS') return await marketplaceReconcile.onRequestOptions();
+        return await marketplaceReconcile.onRequestGet(context);
+      }
+
+      // 16b. Marketplace — van hanh san (khoi 2): hang cho duyet + diem/hang.
+      if (pathname === '/api/marketplace/ops/queue' || pathname === '/api/marketplace/ops/score') {
+        if (method === 'OPTIONS') return await marketplaceOpsApi.onRequestOptions();
+        if (method === 'POST') return await marketplaceOpsApi.onRequestPost(context);
+        return await marketplaceOpsApi.onRequestGet(context);
+      }
+
+      // 16c. Marketplace — danh gia + xep hang (khoi 5).
+      if (pathname === '/api/marketplace/reviews' || pathname === '/api/marketplace/reviews/eligible' || pathname === '/api/marketplace/reviews/helpful' || pathname === '/api/marketplace/sellers/ranking') {
+        if (method === 'OPTIONS') return await marketplaceReviewsApi.onRequestOptions();
+        if (method === 'POST') return await marketplaceReviewsApi.onRequestPost(context);
+        return await marketplaceReviewsApi.onRequestGet(context);
+      }
+
+      // 16d. Marketplace — tuan thu (khoi 6): dieu khoan, nhat ky, trang thai,
+      // chap nhan dieu khoan, kiem tra trung ma.
+      if (pathname === '/api/marketplace/terms' || pathname === '/api/marketplace/compliance/audit-log' || pathname === '/api/marketplace/compliance/seller-status' || pathname === '/api/marketplace/compliance/terms/accept' || pathname === '/api/marketplace/compliance/codes/check') {
+        if (method === 'OPTIONS') return await marketplaceCompliance.onRequestOptions();
+        if (method === 'POST') return await marketplaceCompliance.onRequestPost(context);
+        return await marketplaceCompliance.onRequestGet(context);
+      }
+
+      // 16e. Marketplace — duong doc bo sung do dieu phoi vien viet khi gop:
+      // don cua nguoi mua, ho so gian hang cong khai, danh sach khieu nai,
+      // gui bang chung khieu nai.
+      if (pathname === '/api/marketplace/orders/mine' || pathname === '/api/marketplace/sellers/public' || pathname === '/api/marketplace/disputes/mine' || pathname === '/api/marketplace/disputes/seller' || pathname === '/api/marketplace/disputes/admin' || pathname === '/api/marketplace/disputes/evidence') {
+        if (method === 'OPTIONS') return await marketplaceCoordReads.onRequestOptions();
+        if (method === 'POST') return await marketplaceCoordReads.onRequestPost(context);
+        return await marketplaceCoordReads.onRequestGet(context);
       }
 
       // 16. Marketplace (san so) APIs

@@ -1,4 +1,6 @@
 import { verifyToken, extractUserIdFromToken } from '../../services/auth_service';
+import { computeSellerQuality, checkTrialLimits } from './seller-quality';
+import { checkCodeDuplicates, appendAuditLog, ensureComplianceSchema } from './compliance';
 
 interface Env {
   DB?: D1Database;
@@ -41,6 +43,7 @@ const SCHEMA_STATEMENTS: string[] = [
   `CREATE TABLE IF NOT EXISTS marketplace_inventory_codes (id TEXT PRIMARY KEY, product_id TEXT NOT NULL, seller_id TEXT NOT NULL, code_content TEXT NOT NULL, status TEXT NOT NULL DEFAULT 'AVAILABLE' CHECK (status IN ('AVAILABLE', 'SOLD', 'RESERVED')), order_id TEXT, sold_at TEXT, created_at TEXT NOT NULL DEFAULT (datetime('now')))`,
   `CREATE INDEX IF NOT EXISTS idx_marketplace_codes_product_status ON marketplace_inventory_codes(product_id, status)`,
   `CREATE INDEX IF NOT EXISTS idx_marketplace_codes_order_id ON marketplace_inventory_codes(order_id)`,
+  `ALTER TABLE marketplace_inventory_codes ADD COLUMN code_norm TEXT`,
   `CREATE TABLE IF NOT EXISTS marketplace_escrow (id TEXT PRIMARY KEY, order_id TEXT NOT NULL UNIQUE, seller_id TEXT NOT NULL, buyer_id TEXT NOT NULL, gross_amount INTEGER NOT NULL CHECK (gross_amount >= 0), commission_amount INTEGER NOT NULL CHECK (commission_amount >= 0), net_amount INTEGER NOT NULL CHECK (net_amount >= 0), status TEXT NOT NULL DEFAULT 'HELD' CHECK (status IN ('HELD', 'RELEASED', 'REFUNDED')), held_at TEXT NOT NULL DEFAULT (datetime('now')), released_at TEXT, refunded_at TEXT)`,
   `CREATE INDEX IF NOT EXISTS idx_marketplace_escrow_seller_status ON marketplace_escrow(seller_id, status)`,
   `CREATE INDEX IF NOT EXISTS idx_marketplace_escrow_buyer_id ON marketplace_escrow(buyer_id)`,
@@ -92,6 +95,30 @@ function isAdmin(member: any) {
 
 async function getSellerForMember(db: any, memberId: string) {
   return db.prepare('SELECT * FROM sellers WHERE member_id = ? LIMIT 1').bind(memberId).first<any>().catch(() => null);
+}
+
+async function getSellerQualityForSeller(db: any, seller: any) {
+  const completedRow = await db.prepare(`SELECT COUNT(*) as cnt FROM marketplace_escrow WHERE seller_id = ? AND status = 'RELEASED'`).bind(seller.id).first<any>().catch(() => null);
+  const refundedRow = await db.prepare(`SELECT COUNT(*) as cnt FROM marketplace_escrow WHERE seller_id = ? AND status = 'REFUNDED'`).bind(seller.id).first<any>().catch(() => null);
+  const openRow = await db.prepare(`SELECT COUNT(*) as cnt FROM marketplace_disputes WHERE seller_id = ? AND status = 'OPEN'`).bind(seller.id).first<any>().catch(() => null);
+  const refundDisputeRow = await db.prepare(`SELECT COUNT(*) as cnt FROM marketplace_disputes WHERE seller_id = ? AND status = 'RESOLVED_REFUND'`).bind(seller.id).first<any>().catch(() => null);
+  const productRow = await db.prepare(`SELECT COUNT(*) as cnt FROM marketplace_products WHERE seller_id = ? AND approval_status != 'REJECTED'`).bind(seller.id).first<any>().catch(() => null);
+  return computeSellerQuality({
+    completedOrders: Number(completedRow?.cnt || 0),
+    refundedOrders: Number(refundedRow?.cnt || 0),
+    openDisputes: Number(openRow?.cnt || 0),
+    resolvedRefundDisputes: Number(refundDisputeRow?.cnt || 0),
+    ratingSum: Number(seller.rating_sum || 0),
+    ratingCount: Number(seller.rating_count || 0),
+    productCount: Number(productRow?.cnt || 0),
+  });
+}
+
+async function logAdminAction(db: any, member: any, action: string, targetType: string, targetId: string, detail: string) {
+  try {
+    await ensureComplianceSchema(db);
+    await appendAuditLog(db, { actor_member_id: member.id, actor_role: String(member.role || ''), action, target_type: targetType, target_id: targetId, detail });
+  } catch { /* Nhat ky la vet phu: loi ghi log khong duoc lam hong hanh dong chinh. */ }
 }
 
 export const onRequestOptions: PagesFunction = async () => {
@@ -172,6 +199,7 @@ export const onRequestPost: PagesFunction<Env> = async (context) => {
     await env.DB.prepare(`UPDATE sellers SET status = ?, updated_at = datetime('now') WHERE id = ?`).bind(status, sellerId).run();
     const seller = await env.DB.prepare('SELECT * FROM sellers WHERE id = ? LIMIT 1').bind(sellerId).first<any>();
     if (!seller) return json({ success: false, message: 'Không tìm thấy gian hàng.' }, 404);
+    await logAdminAction(env.DB, member, 'SELLER_APPROVE', 'seller', sellerId, `Duyệt gian hàng thành ${status}`);
     return json({ success: true, seller });
   }
 
@@ -184,6 +212,9 @@ export const onRequestPost: PagesFunction<Env> = async (context) => {
     const title = String(body?.title || '').trim();
     const currentPrice = Math.floor(Number(body?.current_price));
     if (!title || !Number.isFinite(currentPrice) || currentPrice < 0) return json({ success: false, message: 'Thiếu tên sản phẩm hoặc giá không hợp lệ.' }, 400);
+    const qualityForProduct = await getSellerQualityForSeller(env.DB, seller);
+    const trialProductCheck = checkTrialLimits(qualityForProduct.tier, { productCount: qualityForProduct.productCount });
+    if (!trialProductCheck.allowed) return json({ success: false, message: trialProductCheck.reason }, 403);
     const productId = newId('mp_prod');
     await env.DB.prepare(`INSERT INTO marketplace_products (id, seller_id, title, game_slug, game_name, product_type, original_price, current_price, stock_quantity, approval_status, is_active, instructions) VALUES (?, ?, ?, ?, ?, 'CODE', ?, ?, 0, 'PENDING', 1, ?)`).bind(productId, seller.id, title, String(body?.game_slug || ''), String(body?.game_name || ''), Math.floor(Number(body?.original_price) || currentPrice), currentPrice, String(body?.instructions || '')).run();
     const product = await env.DB.prepare('SELECT * FROM marketplace_products WHERE id = ? LIMIT 1').bind(productId).first<any>();
@@ -200,6 +231,7 @@ export const onRequestPost: PagesFunction<Env> = async (context) => {
     await env.DB.prepare(`UPDATE marketplace_products SET approval_status = ?, updated_at = datetime('now') WHERE id = ?`).bind(status, productId).run();
     const product = await env.DB.prepare('SELECT * FROM marketplace_products WHERE id = ? LIMIT 1').bind(productId).first<any>();
     if (!product) return json({ success: false, message: 'Không tìm thấy sản phẩm.' }, 404);
+    await logAdminAction(env.DB, member, 'PRODUCT_APPROVE', 'product', productId, `Duyệt sản phẩm thành ${status}`);
     return json({ success: true, product });
   }
 
@@ -215,7 +247,14 @@ export const onRequestPost: PagesFunction<Env> = async (context) => {
     const product = await env.DB.prepare('SELECT * FROM marketplace_products WHERE id = ? LIMIT 1').bind(productId).first<any>();
     if (!product || product.seller_id !== seller.id) return json({ success: false, message: 'Không tìm thấy sản phẩm của gian hàng.' }, 404);
     const uniqueCodes = [...new Set(codes)];
-    const stmts = uniqueCodes.map((code: string) => env.DB.prepare(`INSERT INTO marketplace_inventory_codes (id, product_id, seller_id, code_content, status) VALUES (?, ?, ?, ?, 'AVAILABLE')`).bind(newId('mp_code'), productId, seller.id, code));
+    const qualityForCodes = await getSellerQualityForSeller(env.DB, seller);
+    const totalCodeRow = await env.DB.prepare(`SELECT COUNT(*) as cnt FROM marketplace_inventory_codes WHERE product_id = ?`).bind(productId).first<any>();
+    const trialCodeCheck = checkTrialLimits(qualityForCodes.tier, { productCodeCount: Number(totalCodeRow?.cnt || 0), addingCount: uniqueCodes.length });
+    if (!trialCodeCheck.allowed) return json({ success: false, message: trialCodeCheck.reason }, 403);
+    const duplicateResults = await checkCodeDuplicates(env.DB, uniqueCodes);
+    const blockedCodes = duplicateResults.filter((r: any) => r.status !== 'OK');
+    if (blockedCodes.length > 0) return json({ success: false, message: 'Một số mã bị trùng với mã đang bán hoặc mã đã bán trên sàn, lô này không được nạp.', blocked: blockedCodes.map((r: any) => ({ code: r.code, status: r.status })) }, 400);
+    const stmts = uniqueCodes.map((code: string) => env.DB.prepare(`INSERT INTO marketplace_inventory_codes (id, product_id, seller_id, code_content, code_norm, status) VALUES (?, ?, ?, ?, ?, 'AVAILABLE')`).bind(newId('mp_code'), productId, seller.id, code, String(code || '').trim().toUpperCase()));
     await env.DB.batch(stmts);
     const countRow = await env.DB.prepare(`SELECT COUNT(*) as cnt FROM marketplace_inventory_codes WHERE product_id = ? AND status = 'AVAILABLE'`).bind(productId).first<any>();
     await env.DB.prepare(`UPDATE marketplace_products SET stock_quantity = ?, updated_at = datetime('now') WHERE id = ?`).bind(Number(countRow?.cnt || 0), productId).run();
@@ -368,6 +407,7 @@ export const onRequestPost: PagesFunction<Env> = async (context) => {
       return json({ success: false, message: 'Xử lý khiếu nại thất bại, có thể đơn đã được thanh toán trước đó.', code: 'DB_ERROR' }, 400);
     }
     const updatedDispute = await env.DB.prepare('SELECT * FROM marketplace_disputes WHERE id = ? LIMIT 1').bind(disputeId).first<any>();
+    await logAdminAction(env.DB, member, 'DISPUTE_RESOLVE', 'dispute', disputeId, `Quyết định ${decision}`);
     return json({ success: true, message: decision === 'RESOLVED_RELEASE' ? 'Đã trả tiền giữ cho người bán.' : decision === 'RESOLVED_REFUND' ? 'Đã hoàn tiền cho người mua.' : 'Đã bác khiếu nại.', dispute: updatedDispute });
   }
 
@@ -442,6 +482,7 @@ export const onRequestPost: PagesFunction<Env> = async (context) => {
       return json({ success: false, message: 'Duyệt rút tiền thất bại.', code: 'DB_ERROR' }, 400);
     }
     const updatedPayout = await env.DB.prepare('SELECT * FROM marketplace_payouts WHERE id = ? LIMIT 1').bind(payoutId).first<any>();
+    await logAdminAction(env.DB, member, 'PAYOUT_APPROVE', 'payout', payoutId, `Duyệt rút tiền thành ${status}`);
     return json({ success: true, payout: updatedPayout });
   }
 
